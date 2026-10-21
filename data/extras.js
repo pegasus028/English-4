@@ -32,30 +32,6 @@ window.EXTRAS = {
      "answer": 1
     },
     {
-     "id": "U5-FT-015",
-     "tag": "form-tense",
-     "level": "B1",
-     "why": "The 2025 floods are in the past, 'houses' is plural, and the houses received the damage: were + damaged.",
-     "hint": "Check the subject (singular or plural) and the time.",
-     "fb": [
-      "Houses cannot damage anything here. Add be: were damaged.",
-      "After were, use V3: damaged.",
-      "'Many houses' is plural, so use were.",
-      "Correct: plural subject + past + passive: were damaged."
-     ],
-     "err": "E7",
-     "lesson": 1,
-     "type": "cloze",
-     "stem": "Many houses in Hat Yai ____ in the 2025 floods.",
-     "options": [
-      "damaged",
-      "were damage",
-      "was damaged",
-      "were damaged"
-     ],
-     "answer": 3
-    },
-    {
      "id": "U5-AG-006",
      "tag": "agent",
      "level": "B1",
@@ -127,6 +103,31 @@ window.EXTRAS = {
      ],
      "answer": 2,
      "fix": "were given"
+    },
+    {
+     "id": "U5-VG-002",
+     "tag": "u5-words-a",
+     "level": "B2",
+     "why": "Submerged = completely under water; only the roofs were above the surface.",
+     "hint": "If only the roofs could be seen, where was the rest?",
+     "fb": [
+      "Resilient = able to recover; it describes people or systems.",
+      "Displaced is used for people forced from their homes.",
+      "Prolonged = lasting a long time.",
+      "Correct: submerged = under water."
+     ],
+     "lesson": 1,
+     "type": "choose",
+     "stem": "Only the roofs of the cars were visible; everything else was ____.",
+     "options": [
+      "resilient",
+      "displaced",
+      "prolonged",
+      "submerged"
+     ],
+     "answer": 3,
+     "word": "submerged",
+     "kind": "context"
     }
    ]
   },
@@ -234,28 +235,29 @@ window.EXTRAS = {
      "fix": "have been housed"
     },
     {
-     "id": "U5-FT-009",
-     "tag": "form-tense",
+     "id": "U5-VF-004",
+     "tag": "u5-words-a",
      "level": "B2",
-     "why": "'Since 2011' needs the present perfect, the subject is singular, and the tunnel received the action: has + been + repaired.",
-     "hint": "'Since 2011' tells you the tense. Is the subject singular or plural?",
+     "why": "'The ___ of' needs a noun: the displacement (= forcing out) of thousands of families.",
+     "hint": "The gap is the subject of 'has put'. Which word is a noun?",
      "fb": [
-      "Without 'been', the tunnel repaired something. Add been.",
-      "'Since 2011' connects the past to now, so use the present perfect.",
-      "Correct: 'since 2011' + singular subject + passive: has been repaired.",
-      "'The drainage tunnel' is singular, so use has."
+      "'Displace' is a verb; the gap needs a noun.",
+      "'Displaces' is a verb; the gap needs a noun.",
+      "'Displaced' is an adjective or past participle; the gap needs a noun.",
+      "Correct: the subject needs a noun: displacement."
      ],
-     "err": "E7",
      "lesson": 2,
-     "type": "cloze",
-     "stem": "The drainage tunnel ____ twice since 2011, but it still overflows.",
+     "type": "choose",
+     "stem": "The ____ of thousands of families has put pressure on the city's shelters.",
      "options": [
-      "has repaired",
-      "was repaired",
-      "has been repaired",
-      "have been repaired"
+      "displace",
+      "displaces",
+      "displaced",
+      "displacement"
      ],
-     "answer": 2
+     "answer": 3,
+     "word": "displaced",
+     "kind": "family"
     }
    ]
   },
@@ -290,30 +292,6 @@ window.EXTRAS = {
      "answer": 3
     },
     {
-     "id": "U5-AC-006",
-     "tag": "active-correct",
-     "level": "B1",
-     "why": "Rising water caused the move and 'the hospital' is its object, so the active past simple fits: forced the hospital to move.",
-     "hint": "Who or what did the forcing?",
-     "fb": [
-      "Correct: the water did the action, and 'the hospital' is its object.",
-      "The sentence needs a finite verb.",
-      "This is not a complete verb form, and the water is the doer.",
-      "'Force' has only one object here. A passive would leave 'the hospital' with no role; the water forced it."
-     ],
-     "err": "E3",
-     "lesson": 3,
-     "type": "cloze",
-     "stem": "Rising water ____ the hospital to move its patients by boat.",
-     "options": [
-      "forced",
-      "forcing",
-      "be forced",
-      "was forced"
-     ],
-     "answer": 0
-    },
-    {
      "id": "U5-TO-002",
      "tag": "two-object",
      "level": "B2",
@@ -336,6 +314,30 @@ window.EXTRAS = {
       "are explained"
      ],
      "answer": 1
+    },
+    {
+     "id": "U5-AC-006",
+     "tag": "active-correct",
+     "level": "B1",
+     "why": "Rising water caused the move and 'the hospital' is its object, so the active past simple fits: forced the hospital to move.",
+     "hint": "Who or what did the forcing?",
+     "fb": [
+      "Correct: the water did the action, and 'the hospital' is its object.",
+      "The sentence needs a finite verb.",
+      "This is not a complete verb form, and the water is the doer.",
+      "'Force' has only one object here. A passive would leave 'the hospital' with no role; the water forced it."
+     ],
+     "err": "E3",
+     "lesson": 3,
+     "type": "cloze",
+     "stem": "Rising water ____ the hospital to move its patients by boat.",
+     "options": [
+      "forced",
+      "forcing",
+      "be forced",
+      "was forced"
+     ],
+     "answer": 0
     },
     {
      "id": "U5-EI-005",
@@ -363,29 +365,29 @@ window.EXTRAS = {
      "fix": "was built"
     },
     {
-     "id": "U5-VO-009",
-     "tag": "u5-words-a",
-     "level": "C1",
-     "why": "Exacerbate = make a problem worse. The drains did not start the flood; they made it worse.",
-     "hint": "The flooding was already happening. What did blocked drains do to it?",
+     "id": "U5-VG-008",
+     "tag": "u5-words-b",
+     "level": "B2",
+     "why": "Mitigate = make something bad less serious; trees reduce the risk of landslides.",
+     "hint": "Do trees make the risk bigger or smaller?",
      "fb": [
-      "Ended = stopped.",
-      "The rain caused the flood; blocked drains made it worse.",
-      "Reduced is the opposite.",
-      "Correct: exacerbate = make a bad situation worse."
+      "Correct: mitigate a risk = make it smaller.",
+      "Inundate = flood.",
+      "Discharge = let out (water).",
+      "Exacerbate = make worse; trees reduce the risk."
      ],
      "lesson": 3,
      "type": "choose",
-     "stem": "Blocked drains [exacerbated] the flooding in our soi. Closest meaning:",
+     "stem": "Planting more trees along the river can ____ the risk of landslides.",
      "options": [
-      "ended",
-      "caused",
-      "reduced",
-      "worsened"
+      "mitigate",
+      "inundate",
+      "discharge",
+      "exacerbate"
      ],
-     "answer": 3,
-     "word": "exacerbated",
-     "kind": "meaning"
+     "answer": 0,
+     "word": "mitigate",
+     "kind": "context"
     }
    ]
   },
@@ -418,30 +420,6 @@ window.EXTRAS = {
       "being removed"
      ],
      "answer": 1
-    },
-    {
-     "id": "U5-MP-012",
-     "tag": "modal-passive",
-     "level": "B1",
-     "why": "Teachers teach the lessons, so the lessons receive the action: can + be + taught.",
-     "hint": "Who teaches the lessons? What is the V3 of 'teach'?",
-     "fb": [
-      "Lessons do not teach. Teachers teach lessons.",
-      "After a modal, add be.",
-      "After be, use V3: taught.",
-      "Correct: can + be + V3 (teach – taught – taught)."
-     ],
-     "err": "E4",
-     "lesson": 4,
-     "type": "cloze",
-     "stem": "Lessons can ____ online if the school floods again.",
-     "options": [
-      "teach",
-      "taught",
-      "be teach",
-      "be taught"
-     ],
-     "answer": 3
     },
     {
      "id": "U5-PI-001",
@@ -514,6 +492,31 @@ window.EXTRAS = {
      ],
      "answer": 1,
      "fix": "being left"
+    },
+    {
+     "id": "U5-VG-011",
+     "tag": "u5-words-c",
+     "level": "C1",
+     "why": "Unprecedented = never having happened before.",
+     "hint": "Nobody had ever seen it before.",
+     "fb": [
+      "Resilient describes people or systems that recover.",
+      "Displaced describes people forced from home.",
+      "Prolonged is about how long, not how new.",
+      "Correct: unprecedented = never happened before."
+     ],
+     "lesson": 4,
+     "type": "choose",
+     "stem": "Nobody in the village had ever seen water this high. It was ____.",
+     "options": [
+      "resilient",
+      "displaced",
+      "prolonged",
+      "unprecedented"
+     ],
+     "answer": 3,
+     "word": "unprecedented",
+     "kind": "context"
     }
    ]
   },
@@ -620,28 +623,29 @@ window.EXTRAS = {
      "fix": "be repaired"
     },
     {
-     "id": "U5-MP-006",
-     "tag": "modal-passive",
-     "level": "B2",
-     "why": "A possibility in the past that did not happen = could + have been + V3. The damage receives the action.",
-     "hint": "'Last month' is past. Which modal form looks back at the past?",
+     "id": "U5-VF-008",
+     "tag": "u5-words-b",
+     "level": "C1",
+     "why": "'For' + noun phrase: flood mitigation = work to make floods less harmful.",
+     "hint": "After 'for flood', which part of speech fits?",
      "fb": [
-      "'Last month's damage' is in the past, so use could have been.",
-      "Without 'been', the damage reduced something.",
-      "After a modal, use have, not had.",
-      "Correct: a past possibility: could have been + V3."
+      "'Mitigate' is a verb; the gap needs a noun.",
+      "'Mitigates' is a verb; the gap needs a noun.",
+      "'Mitigated' is a verb form; the gap needs a noun.",
+      "Correct: after 'for flood' we need a noun: flood mitigation."
      ],
-     "err": "E10",
      "lesson": 5,
-     "type": "cloze",
-     "stem": "Do you think last month's damage ____ if the city had planned better?",
+     "type": "choose",
+     "stem": "The government has promised more money for flood ____.",
      "options": [
-      "could be reduced",
-      "could have reduced",
-      "could had been reduced",
-      "could have been reduced"
+      "mitigate",
+      "mitigates",
+      "mitigated",
+      "mitigation"
      ],
-     "answer": 3
+     "answer": 3,
+     "word": "mitigate",
+     "kind": "family"
     }
    ]
   },
@@ -700,30 +704,6 @@ window.EXTRAS = {
      "answer": 1
     },
     {
-     "id": "U5-RR-006",
-     "tag": "reduced-relative",
-     "level": "B1",
-     "why": "'Were given' is the main verb, so the gap needs a reduced passive clause: children rescued (= who were rescued).",
-     "hint": "'Were given' is the main verb. Did the children save someone, or were they saved?",
-     "fb": [
-      "Correct: children (who were) rescued.",
-      "-ing is active: the children were rescuing others.",
-      "This means the children rescued someone.",
-      "This adds a second main verb ('were given')."
-     ],
-     "err": "E3",
-     "lesson": 6,
-     "type": "cloze",
-     "stem": "Children ____ from the flooded school were given dry clothes.",
-     "options": [
-      "rescued",
-      "rescuing",
-      "who rescued",
-      "were rescued"
-     ],
-     "answer": 0
-    },
-    {
      "id": "U5-RP-001",
      "tag": "impersonal-passive",
      "level": "B2",
@@ -771,6 +751,31 @@ window.EXTRAS = {
      ],
      "answer": 0,
      "fix": "trapped"
+    },
+    {
+     "id": "U5-VG-013",
+     "tag": "u5-words-c",
+     "level": "B1",
+     "why": "Relief (2) = the happy feeling when something bad ends. A 'sense of relief' is a common collocation.",
+     "hint": "What do you feel when a worry ends?",
+     "fb": [
+      "Correct: relief (2nd meaning) = the good feeling when worry ends.",
+      "Discharge is water let out of a dam.",
+      "Aftermath is a period of time, not a feeling.",
+      "Trying times = a difficult period, not a feeling."
+     ],
+     "lesson": 6,
+     "type": "choose",
+     "stem": "When the water finally went down, everyone felt a great sense of ____.",
+     "options": [
+      "relief",
+      "discharge",
+      "aftermath",
+      "trying times"
+     ],
+     "answer": 0,
+     "word": "relief",
+     "kind": "context"
     }
    ]
   },
@@ -780,6 +785,78 @@ window.EXTRAS = {
    "lesson": 7,
    "name": "L7 · Production day",
    "items": [
+    {
+     "id": "U5-FT-021",
+     "tag": "form-tense",
+     "level": "B2",
+     "why": "Happening now and received by the page: present continuous passive: is being designed.",
+     "hint": "'At the moment' gives the time. Can a page do this action?",
+     "fb": [
+      "This makes the front page the designer.",
+      "Without 'been', the page designed something.",
+      "Correct: happening now + received: is being + V3.",
+      "'At the moment' means now, not the past."
+     ],
+     "err": "E5",
+     "lesson": 7,
+     "type": "cloze",
+     "stem": "The front page of our class Gazette ____ by the desk editors at the moment.",
+     "options": [
+      "is designing",
+      "has designed",
+      "is being designed",
+      "was being designed"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "U5-PI-011",
+     "tag": "passive-infinitive",
+     "level": "B2",
+     "why": "'Need' + passive infinitive: the article receives the action: needs to be checked.",
+     "hint": "Who does the checking: the article or a partner?",
+     "fb": [
+      "The article does not check anything; a partner checks it.",
+      "'Need' takes 'to' here: needs to be checked.",
+      "After be, use V3: checked.",
+      "Correct: need + to be + V3."
+     ],
+     "err": "E4",
+     "lesson": 7,
+     "type": "cloze",
+     "stem": "Every article needs ____ by a partner before it goes on the classroom wall.",
+     "options": [
+      "to check",
+      "be checked",
+      "to be check",
+      "to be checked"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "U5-RR-011",
+     "tag": "reduced-relative",
+     "level": "B2",
+     "why": "The main verb is 'were taken', so the gap needs a past participle: the photos used (= that are used) in our Gazette.",
+     "hint": "'Were taken' is the main verb. Do the photos do the action, or receive it?",
+     "fb": [
+      "A base verb cannot follow 'the photos' here.",
+      "Correct: reduced relative: the photos (that are) used in our Gazette.",
+      "-ing is active: the photos using something.",
+      "'Were taken' is the main verb, so this adds a second one."
+     ],
+     "err": "E5",
+     "lesson": 7,
+     "type": "cloze",
+     "stem": "The photos ____ in our Gazette were taken by students during the clean-up.",
+     "options": [
+      "use",
+      "used",
+      "using",
+      "were used"
+     ],
+     "answer": 1
+    },
     {
      "id": "U5-EI-002",
      "tag": "verb-restriction",
@@ -804,6 +881,31 @@ window.EXTRAS = {
      ],
      "answer": 0,
      "fix": "subsided"
+    },
+    {
+     "id": "U5-VG-031",
+     "tag": "u5-words-c",
+     "level": "B1",
+     "why": "Subside = go down; headlines often use the present simple: 'as floodwaters subside'.",
+     "hint": "Why would hope return?",
+     "fb": [
+      "Rising floodwaters would not bring hope.",
+      "Spreading floodwaters would not bring hope.",
+      "Correct: subside = go down; hope returns as the water goes down.",
+      "Overflowing floodwaters would not bring hope."
+     ],
+     "lesson": 7,
+     "type": "choose",
+     "stem": "Our desk's headline for the back page was: 'Hope returns as floodwaters ____'.",
+     "options": [
+      "rise",
+      "spread",
+      "subside",
+      "overflow"
+     ],
+     "answer": 2,
+     "word": "subside",
+     "kind": "context"
     }
    ]
   },
@@ -838,30 +940,6 @@ window.EXTRAS = {
      "answer": 0
     },
     {
-     "id": "U5-VR-003",
-     "tag": "verb-restriction",
-     "level": "B1",
-     "why": "Happen, occur, appear, die and arrive have no object, so they have no passive. The past simple active is right: happened.",
-     "hint": "Can you 'happen' something?",
-     "fb": [
-      "Correct: 'happen' has no object, so it is always active.",
-      "'Happen' has no passive form.",
-      "'Happen' never takes an object, so it has no passive.",
-      "No passive is possible with 'happen'."
-     ],
-     "err": "E1",
-     "lesson": 8,
-     "type": "cloze",
-     "stem": "The accident ____ when a truck tried to drive through deep water.",
-     "options": [
-      "happened",
-      "is happened",
-      "was happened",
-      "has been happened"
-     ],
-     "answer": 0
-    },
-    {
      "id": "U5-GP-001",
      "tag": "form-tense",
      "level": "B1",
@@ -884,6 +962,30 @@ window.EXTRAS = {
       "got ruining"
      ],
      "answer": 2
+    },
+    {
+     "id": "U5-VR-003",
+     "tag": "verb-restriction",
+     "level": "B1",
+     "why": "Happen, occur, appear, die and arrive have no object, so they have no passive. The past simple active is right: happened.",
+     "hint": "Can you 'happen' something?",
+     "fb": [
+      "Correct: 'happen' has no object, so it is always active.",
+      "'Happen' has no passive form.",
+      "'Happen' never takes an object, so it has no passive.",
+      "No passive is possible with 'happen'."
+     ],
+     "err": "E1",
+     "lesson": 8,
+     "type": "cloze",
+     "stem": "The accident ____ when a truck tried to drive through deep water.",
+     "options": [
+      "happened",
+      "is happened",
+      "was happened",
+      "has been happened"
+     ],
+     "answer": 0
     },
     {
      "id": "U5-EI-006",
@@ -911,28 +1013,539 @@ window.EXTRAS = {
      "fix": "appeared"
     },
     {
-     "id": "U5-VR-004",
-     "tag": "verb-restriction",
-     "level": "B2",
-     "why": "'Melt' can be active or passive. With no outside doer (it melted by itself), use the active: had melted.",
-     "hint": "Did someone melt the ice, or did it melt by itself?",
+     "id": "U5-VF-014",
+     "tag": "u5-words-c",
+     "level": "B1",
+     "why": "Present perfect = has + past participle: has subsided (active; 'subside' has no passive).",
+     "hint": "What form follows 'has' in the present perfect?",
      "fb": [
-      "After 'had', use the past participle.",
-      "Correct: the ice melted by itself, so the active is used.",
-      "After 'had', use the past participle: had melted.",
-      "Nobody melted the ice; it changed by itself, so no passive."
+      "After 'has' we need the past participle.",
+      "After 'has' we need the past participle.",
+      "Correct: present perfect: has + past participle: has subsided.",
+      "After 'has' we need the past participle."
      ],
-     "err": "E2",
      "lesson": 8,
-     "type": "cloze",
-     "stem": "When the power came back, the ice in the freezer had already ____.",
+     "type": "choose",
+     "stem": "The water has finally ____, so we can start cleaning the house.",
      "options": [
-      "melt",
-      "melted",
-      "melting",
-      "been melted"
+      "subside",
+      "subsides",
+      "subsided",
+      "subsiding"
+     ],
+     "answer": 2,
+     "word": "subside",
+     "kind": "family"
+    }
+   ]
+  },
+  {
+   "id": "u6-x10",
+   "unit": 6,
+   "lesson": 10,
+   "name": "L10 · Passive vs causative",
+   "items": [
+    {
+     "id": "U6-CH-002",
+     "tag": "causative-have",
+     "level": "B1",
+     "why": "The owners arranged it and painters did it: had + it + V3. 'Last month' needs the past simple of have.",
+     "hint": "'Last month' is past. Who held the brushes?",
+     "fb": [
+      "After have + object, use V3: repainted.",
+      "Correct: past causative: had + it + V3.",
+      "The past perfect needs an earlier past time, and it says the owners painted it themselves.",
+      "'Last month' is past, so use had."
+     ],
+     "err": "E13",
+     "lesson": 10,
+     "type": "cloze",
+     "stem": "The hotel lobby looks much brighter now because the owners ____ last month.",
+     "options": [
+      "had it repaint",
+      "had it repainted",
+      "had repainted it",
+      "have it repainted"
      ],
      "answer": 1
+    },
+    {
+     "id": "U6-CH-005",
+     "tag": "causative-have",
+     "level": "B2",
+     "why": "Have + object + V3 also describes a bad experience that someone else caused: she had her wallet stolen.",
+     "hint": "Did Mrs Clarke do the stealing, or did it happen to her?",
+     "fb": [
+      "This makes Mrs Clarke a thief.",
+      "Correct: a bad experience: have + object + V3.",
+      "The past perfect means she stole her own wallet.",
+      "This makes Mrs Clarke the thief."
+     ],
+     "lesson": 10,
+     "type": "cloze",
+     "stem": "Mrs Clarke ____ on the night train to Chiang Mai, so she had to call her bank at 3 a.m.",
+     "options": [
+      "stole a wallet herself",
+      "had her wallet stolen",
+      "had stolen her wallet",
+      "was stealing her wallet"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "U6-CH-012",
+     "tag": "causative-have",
+     "level": "B1",
+     "why": "A thing that receives the action takes a plain passive: was rebuilt. Only a person can 'have something rebuilt'.",
+     "hint": "The subject is a roof. Does it build, or is it built?",
+     "fb": [
+      "This makes the roof the builder.",
+      "Correct: the roof receives the action: plain passive.",
+      "This makes the roof the builder.",
+      "A roof cannot arrange a job."
+     ],
+     "lesson": 10,
+     "type": "cloze",
+     "stem": "The temple's old wooden roof ____ in 2019 after a storm damaged it.",
+     "options": [
+      "rebuilt",
+      "was rebuilt",
+      "had rebuilt",
+      "had it rebuilt"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "U6-EI-001",
+     "tag": "causative-have",
+     "level": "B1",
+     "why": "Both verbs after have + object need V3: had her hair cut and dyed.",
+     "hint": "Check every verb after 'had her hair'.",
+     "fb": [
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts.",
+      "Correct: this part is wrong. It should be 'dyed'."
+     ],
+     "err": "E13",
+     "lesson": 10,
+     "type": "spot",
+     "stem": "(1) Last weekend, Ploy (2) had her hair (3) cut and (4) dye at a salon near the BTS station.",
+     "words": [
+      "Last weekend",
+      "had her hair",
+      "cut and",
+      "dye"
+     ],
+     "answer": 3,
+     "fix": "dyed"
+    },
+    {
+     "id": "U6-VO-002",
+     "tag": "u6-words-a",
+     "level": "B1",
+     "why": "Complimentary (for things a hotel gives) = free. 'Flattering' is the other meaning, used for remarks.",
+     "hint": "Do guests pay extra for the water?",
+     "fb": [
+      "Correct: complimentary = given free.",
+      "Complimentary can mean praising (a complimentary remark), but bottles of water cannot praise anyone.",
+      "Imported = brought from another country.",
+      "Expensive is close to the opposite."
+     ],
+     "lesson": 10,
+     "type": "choose",
+     "stem": "All guests receive [complimentary] bottles of water and fresh fruit. Closest meaning:",
+     "options": [
+      "free",
+      "flattering",
+      "imported",
+      "expensive"
+     ],
+     "answer": 0,
+     "word": "complimentary",
+     "kind": "meaning"
+    }
+   ]
+  },
+  {
+   "id": "u6-x11",
+   "unit": 6,
+   "lesson": 11,
+   "name": "L11 · have sb do, be made to, tone words",
+   "items": [
+    {
+     "id": "U6-CP-001",
+     "tag": "causative-person",
+     "level": "B1",
+     "why": "When the doer is named after have, use the base verb: had the porter carry our bags.",
+     "hint": "The doer (the porter) is named. Which form follows the person after have?",
+     "fb": [
+      "Correct: have + person + base verb (no to).",
+      "With the person named, use the base verb: carry.",
+      "For an instruction, use the base verb: carry.",
+      "Have + person takes the base verb without to."
+     ],
+     "lesson": 11,
+     "type": "cloze",
+     "stem": "The manager had the porter ____ our bags up to the tenth floor.",
+     "options": [
+      "carry",
+      "carried",
+      "carrying",
+      "to carry"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "U6-CP-004",
+     "tag": "causative-person",
+     "level": "B2",
+     "why": "Make + person + base verb becomes be made + to-infinitive in the passive: we were made to take off our shoes.",
+     "hint": "This is the passive of 'make someone do'. What changes?",
+     "fb": [
+      "In the passive, make needs to: were made to take.",
+      "Be made + to-infinitive.",
+      "Be made + to-infinitive.",
+      "Correct: passive of make: be made + to-infinitive."
+     ],
+     "lesson": 11,
+     "type": "cloze",
+     "stem": "Before entering the temple hall, we were made ____ off our shoes.",
+     "options": [
+      "take",
+      "taken",
+      "taking",
+      "to take"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "U6-CP-005",
+     "tag": "causative-person",
+     "level": "B1",
+     "why": "Let has no passive. 'They let the children stay up' becomes 'The children were allowed to stay up'.",
+     "hint": "The children received permission. Which verb has a passive?",
+     "fb": [
+      "Let has no passive form; use were allowed to.",
+      "The children receive the permission: were allowed to.",
+      "Let has no passive form; use were allowed to.",
+      "Correct: let has no passive; use be allowed to."
+     ],
+     "lesson": 11,
+     "type": "cloze",
+     "stem": "At the homestay, the children ____ stay up late to watch the lanterns on Loy Krathong night.",
+     "options": [
+      "were let",
+      "allowed to",
+      "were let to",
+      "were allowed to"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "U6-EI-004",
+     "tag": "causative-person",
+     "level": "B1",
+     "why": "Active make + person + base verb, without to: made us wait.",
+     "hint": "Check the verb after 'made us'.",
+     "fb": [
+      "Correct: this part is wrong. It should be 'wait'.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts."
+     ],
+     "err": "bare-inf",
+     "lesson": 11,
+     "type": "spot",
+     "stem": "The tour guide made us (1) to wait (2) outside the museum (3) while she (4) bought the tickets.",
+     "words": [
+      "to wait",
+      "outside",
+      "while",
+      "bought"
+     ],
+     "answer": 0,
+     "fix": "wait"
+    },
+    {
+     "id": "U6-TW-002",
+     "tag": "tone-words",
+     "level": "B1",
+     "why": "'Wonderful' and 'five stars' describe a bad experience, so the writer means the opposite: sarcastic.",
+     "hint": "Does the writer really think a forty-minute wait is wonderful?",
+     "fb": [
+      "Correct: the writer says the opposite of what she means to mock the café.",
+      "There are no memories of the past.",
+      "There are no mixed feelings: the writer is clearly unhappy.",
+      "Read literally it sounds appreciative, but a cold coffee after forty minutes is not a reason to thank anyone."
+     ],
+     "lesson": 11,
+     "type": "choose",
+     "stem": "\"Oh, wonderful. Another forty-minute wait for a cold coffee. Five stars for teaching me patience.\" The tone of this review is best described as ____.",
+     "options": [
+      "sarcastic",
+      "nostalgic",
+      "ambivalent",
+      "appreciative"
+     ],
+     "answer": 0,
+     "word": "sarcastic",
+     "kind": "context"
+    }
+   ]
+  },
+  {
+   "id": "u6-x12",
+   "unit": 6,
+   "lesson": 12,
+   "name": "L12 · Object verb patterns; need doing",
+   "items": [
+    {
+     "id": "U6-OP-002",
+     "tag": "object-pattern",
+     "level": "B1",
+     "why": "Prevent + person + from + -ing: prevented the tourists from reaching the island.",
+     "hint": "Which pattern follows prevent + person?",
+     "fb": [
+      "Prevent + person + from + -ing.",
+      "Prevent takes from + -ing, not to.",
+      "Prevent takes from, not of.",
+      "Correct: prevent + person + from + -ing."
+     ],
+     "lesson": 12,
+     "type": "cloze",
+     "stem": "The heavy rain prevented the tourists ____ the island on Saturday.",
+     "options": [
+      "reach",
+      "to reach",
+      "of reaching",
+      "from reaching"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "U6-OP-005",
+     "tag": "object-pattern",
+     "level": "B1",
+     "why": "Require sb to do becomes be required to do in the passive: are required to keep quiet.",
+     "hint": "What follows 'be required'?",
+     "fb": [
+      "Be required takes to.",
+      "Be required takes to.",
+      "Correct: passive: be required + to-infinitive.",
+      "From + -ing goes with ban or prevent."
+     ],
+     "lesson": 12,
+     "type": "cloze",
+     "stem": "Guests are required ____ quiet in the corridors after 10 p.m.",
+     "options": [
+      "keep",
+      "keeping",
+      "to keep",
+      "from keeping"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "U6-OP-007",
+     "tag": "object-pattern",
+     "level": "B1",
+     "why": "Need + -ing means the same as need to be + V3: the tap needs fixing (= needs to be fixed).",
+     "hint": "Can a tap fix something? Which form gives a passive meaning after need?",
+     "fb": [
+      "After need, use -ing or to be + V3.",
+      "'Needs fixed' is not standard English; say needs fixing.",
+      "Correct: need + -ing has a passive meaning (= needs to be fixed).",
+      "'The tap needs to fix' makes the tap the fixer."
+     ],
+     "lesson": 12,
+     "type": "cloze",
+     "stem": "The bathroom tap is leaking again. It really needs ____.",
+     "options": [
+      "fix",
+      "fixed",
+      "fixing",
+      "to fix"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "U6-EI-007",
+     "tag": "object-pattern",
+     "level": "B1",
+     "why": "Prevent + person + from + -ing: prevents visitors from bringing food.",
+     "hint": "Which pattern follows prevent + person?",
+     "fb": [
+      "Correct: this part is wrong. It should be 'from bringing'.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts."
+     ],
+     "err": "pattern-from",
+     "lesson": 12,
+     "type": "spot",
+     "stem": "The new rule prevents visitors (1) to bring food (2) into the galleries (3) or the (4) gift shop.",
+     "words": [
+      "to bring",
+      "into",
+      "or",
+      "gift shop"
+     ],
+     "answer": 0,
+     "fix": "from bringing"
+    },
+    {
+     "id": "U6-VG-010",
+     "tag": "u6-words-b",
+     "level": "B2",
+     "why": "Bespoke = made specially for one customer, so every ring is different.",
+     "hint": "'No two are ever the same' is the clue.",
+     "fb": [
+      "Correct: made for each customer.",
+      "Rings are not 'nostalgic' because they are all different.",
+      "Courteous describes people.",
+      "Complimentary means free."
+     ],
+     "lesson": 12,
+     "type": "choose",
+     "stem": "The jeweller in the old town makes ____ rings, so no two are ever the same.",
+     "options": [
+      "bespoke",
+      "nostalgic",
+      "courteous",
+      "complimentary"
+     ],
+     "answer": 0,
+     "word": "bespoke",
+     "kind": "context"
+    }
+   ]
+  },
+  {
+   "id": "u6-x13",
+   "unit": 6,
+   "lesson": 13,
+   "name": "L13 · Verb-pattern clinic",
+   "items": [
+    {
+     "id": "U6-OP-014",
+     "tag": "object-pattern",
+     "level": "C1",
+     "why": "Stop + to-infinitive gives the purpose of stopping: stopped to buy coconuts. 'Stopped buying' means they gave it up.",
+     "hint": "Did they stop in order to do something, or give something up?",
+     "fb": [
+      "After stop, use to-infinitive (purpose) or -ing.",
+      "'Stopped buying' means they gave up buying coconuts.",
+      "Correct: stop + to-infinitive = stop in order to do something.",
+      "Stop + from needs a person: stop someone from buying."
+     ],
+     "lesson": 13,
+     "type": "cloze",
+     "stem": "On the way to Ayutthaya, we stopped at a roadside stall ____ fresh coconuts.",
+     "options": [
+      "buy",
+      "buying",
+      "to buy",
+      "from buying"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "U6-CP-020",
+     "tag": "causative-person",
+     "level": "B2",
+     "why": "Passive make always takes to, in every tense: had been made to work.",
+     "hint": "This is a passive of make. What comes before the verb?",
+     "fb": [
+      "In the passive, make needs to.",
+      "Be made + to-infinitive.",
+      "Be made + to-infinitive.",
+      "Correct: passive make: had been made + to-infinitive."
+     ],
+     "lesson": 13,
+     "type": "cloze",
+     "stem": "The kitchen staff complained that they had been made ____ overtime without extra pay.",
+     "options": [
+      "work",
+      "worked",
+      "working",
+      "to work"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "U6-CH-027",
+     "tag": "causative-have",
+     "level": "C1",
+     "why": "Something unwelcome happened to the travellers: had + object + V3. 'Had cancelled' would mean they chose to cancel.",
+     "hint": "Did the travellers cancel it, or did it happen to them?",
+     "fb": [
+      "After have + object, use V3: cancelled.",
+      "Correct: a bad experience: had + object + V3.",
+      "Past perfect: you cancelled it yourselves, then waited for no reason.",
+      "People cannot be 'cancelled our flight'."
+     ],
+     "err": "E13",
+     "lesson": 13,
+     "type": "cloze",
+     "stem": "We ____ at the airport, so we had to wait four hours for the next flight.",
+     "options": [
+      "had our flight cancel",
+      "had our flight cancelled",
+      "had cancelled our flight",
+      "were cancelled our flight"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "U6-EI-015",
+     "tag": "causative-have",
+     "level": "B2",
+     "why": "A cake receives the action: plain passive, was made. 'Had made' makes the cake the baker.",
+     "hint": "The subject is the cake. Can a cake make something?",
+     "fb": [
+      "Correct: this part is wrong. It should be 'was made'.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts."
+     ],
+     "err": "active",
+     "lesson": 13,
+     "type": "spot",
+     "stem": "The wedding cake (1) had made by a famous baker (2) who (3) had trained (4) in Paris.",
+     "words": [
+      "had made",
+      "who",
+      "had trained",
+      "in Paris"
+     ],
+     "answer": 0,
+     "fix": "was made"
+    },
+    {
+     "id": "U6-VG-013",
+     "tag": "u6-words-c",
+     "level": "B1",
+     "why": "Courteous = polite and respectful, even with rude guests.",
+     "hint": "Which word goes with 'patient' to describe good behaviour?",
+     "fb": [
+      "Sarcastic is mocking; 'patient' shows she stayed polite.",
+      "Nothing here is about the past.",
+      "Correct: polite and respectful.",
+      "Ambivalent describes mixed feelings, not behaviour."
+     ],
+     "lesson": 13,
+     "type": "choose",
+     "stem": "The receptionist stayed ____ and patient, even with the guest who shouted at her.",
+     "options": [
+      "sarcastic",
+      "nostalgic",
+      "courteous",
+      "ambivalent"
+     ],
+     "answer": 2,
+     "word": "courteous",
+     "kind": "context"
     }
    ]
   }
@@ -946,26 +1559,26 @@ window.EXTRAS = {
    "minutes": 5,
    "items": [
     {
-     "id": "U5-FT-009",
+     "id": "U5-FT-008",
      "tag": "form-tense",
-     "level": "B2",
-     "why": "'Since 2011' needs the present perfect, the subject is singular, and the tunnel received the action: has + been + repaired.",
-     "hint": "'Since 2011' tells you the tense. Is the subject singular or plural?",
+     "level": "B1",
+     "why": "'Warnings' is plural and 'yesterday' is past, so we need were. After be we need the past participle of give: given.",
+     "hint": "Check the subject (one or many?) and the third form of 'give'.",
      "fb": [
-      "Without 'been', the tunnel repaired something. Add been.",
-      "'Since 2011' connects the past to now, so use the present perfect.",
-      "Correct: 'since 2011' + singular subject + passive: has been repaired.",
-      "'The drainage tunnel' is singular, so use has."
+      "'Warnings' is plural, so use were, not was.",
+      "'Gave' is the past simple (V2). After be, use the V3: given.",
+      "Correct: plural subject, past time, passive: were + given.",
+      "be + V-ing means the warnings were giving something. They were given."
      ],
      "err": "E7",
-     "lesson": 2,
+     "lesson": 1,
      "type": "cloze",
-     "stem": "The drainage tunnel ____ twice since 2011, but it still overflows.",
+     "stem": "Flood warnings ____ on the radio every hour yesterday.",
      "options": [
-      "has repaired",
-      "was repaired",
-      "has been repaired",
-      "have been repaired"
+      "was given",
+      "were gave",
+      "were given",
+      "were giving"
      ],
      "answer": 2
     },
@@ -990,30 +1603,6 @@ window.EXTRAS = {
       "by",
       "for",
       "like"
-     ],
-     "answer": 0
-    },
-    {
-     "id": "U5-CM-004",
-     "tag": "form-tense",
-     "level": "B1",
-     "why": "Future active (will close) → future passive (will be closed). 'They' is vague, so no 'by' phrase.",
-     "hint": "Keep the tense and the action exactly the same.",
-     "fb": [
-      "Correct: will + V → will be + V3.",
-      "Opened is the opposite of closed.",
-      "'Until tomorrow' means it reopens tomorrow: different meaning.",
-      "This is about now, not tomorrow."
-     ],
-     "lesson": 2,
-     "type": "equiv",
-     "given": "They will close the bridge tomorrow.",
-     "stem": "Which sentence is closest in meaning?",
-     "options": [
-      "The bridge will be closed tomorrow.",
-      "The bridge will be opened tomorrow.",
-      "The bridge will be closed until tomorrow.",
-      "The bridge is being closed at the moment."
      ],
      "answer": 0
     },
@@ -1064,6 +1653,31 @@ window.EXTRAS = {
      "answer": 2
     },
     {
+     "id": "U5-VO-004",
+     "tag": "u5-words-a",
+     "level": "B2",
+     "why": "Displaced = forced to leave your home because of danger; 'homeless' is the closest choice.",
+     "hint": "Why would a family live in a tent at a temple?",
+     "fb": [
+      "Injured = hurt in the body.",
+      "Grateful = thankful.",
+      "Wealthy = rich.",
+      "Correct: displaced = forced to leave home; 'homeless' is the closest option given."
+     ],
+     "lesson": 1,
+     "type": "choose",
+     "stem": "[Displaced] families are living in tents at the temple. Closest meaning:",
+     "options": [
+      "injured",
+      "grateful",
+      "wealthy",
+      "homeless"
+     ],
+     "answer": 3,
+     "word": "displaced",
+     "kind": "meaning"
+    },
+    {
      "id": "U5-CV-001",
      "tag": "conversation",
      "level": "B1",
@@ -1076,8 +1690,10 @@ window.EXTRAS = {
       "This says the house is ruined, but nothing important was damaged and Fon is relieved."
      ],
      "lesson": 2,
-     "type": "choose",
-     "stem": "Situation: Two friends after school.\nFon: Is your house OK? I saw the news about your soi.\nPloy: ____ We had water up to our knees, but nothing important was damaged.\nFon: Oh, that's a relief!",
+     "type": "cloze",
+     "passage": "Situation: Two friends after school.\n\nFon: Is your house OK? I saw the news about your soi.\n\nPloy: ___(1)___ We had water up to our knees, but nothing important was damaged.\n\nFon: Oh, that's a relief!",
+     "blank": "(1)",
+     "stem": "Choose the best line for the gap.",
      "options": [
       "Not at all.",
       "Never mind.",
@@ -1093,6 +1709,161 @@ window.EXTRAS = {
    "unit": 5,
    "lesson": 4,
    "name": "Monday spiral · 9 Nov",
+   "minutes": 5,
+   "items": [
+    {
+     "id": "U5-FT-009",
+     "tag": "form-tense",
+     "level": "B2",
+     "why": "'Since 2011' needs the present perfect, the subject is singular, and the tunnel received the action: has + been + repaired.",
+     "hint": "'Since 2011' tells you the tense. Is the subject singular or plural?",
+     "fb": [
+      "Without 'been', the tunnel repaired something. Add been.",
+      "'Since 2011' connects the past to now, so use the present perfect.",
+      "Correct: 'since 2011' + singular subject + passive: has been repaired.",
+      "'The drainage tunnel' is singular, so use has."
+     ],
+     "err": "E7",
+     "lesson": 2,
+     "type": "cloze",
+     "stem": "The drainage tunnel ____ twice since 2011, but it still overflows.",
+     "options": [
+      "has repaired",
+      "was repaired",
+      "has been repaired",
+      "have been repaired"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "U5-CM-004",
+     "tag": "form-tense",
+     "level": "B1",
+     "why": "Future active (will close) → future passive (will be closed). 'They' is vague, so no 'by' phrase.",
+     "hint": "Keep the tense and the action exactly the same.",
+     "fb": [
+      "Correct: will + V → will be + V3.",
+      "Opened is the opposite of closed.",
+      "'Until tomorrow' means it reopens tomorrow: different meaning.",
+      "This is about now, not tomorrow."
+     ],
+     "lesson": 2,
+     "type": "equiv",
+     "given": "They will close the bridge tomorrow.",
+     "stem": "Which sentence is closest in meaning?",
+     "options": [
+      "The bridge will be closed tomorrow.",
+      "The bridge will be opened tomorrow.",
+      "The bridge will be closed until tomorrow.",
+      "The bridge is being closed at the moment."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "U5-SP-003",
+     "tag": "spiral-conditional",
+     "level": "C1",
+     "why": "Mixed conditional: If + past perfect (unreal past), would + base (present result). Passive because the drains receive the action.",
+     "hint": "'Last year' is the past; 'now' is the present. Which conditional mixes them?",
+     "fb": [
+      "'Last year' needs the past perfect in an unreal condition.",
+      "'Would' does not go in the if-clause.",
+      "Correct: mixed conditional: past condition (had been V3) + present result (wouldn't be).",
+      "An unreal past condition needs the past perfect."
+     ],
+     "lesson": 4,
+     "type": "cloze",
+     "stem": "If the drains ____ last year, our street wouldn't be flooded now.",
+     "options": [
+      "were cleared",
+      "would be cleared",
+      "had been cleared",
+      "have been cleared"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "U5-SP-006",
+     "tag": "spiral-gerund-infinitive",
+     "level": "B2",
+     "why": "After a preposition (instead of) we use the -ing form: Instead of waiting for help…",
+     "hint": "Check what follows each preposition.",
+     "fb": [
+      "Correct: this part is wrong. It should be 'waiting'.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts.",
+      "This part is correct. Look again at the other underlined parts."
+     ],
+     "err": "form",
+     "lesson": 4,
+     "type": "spot",
+     "stem": "Instead of (1) wait for help, the villagers (2) built a raft and (3) managed (4) to reach the main road.",
+     "words": [
+      "wait",
+      "built",
+      "managed",
+      "to reach"
+     ],
+     "answer": 0,
+     "fix": "waiting"
+    },
+    {
+     "id": "U5-VO-007",
+     "tag": "u5-words-b",
+     "level": "B2",
+     "why": "Resilient = strong enough to recover quickly; 'tough' is closest.",
+     "hint": "Look at the second half of the sentence: they rebuild after every flood.",
+     "fb": [
+      "Correct: resilient = able to recover quickly from difficulty.",
+      "Careful = avoiding mistakes or danger.",
+      "Patient = able to wait calmly; resilient is about recovering.",
+      "Unlucky describes their situation, not their strength."
+     ],
+     "lesson": 3,
+     "type": "choose",
+     "stem": "The people of this village are [resilient]; they rebuild after every flood. Closest meaning:",
+     "options": [
+      "tough",
+      "careful",
+      "patient",
+      "unlucky"
+     ],
+     "answer": 0,
+     "word": "resilient",
+     "kind": "meaning"
+    },
+    {
+     "id": "U5-CV-002",
+     "tag": "conversation",
+     "level": "B1",
+     "why": "The volunteer lists what to bring ('Just your ID card and the address…'), so the resident asked what is needed.",
+     "hint": "Read the volunteer's answer. What question does it answer?",
+     "fb": [
+      "The reply does not give a place.",
+      "The reply gives documents, not a time.",
+      "The reply is not about time.",
+      "Correct: 'Just your ID card and the address' answers a question about what is needed."
+     ],
+     "lesson": 3,
+     "type": "cloze",
+     "passage": "Situation: At a shelter registration desk.\n\nVolunteer: Good morning. Have you registered for a relief bag yet?\n\nResident: No, I haven't. ___(1)___\n\nVolunteer: Just your ID card and the address of your flooded home.",
+     "blank": "(1)",
+     "stem": "Choose the best line for the gap.",
+     "options": [
+      "Where can I sit?",
+      "How long will it take?",
+      "When did the water come?",
+      "What do you need from me?"
+     ],
+     "answer": 3
+    }
+   ]
+  },
+  {
+   "id": "u5-sp6",
+   "unit": 5,
+   "lesson": 6,
+   "name": "Monday spiral · 16 Nov",
    "minutes": 5,
    "items": [
     {
@@ -1143,6 +1914,52 @@ window.EXTRAS = {
      "answer": 2
     },
     {
+     "id": "U5-SP-004",
+     "tag": "spiral-comparison",
+     "level": "B1",
+     "why": "'Than' needs a comparative, 'was' needs an adjective, and the result (no need to leave) shows it was less serious.",
+     "hint": "'So we didn't have to leave' shows the flood was…? What word goes before 'than'?",
+     "fb": [
+      "Correct: comparative of a long adjective with 'less' + adjective + than.",
+      "If it was more serious, they would probably have had to leave.",
+      "After 'was' we need an adjective, not an adverb.",
+      "'Than' needs a comparative, not a superlative."
+     ],
+     "lesson": 6,
+     "type": "cloze",
+     "stem": "This year's flood in our soi was ____ than last year's, so we didn't have to leave home.",
+     "options": [
+      "less serious",
+      "more serious",
+      "less seriously",
+      "the least serious"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "U5-SP-007",
+     "tag": "spiral-inversion",
+     "level": "C1",
+     "why": "After a fronted negative (Not until…), use question order: did + they + realise.",
+     "hint": "A negative phrase starts the sentence. What happens to the word order?",
+     "fb": [
+      "A fronted negative phrase needs inversion.",
+      "Use did + subject + base verb.",
+      "Correct: 'Not until…' at the start needs inversion: did + subject + base verb.",
+      "After a fronted 'Not until…', the auxiliary comes before the subject."
+     ],
+     "lesson": 6,
+     "type": "cloze",
+     "stem": "Not until the water reached the second floor ____ that they had to leave.",
+     "options": [
+      "they realised",
+      "realised they",
+      "did they realise",
+      "they did realise"
+     ],
+     "answer": 2
+    },
+    {
      "id": "U5-VO-012",
      "tag": "u5-words-c",
      "level": "B2",
@@ -1168,85 +1985,37 @@ window.EXTRAS = {
      "kind": "meaning"
     },
     {
-     "id": "U5-VO-014",
-     "tag": "u5-words-a",
-     "level": "B1",
-     "why": "Subside = go down or become less strong; 'falls' is closest.",
-     "hint": "When is it safe to go home after a flood?",
-     "fb": [
-      "Correct: subside = go down.",
-      "Rises is the opposite.",
-      "Moves does not tell us it goes down.",
-      "Spreads = covers a bigger area."
-     ],
-     "lesson": 4,
-     "type": "choose",
-     "stem": "We can go home when the water [subsides]. Closest meaning:",
-     "options": [
-      "falls",
-      "rises",
-      "moves",
-      "spreads"
-     ],
-     "answer": 0,
-     "word": "subsides",
-     "kind": "meaning"
-    },
-    {
-     "id": "U5-SP-003",
-     "tag": "spiral-conditional",
-     "level": "C1",
-     "why": "Mixed conditional: If + past perfect (unreal past), would + base (present result). Passive because the drains receive the action.",
-     "hint": "'Last year' is the past; 'now' is the present. Which conditional mixes them?",
-     "fb": [
-      "'Last year' needs the past perfect in an unreal condition.",
-      "'Would' does not go in the if-clause.",
-      "Correct: mixed conditional: past condition (had been V3) + present result (wouldn't be).",
-      "An unreal past condition needs the past perfect."
-     ],
-     "lesson": 4,
-     "type": "cloze",
-     "stem": "If the drains ____ last year, our street wouldn't be flooded now.",
-     "options": [
-      "were cleared",
-      "would be cleared",
-      "had been cleared",
-      "have been cleared"
-     ],
-     "answer": 2
-    },
-    {
-     "id": "U5-SP-006",
-     "tag": "spiral-gerund-infinitive",
+     "id": "U5-CV-003",
+     "tag": "conversation",
      "level": "B2",
-     "why": "After a preposition (instead of) we use the -ing form: Instead of waiting for help…",
-     "hint": "Check what follows each preposition.",
+     "why": "'When it rains, it pours' = bad things tend to happen together, which matches Mint's three problems.",
+     "hint": "Mint lists one problem after another. Which saying describes that?",
      "fb": [
-      "Correct: this part is wrong. It should be 'waiting'.",
-      "This part is correct. Look again at the other underlined parts.",
-      "This part is correct. Look again at the other underlined parts.",
-      "This part is correct. Look again at the other underlined parts."
+      "This is about a plan that is hard to do.",
+      "Correct: = bad things often happen together. Mint lists three bad events.",
+      "This is about doing something late.",
+      "This says something good comes from bad events, which does not fit kind support."
      ],
-     "err": "form",
-     "lesson": 4,
-     "type": "spot",
-     "stem": "Instead of (1) wait for help, the villagers (2) built a raft and (3) managed (4) to reach the main road.",
-     "words": [
-      "wait",
-      "built",
-      "managed",
-      "to reach"
+     "lesson": 6,
+     "type": "cloze",
+     "passage": "Situation: Two classmates at break.\n\nMint: First our house flooded, then my phone fell in the water, and now I've got a cold.\n\nIce: ___(1)___ Do you need anything?",
+     "blank": "(1)",
+     "stem": "Choose the best line for the gap.",
+     "options": [
+      "Easier said than done.",
+      "When it rains, it pours.",
+      "Better late than never.",
+      "Every cloud has a silver lining."
      ],
-     "answer": 0,
-     "fix": "waiting"
+     "answer": 1
     }
    ]
   },
   {
-   "id": "u5-sp6",
+   "id": "u5-sp8",
    "unit": 5,
-   "lesson": 6,
-   "name": "Monday spiral · 16 Nov",
+   "lesson": 8,
+   "name": "Monday spiral · 23 Nov",
    "minutes": 5,
    "items": [
     {
@@ -1298,108 +2067,6 @@ window.EXTRAS = {
      "answer": 3
     },
     {
-     "id": "U5-SP-004",
-     "tag": "spiral-comparison",
-     "level": "B1",
-     "why": "'Than' needs a comparative, 'was' needs an adjective, and the result (no need to leave) shows it was less serious.",
-     "hint": "'So we didn't have to leave' shows the flood was…? What word goes before 'than'?",
-     "fb": [
-      "Correct: comparative of a long adjective with 'less' + adjective + than.",
-      "If it was more serious, they would probably have had to leave.",
-      "After 'was' we need an adjective, not an adverb.",
-      "'Than' needs a comparative, not a superlative."
-     ],
-     "lesson": 6,
-     "type": "cloze",
-     "stem": "This year's flood in our soi was ____ than last year's, so we didn't have to leave home.",
-     "options": [
-      "less serious",
-      "more serious",
-      "less seriously",
-      "the least serious"
-     ],
-     "answer": 0
-    },
-    {
-     "id": "U5-SP-007",
-     "tag": "spiral-inversion",
-     "level": "C1",
-     "why": "After a fronted negative (Not until…), use question order: did + they + realise.",
-     "hint": "A negative phrase starts the sentence. What happens to the word order?",
-     "fb": [
-      "A fronted negative phrase needs inversion.",
-      "Use did + subject + base verb.",
-      "Correct: 'Not until…' at the start needs inversion: did + subject + base verb.",
-      "After a fronted 'Not until…', the auxiliary comes before the subject."
-     ],
-     "lesson": 6,
-     "type": "cloze",
-     "stem": "Not until the water reached the second floor ____ that they had to leave.",
-     "options": [
-      "they realised",
-      "realised they",
-      "did they realise",
-      "they did realise"
-     ],
-     "answer": 2
-    },
-    {
-     "id": "U5-CV-003",
-     "tag": "conversation",
-     "level": "B2",
-     "why": "'When it rains, it pours' = bad things tend to happen together, which matches Mint's three problems.",
-     "hint": "Mint lists one problem after another. Which saying describes that?",
-     "fb": [
-      "This is about a plan that is hard to do.",
-      "Correct: = bad things often happen together. Mint lists three bad events.",
-      "This is about doing something late.",
-      "This says something good comes from bad events, which does not fit kind support."
-     ],
-     "lesson": 6,
-     "type": "choose",
-     "stem": "Situation: Two classmates at break.\nMint: First our house flooded, then my phone fell in the water, and now I've got a cold.\nIce: ____ Do you need anything?",
-     "options": [
-      "Easier said than done.",
-      "When it rains, it pours.",
-      "Better late than never.",
-      "Every cloud has a silver lining."
-     ],
-     "answer": 1
-    },
-    {
-     "id": "U5-AC-005",
-     "tag": "active-correct",
-     "level": "C1",
-     "why": "'Repaired' is the main verb, so the gap needs a relative clause. The canals connect the villages (object follows): that connect.",
-     "hint": "The sentence already has a main verb. Do the canals connect something, or are they connected?",
-     "fb": [
-      "This adds a second main verb. Use a relative clause: that connect.",
-      "Correct: the canals do the connecting, and 'the two villages' is the object.",
-      "This adds a second main verb to the sentence.",
-      "The canals do the connecting; 'the two villages' is the object, so the verb is active."
-     ],
-     "err": "E3",
-     "lesson": 6,
-     "type": "cloze",
-     "stem": "Volunteers repaired the canals ____ the two villages.",
-     "options": [
-      "connect",
-      "that connect",
-      "are connected",
-      "that are connected"
-     ],
-     "answer": 1
-    }
-   ]
-  },
-  {
-   "id": "u5-sp8",
-   "unit": 5,
-   "lesson": 8,
-   "name": "Monday spiral · 23 Nov",
-   "minutes": 5,
-   "items": [
-    {
      "id": "U5-SP-005",
      "tag": "spiral-nominalisation",
      "level": "C1",
@@ -1447,6 +2114,31 @@ window.EXTRAS = {
      "answer": 1
     },
     {
+     "id": "U5-VO-014",
+     "tag": "u5-words-c",
+     "level": "B1",
+     "why": "Subside = go down or become less strong; 'falls' is closest.",
+     "hint": "When is it safe to go home after a flood?",
+     "fb": [
+      "Correct: subside = go down.",
+      "Rises is the opposite.",
+      "Moves does not tell us it goes down.",
+      "Spreads = covers a bigger area."
+     ],
+     "lesson": 4,
+     "type": "choose",
+     "stem": "We can go home when the water [subsides]. Closest meaning:",
+     "options": [
+      "falls",
+      "rises",
+      "moves",
+      "spreads"
+     ],
+     "answer": 0,
+     "word": "subside",
+     "kind": "meaning"
+    },
+    {
      "id": "U5-CV-004",
      "tag": "conversation",
      "level": "B2",
@@ -1459,8 +2151,10 @@ window.EXTRAS = {
       "Correct: it adds a second bad event."
      ],
      "lesson": 8,
-     "type": "choose",
-     "stem": "Situation: A teacher and a student.\nTeacher: Did the flood affect your project?\nStudent: Yes. The water ruined my notes. ____ the printer at home stopped working too.\nTeacher: Oh no! Let's talk about a new deadline.",
+     "type": "cloze",
+     "passage": "Situation: A teacher and a student.\n\nTeacher: Did the flood affect your project?\n\nStudent: Yes. The water ruined my notes. ___(1)___ the printer at home stopped working too.\n\nTeacher: Oh no! Let's talk about a new deadline.",
+     "blank": "(1)",
+     "stem": "Choose the best line for the gap.",
      "options": [
       "Even so,",
       "In other words,",
@@ -1468,78 +2162,468 @@ window.EXTRAS = {
       "To make matters worse,"
      ],
      "answer": 3
-    },
+    }
+   ]
+  },
+  {
+   "id": "u6-sp10",
+   "unit": 6,
+   "lesson": 10,
+   "name": "Monday spiral · 30 Nov",
+   "minutes": 5,
+   "items": [
     {
-     "id": "U5-VR-002",
-     "tag": "verb-restriction",
+     "id": "U6-CH-010",
+     "tag": "causative-have",
      "level": "B1",
-     "why": "'Rise' (go up by itself) has no object and no passive; 'raise' needs an object. Nothing follows the gap, so: rose.",
-     "hint": "Rise or raise? Which one needs an object?",
+     "why": "Get + object + V3 means the same as have + object + V3 and is less formal: get it fixed.",
+     "hint": "Who fixes the zip: you or someone at the market?",
      "fb": [
-      "Correct: 'rise' has no object and no passive: rise – rose – risen.",
-      "'Risen' is a past participle; the sentence needs a finite verb: rose.",
-      "'Raise' needs an object (raise the level). Here nothing follows, so use 'rose'.",
-      "'Rise' never takes an object, so it cannot be passive."
+      "Correct: get + object + V3 = have it done (less formal).",
+      "The object goes before the V3: get it fixed.",
+      "After get + object, use V3 for a service: fixed.",
+      "No 'to' here: get it fixed."
      ],
-     "err": "E1",
-     "lesson": 8,
+     "err": "E13",
+     "lesson": 10,
      "type": "cloze",
-     "stem": "The water level in the Chao Phraya ____ by 30 cm overnight.",
+     "stem": "Don't worry about the broken zip on your bag. We can ____ at the market for 50 baht.",
      "options": [
-      "rose",
-      "risen",
-      "raised",
-      "was risen"
+      "get it fixed",
+      "get fixed it",
+      "get it fixing",
+      "get it to fix"
      ],
      "answer": 0
     },
     {
-     "id": "U5-VR-003",
-     "tag": "verb-restriction",
+     "id": "U6-CH-023",
+     "tag": "causative-have",
      "level": "B1",
-     "why": "Happen, occur, appear, die and arrive have no object, so they have no passive. The past simple active is right: happened.",
-     "hint": "Can you 'happen' something?",
+     "why": "A dentist did it, so had + object + V3: I had my teeth cleaned.",
+     "hint": "Who cleans your teeth at a dental clinic?",
      "fb": [
-      "Correct: 'happen' has no object, so it is always active.",
-      "'Happen' has no passive form.",
-      "'Happen' never takes an object, so it has no passive.",
-      "No passive is possible with 'happen'."
+      "Correct: the dentist did it: have + object + V3.",
+      "Past perfect: you cleaned them yourself.",
+      "This says you were cleaning them yourself.",
+      "No 'to' after have + object: had my teeth cleaned."
      ],
-     "err": "E1",
-     "lesson": 8,
+     "err": "E13",
+     "lesson": 10,
      "type": "cloze",
-     "stem": "The accident ____ when a truck tried to drive through deep water.",
+     "stem": "I ____ at the dental clinic on Sukhumvit Road last week. It only took twenty minutes.",
      "options": [
-      "happened",
-      "is happened",
-      "was happened",
-      "has been happened"
+      "had my teeth cleaned",
+      "had cleaned my teeth",
+      "was cleaning my teeth",
+      "had my teeth to clean"
      ],
      "answer": 0
     },
     {
-     "id": "U5-VR-004",
-     "tag": "verb-restriction",
-     "level": "B2",
-     "why": "'Melt' can be active or passive. With no outside doer (it melted by itself), use the active: had melted.",
-     "hint": "Did someone melt the ice, or did it melt by itself?",
+     "id": "U6-SP-001",
+     "tag": "form-tense",
+     "level": "B1",
+     "why": "A habit (every day) and the palace receives the action: present simple passive, is visited.",
+     "hint": "Does the palace visit, or is it visited? Look at 'every day'.",
      "fb": [
-      "After 'had', use the past participle.",
-      "Correct: the ice melted by itself, so the active is used.",
-      "After 'had', use the past participle: had melted.",
-      "Nobody melted the ice; it changed by itself, so no passive."
+      "This makes the palace the visitor.",
+      "Correct: present simple passive: the palace receives the action.",
+      "This makes the palace the visitor.",
+      "Without 'been', the palace visited someone."
      ],
-     "err": "E2",
-     "lesson": 8,
+     "err": "E5",
+     "lesson": 10,
      "type": "cloze",
-     "stem": "When the power came back, the ice in the freezer had already ____.",
+     "stem": "The Grand Palace ____ by thousands of visitors every day.",
      "options": [
-      "melt",
-      "melted",
-      "melting",
-      "been melted"
+      "visits",
+      "is visited",
+      "is visiting",
+      "has visited"
      ],
      "answer": 1
+    },
+    {
+     "id": "U6-SP-002",
+     "tag": "verb-restriction",
+     "level": "B1",
+     "why": "Occur (like happen) has no object, so it has no passive: traffic jams often occur.",
+     "hint": "Can this verb ever take an object?",
+     "fb": [
+      "Correct: occur has no object, so it is never passive.",
+      "The clause needs a finite verb.",
+      "Occur has no passive.",
+      "Occur has no passive."
+     ],
+     "err": "E1",
+     "lesson": 10,
+     "type": "cloze",
+     "stem": "Traffic jams often ____ near the Grand Palace when the tour buses arrive.",
+     "options": [
+      "occur",
+      "occurring",
+      "are occurred",
+      "have been occurred"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "U6-VO-007",
+     "tag": "u6-words-b",
+     "level": "B1",
+     "why": "Heritage = traditions, buildings and culture passed down from earlier generations.",
+     "hint": "Ayutthaya was the old capital. What does it keep from the past?",
+     "fb": [
+      "Cultural heritage is made by people, not nature.",
+      "Tourism may grow because of heritage, but it is not the meaning.",
+      "Heritage comes from the past.",
+      "Correct: heritage = buildings, customs and traditions passed down from the past."
+     ],
+     "lesson": 10,
+     "type": "choose",
+     "stem": "Ayutthaya is protected because of its rich cultural [heritage]. Closest meaning:",
+     "options": [
+      "natural beauty",
+      "tourist industry",
+      "modern buildings",
+      "traditions from the past"
+     ],
+     "answer": 3,
+     "word": "heritage",
+     "kind": "meaning"
+    },
+    {
+     "id": "U6-CV-001",
+     "tag": "causative-have",
+     "level": "B1",
+     "why": "'That's perfect… I need it for a meeting tomorrow' shows the receptionist offered a quick service: have it cleaned and returned by tonight.",
+     "hint": "Read the guest's next line first. What does she need, and by when?",
+     "fb": [
+      "The shirt was stained this morning, and the guest thanks her.",
+      "Correct: it offers the service in time for tomorrow.",
+      "Next month is too late for tomorrow's meeting.",
+      "Three days is too late for tomorrow's meeting."
+     ],
+     "lesson": 10,
+     "type": "cloze",
+     "passage": "Situation: At a hotel reception\n\nGuest: Hi. I spilt coffee on my white shirt this morning. Is there a laundry service?\n\nReceptionist: Yes, of course. ___(1)___\n\nGuest: That's perfect, thank you. I need it for a meeting tomorrow.",
+     "blank": "(1)",
+     "stem": "Choose the best answer for (1).",
+     "options": [
+      "I'm afraid we had it cleaned yesterday.",
+      "We can have it cleaned and returned by tonight.",
+      "We can clean it for you if you bring it next month.",
+      "You'll need to have it cleaned at a shop across town; it takes three days."
+     ],
+     "answer": 1
+    }
+   ]
+  },
+  {
+   "id": "u6-sp12",
+   "unit": 6,
+   "lesson": 12,
+   "name": "Monday spiral · 7 Dec",
+   "minutes": 5,
+   "items": [
+    {
+     "id": "U6-CH-013",
+     "tag": "causative-have",
+     "level": "B2",
+     "why": "The owners arranged the work and an architect did it: had + object + V3. The agent can follow with by.",
+     "hint": "Look at the end of the sentence: who did the work?",
+     "fb": [
+      "After have + object, use V3: converted.",
+      "Correct: they arranged it; the architect did it.",
+      "Past perfect: the owners did it themselves, which clashes with 'by an architect'.",
+      "A passive subject cannot be followed by this object."
+     ],
+     "err": "E13",
+     "lesson": 12,
+     "type": "cloze",
+     "stem": "The owners of Baan Suan Homestay ____ into a café by a young architect from Chiang Mai.",
+     "options": [
+      "had the old rice barn convert",
+      "had the old rice barn converted",
+      "had converted the old rice barn",
+      "were converted the old rice barn"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "U6-CH-022",
+     "tag": "causative-have",
+     "level": "B2",
+     "why": "A florist did the work, so had + object + V3. 'Had decorated every table' would mean we did it.",
+     "hint": "Who did the decorating, according to the first part of the sentence?",
+     "fb": [
+      "Correct: have + object + V3; the florist did it.",
+      "This makes 'had decorated' a past perfect: we did it ourselves.",
+      "For a finished job, use V3: decorated.",
+      "No 'to' in this causative."
+     ],
+     "err": "E13",
+     "lesson": 12,
+     "type": "cloze",
+     "stem": "The school hired a florist for the welcome dinner, so we had ____ before the Korean guests arrived.",
+     "options": [
+      "every table decorated with orchids",
+      "decorated every table with orchids",
+      "every table decorating with orchids",
+      "every table to decorate with orchids"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "U6-SP-003",
+     "tag": "modal-passive",
+     "level": "B1",
+     "why": "Modal passive = must + be + V3: bags must be checked.",
+     "hint": "Do the bags check something, or are they checked?",
+     "fb": [
+      "This makes the bags the checkers.",
+      "Correct: modal + be + V3.",
+      "This makes the bags the checkers.",
+      "Without 'been', the bags did the checking."
+     ],
+     "err": "E5",
+     "lesson": 12,
+     "type": "cloze",
+     "stem": "Visitors' bags must ____ at the entrance before they go in.",
+     "options": [
+      "check",
+      "be checked",
+      "be checking",
+      "have checked"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "U6-SP-004",
+     "tag": "impersonal-passive",
+     "level": "B2",
+     "why": "People say it, so the reporting passive: The Emerald Buddha is said to be the most sacred image.",
+     "hint": "Who says it: the image, or people in general?",
+     "fb": [
+      "The image does not say anything.",
+      "Correct: reporting passive: subject + is said + to-infinitive.",
+      "Without 'been', the image said something.",
+      "The image does not say anything."
+     ],
+     "err": "E5",
+     "lesson": 12,
+     "type": "cloze",
+     "stem": "The Emerald Buddha ____ to be the most sacred image in Thailand.",
+     "options": [
+      "says",
+      "is said",
+      "has said",
+      "is saying"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "U6-VG-007",
+     "tag": "u6-words-b",
+     "level": "B1",
+     "why": "Heritage = culture and buildings from the past that we keep for the future.",
+     "hint": "What do we protect for future generations?",
+     "fb": [
+      "Correct: heritage = buildings and culture passed down.",
+      "Etiquette is polite rules.",
+      "A temple is not a facility like a gym.",
+      "The gig economy is a kind of work, not something from the past."
+     ],
+     "lesson": 12,
+     "type": "choose",
+     "stem": "Wat Arun is an important part of Bangkok's ____, so it must be protected for future generations.",
+     "options": [
+      "heritage",
+      "etiquette",
+      "amenities",
+      "gig economy"
+     ],
+     "answer": 0,
+     "word": "heritage",
+     "kind": "context"
+    },
+    {
+     "id": "U6-CV-002",
+     "tag": "object-pattern",
+     "level": "B2",
+     "why": "Mint's reply ('Then I'll take a long skirt') shows Fah warned her about a rule: they don't allow visitors to wear shorts.",
+     "hint": "Read Mint's reply first. Why does she decide to take a long skirt?",
+     "fb": [
+      "Mint then packs a long skirt, so shorts are not allowed.",
+      "Mint's reply shows shorts are a problem.",
+      "Mint would not need a long skirt.",
+      "Correct: it warns Mint about the dress rule."
+     ],
+     "lesson": 12,
+     "type": "cloze",
+     "passage": "Situation: Two friends planning a temple visit\n\nMint: I'm going to wear my new shorts to Wat Phra Kaew tomorrow. It's so hot!\n\nFah: Hmm, ___(1)___\n\nMint: Really? Then I'll take a long skirt in my bag.",
+     "blank": "(1)",
+     "stem": "Choose the best answer for (1).",
+     "options": [
+      "they make visitors wear shorts inside.",
+      "they encourage visitors to wear shorts inside.",
+      "they don't mind visitors wearing shorts inside.",
+      "they don't allow visitors to wear shorts inside."
+     ],
+     "answer": 3
+    }
+   ]
+  },
+  {
+   "id": "u6-sp13",
+   "unit": 6,
+   "lesson": 13,
+   "name": "Monday spiral · 14 Dec",
+   "minutes": 5,
+   "items": [
+    {
+     "id": "U6-CP-024",
+     "tag": "causative-person",
+     "level": "B1",
+     "why": "Be made + to-infinitive: nobody was made to sweep the floors.",
+     "hint": "This is a passive of make. What comes before the verb?",
+     "fb": [
+      "Be made + to-infinitive.",
+      "In the passive, make needs to.",
+      "Be made + to-infinitive.",
+      "Correct: passive make: was made + to-infinitive."
+     ],
+     "lesson": 13,
+     "type": "cloze",
+     "stem": "Nobody was made ____ the floors; the students offered to help after the fair.",
+     "options": [
+      "swept",
+      "sweep",
+      "sweeping",
+      "to sweep"
+     ],
+     "answer": 3
+    },
+    {
+     "id": "U6-CH-018",
+     "tag": "causative-have",
+     "level": "C1",
+     "why": "The wind did it to the owners' roofs: had + object + V3. 'Were blown off their roofs' means the owners flew off.",
+     "hint": "What happened to the roofs, and who or what caused it?",
+     "fb": [
+      "This makes the owners the doers.",
+      "Correct: a bad experience caused by the wind: have + object + V3.",
+      "Past perfect: the owners blew the roofs off themselves.",
+      "This says the owners themselves flew off their roofs."
+     ],
+     "lesson": 13,
+     "type": "cloze",
+     "stem": "Several stall owners at the night market ____ during the storm last night.",
+     "options": [
+      "blew their roofs off",
+      "had their roofs blown off",
+      "had blown off their roofs",
+      "were blown off their roofs"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "U6-SP-005",
+     "tag": "reduced-relative",
+     "level": "B2",
+     "why": "The main verb is 'is sold', so the gap is a reduced passive: the pottery made (= that is made) on Ko Kret.",
+     "hint": "'Is sold' is the main verb. Does the pottery do the making?",
+     "fb": [
+      "Correct: reduced relative: (that is) made on Ko Kret.",
+      "-ing is active: the pottery would be making something.",
+      "'Is sold' is the main verb, so this adds a second one.",
+      "This makes the pottery the maker."
+     ],
+     "err": "E5",
+     "lesson": 13,
+     "type": "cloze",
+     "stem": "The pottery ____ on Ko Kret is sold to visitors from all over the world.",
+     "options": [
+      "made",
+      "making",
+      "is made",
+      "which made"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "U6-SP-006",
+     "tag": "passive-infinitive",
+     "level": "B2",
+     "why": "Be expected + to-infinitive; the walls receive the action: are expected to be restored.",
+     "hint": "What follows 'are expected'? Can walls restore something?",
+     "fb": [
+      "The walls do not restore anything.",
+      "Be expected takes a to-infinitive.",
+      "Correct: be expected + to be + V3.",
+      "The walls do not restore anything, and the time is future."
+     ],
+     "lesson": 13,
+     "type": "cloze",
+     "stem": "The old city walls of Chiang Mai are expected ____ by the end of next year.",
+     "options": [
+      "to restore",
+      "being restored",
+      "to be restored",
+      "to have restored"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "U6-VF-011",
+     "tag": "u6-words-c",
+     "level": "B2",
+     "why": "A caterer provides food for events; catering is the service; cater (to/for) is the verb.",
+     "hint": "After 'hired a', do we need a person or an activity?",
+     "fb": [
+      "Cater is the verb.",
+      "Correct: a caterer = a person or company that provides food for events.",
+      "Catered is a verb form.",
+      "Catering is the activity or service, not the person."
+     ],
+     "lesson": 13,
+     "type": "choose",
+     "stem": "The school hired a ____ to provide the food for the international fair.",
+     "options": [
+      "cater",
+      "caterer",
+      "catered",
+      "catering"
+     ],
+     "answer": 1,
+     "word": "cater to",
+     "kind": "family"
+    },
+    {
+     "id": "U6-CV-003",
+     "tag": "causative-person",
+     "level": "B2",
+     "why": "'I'll wait in the room' shows that someone is coming: I'll have an engineer come up (have + person + base verb).",
+     "hint": "Read the guest's next line. What is she going to wait for?",
+     "fb": [
+      "A receptionist would not ask a guest to repair it.",
+      "This gives no help now, but the guest says she will wait.",
+      "This does not solve the problem the guest is waiting for.",
+      "Correct: a remedy: have + person + base verb."
+     ],
+     "lesson": 13,
+     "type": "cloze",
+     "passage": "Situation: A guest phones the front desk\n\nGuest: The air conditioner in room 508 is making a terrible noise.\n\nReceptionist: I'm so sorry about that. ___(1)___\n\nGuest: Thank you. I'll wait in the room.",
+     "blank": "(1)",
+     "stem": "Choose the best answer for (1).",
+     "options": [
+      "I'll get you to fix it yourself tonight.",
+      "I had an engineer check it last month.",
+      "I'll have the noise recorded for our website.",
+      "I'll have an engineer come up straight away."
+     ],
+     "answer": 3
     }
    ]
   }

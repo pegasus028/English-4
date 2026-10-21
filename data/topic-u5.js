@@ -360,8 +360,8 @@ var U5G = {
        "lesson": 6,
        "type": "cloze",
        "passage": "The riverside streets of Ban Rim Khlong were among the worst hit last month. Water ___(1)___ from upstream dams reached the city within two days, and many homes ___(2)___ without power for more than a week. Residents ___(3)___ near the canals say the warnings came too late. 'Nobody told us anything until the water was at our door,' said one shop owner. District officials, however, insist that alerts ___(4)___ to every phone in the area by 6 p.m. on the first night. A full review of the response is expected ___(5)___ next month.",
-       "blank": "(1)",
-       "stem": "Gap (2)",
+       "blank": "(2)",
+       "stem": "Choose the best option for gap (2).",
        "options": [
         "had left",
         "were left",
@@ -804,8 +804,8 @@ var U5G = {
        "lesson": 6,
        "type": "cloze",
        "passage": "Every rainy season, millions of cubic metres of water ___(1)___ from the Chao Phraya Dam. Engineers ___(2)___ how much water to let out, and they must balance two risks. If too little water is let out, the land behind the dam could ___(3)___. If too much is let out, villages downstream go under water, a practice ___(4)___ in one news report as 'deluge by design'. Some villages are reported ___(5)___ every year since 2021, and their residents say they are paying the price for keeping the capital dry.",
-       "blank": "(1)",
-       "stem": "Gap (3)",
+       "blank": "(3)",
+       "stem": "Choose the best option for gap (3).",
        "options": [
         "damage",
         "be damaged",
@@ -1735,8 +1735,8 @@ var U5G = {
        "lesson": 6,
        "type": "cloze",
        "passage": "Every rainy season, millions of cubic metres of water ___(1)___ from the Chao Phraya Dam. Engineers ___(2)___ how much water to let out, and they must balance two risks. If too little water is let out, the land behind the dam could ___(3)___. If too much is let out, villages downstream go under water, a practice ___(4)___ in one news report as 'deluge by design'. Some villages are reported ___(5)___ every year since 2021, and their residents say they are paying the price for keeping the capital dry.",
-       "blank": "(1)",
-       "stem": "Gap (5)",
+       "blank": "(5)",
+       "stem": "Choose the best option for gap (5).",
        "options": [
         "to be flooded",
         "to have been flood",
@@ -2133,101 +2133,54 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-VO-014",
+       "id": "U5-VO-016",
        "tag": "u5-words-a",
        "level": "B1",
-       "why": "Subside = go down or become less strong; 'falls' is closest.",
-       "hint": "When is it safe to go home after a flood?",
+       "why": "Evacuate = leave a dangerous place (or move people out of it).",
+       "hint": "Why would officials talk to residents before midnight?",
        "fb": [
-        "Correct: subside = go down.",
-        "Rises is the opposite.",
-        "Moves does not tell us it goes down.",
-        "Spreads = covers a bigger area."
+        "Visit = go to see.",
+        "Correct: evacuate an area (as a resident) = leave it for safety.",
+        "Clean = remove dirt.",
+        "Protect = keep safe; residents were told to go."
        ],
-       "lesson": 4,
+       "lesson": 1,
        "type": "choose",
-       "stem": "We can go home when the water [subsides]. Closest meaning:",
+       "stem": "Officials told residents to [evacuate] the area before midnight. Closest meaning:",
        "options": [
-        "falls",
-        "rises",
-        "moves",
-        "spreads"
+        "visit",
+        "leave",
+        "clean",
+        "protect"
        ],
-       "answer": 0,
-       "word": "subsides",
+       "answer": 1,
+       "word": "evacuate",
        "kind": "meaning"
       },
       {
-       "id": "U5-BKA-42",
+       "id": "U5-VO-020",
        "tag": "u5-words-a",
        "level": "B1",
-       "why": "Falling = going down; opposite rising.",
-       "hint": "Which word means the opposite of the word in brackets?",
+       "why": "Aftermath = the period after a bad event, when people deal with its effects.",
+       "hint": "Did they lose their jobs before, during or after the flood?",
        "fb": [
-        "Correct: Falling = going down; opposite rising.",
-        "Not this one. Falling = going down; opposite rising.",
-        "Not this one. Falling = going down; opposite rising.",
-        "Close, but not quite. Falling = going down; opposite rising."
+        "The middle = during, not after.",
+        "The beginning = the start.",
+        "Correct: aftermath = the period after a disaster.",
+        "That is before the flood; aftermath is the period after it."
        ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Opposite: The water level is [falling] quickly.",
+       "stem": "Many families lost their jobs in the [aftermath] of the flood. Closest meaning:",
        "options": [
-        "rising",
-        "spreading",
-        "changing",
-        "dropping"
+        "the middle",
+        "the beginning",
+        "the period after",
+        "the period before"
        ],
-       "answer": 0,
-       "word": "falling"
-      },
-      {
-       "id": "U5-BKB-10",
-       "tag": "u5-words-a",
-       "level": "B1",
-       "why": "Rising = going up; opposite falling.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Correct: Rising = going up; opposite falling.",
-        "Not this one. Rising = going up; opposite falling.",
-        "Not this one. Rising = going up; opposite falling.",
-        "Close, but not quite. Rising = going up; opposite falling."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: The water level is [rising] fast.",
-       "options": [
-        "falling",
-        "spreading",
-        "changing",
-        "climbing"
-       ],
-       "answer": 0,
-       "word": "rising"
-      },
-      {
-       "id": "U5-BKB-35",
-       "tag": "u5-words-a",
-       "level": "B1",
-       "why": "Blocked = cannot be used; opposite clear.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Close, but not quite. Blocked = cannot be used; opposite clear.",
-        "Correct: Blocked = cannot be used; opposite clear.",
-        "Not this one. Blocked = cannot be used; opposite clear.",
-        "Not this one. Blocked = cannot be used; opposite clear."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: Many roads were still [blocked] on Friday.",
-       "options": [
-        "closed",
-        "clear",
-        "wet",
-        "busy"
-       ],
-       "answer": 1,
-       "word": "blocked"
+       "answer": 2,
+       "word": "aftermath",
+       "kind": "meaning"
       },
       {
        "id": "U5-VO-001",
@@ -2252,6 +2205,56 @@ var U5W = {
        ],
        "answer": 3,
        "word": "evacuate",
+       "kind": "meaning"
+      },
+      {
+       "id": "U5-VO-002",
+       "tag": "u5-words-a",
+       "level": "B2",
+       "why": "Submerged = under the surface of the water.",
+       "hint": "Think about what floodwater does to a car park.",
+       "fb": [
+        "Empty = with nothing inside.",
+        "Crowded = full of people.",
+        "It may be damaged, but submerged means under water.",
+        "Correct: submerged = completely under water."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "By noon, the whole car park was [submerged]. Closest meaning:",
+       "options": [
+        "empty",
+        "crowded",
+        "damaged",
+        "underwater"
+       ],
+       "answer": 3,
+       "word": "submerged",
+       "kind": "meaning"
+      },
+      {
+       "id": "U5-VO-003",
+       "tag": "u5-words-a",
+       "level": "C1",
+       "why": "Inundate (2nd meaning) = give someone more than they can deal with: swamped with calls.",
+       "hint": "Is the hotline about water here, or about the number of calls?",
+       "fb": [
+        "Helped does not fit 'with calls for help'.",
+        "Ignored = not answered; inundated is about the number of calls.",
+        "Blocked = closed; the line was too busy, not closed.",
+        "Correct: inundated with calls = receiving far too many calls."
+       ],
+       "lesson": 6,
+       "type": "choose",
+       "stem": "After the storm, the hotline was [inundated] with calls for help. Closest meaning:",
+       "options": [
+        "helped",
+        "ignored",
+        "blocked",
+        "swamped"
+       ],
+       "answer": 3,
+       "word": "inundate",
        "kind": "meaning"
       }
      ]
@@ -2292,6 +2295,56 @@ var U5W = {
       ]
      },
      "items": [
+      {
+       "id": "U5-VO-025",
+       "tag": "u5-words-b",
+       "level": "B1",
+       "why": "Prolonged = lasting a long time; 'finally' shows the wait was long.",
+       "hint": "Look at 'finally'.",
+       "fb": [
+        "Correct: prolonged = lasting a long time.",
+        "Short is the opposite; 'finally' shows it was long.",
+        "Quiet describes sound.",
+        "The people may be nervous, but prolonged describes time."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "After a [prolonged] wait, the rescue boat finally arrived. Closest meaning:",
+       "options": [
+        "long",
+        "short",
+        "quiet",
+        "nervous"
+       ],
+       "answer": 0,
+       "word": "prolonged",
+       "kind": "meaning"
+      },
+      {
+       "id": "U5-VO-006",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "Devastate = cause very great damage; 'destroyed' is closest. 'Affected' is too weak.",
+       "hint": "Devastate is a very strong word.",
+       "fb": [
+        "Visited = went to see.",
+        "Affected is much weaker; devastated means terrible damage.",
+        "Surprised is about a feeling.",
+        "Correct: devastate = damage very badly or destroy."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "The storm [devastated] the small fishing village. Closest meaning:",
+       "options": [
+        "visited",
+        "affected",
+        "surprised",
+        "destroyed"
+       ],
+       "answer": 3,
+       "word": "devastate",
+       "kind": "meaning"
+      },
       {
        "id": "U5-VO-007",
        "tag": "u5-words-b",
@@ -2343,77 +2396,29 @@ var U5W = {
        "kind": "meaning"
       },
       {
-       "id": "U5-VO-010",
+       "id": "U5-VO-009",
        "tag": "u5-words-b",
-       "level": "B2",
-       "why": "Prolonged = continuing for a long time; 'long-lasting' is closest. 'Heavy' is about amount, not time.",
-       "hint": "Is the clue about amount or about time?",
+       "level": "C1",
+       "why": "Exacerbate = make a problem worse. The drains did not start the flood; they made it worse.",
+       "hint": "The flooding was already happening. What did blocked drains do to it?",
        "fb": [
-        "Heavy = a lot of rain at once; prolonged is about time.",
-        "Sudden = happening quickly, without warning.",
-        "Unusual = not normal.",
-        "Correct: prolonged = lasting a long time."
+        "Ended = stopped.",
+        "The rain caused the flood; blocked drains made it worse.",
+        "Reduced is the opposite.",
+        "Correct: exacerbate = make a bad situation worse."
        ],
        "lesson": 3,
        "type": "choose",
-       "stem": "The [prolonged] rain caused landslides in the north. Closest meaning:",
+       "stem": "Blocked drains [exacerbated] the flooding in our soi. Closest meaning:",
        "options": [
-        "heavy",
-        "sudden",
-        "unusual",
-        "long-lasting"
+        "ended",
+        "caused",
+        "reduced",
+        "worsened"
        ],
        "answer": 3,
-       "word": "prolonged",
+       "word": "exacerbate",
        "kind": "meaning"
-      },
-      {
-       "id": "U5-BKA-15",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "Prolonged = long-lasting; opposite brief.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Not this one. Prolonged = long-lasting; opposite brief.",
-        "Close, but not quite. Prolonged = long-lasting; opposite brief.",
-        "Correct: Prolonged = long-lasting; opposite brief.",
-        "Not this one. Prolonged = long-lasting; opposite brief."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: The [prolonged] power cut ruined our food.",
-       "options": [
-        "planned",
-        "long",
-        "brief",
-        "noisy"
-       ],
-       "answer": 2,
-       "word": "prolonged"
-      },
-      {
-       "id": "U5-BKA-23",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "Mitigate = reduce; opposite worsen.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Close, but not quite. Mitigate = reduce; opposite worsen.",
-        "Not this one. Mitigate = reduce; opposite worsen.",
-        "Not this one. Mitigate = reduce; opposite worsen.",
-        "Correct: Mitigate = reduce; opposite worsen."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: Trees help [mitigate] flood damage.",
-       "options": [
-        "reduce",
-        "explain",
-        "measure",
-        "worsen"
-       ],
-       "answer": 3,
-       "word": "mitigate"
       }
      ]
     },
@@ -2453,6 +2458,81 @@ var U5W = {
       ]
      },
      "items": [
+      {
+       "id": "U5-VO-014",
+       "tag": "u5-words-c",
+       "level": "B1",
+       "why": "Subside = go down or become less strong; 'falls' is closest.",
+       "hint": "When is it safe to go home after a flood?",
+       "fb": [
+        "Correct: subside = go down.",
+        "Rises is the opposite.",
+        "Moves does not tell us it goes down.",
+        "Spreads = covers a bigger area."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "We can go home when the water [subsides]. Closest meaning:",
+       "options": [
+        "falls",
+        "rises",
+        "moves",
+        "spreads"
+       ],
+       "answer": 0,
+       "word": "subside",
+       "kind": "meaning"
+      },
+      {
+       "id": "U5-VO-028",
+       "tag": "u5-words-c",
+       "level": "B1",
+       "why": "Relief (2nd meaning) = the good feeling when worry ends; 'comfort' is closest.",
+       "hint": "How do you feel when you hear everyone is safe?",
+       "fb": [
+        "Shock is a bad feeling.",
+        "A surprise is unexpected; relief is about worry ending.",
+        "A mystery is something not understood.",
+        "Correct: relief here = the good feeling when worry ends; a comfort."
+       ],
+       "lesson": 6,
+       "type": "choose",
+       "stem": "It was a [relief] to hear that everyone in the village was safe. Closest meaning:",
+       "options": [
+        "shock",
+        "surprise",
+        "mystery",
+        "comfort"
+       ],
+       "answer": 3,
+       "word": "relief",
+       "kind": "meaning"
+      },
+      {
+       "id": "U5-VO-029",
+       "tag": "u5-words-c",
+       "level": "B1",
+       "why": "Subside = become less strong or go down; it is used for water, pain, storms and anger.",
+       "hint": "Did the headache get better or worse?",
+       "fb": [
+        "Correct: subside = become less strong.",
+        "Spread = covered a bigger area.",
+        "Started is the opposite.",
+        "Returned = came back."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "My headache finally [subsided] after I drank some water. Closest meaning:",
+       "options": [
+        "eased",
+        "spread",
+        "started",
+        "returned"
+       ],
+       "answer": 0,
+       "word": "subside",
+       "kind": "meaning"
+      },
       {
        "id": "U5-VO-011",
        "tag": "u5-words-c",
@@ -2502,80 +2582,6 @@ var U5W = {
        "answer": 3,
        "word": "discharge",
        "kind": "meaning"
-      },
-      {
-       "id": "U5-VO-013",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "Relief (1) = aid for disaster victims; (2) the good feeling when worry ends. Here: aid.",
-       "hint": "Relief has two meanings. Here it is something delivered to victims.",
-       "fb": [
-        "Correct: relief (1st meaning) = food, water and help for victims.",
-        "Staff = workers.",
-        "Mail = letters and parcels.",
-        "News = information about events."
-       ],
-       "lesson": 6,
-       "type": "choose",
-       "stem": "[Relief] was delivered to the cut-off village by boat. Closest meaning:",
-       "options": [
-        "aid",
-        "staff",
-        "mail",
-        "news"
-       ],
-       "answer": 0,
-       "word": "relief",
-       "kind": "meaning"
-      },
-      {
-       "id": "U5-VO-015",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "Trying times = a difficult, stressful period; 'hard times' is closest.",
-       "hint": "'Trying' here does not mean 'attempting'.",
-       "fb": [
-        "Busy = lots to do; trying = difficult.",
-        "Correct: trying times = a difficult period.",
-        "Early years = the first years of something.",
-        "Happy is close to the opposite."
-       ],
-       "lesson": 4,
-       "type": "choose",
-       "stem": "Our neighbours helped us a lot during those [trying times]. Closest meaning:",
-       "options": [
-        "busy days",
-        "hard times",
-        "early years",
-        "happy times"
-       ],
-       "answer": 1,
-       "word": "trying times",
-       "kind": "meaning"
-      },
-      {
-       "id": "U5-BKA-05",
-       "tag": "u5-words-c",
-       "level": "C1",
-       "why": "Unprecedented = never seen; opposite usual.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Not this one. Unprecedented = never seen; opposite usual.",
-        "Close, but not quite. Unprecedented = never seen; opposite usual.",
-        "Not this one. Unprecedented = never seen; opposite usual.",
-        "Correct: Unprecedented = never seen; opposite usual."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: The river reached [unprecedented] levels.",
-       "options": [
-        "shallow",
-        "record",
-        "dangerous",
-        "usual"
-       ],
-       "answer": 3,
-       "word": "unprecedented"
       }
      ]
     }
@@ -2585,29 +2591,684 @@ var U5W = {
     "name": "Level check · Meaning",
     "items": [
      {
-      "id": "U5-VO-002",
+      "id": "U5-VO-004",
       "tag": "u5-words-a",
       "level": "B2",
-      "why": "Submerged = under the surface of the water.",
-      "hint": "Think about what floodwater does to a car park.",
+      "why": "Displaced = forced to leave your home because of danger; 'homeless' is the closest choice.",
+      "hint": "Why would a family live in a tent at a temple?",
       "fb": [
-       "Empty = with nothing inside.",
-       "Crowded = full of people.",
-       "It may be damaged, but submerged means under water.",
-       "Correct: submerged = completely under water."
+       "Injured = hurt in the body.",
+       "Grateful = thankful.",
+       "Wealthy = rich.",
+       "Correct: displaced = forced to leave home; 'homeless' is the closest option given."
       ],
       "lesson": 1,
       "type": "choose",
-      "stem": "By noon, the whole car park was [submerged]. Closest meaning:",
+      "stem": "[Displaced] families are living in tents at the temple. Closest meaning:",
       "options": [
-       "empty",
-       "crowded",
-       "damaged",
-       "underwater"
+       "injured",
+       "grateful",
+       "wealthy",
+       "homeless"
       ],
       "answer": 3,
-      "word": "submerged",
+      "word": "displaced",
       "kind": "meaning"
+     },
+     {
+      "id": "U5-VO-010",
+      "tag": "u5-words-b",
+      "level": "B2",
+      "why": "Prolonged = continuing for a long time; 'long-lasting' is closest. 'Heavy' is about amount, not time.",
+      "hint": "Is the clue about amount or about time?",
+      "fb": [
+       "Heavy = a lot of rain at once; prolonged is about time.",
+       "Sudden = happening quickly, without warning.",
+       "Unusual = not normal.",
+       "Correct: prolonged = lasting a long time."
+      ],
+      "lesson": 3,
+      "type": "choose",
+      "stem": "The [prolonged] rain caused landslides in the north. Closest meaning:",
+      "options": [
+       "heavy",
+       "sudden",
+       "unusual",
+       "long-lasting"
+      ],
+      "answer": 3,
+      "word": "prolonged",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-VO-013",
+      "tag": "u5-words-c",
+      "level": "B2",
+      "why": "Relief (1) = aid for disaster victims; (2) the good feeling when worry ends. Here: aid.",
+      "hint": "Relief has two meanings. Here it is something delivered to victims.",
+      "fb": [
+       "Correct: relief (1st meaning) = food, water and help for victims.",
+       "Staff = workers.",
+       "Mail = letters and parcels.",
+       "News = information about events."
+      ],
+      "lesson": 6,
+      "type": "choose",
+      "stem": "[Relief] was delivered to the cut-off village by boat. Closest meaning:",
+      "options": [
+       "aid",
+       "staff",
+       "mail",
+       "news"
+      ],
+      "answer": 0,
+      "word": "relief",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-VO-005",
+      "tag": "u5-words-a",
+      "level": "C1",
+      "why": "In the aftermath of = in the period after (a disaster); 'in the wake of' means the same.",
+      "hint": "After- tells you when.",
+      "fb": [
+       "Correct: in the aftermath of = in the wake of = in the period after.",
+       "Cause = what made it happen.",
+       "Middle = during, not after.",
+       "Beginning = start, not after."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "In the [aftermath] of the floods, many shops stayed closed. Closest meaning:",
+      "options": [
+       "wake",
+       "cause",
+       "middle",
+       "beginning"
+      ],
+      "answer": 0,
+      "word": "aftermath",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-VG-006",
+      "tag": "u5-words-b",
+      "level": "B2",
+      "why": "Devastate = cause very great damage. In 2011 floods badly damaged industrial estates north of Bangkok.",
+      "hint": "What did the floods do to the factories?",
+      "fb": [
+       "Subside has no object.",
+       "Mitigate = make less harmful.",
+       "Correct: devastate = damage very badly.",
+       "Exacerbate needs a problem as object (exacerbate the crisis)."
+      ],
+      "lesson": 3,
+      "type": "choose",
+      "stem": "The 2011 floods ____ hundreds of factories north of Bangkok.",
+      "options": [
+       "subsided",
+       "mitigated",
+       "devastated",
+       "exacerbated"
+      ],
+      "answer": 2,
+      "word": "devastate",
+      "kind": "context"
+     },
+     {
+      "id": "U5-VO-015",
+      "tag": "u5-words-c",
+      "level": "B2",
+      "why": "Trying times = a difficult, stressful period; 'hard times' is closest.",
+      "hint": "'Trying' here does not mean 'attempting'.",
+      "fb": [
+       "Busy = lots to do; trying = difficult.",
+       "Correct: trying times = a difficult period.",
+       "Early years = the first years of something.",
+       "Happy is close to the opposite."
+      ],
+      "lesson": 4,
+      "type": "choose",
+      "stem": "Our neighbours helped us a lot during those [trying times]. Closest meaning:",
+      "options": [
+       "busy days",
+       "hard times",
+       "early years",
+       "happy times"
+      ],
+      "answer": 1,
+      "word": "trying times",
+      "kind": "meaning"
+     }
+    ]
+   }
+  },
+  {
+   "id": "u5w2",
+   "n": 2,
+   "name": "Word family and collocation",
+   "cefr": "B2",
+   "blurb": "The noun, the verb, the adjective — and the words that sit next to each one.",
+   "subs": [
+    {
+     "id": "u5w2s1",
+     "name": "Words 1–5 in their families",
+     "cefr": "B2",
+     "theory": {
+      "key": "Words: evacuate, submerged, inundate, displaced, aftermath.",
+      "body": [
+       "Every word has relatives: the noun, the verb, the adjective, the adverb. Learn the family together with the two or three words that usually sit next to it (<em>a devastating flood</em>, <em>mitigate the damage</em>). The questions test the right form in the right slot."
+      ],
+      "simple": [
+       "Say it. Give the meaning in a few words. Use it in one sentence."
+      ],
+      "examples": [
+       {
+        "s": "<b>evacuate</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>submerged</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>inundate</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>displaced</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>aftermath</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "U5-VF-004",
+       "tag": "u5-words-a",
+       "level": "B2",
+       "why": "'The ___ of' needs a noun: the displacement (= forcing out) of thousands of families.",
+       "hint": "The gap is the subject of 'has put'. Which word is a noun?",
+       "fb": [
+        "'Displace' is a verb; the gap needs a noun.",
+        "'Displaces' is a verb; the gap needs a noun.",
+        "'Displaced' is an adjective or past participle; the gap needs a noun.",
+        "Correct: the subject needs a noun: displacement."
+       ],
+       "lesson": 2,
+       "type": "choose",
+       "stem": "The ____ of thousands of families has put pressure on the city's shelters.",
+       "options": [
+        "displace",
+        "displaces",
+        "displaced",
+        "displacement"
+       ],
+       "answer": 3,
+       "word": "displaced",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-001",
+       "tag": "u5-words-a",
+       "level": "B1",
+       "why": "'The ___ of' needs a noun. The process of moving people out is the evacuation; an evacuee is a person.",
+       "hint": "After 'The … of the hospital', which part of speech fits?",
+       "fb": [
+        "An evacuee is a person who is evacuated, not the process.",
+        "'Evacuate' is a verb; the gap needs a noun.",
+        "'Evacuated' is a verb or adjective; the gap needs a noun.",
+        "Correct: after 'The … of' we need a noun for the process: evacuation."
+       ],
+       "lesson": 2,
+       "type": "choose",
+       "stem": "The ____ of the hospital took six hours because the patients had to be moved by boat.",
+       "options": [
+        "evacuee",
+        "evacuate",
+        "evacuated",
+        "evacuation"
+       ],
+       "answer": 3,
+       "word": "evacuate",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-002",
+       "tag": "u5-words-a",
+       "level": "B1",
+       "why": "Modal + base form: can submerge. 'Submerged' is the adjective or past participle.",
+       "hint": "What form follows a modal verb such as 'can'?",
+       "fb": [
+        "Correct: after 'can' we use the base form: submerge.",
+        "After 'can' use the base form, without -s.",
+        "After 'can' use the base form, not the past participle.",
+        "After 'can' use the base form, not -ing."
+       ],
+       "lesson": 2,
+       "type": "choose",
+       "stem": "Heavy rain can ____ the low roads near the river in less than an hour.",
+       "options": [
+        "submerge",
+        "submerges",
+        "submerged",
+        "submerging"
+       ],
+       "answer": 0,
+       "word": "submerged",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-003",
+       "tag": "u5-words-a",
+       "level": "C1",
+       "why": "The subject after 'The … of' must be a noun: the inundation (= flooding) of the rice fields.",
+       "hint": "The gap is the subject of 'destroyed'. Which part of speech is that?",
+       "fb": [
+        "'Inundate' is a verb; the gap needs a noun.",
+        "'Inundates' is a verb; the gap needs a noun.",
+        "'Inundated' is a verb form or adjective; the gap needs a noun.",
+        "Correct: 'The … of' needs a noun: inundation (flooding)."
+       ],
+       "lesson": 6,
+       "type": "choose",
+       "stem": "The ____ of the rice fields destroyed most of this year's harvest.",
+       "options": [
+        "inundate",
+        "inundates",
+        "inundated",
+        "inundation"
+       ],
+       "answer": 3,
+       "word": "inundate",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-005",
+       "tag": "u5-words-a",
+       "level": "C1",
+       "why": "Aftermath is almost always used in the fixed phrase 'in the aftermath of + event'.",
+       "hint": "Which preposition always goes with 'the aftermath of'?",
+       "fb": [
+        "Correct: the fixed phrase is 'in the aftermath of'.",
+        "We say 'in the aftermath of', not 'at the aftermath of'.",
+        "'By the aftermath of' is not used.",
+        "We say 'in the aftermath of', not 'on the aftermath of'."
+       ],
+       "lesson": 6,
+       "type": "choose",
+       "stem": "____ the aftermath of the floods, many families had nowhere to live.",
+       "options": [
+        "In",
+        "At",
+        "By",
+        "On"
+       ],
+       "answer": 0,
+       "word": "aftermath",
+       "kind": "family"
+      }
+     ]
+    },
+    {
+     "id": "u5w2s2",
+     "name": "Words 6–10 in their families",
+     "cefr": "B2",
+     "theory": {
+      "key": "Words: devastate, resilient, mitigate, exacerbate, prolonged.",
+      "body": [
+       "Every word has relatives: the noun, the verb, the adjective, the adverb. Learn the family together with the two or three words that usually sit next to it (<em>a devastating flood</em>, <em>mitigate the damage</em>). The questions test the right form in the right slot."
+      ],
+      "simple": [
+       "Say it. Give the meaning in a few words. Use it in one sentence."
+      ],
+      "examples": [
+       {
+        "s": "<b>devastate</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>resilient</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>mitigate</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>exacerbate</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>prolonged</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "U5-VF-007",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "A possessive ('the town's') is followed by a noun: the town's resilience (= ability to recover).",
+       "hint": "After 'the town's', which part of speech do we need?",
+       "fb": [
+        "'Resilient' is an adjective; after 'the town's' we need a noun.",
+        "Correct: after the possessive 'the town's' we need a noun: resilience.",
+        "'Resiliently' is an adverb; the gap needs a noun.",
+        "'A resilient' needs a noun after it."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "The town's ____ after the 2011 floods surprised many visitors: shops reopened within weeks.",
+       "options": [
+        "resilient",
+        "resilience",
+        "resiliently",
+        "a resilient"
+       ],
+       "answer": 1,
+       "word": "resilient",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-010",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "To-infinitive: expected to prolong (= make last longer). 'Prolonged' is the adjective.",
+       "hint": "What form follows 'expected to'?",
+       "fb": [
+        "Correct: 'expected to' + base verb: prolong (= make longer).",
+        "After 'to' use the base form, without -s.",
+        "After 'to' use the base form, not the past form.",
+        "After 'expected to' use the base form, not -ing."
+       ],
+       "lesson": 5,
+       "type": "choose",
+       "stem": "The storm is expected to ____ the flooding in the north for another week.",
+       "options": [
+        "prolong",
+        "prolongs",
+        "prolonged",
+        "prolonging"
+       ],
+       "answer": 0,
+       "word": "prolonged",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-006",
+       "tag": "u5-words-b",
+       "level": "B1",
+       "why": "-ing adjectives describe the cause: devastating floods. -ed describes the person or place affected: devastated families.",
+       "hint": "Did the floods cause the damage, or receive it?",
+       "fb": [
+        "'Devastate' is a verb.",
+        "'Devastated' describes people who feel very upset, or places that were damaged; floods cause damage.",
+        "Correct: -ing adjective = causing great damage: the floods were devastating.",
+        "'Devastation' is a noun; after 'were' we need an adjective here."
+       ],
+       "lesson": 5,
+       "type": "choose",
+       "stem": "The floods were ____: thousands of homes were destroyed.",
+       "options": [
+        "devastate",
+        "devastated",
+        "devastating",
+        "devastation"
+       ],
+       "answer": 2,
+       "word": "devastate",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-008",
+       "tag": "u5-words-b",
+       "level": "C1",
+       "why": "'For' + noun phrase: flood mitigation = work to make floods less harmful.",
+       "hint": "After 'for flood', which part of speech fits?",
+       "fb": [
+        "'Mitigate' is a verb; the gap needs a noun.",
+        "'Mitigates' is a verb; the gap needs a noun.",
+        "'Mitigated' is a verb form; the gap needs a noun.",
+        "Correct: after 'for flood' we need a noun: flood mitigation."
+       ],
+       "lesson": 5,
+       "type": "choose",
+       "stem": "The government has promised more money for flood ____.",
+       "options": [
+        "mitigate",
+        "mitigates",
+        "mitigated",
+        "mitigation"
+       ],
+       "answer": 3,
+       "word": "mitigate",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-009",
+       "tag": "u5-words-b",
+       "level": "C1",
+       "why": "Article + adjective + noun: a serious exacerbation (= worsening) of the flooding.",
+       "hint": "After 'a serious', which part of speech fits?",
+       "fb": [
+        "'Exacerbate' is a verb; the gap needs a noun.",
+        "'Exacerbated' is a verb form; the gap needs a noun.",
+        "'Exacerbating' is a verb or adjective; after 'a serious' we need a noun.",
+        "Correct: after 'a serious' we need a noun: exacerbation (= worsening)."
+       ],
+       "lesson": 5,
+       "type": "choose",
+       "stem": "Blocked drains led to a serious ____ of the flooding in the old town.",
+       "options": [
+        "exacerbate",
+        "exacerbated",
+        "exacerbating",
+        "exacerbation"
+       ],
+       "answer": 3,
+       "word": "exacerbate",
+       "kind": "family"
+      }
+     ]
+    },
+    {
+     "id": "u5w2s3",
+     "name": "Words 11–15 in their families",
+     "cefr": "B2",
+     "theory": {
+      "key": "Words: unprecedented, discharge, relief, subside, trying times.",
+      "body": [
+       "Every word has relatives: the noun, the verb, the adjective, the adverb. Learn the family together with the two or three words that usually sit next to it (<em>a devastating flood</em>, <em>mitigate the damage</em>). The questions test the right form in the right slot."
+      ],
+      "simple": [
+       "Say it. Give the meaning in a few words. Use it in one sentence."
+      ],
+      "examples": [
+       {
+        "s": "<b>unprecedented</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>discharge</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>relief</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>subside</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       },
+       {
+        "s": "<b>trying times</b>",
+        "g": "see the vocabulary journal and the keyword slides for this word."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "U5-VF-012",
+       "tag": "u5-words-c",
+       "level": "B2",
+       "why": "Passive = be + past participle: water was discharged (= let out) from the dam.",
+       "hint": "After 'was', which form makes a passive?",
+       "fb": [
+        "After 'was' use the past participle, not the base form.",
+        "After 'was' we need the past participle.",
+        "Correct: passive: was + past participle: was discharged.",
+        "'Was discharging' makes the water the doer; the water was let out by the dam."
+       ],
+       "err": "E5",
+       "lesson": 8,
+       "type": "choose",
+       "stem": "Water was ____ from the dam by the engineers at a rate of 2,000 cubic metres per second.",
+       "options": [
+        "discharge",
+        "discharges",
+        "discharged",
+        "discharging"
+       ],
+       "answer": 2,
+       "word": "discharge",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-015",
+       "tag": "u5-words-c",
+       "level": "B2",
+       "why": "'Trying' as an adjective means difficult and stressful, as in 'trying times'.",
+       "hint": "Which word is an adjective meaning 'difficult'?",
+       "fb": [
+        "'Try' is a verb or noun.",
+        "'Tries' is a verb or plural noun.",
+        "'Tried' is a verb form; it does not describe a hard period.",
+        "Correct: 'trying' (adj) = difficult and stressful."
+       ],
+       "lesson": 8,
+       "type": "choose",
+       "stem": "The months after the flood were very ____ for our family: we lived in a tent and had little money.",
+       "options": [
+        "try",
+        "tries",
+        "tried",
+        "trying"
+       ],
+       "answer": 3,
+       "word": "trying times",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-011",
+       "tag": "u5-words-c",
+       "level": "C1",
+       "why": "'There is no precedent for X' = X has never happened before, which is what 'unprecedented' means.",
+       "hint": "Take 'un-' and '-ed' off the headword. What noun is left?",
+       "fb": [
+        "A president is a leader; it looks similar but has a different meaning.",
+        "Correct: a precedent = an earlier example; 'no precedent' = it never happened before.",
+        "Precedence means priority (take precedence over); it does not fit 'no ___ for'.",
+        "'Unprecedented' is an adjective; after 'no' we need a noun."
+       ],
+       "lesson": 8,
+       "type": "choose",
+       "stem": "There is no ____ for floods this high in the history of the village.",
+       "options": [
+        "president",
+        "precedent",
+        "precedence",
+        "unprecedented"
+       ],
+       "answer": 1,
+       "word": "unprecedented",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-013",
+       "tag": "u5-words-c",
+       "level": "B1",
+       "why": "Relieved (adj) = feeling relief: We were so relieved. Relief is the noun.",
+       "hint": "After 'We were so…', which word describes a feeling?",
+       "fb": [
+        "'Relief' is a noun; after 'so' we need an adjective.",
+        "'Relieve' is a verb.",
+        "Correct: -ed adjective for how people feel: we were relieved.",
+        "-ing would describe the situation, not how we felt."
+       ],
+       "lesson": 6,
+       "type": "choose",
+       "stem": "We were so ____ when the water stopped just below our front door.",
+       "options": [
+        "relief",
+        "relieve",
+        "relieved",
+        "relieving"
+       ],
+       "answer": 2,
+       "word": "relief",
+       "kind": "family"
+      },
+      {
+       "id": "U5-VF-014",
+       "tag": "u5-words-c",
+       "level": "B1",
+       "why": "Present perfect = has + past participle: has subsided (active; 'subside' has no passive).",
+       "hint": "What form follows 'has' in the present perfect?",
+       "fb": [
+        "After 'has' we need the past participle.",
+        "After 'has' we need the past participle.",
+        "Correct: present perfect: has + past participle: has subsided.",
+        "After 'has' we need the past participle."
+       ],
+       "lesson": 8,
+       "type": "choose",
+       "stem": "The water has finally ____, so we can start cleaning the house.",
+       "options": [
+        "subside",
+        "subsides",
+        "subsided",
+        "subsiding"
+       ],
+       "answer": 2,
+       "word": "subside",
+       "kind": "family"
+      }
+     ]
+    }
+   ],
+   "check": {
+    "id": "u5w2ck",
+    "name": "Level check · Family and collocation",
+    "items": [
+     {
+      "id": "U5-VG-001",
+      "tag": "u5-words-a",
+      "level": "B2",
+      "why": "Evacuate + people = move them away from danger to a safe place.",
+      "hint": "What do soldiers do with people before a flood arrives?",
+      "fb": [
+       "Mitigate takes a problem as object, not people.",
+       "Inundate = flood. That is what the river did.",
+       "Correct: evacuate people = move them away from danger.",
+       "Devastate = destroy. Soldiers protect people."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "Soldiers helped ____ the elderly residents before the river burst its banks.",
+      "options": [
+       "mitigate",
+       "inundate",
+       "evacuate",
+       "devastate"
+      ],
+      "answer": 2,
+      "word": "evacuate",
+      "kind": "context"
      },
      {
       "id": "U5-VG-007",
@@ -2660,29 +3321,29 @@ var U5W = {
       "kind": "context"
      },
      {
-      "id": "U5-VO-003",
+      "id": "U5-VG-002",
       "tag": "u5-words-a",
-      "level": "C1",
-      "why": "Inundate (2nd meaning) = give someone more than they can deal with: swamped with calls.",
-      "hint": "Is the hotline about water here, or about the number of calls?",
+      "level": "B2",
+      "why": "Submerged = completely under water; only the roofs were above the surface.",
+      "hint": "If only the roofs could be seen, where was the rest?",
       "fb": [
-       "Helped does not fit 'with calls for help'.",
-       "Ignored = not answered; inundated is about the number of calls.",
-       "Blocked = closed; the line was too busy, not closed.",
-       "Correct: inundated with calls = receiving far too many calls."
+       "Resilient = able to recover; it describes people or systems.",
+       "Displaced is used for people forced from their homes.",
+       "Prolonged = lasting a long time.",
+       "Correct: submerged = under water."
       ],
-      "lesson": 6,
+      "lesson": 1,
       "type": "choose",
-      "stem": "After the storm, the hotline was [inundated] with calls for help. Closest meaning:",
+      "stem": "Only the roofs of the cars were visible; everything else was ____.",
       "options": [
-       "helped",
-       "ignored",
-       "blocked",
-       "swamped"
+       "resilient",
+       "displaced",
+       "prolonged",
+       "submerged"
       ],
       "answer": 3,
-      "word": "inundated",
-      "kind": "meaning"
+      "word": "submerged",
+      "kind": "context"
      },
      {
       "id": "U5-VG-008",
@@ -2738,645 +3399,6 @@ var U5W = {
    }
   },
   {
-   "id": "u5w2",
-   "n": 2,
-   "name": "Word family and collocation",
-   "cefr": "B2",
-   "blurb": "The noun, the verb, the adjective — and the words that sit next to each one.",
-   "subs": [
-    {
-     "id": "u5w2s1",
-     "name": "Words 1–5 in their families",
-     "cefr": "B2",
-     "theory": {
-      "key": "Words: evacuate, submerged, inundate, displaced, aftermath.",
-      "body": [
-       "Every word has relatives: the noun, the verb, the adjective, the adverb. Learn the family together with the two or three words that usually sit next to it (<em>a devastating flood</em>, <em>mitigate the damage</em>). The questions test the right form in the right slot."
-      ],
-      "simple": [
-       "Say it. Give the meaning in a few words. Use it in one sentence."
-      ],
-      "examples": [
-       {
-        "s": "<b>evacuate</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>submerged</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>inundate</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>displaced</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>aftermath</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       }
-      ]
-     },
-     "items": [
-      {
-       "id": "U5-BKA-02",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "Displaced = forced to leave home.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Not this one. Displaced = forced to leave home.",
-        "Close, but not quite. Displaced = forced to leave home.",
-        "Correct: Displaced = forced to leave home.",
-        "Not this one. Displaced = forced to leave home."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Same: [Displaced] residents are sleeping in the school hall.",
-       "options": [
-        "Tired",
-        "Injured",
-        "Homeless",
-        "Elderly"
-       ],
-       "answer": 2,
-       "word": "displaced"
-      },
-      {
-       "id": "U5-BKA-18",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "Devastate = destroy; affected is too weak.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Correct: Devastate = destroy; affected is too weak.",
-        "Close, but not quite. Devastate = destroy; affected is too weak.",
-        "Not this one. Devastate = destroy; affected is too weak.",
-        "Not this one. Devastate = destroy; affected is too weak."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Same: The flood [devastated] the farmers' rice crop.",
-       "options": [
-        "destroyed",
-        "affected",
-        "watered",
-        "harvested"
-       ],
-       "answer": 0,
-       "word": "devastated"
-      },
-      {
-       "id": "U5-BKA-41",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "Evacuate a place = clear it of people.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Not this one. Evacuate a place = clear it of people.",
-        "Correct: Evacuate a place = clear it of people.",
-        "Close, but not quite. Evacuate a place = clear it of people.",
-        "Not this one. Evacuate a place = clear it of people."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Same: Police [evacuated] the market before the water arrived.",
-       "options": [
-        "visited",
-        "cleared",
-        "guarded",
-        "searched"
-       ],
-       "answer": 1,
-       "word": "evacuated"
-      },
-      {
-       "id": "U5-BKA-47",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "Stranded = stuck, unable to leave.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Close, but not quite. Stranded = stuck, unable to leave.",
-        "Not this one. Stranded = stuck, unable to leave.",
-        "Not this one. Stranded = stuck, unable to leave.",
-        "Correct: Stranded = stuck, unable to leave."
-       ],
-       "lesson": 2,
-       "type": "choose",
-       "stem": "Same: Hundreds of tourists were [stranded] at the airport.",
-       "options": [
-        "delayed",
-        "welcomed",
-        "lost",
-        "stuck"
-       ],
-       "answer": 3,
-       "word": "stranded"
-      },
-      {
-       "id": "U5-BKB-04",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "Extensive = large; opposite minor.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Correct: Extensive = large; opposite minor.",
-        "Close, but not quite. Extensive = large; opposite minor.",
-        "Not this one. Extensive = large; opposite minor.",
-        "Not this one. Extensive = large; opposite minor."
-       ],
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Opposite: The flood damage was [extensive].",
-       "options": [
-        "minor",
-        "serious",
-        "recent",
-        "costly"
-       ],
-       "answer": 0,
-       "word": "extensive"
-      },
-      {
-       "id": "U5-BKB-09",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "Severe = very bad; opposite mild.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Correct: Severe = very bad; opposite mild.",
-        "Close, but not quite. Severe = very bad; opposite mild.",
-        "Not this one. Severe = very bad; opposite mild.",
-        "Not this one. Severe = very bad; opposite mild."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: Last night's storm was [severe].",
-       "options": [
-        "mild",
-        "heavy",
-        "late",
-        "noisy"
-       ],
-       "answer": 0,
-       "word": "severe"
-      }
-     ]
-    },
-    {
-     "id": "u5w2s2",
-     "name": "Words 6–10 in their families",
-     "cefr": "B2",
-     "theory": {
-      "key": "Words: devastate, resilient, mitigate, exacerbate, prolonged.",
-      "body": [
-       "Every word has relatives: the noun, the verb, the adjective, the adverb. Learn the family together with the two or three words that usually sit next to it (<em>a devastating flood</em>, <em>mitigate the damage</em>). The questions test the right form in the right slot."
-      ],
-      "simple": [
-       "Say it. Give the meaning in a few words. Use it in one sentence."
-      ],
-      "examples": [
-       {
-        "s": "<b>devastate</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>resilient</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>mitigate</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>exacerbate</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>prolonged</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       }
-      ]
-     },
-     "items": [
-      {
-       "id": "U5-BKA-34",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "Resilient = strong; opposite fragile.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Close, but not quite. Resilient = strong; opposite fragile.",
-        "Not this one. Resilient = strong; opposite fragile.",
-        "Not this one. Resilient = strong; opposite fragile.",
-        "Correct: Resilient = strong; opposite fragile."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: These old wooden houses are surprisingly [resilient].",
-       "options": [
-        "tough",
-        "crowded",
-        "modern",
-        "fragile"
-       ],
-       "answer": 3,
-       "word": "resilient"
-      },
-      {
-       "id": "U5-BKB-08",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "Mitigate = make less harmful.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Close, but not quite. Mitigate = make less harmful.",
-        "Correct: Mitigate = make less harmful.",
-        "Not this one. Mitigate = make less harmful.",
-        "Not this one. Mitigate = make less harmful."
-       ],
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Same: Planting trees can [mitigate] landslide risks.",
-       "options": [
-        "predict",
-        "reduce",
-        "create",
-        "measure"
-       ],
-       "answer": 1,
-       "word": "mitigate"
-      },
-      {
-       "id": "U5-BKB-26",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "Prolonged = lasting a long time.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Not this one. Prolonged = lasting a long time.",
-        "Correct: Prolonged = lasting a long time.",
-        "Not this one. Prolonged = lasting a long time.",
-        "Close, but not quite. Prolonged = lasting a long time."
-       ],
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Same: The [prolonged] rain flooded the rice fields.",
-       "options": [
-        "sudden",
-        "long-lasting",
-        "light",
-        "heavy"
-       ],
-       "answer": 1,
-       "word": "prolonged"
-      },
-      {
-       "id": "U5-BKB-32",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "Resilient = able to recover; tough.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Close, but not quite. Resilient = able to recover; tough.",
-        "Not this one. Resilient = able to recover; tough.",
-        "Not this one. Resilient = able to recover; tough.",
-        "Correct: Resilient = able to recover; tough."
-       ],
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Same: The community proved [resilient] after the floods.",
-       "options": [
-        "patient",
-        "wealthy",
-        "angry",
-        "strong"
-       ],
-       "answer": 3,
-       "word": "resilient"
-      }
-     ]
-    },
-    {
-     "id": "u5w2s3",
-     "name": "Words 11–15 in their families",
-     "cefr": "B2",
-     "theory": {
-      "key": "Words: unprecedented, discharge, relief, subside, trying times.",
-      "body": [
-       "Every word has relatives: the noun, the verb, the adjective, the adverb. Learn the family together with the two or three words that usually sit next to it (<em>a devastating flood</em>, <em>mitigate the damage</em>). The questions test the right form in the right slot."
-      ],
-      "simple": [
-       "Say it. Give the meaning in a few words. Use it in one sentence."
-      ],
-      "examples": [
-       {
-        "s": "<b>unprecedented</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>discharge</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>relief</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>subside</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       },
-       {
-        "s": "<b>trying times</b>",
-        "g": "see the vocabulary journal and the keyword slides for this word."
-       }
-      ]
-     },
-     "items": [
-      {
-       "id": "U5-BKA-14",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "Trying times = hard times; opposite good times.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Not this one. Trying times = hard times; opposite good times.",
-        "Close, but not quite. Trying times = hard times; opposite good times.",
-        "Not this one. Trying times = hard times; opposite good times.",
-        "Correct: Trying times = hard times; opposite good times."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: Thank you for helping us in these [trying times].",
-       "options": [
-        "old times",
-        "hard times",
-        "busy times",
-        "good times"
-       ],
-       "answer": 3,
-       "word": "trying times"
-      },
-      {
-       "id": "U5-BKA-36",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "Relief ends worry; opposite anxiety.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Correct: Relief ends worry; opposite anxiety.",
-        "Close, but not quite. Relief ends worry; opposite anxiety.",
-        "Not this one. Relief ends worry; opposite anxiety.",
-        "Not this one. Relief ends worry; opposite anxiety."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Opposite: We felt huge [relief] when Dad got home safely.",
-       "options": [
-        "anxiety",
-        "joy",
-        "pride",
-        "anger"
-       ],
-       "answer": 0,
-       "word": "relief"
-      },
-      {
-       "id": "U5-BKB-19",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "Relief = aid for victims.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Close, but not quite. Relief = aid for victims.",
-        "Not this one. Relief = aid for victims.",
-        "Correct: Relief = aid for victims.",
-        "Not this one. Relief = aid for victims."
-       ],
-       "lesson": 6,
-       "type": "choose",
-       "stem": "Same: The army sent [relief] to the cut-off villages.",
-       "options": [
-        "troops",
-        "reporters",
-        "aid",
-        "tourists"
-       ],
-       "answer": 2,
-       "word": "relief"
-      },
-      {
-       "id": "U5-BKB-22",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "Trying times = a difficult period.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Close, but not quite. Trying times = a difficult period.",
-        "Not this one. Trying times = a difficult period.",
-        "Correct: Trying times = a difficult period.",
-        "Not this one. Trying times = a difficult period."
-       ],
-       "lesson": 4,
-       "type": "choose",
-       "stem": "Same: Everyone helped each other in those [trying times].",
-       "options": [
-        "busy days",
-        "happy times",
-        "hard times",
-        "holidays"
-       ],
-       "answer": 2,
-       "word": "trying times"
-      },
-      {
-       "id": "U5-BKB-50",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "Subside = go down; recede.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Not this one. Subside = go down; recede.",
-        "Not this one. Subside = go down; recede.",
-        "Close, but not quite. Subside = go down; recede.",
-        "Correct: Subside = go down; recede."
-       ],
-       "lesson": 4,
-       "type": "choose",
-       "stem": "Same: The water began to [subside] after midnight.",
-       "options": [
-        "freeze",
-        "rise",
-        "spread",
-        "recede"
-       ],
-       "answer": 3,
-       "word": "subside"
-      }
-     ]
-    }
-   ],
-   "check": {
-    "id": "u5w2ck",
-    "name": "Level check · Family and collocation",
-    "items": [
-     {
-      "id": "U5-VO-004",
-      "tag": "u5-words-a",
-      "level": "B2",
-      "why": "Displaced = forced to leave your home because of danger; 'homeless' is the closest choice.",
-      "hint": "Why would a family live in a tent at a temple?",
-      "fb": [
-       "Injured = hurt in the body.",
-       "Grateful = thankful.",
-       "Wealthy = rich.",
-       "Correct: displaced = forced to leave home; 'homeless' is the closest option given."
-      ],
-      "lesson": 1,
-      "type": "choose",
-      "stem": "[Displaced] families are living in tents at the temple. Closest meaning:",
-      "options": [
-       "injured",
-       "grateful",
-       "wealthy",
-       "homeless"
-      ],
-      "answer": 3,
-      "word": "displaced",
-      "kind": "meaning"
-     },
-     {
-      "id": "U5-VG-009",
-      "tag": "u5-words-b",
-      "level": "C1",
-      "why": "Exacerbate = make a bad situation worse. Rubbish blocks canals, so the flooding gets worse.",
-      "hint": "'Will only…' suggests a bad result.",
-      "fb": [
-       "Subside has no object.",
-       "Mitigate = make less serious; rubbish does the opposite.",
-       "Evacuate = move people away from danger.",
-       "Correct: exacerbate = make a problem worse."
-      ],
-      "lesson": 3,
-      "type": "choose",
-      "stem": "Throwing rubbish into the canals will only ____ the flooding problem.",
-      "options": [
-       "subside",
-       "mitigate",
-       "evacuate",
-       "exacerbate"
-      ],
-      "answer": 3,
-      "word": "exacerbate",
-      "kind": "context"
-     },
-     {
-      "id": "U5-VG-013",
-      "tag": "u5-words-c",
-      "level": "B1",
-      "why": "Relief (2) = the happy feeling when something bad ends. A 'sense of relief' is a common collocation.",
-      "hint": "What do you feel when a worry ends?",
-      "fb": [
-       "Correct: relief (2nd meaning) = the good feeling when worry ends.",
-       "Discharge is water let out of a dam.",
-       "Aftermath is a period of time, not a feeling.",
-       "Trying times = a difficult period, not a feeling."
-      ],
-      "lesson": 6,
-      "type": "choose",
-      "stem": "When the water finally went down, everyone felt a great sense of ____.",
-      "options": [
-       "relief",
-       "discharge",
-       "aftermath",
-       "trying times"
-      ],
-      "answer": 0,
-      "word": "relief",
-      "kind": "context"
-     },
-     {
-      "id": "U5-VO-005",
-      "tag": "u5-words-a",
-      "level": "C1",
-      "why": "In the aftermath of = in the period after (a disaster); 'in the wake of' means the same.",
-      "hint": "After- tells you when.",
-      "fb": [
-       "Correct: in the aftermath of = in the wake of = in the period after.",
-       "Cause = what made it happen.",
-       "Middle = during, not after.",
-       "Beginning = start, not after."
-      ],
-      "lesson": 1,
-      "type": "choose",
-      "stem": "In the [aftermath] of the floods, many shops stayed closed. Closest meaning:",
-      "options": [
-       "wake",
-       "cause",
-       "middle",
-       "beginning"
-      ],
-      "answer": 0,
-      "word": "aftermath",
-      "kind": "meaning"
-     },
-     {
-      "id": "U5-VG-010",
-      "tag": "u5-words-b",
-      "level": "B2",
-      "why": "Prolonged = lasting a long time; after a long period of rain the soil was full.",
-      "hint": "Why could the soil hold no more water?",
-      "fb": [
-       "Resilient = able to recover.",
-       "Displaced is used for people.",
-       "Correct: a prolonged period = a long one.",
-       "A period of time cannot be under water."
-      ],
-      "lesson": 3,
-      "type": "choose",
-      "stem": "After a ____ period of heavy rain, the soil could not hold any more water.",
-      "options": [
-       "resilient",
-       "displaced",
-       "prolonged",
-       "submerged"
-      ],
-      "answer": 2,
-      "word": "prolonged",
-      "kind": "context"
-     },
-     {
-      "id": "U5-VG-014",
-      "tag": "u5-words-c",
-      "level": "B1",
-      "why": "Subside = go down; it has no object, so 'began to subside' is complete.",
-      "hint": "When is it safe to leave the shelter?",
-      "fb": [
-       "Correct: subside = go down.",
-       "Inundate needs an object, and it means flood.",
-       "People evacuate; water does not.",
-       "Devastate needs an object and means destroy."
-      ],
-      "lesson": 4,
-      "type": "choose",
-      "stem": "Residents were told to stay in the shelter until the floodwater began to ____.",
-      "options": [
-       "subside",
-       "inundate",
-       "evacuate",
-       "devastate"
-      ],
-      "answer": 0,
-      "word": "subside",
-      "kind": "context"
-     }
-    ]
-   }
-  },
-  {
    "id": "u5w3",
    "n": 3,
    "name": "Words in the passive",
@@ -3420,148 +3442,129 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-BKA-06",
+       "id": "U5-VG-018",
        "tag": "u5-words-a",
        "level": "C1",
-       "why": "Exacerbate = make worse; opposite ease.",
-       "hint": "Which word means the opposite of the word in brackets?",
+       "why": "Inundate (2nd meaning): be inundated with requests, calls or claims = receive more than you can deal with.",
+       "hint": "Look at 'with claims'. Is this about water, or about a very large number?",
        "fb": [
-        "Not this one. Exacerbate = make worse; opposite ease.",
-        "Correct: Exacerbate = make worse; opposite ease.",
-        "Not this one. Exacerbate = make worse; opposite ease.",
-        "Close, but not quite. Exacerbate = make worse; opposite ease."
+        "Mitigate takes a problem as object.",
+        "Displaced is used for people forced from home.",
+        "Correct: be inundated with = receive far too many.",
+        "An office is evacuated of people, not 'with claims'."
        ],
-       "lesson": 1,
+       "lesson": 6,
        "type": "choose",
-       "stem": "Opposite: Rubbish in the canals [exacerbated] the flooding.",
+       "stem": "After the floods, the city's insurance office was ____ with claims from shop owners.",
        "options": [
-        "followed",
-        "eased",
-        "caused",
-        "worsened"
+        "mitigated",
+        "displaced",
+        "inundated",
+        "evacuated"
        ],
-       "answer": 1,
-       "word": "exacerbated"
+       "answer": 2,
+       "word": "inundate",
+       "kind": "context"
       },
       {
-       "id": "U5-BKA-17",
+       "id": "U5-VG-003",
        "tag": "u5-words-a",
-       "level": "C1",
-       "why": "Inundated with = given too many.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "level": "B2",
+       "why": "Inundate (1st meaning) = cover an area with a large amount of water.",
+       "hint": "What can heavy rain do to low-lying areas?",
        "fb": [
-        "Not this one. Inundated with = given too many.",
-        "Correct: Inundated with = given too many.",
-        "Not this one. Inundated with = given too many.",
-        "Close, but not quite. Inundated with = given too many."
+        "Subside has no object and means 'go down'.",
+        "Mitigate = make less harmful; rain does the opposite.",
+        "Correct: inundate = flood an area with water.",
+        "Rain cannot evacuate anyone; officials evacuate people."
        ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Same: The district office was [inundated] with requests for sandbags.",
+       "stem": "Heavy rain is expected to ____ low-lying areas of the city this weekend.",
        "options": [
-        "pleased",
-        "swamped",
-        "surprised",
-        "blocked"
+        "subside",
+        "mitigate",
+        "inundate",
+        "evacuate"
        ],
-       "answer": 1,
-       "word": "inundated"
+       "answer": 2,
+       "word": "inundate",
+       "kind": "context"
       },
       {
-       "id": "U5-BKA-20",
+       "id": "U5-VG-004",
        "tag": "u5-words-a",
-       "level": "C1",
-       "why": "In the aftermath of = in the wake of.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "level": "B2",
+       "why": "Displaced = forced to leave home; these families need temporary homes.",
+       "hint": "Who needs temporary homes?",
        "fb": [
-        "Close, but not quite. In the aftermath of = in the wake of.",
-        "Not this one. In the aftermath of = in the wake of.",
-        "Not this one. In the aftermath of = in the wake of.",
-        "Correct: In the aftermath of = in the wake of."
+        "Correct: displaced families = families forced to leave their homes.",
+        "Prolonged describes events that last a long time.",
+        "Places are submerged, not families.",
+        "Unprecedented describes events, not people."
        ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Same: In the [aftermath] of the storm, prices went up.",
+       "stem": "The government is building temporary homes for ____ families.",
        "options": [
-        "path",
-        "middle",
-        "centre",
-        "wake"
-       ],
-       "answer": 3,
-       "word": "aftermath"
-      },
-      {
-       "id": "U5-BKA-37",
-       "tag": "u5-words-a",
-       "level": "C1",
-       "why": "Deluge = very heavy rain or flood.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
-       "fb": [
-        "Correct: Deluge = very heavy rain or flood.",
-        "Not this one. Deluge = very heavy rain or flood.",
-        "Close, but not quite. Deluge = very heavy rain or flood.",
-        "Not this one. Deluge = very heavy rain or flood."
-       ],
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Same: The [deluge] lasted for almost two days.",
-       "options": [
-        "downpour",
-        "blackout",
-        "drizzle",
-        "heatwave"
+        "displaced",
+        "prolonged",
+        "submerged",
+        "unprecedented"
        ],
        "answer": 0,
-       "word": "deluge"
+       "word": "displaced",
+       "kind": "context"
       },
       {
-       "id": "U5-BKA-49",
+       "id": "U5-VG-005",
        "tag": "u5-words-a",
-       "level": "C1",
-       "why": "Submerged = under water.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "level": "B2",
+       "why": "In the aftermath of + disaster = in the period after it, dealing with its effects.",
+       "hint": "When does cleaning the streets happen?",
        "fb": [
-        "Close, but not quite. Submerged = under water.",
-        "Not this one. Submerged = under water.",
-        "Not this one. Submerged = under water.",
-        "Correct: Submerged = under water."
+        "We do not say 'in the relief of the storm'.",
+        "An outbreak is the sudden start of a disease or war.",
+        "Discharge is water let out of a dam.",
+        "Correct: in the aftermath of = in the period after."
        ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Same: Many cars were [submerged] in the car park.",
+       "stem": "In the ____ of the storm, volunteers cleaned the streets for weeks.",
        "options": [
-        "damaged",
-        "abandoned",
-        "unsafe",
-        "underwater"
+        "relief",
+        "outbreak",
+        "discharge",
+        "aftermath"
        ],
        "answer": 3,
-       "word": "submerged"
+       "word": "aftermath",
+       "kind": "context"
       },
       {
-       "id": "U5-BKB-01",
+       "id": "U5-VG-016",
        "tag": "u5-words-a",
-       "level": "C1",
-       "why": "Submerged = under water; opposite exposed.",
-       "hint": "Which word means the opposite of the word in brackets?",
+       "level": "B1",
+       "why": "Evacuate a place = make everyone leave it quickly for safety.",
+       "hint": "What do teachers do with a classroom when an alarm rings?",
        "fb": [
-        "Correct: Submerged = under water; opposite exposed.",
-        "Close, but not quite. Submerged = under water; opposite exposed.",
-        "Not this one. Submerged = under water; opposite exposed.",
-        "Not this one. Submerged = under water; opposite exposed."
+        "Mitigate takes a problem as object, not a room.",
+        "Inundate = flood; teachers do not flood classrooms.",
+        "Correct: evacuate a building = get everyone out quickly.",
+        "Devastate = destroy."
        ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Opposite: At high tide, the rocks are [submerged].",
+       "stem": "When the alarm rang, teachers had to ____ every classroom in less than five minutes.",
        "options": [
-        "exposed",
-        "underwater",
-        "broken",
-        "slippery"
+        "mitigate",
+        "inundate",
+        "evacuate",
+        "devastate"
        ],
-       "answer": 0,
-       "word": "submerged"
+       "answer": 2,
+       "word": "evacuate",
+       "kind": "context"
       }
      ]
     },
@@ -3600,7 +3603,133 @@ var U5W = {
        }
       ]
      },
-     "items": []
+     "items": [
+      {
+       "id": "U5-VG-009",
+       "tag": "u5-words-b",
+       "level": "C1",
+       "why": "Exacerbate = make a bad situation worse. Rubbish blocks canals, so the flooding gets worse.",
+       "hint": "'Will only…' suggests a bad result.",
+       "fb": [
+        "Subside has no object.",
+        "Mitigate = make less serious; rubbish does the opposite.",
+        "Evacuate = move people away from danger.",
+        "Correct: exacerbate = make a problem worse."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "Throwing rubbish into the canals will only ____ the flooding problem.",
+       "options": [
+        "subside",
+        "mitigate",
+        "evacuate",
+        "exacerbate"
+       ],
+       "answer": 3,
+       "word": "exacerbate",
+       "kind": "context"
+      },
+      {
+       "id": "U5-VG-023",
+       "tag": "u5-words-b",
+       "level": "C1",
+       "why": "Mitigate = make something bad less serious; floating gardens protect food supplies.",
+       "hint": "Do the researchers want to make the effect bigger or smaller?",
+       "fb": [
+        "Correct: mitigate the effect = make it less harmful.",
+        "Inundate = flood.",
+        "Discharge = let water out.",
+        "Exacerbate = make worse; researchers want the opposite."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "Researchers are testing floating gardens to ____ the effect of floods on village food supplies.",
+       "options": [
+        "mitigate",
+        "inundate",
+        "discharge",
+        "exacerbate"
+       ],
+       "answer": 0,
+       "word": "mitigate",
+       "kind": "context"
+      },
+      {
+       "id": "U5-VG-024",
+       "tag": "u5-words-b",
+       "level": "C1",
+       "why": "Exacerbate = make a problem worse; losing wetlands increases the flood risk.",
+       "hint": "Wetlands soak up water. What happens if houses replace them?",
+       "fb": [
+        "Mitigate = reduce; building on wetlands increases the risk.",
+        "Evacuate takes people or places as object.",
+        "Discharge is used for liquids, not risks.",
+        "Correct: exacerbate a risk = make it worse."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "Building houses on the wetlands will ____ the risk of flooding downstream.",
+       "options": [
+        "mitigate",
+        "evacuate",
+        "discharge",
+        "exacerbate"
+       ],
+       "answer": 3,
+       "word": "exacerbate",
+       "kind": "context"
+      },
+      {
+       "id": "U5-VG-025",
+       "tag": "u5-words-b",
+       "level": "C1",
+       "why": "Prolonged = lasting a long time; 'prolonged exposure' is a common collocation.",
+       "hint": "What kind of exposure causes skin problems: short or long?",
+       "fb": [
+        "Resilient describes people or systems that recover.",
+        "Displaced describes people forced from home.",
+        "Correct: prolonged exposure = exposure that lasts a long time.",
+        "Exposure cannot be under water."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "The doctor warned that ____ exposure to dirty floodwater can cause serious skin problems.",
+       "options": [
+        "resilient",
+        "displaced",
+        "prolonged",
+        "submerged"
+       ],
+       "answer": 2,
+       "word": "prolonged",
+       "kind": "context"
+      },
+      {
+       "id": "U5-VG-010",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "Prolonged = lasting a long time; after a long period of rain the soil was full.",
+       "hint": "Why could the soil hold no more water?",
+       "fb": [
+        "Resilient = able to recover.",
+        "Displaced is used for people.",
+        "Correct: a prolonged period = a long one.",
+        "A period of time cannot be under water."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "After a ____ period of heavy rain, the soil could not hold any more water.",
+       "options": [
+        "resilient",
+        "displaced",
+        "prolonged",
+        "submerged"
+       ],
+       "answer": 2,
+       "word": "prolonged",
+       "kind": "context"
+      }
+     ]
     },
     {
      "id": "u5w3s3",
@@ -3639,76 +3768,79 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-BKA-11",
+       "id": "U5-VG-027",
        "tag": "u5-words-c",
        "level": "C1",
-       "why": "Discharge water = let it out.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "why": "Discharge (v) = let a liquid flow out, e.g. discharge water into a canal.",
+       "hint": "What do factories do with dirty water?",
        "fb": [
-        "Not this one. Discharge water = let it out.",
-        "Close, but not quite. Discharge water = let it out.",
-        "Correct: Discharge water = let it out.",
-        "Not this one. Discharge water = let it out."
+        "Mitigate takes a problem as object, not water.",
+        "We do not say 'inundate water into'.",
+        "Correct: discharge water into = let it flow out into.",
+        "Devastate = destroy; you cannot devastate water into a canal."
        ],
-       "lesson": 1,
+       "lesson": 4,
        "type": "choose",
-       "stem": "Same: The dam will [discharge] more water tonight.",
+       "stem": "Factories are not allowed to ____ dirty water into the canal.",
        "options": [
-        "measure",
-        "store",
-        "release",
-        "collect"
+        "mitigate",
+        "inundate",
+        "discharge",
+        "devastate"
        ],
        "answer": 2,
-       "word": "discharge"
+       "word": "discharge",
+       "kind": "context"
       },
       {
-       "id": "U5-BKB-17",
+       "id": "U5-VG-013",
        "tag": "u5-words-c",
-       "level": "C1",
-       "why": "Unprecedented = never happened before; unheard-of.",
-       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "level": "B1",
+       "why": "Relief (2) = the happy feeling when something bad ends. A 'sense of relief' is a common collocation.",
+       "hint": "What do you feel when a worry ends?",
        "fb": [
-        "Not this one. Unprecedented = never happened before; unheard-of.",
-        "Close, but not quite. Unprecedented = never happened before; unheard-of.",
-        "Not this one. Unprecedented = never happened before; unheard-of.",
-        "Correct: Unprecedented = never happened before; unheard-of."
+        "Correct: relief (2nd meaning) = the good feeling when worry ends.",
+        "Discharge is water let out of a dam.",
+        "Aftermath is a period of time, not a feeling.",
+        "Trying times = a difficult period, not a feeling."
+       ],
+       "lesson": 6,
+       "type": "choose",
+       "stem": "When the water finally went down, everyone felt a great sense of ____.",
+       "options": [
+        "relief",
+        "discharge",
+        "aftermath",
+        "trying times"
+       ],
+       "answer": 0,
+       "word": "relief",
+       "kind": "context"
+      },
+      {
+       "id": "U5-VG-014",
+       "tag": "u5-words-c",
+       "level": "B1",
+       "why": "Subside = go down; it has no object, so 'began to subside' is complete.",
+       "hint": "When is it safe to leave the shelter?",
+       "fb": [
+        "Correct: subside = go down.",
+        "Inundate needs an object, and it means flood.",
+        "People evacuate; water does not.",
+        "Devastate needs an object and means destroy."
        ],
        "lesson": 4,
        "type": "choose",
-       "stem": "Same: The river rose to an [unprecedented] height.",
+       "stem": "Residents were told to stay in the shelter until the floodwater began to ____.",
        "options": [
-        "ordinary",
-        "unexpected",
-        "alarming",
-        "unheard-of"
+        "subside",
+        "inundate",
+        "evacuate",
+        "devastate"
        ],
-       "answer": 3,
-       "word": "unprecedented"
-      },
-      {
-       "id": "U5-BKB-34",
-       "tag": "u5-words-c",
-       "level": "C1",
-       "why": "Discharge = let out; retain = keep.",
-       "hint": "Which word means the opposite of the word in brackets?",
-       "fb": [
-        "Not this one. Discharge = let out; retain = keep.",
-        "Not this one. Discharge = let out; retain = keep.",
-        "Close, but not quite. Discharge = let out; retain = keep.",
-        "Correct: Discharge = let out; retain = keep."
-       ],
-       "lesson": 4,
-       "type": "choose",
-       "stem": "Opposite: The dam will [discharge] water this week.",
-       "options": [
-        "purify",
-        "measure",
-        "release",
-        "retain"
-       ],
-       "answer": 3,
-       "word": "discharge"
+       "answer": 0,
+       "word": "subside",
+       "kind": "context"
       },
       {
        "id": "U5-VG-015",
@@ -3734,6 +3866,31 @@ var U5W = {
        "answer": 2,
        "word": "trying times",
        "kind": "context"
+      },
+      {
+       "id": "U5-VG-026",
+       "tag": "u5-words-c",
+       "level": "B2",
+       "why": "Unprecedented = never having happened before; nothing like it had been recorded.",
+       "hint": "Read the reason after 'because'.",
+       "fb": [
+        "Resilient describes people or systems.",
+        "Displaced describes people.",
+        "Prolonged is about how long it lasted, not whether it happened before.",
+        "Correct: unprecedented = never happened before."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "Scientists called the rainfall ____ because nothing like it had been recorded in 100 years.",
+       "options": [
+        "resilient",
+        "displaced",
+        "prolonged",
+        "unprecedented"
+       ],
+       "answer": 3,
+       "word": "unprecedented",
+       "kind": "context"
       }
      ]
     }
@@ -3743,104 +3900,154 @@ var U5W = {
     "name": "Level check · Words in context",
     "items": [
      {
-      "id": "U5-VO-006",
+      "id": "U5-BKA-02",
       "tag": "u5-words-a",
       "level": "B2",
-      "why": "Devastate = cause very great damage; 'destroyed' is closest. 'Affected' is too weak.",
-      "hint": "Devastate is a very strong word.",
+      "why": "Displaced = forced to leave home.",
+      "hint": "Which word could replace the word in brackets without changing the meaning?",
       "fb": [
-       "Visited = went to see.",
-       "Affected is much weaker; devastated means terrible damage.",
-       "Surprised is about a feeling.",
-       "Correct: devastate = damage very badly or destroy."
-      ],
-      "lesson": 3,
-      "type": "choose",
-      "stem": "The storm [devastated] the small fishing village. Closest meaning:",
-      "options": [
-       "visited",
-       "affected",
-       "surprised",
-       "destroyed"
-      ],
-      "answer": 3,
-      "word": "devastated",
-      "kind": "meaning"
-     },
-     {
-      "id": "U5-VO-009",
-      "tag": "u5-words-a",
-      "level": "C1",
-      "why": "Exacerbate = make a problem worse. The drains did not start the flood; they made it worse.",
-      "hint": "The flooding was already happening. What did blocked drains do to it?",
-      "fb": [
-       "Ended = stopped.",
-       "The rain caused the flood; blocked drains made it worse.",
-       "Reduced is the opposite.",
-       "Correct: exacerbate = make a bad situation worse."
-      ],
-      "lesson": 3,
-      "type": "choose",
-      "stem": "Blocked drains [exacerbated] the flooding in our soi. Closest meaning:",
-      "options": [
-       "ended",
-       "caused",
-       "reduced",
-       "worsened"
-      ],
-      "answer": 3,
-      "word": "exacerbated",
-      "kind": "meaning"
-     },
-     {
-      "id": "U5-VG-001",
-      "tag": "u5-words-a",
-      "level": "B2",
-      "why": "Evacuate + people = move them away from danger to a safe place.",
-      "hint": "What do soldiers do with people before a flood arrives?",
-      "fb": [
-       "Mitigate takes a problem as object, not people.",
-       "Inundate = flood. That is what the river did.",
-       "Correct: evacuate people = move them away from danger.",
-       "Devastate = destroy. Soldiers protect people."
+       "Not this one. Displaced = forced to leave home.",
+       "Close, but not quite. Displaced = forced to leave home.",
+       "Correct: Displaced = forced to leave home.",
+       "Not this one. Displaced = forced to leave home."
       ],
       "lesson": 1,
       "type": "choose",
-      "stem": "Soldiers helped ____ the elderly residents before the river burst its banks.",
+      "stem": "Same: [Displaced] residents are sleeping in the school hall.",
       "options": [
-       "mitigate",
-       "inundate",
-       "evacuate",
-       "devastate"
+       "Tired",
+       "Injured",
+       "Homeless",
+       "Elderly"
       ],
       "answer": 2,
-      "word": "evacuate",
-      "kind": "context"
+      "word": "displaced",
+      "kind": "meaning"
      },
      {
-      "id": "U5-VG-002",
-      "tag": "u5-words-a",
-      "level": "B2",
-      "why": "Submerged = completely under water; only the roofs were above the surface.",
-      "hint": "If only the roofs could be seen, where was the rest?",
+      "id": "U5-BKA-06",
+      "tag": "u5-words-b",
+      "level": "C1",
+      "why": "Exacerbate = make worse; opposite ease.",
+      "hint": "Which word means the opposite of the word in brackets?",
       "fb": [
-       "Resilient = able to recover; it describes people or systems.",
-       "Displaced is used for people forced from their homes.",
-       "Prolonged = lasting a long time.",
-       "Correct: submerged = under water."
+       "Not this one. Exacerbate = make worse; opposite ease.",
+       "Correct: Exacerbate = make worse; opposite ease.",
+       "Not this one. Exacerbate = make worse; opposite ease.",
+       "Close, but not quite. Exacerbate = make worse; opposite ease."
       ],
       "lesson": 1,
       "type": "choose",
-      "stem": "Only the roofs of the cars were visible; everything else was ____.",
+      "stem": "Opposite: Rubbish in the canals [exacerbated] the flooding.",
       "options": [
-       "resilient",
-       "displaced",
-       "prolonged",
-       "submerged"
+       "followed",
+       "eased",
+       "caused",
+       "worsened"
+      ],
+      "answer": 1,
+      "word": "exacerbate",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-BKA-05",
+      "tag": "u5-words-c",
+      "level": "C1",
+      "why": "Unprecedented = never seen; opposite usual.",
+      "hint": "Which word means the opposite of the word in brackets?",
+      "fb": [
+       "Not this one. Unprecedented = never seen; opposite usual.",
+       "Close, but not quite. Unprecedented = never seen; opposite usual.",
+       "Not this one. Unprecedented = never seen; opposite usual.",
+       "Correct: Unprecedented = never seen; opposite usual."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "Opposite: The river reached [unprecedented] levels.",
+      "options": [
+       "shallow",
+       "record",
+       "dangerous",
+       "usual"
       ],
       "answer": 3,
-      "word": "submerged",
-      "kind": "context"
+      "word": "unprecedented",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-BKA-17",
+      "tag": "u5-words-a",
+      "level": "C1",
+      "why": "Inundated with = given too many.",
+      "hint": "Which word could replace the word in brackets without changing the meaning?",
+      "fb": [
+       "Not this one. Inundated with = given too many.",
+       "Correct: Inundated with = given too many.",
+       "Not this one. Inundated with = given too many.",
+       "Close, but not quite. Inundated with = given too many."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "Same: The district office was [inundated] with requests for sandbags.",
+      "options": [
+       "pleased",
+       "swamped",
+       "surprised",
+       "blocked"
+      ],
+      "answer": 1,
+      "word": "inundate",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-BKA-15",
+      "tag": "u5-words-b",
+      "level": "B2",
+      "why": "Prolonged = long-lasting; opposite brief.",
+      "hint": "Which word means the opposite of the word in brackets?",
+      "fb": [
+       "Not this one. Prolonged = long-lasting; opposite brief.",
+       "Close, but not quite. Prolonged = long-lasting; opposite brief.",
+       "Correct: Prolonged = long-lasting; opposite brief.",
+       "Not this one. Prolonged = long-lasting; opposite brief."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "Opposite: The [prolonged] power cut ruined our food.",
+      "options": [
+       "planned",
+       "long",
+       "brief",
+       "noisy"
+      ],
+      "answer": 2,
+      "word": "prolonged",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-BKA-11",
+      "tag": "u5-words-c",
+      "level": "C1",
+      "why": "Discharge water = let it out.",
+      "hint": "Which word could replace the word in brackets without changing the meaning?",
+      "fb": [
+       "Not this one. Discharge water = let it out.",
+       "Close, but not quite. Discharge water = let it out.",
+       "Correct: Discharge water = let it out.",
+       "Not this one. Discharge water = let it out."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "Same: The dam will [discharge] more water tonight.",
+      "options": [
+       "measure",
+       "store",
+       "release",
+       "collect"
+      ],
+      "answer": 2,
+      "word": "discharge",
+      "kind": "meaning"
      }
     ]
    }

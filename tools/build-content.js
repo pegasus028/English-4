@@ -39,6 +39,13 @@ function inApp(it) {
   if (u.indexOf('test') >= 0) return false;
   return u.some(function (x) { return x === 'portal' || x === 'exit' || x === 'spiral'; });
 }
+/* A dialogue written one line per speaker needs a paragraph break per line,
+   because the renderer folds single newlines into spaces. */
+function dialogueBreaks(p) {
+  p = String(p || '');
+  if (/^(Situation:|[A-Z][\w .'-]{0,24}:)/m.test(p) && p.split('\n').length > 1 && p.indexOf('\n\n') < 0) return p.replace(/\n/g, '\n\n');
+  return p;
+}
 function optText(o) { return typeof o === 'string' ? o : (o && o.text) || ''; }
 function optFb(o) { return typeof o === 'string' ? '' : (o && o.feedback) || ''; }
 function wordGroup(plan, word) {
@@ -51,7 +58,7 @@ function wordGroup(plan, word) {
 }
 function tagOf(plan, it) {
   if (it.grammarTag) return it.grammarTag;
-  if (it.type === 'vocab') return wordGroup(plan, it.word) || ('u' + plan.unit + '-words-a');
+  if (it.type === 'vocab') return wordGroup(plan, it.word) || 'untagged';
   return 'untagged';
 }
 
@@ -98,11 +105,12 @@ function convert(plan, it) {
     case 'cloze':
       base.type = 'cloze';
       if (it.passage) {
-        base.passage = it.passage;
-        var m = /___\((\d+)\)___/.exec(it.passage);
-        base.blank = it.blank || (m ? '(' + m[1] + ')' : undefined);
+        base.passage = dialogueBreaks(it.passage);
+        var ms = /\((\d+)\)/.exec(it.stem || ''), m = /___\((\d+)\)___/.exec(it.passage);
+        base.blank = it.blank || (ms ? '(' + ms[1] + ')' : m ? '(' + m[1] + ')' : undefined);
       }
       base.stem = it.stem || 'Choose the word or phrase that best fills the gap.';
+      if (/^Gap \(\d+\)$/.test(base.stem)) base.stem = 'Choose the best option for gap ' + base.stem.slice(4) + '.';
       base.options = opts; base.answer = it.answerIndex; break;
     case 'errorid':
       base.type = 'spot';
@@ -115,9 +123,23 @@ function convert(plan, it) {
       base.stem = it.given ? (it.stem || 'Which sentence is closest in meaning?') : 'Which sentence is closest in meaning?';
       base.options = opts; base.answer = it.answerIndex; break;
     case 'ordering':
-      base.type = 'order';
-      base.stem = it.stem || 'Put the sentences in the best order.';
-      base.items = opts; break;
+      if (it.passage && typeof it.answerIndex === 'number') {   /* TCAS style: sentences A–D in the passage, options are orders */
+        base.type = 'choose'; base.passage = it.passage.replace(/\n/g, '\n\n');
+        base.stem = it.stem || 'Choose the best order.'; base.options = opts; base.answer = it.answerIndex;
+      } else {
+        base.type = 'order';
+        base.stem = it.stem || 'Put the sentences in the best order.';
+        base.items = opts;
+      }
+      break;
+    case 'conversation': {   /* TCAS Section I: the dialogue is in the stem, the gap is ____ */
+      base.type = 'cloze';
+      var lines = String(it.stem || '').split('\n');
+      base.passage = lines.join('\n\n').replace(/____/, '___(1)___');
+      base.blank = '(1)';
+      base.stem = 'Choose the best line for the gap.';
+      base.options = opts; base.answer = it.answerIndex; break;
+    }
     case 'read':
       base.type = 'read'; base.passage = it.passage; base.source = it.source;
       base.stem = it.stem; base.options = opts; base.answer = it.answerIndex; break;
@@ -132,7 +154,14 @@ function convert(plan, it) {
 
 /* ------------------------------------------------------- allocation */
 function build(plan, bank, report) {
-  var all = bank.map(normalise).filter(inApp).map(function (it) { var c = convert(plan, it); c._src = it; return c; });
+  var all = bank.map(normalise).filter(inApp).map(function (it) { var c = convert(plan, it); c._src = it; return c; })
+    .filter(function (c) { return c.tag !== 'untagged'; });
+  /* tags that no module teaches (spiral review, conversation, ordering) stay
+     out of modules, checks, triage and the unit check; sets may still use them */
+  var moduleTags = {};
+  plan.grammar.levels.concat(plan.wordsStage.levels).forEach(function (l) { l.modules.forEach(function (m) { m.tags.forEach(function (t) { moduleTags[t] = 1; }); }); });
+  var byId = {}; all.forEach(function (c) { byId[c.id] = c; });
+  all = all.filter(function (c) { return moduleTags[c.tag]; });
   var used = {};
   function take(pool, n, prefer) {
     var out = [];
@@ -228,6 +257,13 @@ function build(plan, bank, report) {
 
   /* exit tickets and spirals: full item copies, may reuse placed items */
   function pickFor(def, useKey, n, extra) {
+    var setKey = useKey === 'exit' ? 'exitTickets' : 'mondaySpiral';
+    var listed = plan._sets && plan._sets[setKey] && plan._sets[setKey]['L' + def.lesson] && plan._sets[setKey]['L' + def.lesson].items;
+    if (listed) {
+      var got = listed.map(function (id) { return byId[id]; }).filter(Boolean);
+      if (got.length < listed.length) note(useKey + ' ' + def.id + ': ' + (listed.length - got.length) + ' listed id(s) not in the app bank');
+      return got.map(strip);
+    }
     var cand = all.filter(function (it) { return uses(it._src).indexOf(useKey) >= 0 && it._src.lesson === def.lesson; });
     var out = cand.slice(0, n);
     if (out.length < n && extra) {
@@ -285,11 +321,15 @@ function main(args) {
     var unit = bank.length ? bank[0].unit : null;
     if (!unit || !PLANS[unit]) throw new Error('No plan for unit ' + unit + ' in ' + p);
     fs.writeFileSync(path.join(bankDir, 'u' + unit + '.json'), JSON.stringify(bank));
+    var setsPath = p.replace(/U(\d)-item-bank\.json$/i, 'U$1-sets.json');
+    if (setsPath !== p && fs.existsSync(setsPath)) fs.copyFileSync(setsPath, path.join(bankDir, 'u' + unit + '-sets.json'));
   });
   var allMocks = [], allExits = [], allSpirals = [];
   Object.keys(PLANS).sort().forEach(function (u) {
     var bp = path.join(bankDir, 'u' + u + '.json');
     if (!fs.existsSync(bp)) return;
+    var sp = path.join(bankDir, 'u' + u + '-sets.json');
+    PLANS[u]._sets = fs.existsSync(sp) ? readJson(sp) : null;
     var built = build(PLANS[u], readJson(bp), report);
     emitTopic(PLANS[u], built.stages);
     allMocks = allMocks.concat(built.mocks);

@@ -516,16 +516,25 @@
        `more` list in media.js (5a, 5b, 5c). All are listened-to under the
        stage's media record. */
     C.TOPICS.forEach(function (t) {
-      var extra = ((typeof MEDIA !== 'undefined' && MEDIA[t.id] && MEDIA[t.id].more) || []).filter(function (x) { return x.podcast; });
+      var st = (typeof MEDIA !== 'undefined' && MEDIA[t.id]) || {};
+      var more = (st.more || []).filter(function (x) { return x.podcast; });
+      /* The stage's own episode is usually also the first `more` entry (5a):
+         list it once, under its episode title. */
+      var same = more.filter(function (x) { return x.podcast === t.podcast; })[0];
+      var extra = more.filter(function (x) { return x.podcast !== t.podcast; });
       if (!t.podcast && !extra.length) return;
       var md = (p.media || {})[t.id] || {};
-      var eps = (t.podcast ? [{ title: t.name, podcast: t.podcast }] : []).concat(extra);
+      var eps = (t.podcast ? [{ title: same ? same.title : t.name, podcast: t.podcast,
+                                duration: st.duration, transcript: st.transcript }] : []).concat(extra);
       eps.forEach(function (ep) {
         html += '<div class="podrow' + (md.done ? ' done' : '') + '">' +
-          '<h3>' + esc(ep.title) + '</h3>' +
+          '<h3>' + esc(ep.title) + (ep.duration ? ' <span style="color:var(--ink-3);font-weight:400;font-size:.85em">· ' + esc(ep.duration) + '</span>' : '') + '</h3>' +
           '<audio class="pod-a" controls preload="none" data-pod-topic="' + t.id + '" ' +
           'src="' + esc(ep.podcast) + '"></audio>' +
-          '<p class="podrow-miss">This episode has not been recorded yet</p></div>';
+          '<p class="podrow-miss">This episode has not been recorded yet</p>' +
+          (ep.transcript ? '<details class="pod-tx" data-tx="' + esc(ep.transcript) + '"><summary style="cursor:pointer;color:var(--ink-2);font-size:.9rem">Read the transcript</summary>' +
+            '<div class="pod-tx-body" style="margin-top:8px;max-height:320px;overflow-y:auto;font-size:.92rem;color:var(--ink-2)"></div></details>' : '') +
+          '</div>';
       });
     });
     html += '</div>';
@@ -533,6 +542,21 @@
     $('#view-pods').innerHTML = html;
     $('#view-pods').querySelectorAll('audio[data-pod-topic]').forEach(function (a) {
       wirePodAudio(a, a.dataset.podTopic);
+    });
+    /* Transcripts are fetched only when a student opens one. */
+    $('#view-pods').querySelectorAll('details.pod-tx').forEach(function (d) {
+      d.addEventListener('toggle', function () {
+        var body = d.querySelector('.pod-tx-body');
+        if (!d.open || body.dataset.loaded) return;
+        body.dataset.loaded = '1';
+        body.textContent = 'Loading…';
+        fetch(d.dataset.tx).then(function (r) { return r.ok ? r.text() : Promise.reject(); })
+          .then(function (t) {
+            body.innerHTML = t.split(/\n+/).filter(function (l) { return l.trim(); })
+              .map(function (l) { return '<p style="margin:0 0 6px">' + esc(l) + '</p>'; }).join('');
+          })
+          .catch(function () { body.textContent = 'The transcript could not be loaded.'; body.dataset.loaded = ''; });
+      });
     });
   }
 

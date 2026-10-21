@@ -54,6 +54,9 @@ h2 span{
 }
 audio{width:100%;height:40px}
 .missing{font-size:.88rem;color:var(--ink-3)}
+details summary{cursor:pointer;color:var(--accent);font-size:.9rem;font-weight:600}
+.tx{margin-top:8px;max-height:340px;overflow-y:auto;font-size:.92rem;color:var(--ink-2);
+    display:flex;flex-direction:column;gap:6px;padding-right:4px}
 footer{max-width:640px;margin:26px auto 0;padding:0 16px;color:var(--ink-3);font-size:.85rem}
 footer a{color:var(--accent)}
 </style>
@@ -74,7 +77,7 @@ footer a{color:var(--accent)}
   <p>Working on the questions instead? <a href="index.html">Open the study portal</a>.</p>
 </footer>
 
-<script src="media.js?v=2026-10-21a"></script>
+<script src="media.js?v=2026-10-21d"></script>
 <script>
 (function () {
   var list = document.getElementById('list');
@@ -83,8 +86,16 @@ footer a{color:var(--accent)}
   var eps = [];
   Object.keys(MEDIA).forEach(function (sid) {
     var st = MEDIA[sid];
-    if (st && st.podcast) eps.push({ id: sid, title: st.title, podcast: st.podcast });
-    ((st && st.more) || []).forEach(function (x, i) { if (x.podcast) eps.push({ id: sid + '-' + i, title: x.title, podcast: x.podcast }); });
+    var more = (st && st.more) || [];
+    /* The stage's own episode is usually also the first `more` entry (5a);
+       list it once, under its episode title. */
+    var same = more.filter(function (x) { return x.podcast && st && x.podcast === st.podcast; })[0];
+    if (st && st.podcast) eps.push({ id: sid, title: same ? same.title : st.title, podcast: st.podcast,
+                                     duration: st.duration, transcript: st.transcript });
+    more.forEach(function (x, i) {
+      if (x.podcast && x.podcast !== st.podcast) eps.push({ id: sid + '-' + i, title: x.title, podcast: x.podcast,
+                                                            duration: x.duration, transcript: x.transcript });
+    });
   });
   eps.forEach(function (m) {
     var id = m.id;
@@ -92,7 +103,7 @@ footer a{color:var(--accent)}
     var li = document.createElement('li');
     var h = document.createElement('h2');
     var tag = document.createElement('span');
-    tag.textContent = 'EPISODE ' + (n < 10 ? '0' + n : n);
+    tag.textContent = 'EPISODE ' + (n < 10 ? '0' + n : n) + (m.duration ? ' · ' + m.duration : '');
     h.appendChild(tag);
     h.appendChild(document.createTextNode(m.title || id));
     li.appendChild(h);
@@ -102,6 +113,32 @@ footer a{color:var(--accent)}
     a.preload = 'none';
     a.src = m.podcast;
     li.appendChild(a);
+
+    /* The words of the episode, fetched only when opened. */
+    if (m.transcript) {
+      var det = document.createElement('details');
+      var sum = document.createElement('summary');
+      sum.textContent = 'Read the transcript';
+      det.appendChild(sum);
+      var body = document.createElement('div');
+      body.className = 'tx';
+      det.appendChild(body);
+      det.addEventListener('toggle', function () {
+        if (!det.open || body.dataset.loaded) return;
+        body.dataset.loaded = '1';
+        body.textContent = 'Loading…';
+        fetch(m.transcript).then(function (r) { return r.ok ? r.text() : Promise.reject(); })
+          .then(function (t) {
+            body.textContent = '';
+            t.split(/\n+/).forEach(function (line) {
+              if (!line.trim()) return;
+              var p = document.createElement('p'); p.textContent = line; body.appendChild(p);
+            });
+          })
+          .catch(function () { body.textContent = 'The transcript could not be loaded.'; body.dataset.loaded = ''; });
+      });
+      li.appendChild(det);
+    }
 
     /* An episode that has not been uploaded yet says so, rather than showing a
        player that does nothing when a student taps it on a moving bus. */

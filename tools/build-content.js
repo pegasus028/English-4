@@ -55,6 +55,37 @@ function tagOf(plan, it) {
   return 'untagged';
 }
 
+
+/* ------------------------------------------------------- bank adapter
+   Workstream B's Unit 5 bank (21 Oct) uses a few labels the module plan does
+   not know. Map them here rather than editing the bank, so B/D files stay
+   the single source. */
+var TAG_ALIAS = {
+  'reporting-passive': 'impersonal-passive',
+  'stative-adjective': 'stative-lookalike',
+  'elliptical-passive': 'reduced-relative',
+  'get-passive': 'form-tense'
+};
+var VOCAB_KIND_BY_PREFIX = { VO: 'meaning', VG: 'context', VF: 'family' };
+function normalise(it) {
+  if (!it || !it.id) return it;
+  if (TAG_ALIAS[it.grammarTag]) it.grammarTag = TAG_ALIAS[it.grammarTag];
+  if (it.correction && !it.fix) it.fix = it.correction;
+  if (it.type === 'vocab') {
+    if (it.grammarTag === 'vocab') it.grammarTag = null;
+    if (!it.word) {
+      var m = /\[([^\]]+)\]/.exec(it.stem || '');
+      var key = it.options && it.options[it.answerIndex];
+      it.word = (m ? m[1] : optText(key)).toLowerCase().replace(/[^a-z\- ]/g, '').trim();
+    }
+    if (!it.kind) {
+      var pre = /^U\d-([A-Z]+)-/.exec(it.id);
+      if (pre && VOCAB_KIND_BY_PREFIX[pre[1]]) it.kind = VOCAB_KIND_BY_PREFIX[pre[1]];
+    }
+  }
+  return it;
+}
+
 /* Convert one bank item into an engine item. */
 function convert(plan, it) {
   var base = { id: it.id, tag: tagOf(plan, it), level: it.level || 'B2', why: it.why || '', hint: it.hint || '' };
@@ -101,7 +132,7 @@ function convert(plan, it) {
 
 /* ------------------------------------------------------- allocation */
 function build(plan, bank, report) {
-  var all = bank.filter(inApp).map(function (it) { var c = convert(plan, it); c._src = it; return c; });
+  var all = bank.map(normalise).filter(inApp).map(function (it) { var c = convert(plan, it); c._src = it; return c; });
   var used = {};
   function take(pool, n, prefer) {
     var out = [];

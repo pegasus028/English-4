@@ -147,6 +147,25 @@ var REMEDIATION = {
     reteach: 'The student passivises <em>happen</em> and <em>subside</em> because "the subject did not do it on purpose". Purpose is not the test; the object is. Ask: can you <em>subside something</em>? No object, no passive. List the Unit 5 no-passive verbs on the wall and keep adding. Fixed when the student rejects <em>was happened</em> on the object test, not on feel.',
     activities: ['Object test relay: a verb is called, teams shout a sentence with an object or "no object!".', 'Two-way verbs sort: <em>rise / raise, subside / lower, flood / be flooded</em>.']
   },
+  /* ---- Monday spiral and conversation tags (Semester 1 review items; Workstream B bank, 21 Oct) ---- */
+  'conversation': {
+    name: 'Conversations: the function behind the line',
+    principle: 'TCAS Section I asks what a speaker is doing — agreeing, declining, suggesting, checking. Read the line before the gap for the move it needs, then pick the reply with that function and the right register.',
+    reteach: 'Name the function first (offer, refusal, request, suggestion), then the form. Practise with pairs reading the exchange aloud before choosing.',
+    activities: ['Function sort: eight replies into four functions.', 'Register swap: say the same move politely and casually.']
+  },
+  'paragraph-ordering': {
+    name: 'Paragraph ordering: follow the references',
+    principle: 'The first sentence introduces the topic with a full noun phrase; later sentences point back with <em>this, these, such, it</em> and time words. Find the sentence that cannot come first, then chain the references.',
+    reteach: 'Underline every pronoun and time marker, draw the arrow to what it refers to, then order.',
+    activities: ['Reference arrows on four sentences.', 'First-sentence veto: which three cannot open the paragraph?']
+  },
+  'spiral-gerund-infinitive': { name: 'Review: gerund or infinitive after the verb', principle: 'Semester 1 verb patterns: <em>avoid being cut off</em>, <em>expect to be repaired</em>. The verb before the gap decides the form; the meaning decides the voice.', reteach: 'Return to the Semester 1 verb-pattern list; test the verb before the gap first, then voice.', activities: ['Verb-pattern sort with passive forms added.'] },
+  'spiral-participle': { name: 'Review: participle clauses', principle: '<em>Having been warned</em>, <em>Trained on the data</em>: a participle clause shares the subject of the main clause and its voice is chosen by meaning.', reteach: 'Check the subject of the main clause first; V-ing if it does the action, V3 if it receives it.', activities: ['Dangling-participle hunt in six sentences.'] },
+  'spiral-conditional': { name: 'Review: conditionals', principle: 'Mixed and inverted conditionals from Semester 1: <em>Had the drains been cleared, the street would be dry today</em>.', reteach: 'Map time of condition and time of result separately before choosing the forms.', activities: ['Two-clock drill: label each clause past or present.'] },
+  'spiral-comparison': { name: 'Review: comparison and degree', principle: 'Comparatives, <em>as … as</em>, <em>the … the</em>, <em>too / enough</em> from Semester 1.', reteach: 'Identify the two things compared and the degree word before choosing the form.', activities: ['Degree ladder: rank five sentences by strength.'] },
+  'spiral-nominalisation': { name: 'Review: nominalisation', principle: 'Turning verbs and adjectives into nouns to combine ideas: <em>the restriction of dam releases</em>.', reteach: 'Find the verb, find its noun, keep the agent as a possessive or <em>of</em>-phrase.', activities: ['Combine two sentences into one with a nominalised subject.'] },
+  'spiral-inversion': { name: 'Review: inversion after negative adverbials', principle: '<em>Rarely has a city been flooded so fast</em>: negative or limiting adverbial first, then auxiliary before subject.', reteach: 'Find the auxiliary; if there is none, add <em>do / does / did</em>.', activities: ['Flip it: eight sentences to invert and back.'] },
   'two-object': {
     name: 'Two-object verbs: the person usually becomes the subject',
     principle: 'Verbs like <em>give, send, offer, show, tell, promise</em> take two objects, so two passives are possible. News prefers the person as subject: <em>Families were given food parcels</em>. With <em>explain, describe, suggest, say, report</em> the person needs <em>to</em>, so the person cannot be the subject: <em>The rule was explained to residents</em>, not <em>Residents were explained</em>.',

@@ -48,113 +48,148 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-001",
+       "id": "U5-FT-001",
        "tag": "form-tense",
        "level": "B1",
-       "why": "A dated past event; the districts received the declaring, so past simple passive.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "The hall received the action (people used it), and 'last month' is finished time, so we need the past simple passive: was + used.",
+       "hint": "Ask two questions: did the hall do the action or receive it? When did it happen?",
+       "fb": [
+        "'Last month' is finished past time, so 'be' must be past: was used.",
+        "Correct: the hall received the action, and 'last month' needs the past simple: was + used.",
+        "be + V-ing means the hall was doing the using. The hall received the action: was used.",
+        "'Last month' is finished time, so the present perfect does not fit: was used."
+       ],
+       "err": "E5",
        "lesson": 1,
        "type": "cloze",
-       "stem": "All 50 Bangkok districts ____ disaster areas on 26 September.",
+       "stem": "The school hall ____ as a shelter last month.",
        "options": [
-        "were declared",
-        "are declaring",
-        "have declared",
-        "declared"
-       ],
-       "answer": 0
-      },
-      {
-       "id": "U5-SAMPLE-002",
-       "tag": "form-tense",
-       "level": "B1",
-       "why": "Before a past date: past perfect passive, had been + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
-       "type": "cloze",
-       "stem": "Almost 4,900 people ____ to shelters by 27 September.",
-       "options": [
-        "has been evacuated",
-        "had been evacuated",
-        "were evacuating",
-        "evacuated"
+        "is used",
+        "was used",
+        "was using",
+        "has been used"
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-003",
+       "id": "U5-FT-002",
        "tag": "form-tense",
-       "level": "B1+",
-       "why": "In progress now: present continuous passive with being.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
-       "type": "cloze",
-       "stem": "Relief ____ to families in Nonthaburi right now.",
-       "options": [
-        "is still being delivered",
-        "is still delivered",
-        "still delivers",
-        "has still delivered"
+       "level": "B1",
+       "why": "'Every year' needs the present simple. Sandbags cannot place anything, so the passive is needed: are + V3 (placed).",
+       "hint": "'Every year' tells you the tense. Can sandbags do this action themselves?",
+       "fb": [
+        "The sentence has no main verb. Add be: are placed.",
+        "After be, use the past participle (V3), not the base form: are placed.",
+        "Correct: a regular action, plural subject, and the sandbags receive it: are + placed.",
+        "be + V-ing means the sandbags are doing the placing. They receive the action: are placed."
        ],
-       "answer": 0
-      },
-      {
-       "id": "U5-SAMPLE-004",
-       "tag": "form-tense",
-       "level": "B1+",
-       "why": "Since + now = present perfect; the embankments received the expanding.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
+       "err": "E5",
+       "lesson": 1,
        "type": "cloze",
-       "stem": "Since 2011, embankments ____ to protect the capital.",
+       "stem": "Every year, thousands of sandbags ____ along the river in Ayutthaya.",
        "options": [
-        "are expanded",
-        "were expanding",
-        "have been expanded",
-        "had expanded"
+        "placed",
+        "are place",
+        "are placed",
+        "are placing"
        ],
        "answer": 2
       },
       {
-       "id": "U5-SAMPLE-006",
+       "id": "U5-FT-003",
        "tag": "form-tense",
        "level": "B1",
-       "why": "A general fact about a receiver: present simple passive.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "The action is in progress now and the trees receive it, so we need the present continuous passive: are + being + removed.",
+       "hint": "'Look!' and 'right now' tell you the tense. Can trees remove anything?",
+       "fb": [
+        "This says the trees are removing something. They are receiving the action: are being removed.",
+        "Without 'been' this is active: the trees removed something. Trees cannot do that.",
+        "Correct: happening now + receiving the action = present continuous passive: are being + V3.",
+        "'Look!' and 'right now' mean the present, not the past: are being removed."
+       ],
+       "err": "E5",
+       "lesson": 2,
+       "type": "cloze",
+       "stem": "Look! The fallen trees on our soi ____ right now.",
+       "options": [
+        "are removing",
+        "have removed",
+        "are being removed",
+        "were being removed"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "U5-FT-005",
+       "tag": "form-tense",
+       "level": "B1",
+       "why": "The barriers received both actions in 2025, so both verbs are past simple passive: were made and (were) shipped.",
+       "hint": "The second verb is 'shipped'. Did the barriers make anything?",
+       "fb": [
+        "The sentence needs a main verb. Barriers cannot make anything: were made.",
+        "After be, use V3, not the base form: were made.",
+        "Correct: the barriers received the action in the past: were + made (and shipped).",
+        "be + V-ing means the barriers were making something. They were made."
+       ],
+       "err": "E5",
        "lesson": 1,
        "type": "cloze",
-       "stem": "Floodwater ____ out of the city every rainy season.",
+       "stem": "These flood barriers ____ in Japan and shipped to Thailand in 2025.",
        "options": [
-        "pumps",
-        "is pumped",
-        "is pumping",
-        "pumped"
+        "made",
+        "were make",
+        "were made",
+        "were making"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "U5-FT-006",
+       "tag": "form-tense",
+       "level": "B1",
+       "why": "In 1995 is finished past time and the bridge received the action. 'Build' is irregular: build – built – built, so: was built.",
+       "hint": "'Build' is an irregular verb. What is its third form?",
+       "fb": [
+        "A bridge cannot build anything. It needs be + V3: was built.",
+        "Correct: past simple passive with the irregular V3 'built'.",
+        "After was, use the past participle 'built', not the base form.",
+        "'Build' is irregular: build – built – built. There is no 'builded'."
+       ],
+       "err": "E6",
+       "lesson": 1,
+       "type": "cloze",
+       "stem": "The bridge in our village ____ in 1995 and is still strong today.",
+       "options": [
+        "built",
+        "was built",
+        "was build",
+        "was builded"
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-008",
+       "id": "U5-FT-008",
        "tag": "form-tense",
-       "level": "B1+",
-       "why": "A passive needs been: have been affected.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
-       "type": "spot",
-       "stem": "One part of the sentence is wrong.",
-       "words": [
-        "Twenty provinces",
-        "have affected",
-        "by the floods",
-        "since last week."
+       "level": "B1",
+       "why": "'Warnings' is plural and 'yesterday' is past, so we need were. After be we need the past participle of give: given.",
+       "hint": "Check the subject (one or many?) and the third form of 'give'.",
+       "fb": [
+        "'Warnings' is plural, so use were, not was.",
+        "'Gave' is the past simple (V2). After be, use the V3: given.",
+        "Correct: plural subject, past time, passive: were + given.",
+        "be + V-ing means the warnings were giving something. They were given."
        ],
-       "answer": 1,
-       "fix": ""
+       "err": "E7",
+       "lesson": 1,
+       "type": "cloze",
+       "stem": "Flood warnings ____ on the radio every hour yesterday.",
+       "options": [
+        "was given",
+        "were gave",
+        "were given",
+        "were giving"
+       ],
+       "answer": 2
       }
      ]
     },
@@ -190,114 +225,150 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-005",
+       "id": "U5-FT-004",
        "tag": "form-tense",
        "level": "B2",
-       "why": "Past continuous passive, plural subject: were being + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Since Monday' needs the present perfect. The families receive the action, and the subject is plural: have + been + housed.",
+       "hint": "'Since' needs a particular tense. Check the subject: one family or many?",
+       "fb": [
+        "Without 'been' this is active: the families housed someone. Add been: have been housed.",
+        "'Since Monday' joins the past to now, so it needs the present perfect, not the past simple.",
+        "The subject is 'families' (plural), so use have, not has.",
+        "Correct: 'since Monday' needs the present perfect, and families is plural: have been housed."
+       ],
+       "err": "E7",
        "lesson": 2,
        "type": "cloze",
-       "stem": "Upstream, discharges from the dam ____ while the city flooded.",
+       "stem": "Since Monday, more than 300 families ____ in the temple on higher ground.",
        "options": [
-        "was being increased",
-        "were being increased",
-        "have been increased",
-        "increased"
+        "have housed",
+        "were housed",
+        "has been housed",
+        "have been housed"
        ],
-       "answer": 1
+       "answer": 3
       },
       {
-       "id": "U5-SAMPLE-007",
+       "id": "U5-FT-007",
        "tag": "form-tense",
        "level": "B2",
-       "why": "Future perfect passive: completed before a future time.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "The damage happened before a past moment (the rain stopped), so we need the past perfect passive: had + been + damaged.",
+       "hint": "'By the time' + a past verb means 'before that moment in the past'. Which tense shows that?",
+       "fb": [
+        "Without 'been', the stalls damaged something. Add been: had been damaged.",
+        "be + V-ing means the stalls were doing the damage. They received it.",
+        "Correct: before a past moment ('the rain stopped') = past perfect passive: had been + V3.",
+        "'By the time the rain stopped' points to a past moment, so use had, not have."
+       ],
+       "err": "E10",
        "lesson": 2,
        "type": "cloze",
-       "stem": "The road ____ by Monday, the governor promised.",
+       "stem": "By the time the rain stopped, most of the stalls at the market ____.",
        "options": [
-        "will have been reopened",
-        "will reopened",
-        "has been reopening",
-        "is reopened"
+        "had damaged",
+        "were damaging",
+        "had been damaged",
+        "have been damaged"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
-       "id": "U5-SAMPLE-009",
+       "id": "U5-FT-009",
        "tag": "form-tense",
        "level": "B2",
-       "why": "The shelter was opened = someone opened it, one event.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Since 2011' needs the present perfect, the subject is singular, and the tunnel received the action: has + been + repaired.",
+       "hint": "'Since 2011' tells you the tense. Is the subject singular or plural?",
+       "fb": [
+        "Without 'been', the tunnel repaired something. Add been.",
+        "'Since 2011' connects the past to now, so use the present perfect.",
+        "Correct: 'since 2011' + singular subject + passive: has been repaired.",
+        "'The drainage tunnel' is singular, so use has."
+       ],
+       "err": "E7",
        "lesson": 2,
-       "type": "equiv",
-       "given": "Which sentence is closest in meaning?",
-       "stem": "Which sentence is closest in meaning?",
+       "type": "cloze",
+       "stem": "The drainage tunnel ____ twice since 2011, but it still overflows.",
        "options": [
-        "The shelter opened on Friday.",
-        "Someone opened the shelter on Friday.",
-        "The shelter was open on Friday.",
-        "The shelter opens on Fridays."
+        "has repaired",
+        "was repaired",
+        "has been repaired",
+        "have been repaired"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
-       "id": "U5-SAMPLE-011",
+       "id": "U5-FT-014",
        "tag": "form-tense",
        "level": "B2",
-       "why": "A state in the past: was + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'While' + 'were packing' shows two past actions in progress. The level received the action, so: was + being + checked.",
+       "hint": "The other clause says 'were packing'. Which tense matches a background action in the past?",
+       "fb": [
+        "This is active: the water level checked something. It needs a passive.",
+        "This makes the water level the checker. It was being checked by officials.",
+        "'Were packing' is past, so the background action must be past too.",
+        "Correct: an action in progress in the past, received by the water level: was being checked."
+       ],
+       "err": "E5",
+       "lesson": 2,
+       "type": "cloze",
+       "stem": "While the water level ____ every hour, villagers downstream were packing their belongings.",
+       "options": [
+        "had checked",
+        "was checking",
+        "is being checked",
+        "was being checked"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-FT-019",
+       "tag": "form-tense",
+       "level": "B2",
+       "why": "The road has stayed closed from Saturday until now, so we need the present perfect passive of a state: has + been + closed.",
+       "hint": "'Since Saturday' needs a tense that reaches the present.",
+       "fb": [
+        "'Has closed since Saturday' is wrong: a sudden action cannot continue. The state continues: has been closed.",
+        "'Since Saturday' needs the present perfect.",
+        "Correct: a state from Saturday until now, and the road receives the action: has been closed.",
+        "'The road' is singular: has."
+       ],
+       "err": "E7",
        "lesson": 3,
        "type": "cloze",
-       "stem": "By the time rescuers arrived, the ground floor ____.",
+       "stem": "The road to the hospital ____ since Saturday, so patients are taken there by boat.",
        "options": [
-        "was already flooded",
-        "is already flooded",
-        "had already been flooding",
-        "already floods"
+        "has closed",
+        "was closed",
+        "has been closed",
+        "have been closed"
        ],
-       "answer": 0
+       "answer": 2
       },
       {
-       "id": "U5-SAMPLE-012",
-       "tag": "form-tense",
-       "level": "B1+",
-       "why": "V3 is closed, not the base form.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "spot",
-       "stem": "Find the mistake.",
-       "words": [
-        "The bridge",
-        "was close",
-        "for three days",
-        "after the storm."
-       ],
-       "answer": 1,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-168",
+       "id": "U5-TC-A2",
        "tag": "form-tense",
        "level": "B2",
-       "why": "The shelters receive the running: present passive.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 8,
-       "type": "cloze",
-       "stem": "SAMPLE cloze #1 (form-tense): The shelters ____ by volunteers every evening.",
-       "options": [
-        "are run",
-        "run",
-        "are running",
-        "ran by"
+       "why": "Homes cannot leave anything; they were left in a state. Past simple passive: were left without power.",
+       "hint": "Could homes do this action themselves?",
+       "fb": [
+        "This means the homes left something.",
+        "Correct: the homes received the result: were left without power.",
+        "After were, use the past participle: were left.",
+        "This makes the homes the doers."
        ],
-       "answer": 0
+       "err": "E4",
+       "lesson": 6,
+       "type": "cloze",
+       "passage": "The riverside streets of Ban Rim Khlong were among the worst hit last month. Water ___(1)___ from upstream dams reached the city within two days, and many homes ___(2)___ without power for more than a week. Residents ___(3)___ near the canals say the warnings came too late. 'Nobody told us anything until the water was at our door,' said one shop owner. District officials, however, insist that alerts ___(4)___ to every phone in the area by 6 p.m. on the first night. A full review of the response is expected ___(5)___ next month.",
+       "blank": "(1)",
+       "stem": "Gap (2)",
+       "options": [
+        "had left",
+        "were left",
+        "were leave",
+        "were leaving"
+       ],
+       "answer": 1
       }
      ]
     },
@@ -333,114 +404,149 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-013",
+       "id": "U5-AG-001",
        "tag": "agent",
-       "level": "B1+",
-       "why": "Unknown doer: drop the agent.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
-       "type": "cloze",
-       "stem": "Residents ____ at 6 a.m. (Nobody knows who gave the order.)",
-       "options": [
-        "were evacuated by someone",
-        "were evacuated",
-        "were evacuated by people",
-        "were evacuated by them"
+       "level": "B1",
+       "why": "After a passive, 'by' introduces the doer or cause: the floodwater swept the cars away.",
+       "hint": "After a passive verb, which word introduces the thing that did the action?",
+       "fb": [
+        "'At' shows a place or time, not the doer.",
+        "'Of' does not introduce the doer after a passive.",
+        "Correct: 'by' introduces what did the action: submerged by floodwater.",
+        "'For' shows purpose, not what did the action."
        ],
-       "answer": 1
-      },
-      {
-       "id": "U5-SAMPLE-014",
-       "tag": "agent",
-       "level": "B2",
-       "why": "The doer is the news, so by + agent stays.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
+       "err": "E12",
+       "lesson": 1,
        "type": "cloze",
-       "stem": "The leak was first reported ____ a street vendor, not by the authorities.",
+       "stem": "Several cars were swept away ____ the floodwater.",
        "options": [
-        "as",
-        "with",
+        "at",
+        "of",
         "by",
-        "from"
+        "for"
        ],
        "answer": 2
       },
       {
-       "id": "U5-SAMPLE-015",
+       "id": "U5-AG-002",
        "tag": "agent",
        "level": "B2",
-       "why": "A role noun after known takes as.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 3,
+       "why": "After 'seen, regarded, known, described' we use 'as' + the role. 'By' would only introduce the people who do the seeing.",
+       "hint": "Is 'a symbol' the doer, or the role the embankment has?",
+       "fb": [
+        "Correct: 'be seen as' + a role or symbol.",
+        "'By' would introduce a person who sees it. A symbol is a role, so use 'as'.",
+        "'Be seen for' is not used to give a role.",
+        "We say 'be seen as', not 'be seen like'."
+       ],
+       "err": "E12",
+       "lesson": 2,
        "type": "cloze",
-       "stem": "The area is known ____ the capital's floodplain.",
+       "stem": "The old embankment is now seen ____ a symbol of the 2011 floods.",
        "options": [
-        "by",
         "as",
+        "by",
         "for",
         "like"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "U5-AG-003",
+       "tag": "agent",
+       "level": "B1",
+       "why": "Most passives drop the agent. 'By someone' or 'by people' adds nothing, so the natural choice is: The road was repaired yesterday.",
+       "hint": "Does the 'by' phrase tell the reader anything new?",
+       "fb": [
+        "Correct: the repairers are obvious, so the 'by' phrase is dropped.",
+        "This needs 'was', and 'by people' adds nothing.",
+        "'Was' should not be here: Someone repaired the road.",
+        "'By someone' adds no information. Drop it."
+       ],
+       "err": "E11",
+       "lesson": 1,
+       "type": "equiv",
+       "given": "Which sentence is the most natural in a news report?",
+       "stem": "Which sentence is closest in meaning?",
+       "options": [
+        "The road was repaired yesterday.",
+        "The road repaired yesterday by people.",
+        "Someone was repaired the road yesterday.",
+        "The road was repaired by someone yesterday."
+       ],
+       "answer": 0
+      },
+      {
+       "id": "U5-AG-004",
+       "tag": "agent",
+       "level": "B2",
+       "why": "Keep 'by' only when the doer is new or important information. Two school students designing a pump is surprising; the others are obvious.",
+       "hint": "Which doer would surprise a reader?",
+       "fb": [
+        "Only the police arrest people, so 'by the police' adds nothing.",
+        "Correct: the designers are surprising, new information, so 'by' is worth keeping.",
+        "Of course the postman delivered them. The 'by' phrase adds nothing.",
+        "At a hospital, medical staff treat the injured; the 'by' phrase is obvious."
+       ],
+       "lesson": 2,
+       "type": "equiv",
+       "given": "In which sentence is the 'by' phrase most useful?",
+       "stem": "Which sentence is closest in meaning?",
+       "options": [
+        "The thief was arrested by the police last night.",
+        "The new pump was designed by two SW students.",
+        "The letters were delivered by the postman this morning.",
+        "The injured were treated by medical staff at the hospital."
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-016",
+       "id": "U5-AG-005",
        "tag": "agent",
-       "level": "B1+",
-       "why": "A vague agent adds nothing: delete by people.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
-       "type": "spot",
-       "stem": "One part is wrong.",
-       "words": [
-        "Residents",
-        "were asked",
-        "by people",
-        "to stay indoors."
+       "level": "B1",
+       "why": "The photos received the action and the student did it, so: were + taken + by. 'Take' is irregular: take – took – taken.",
+       "hint": "Photos do not take anything. What is the third form of 'take'?",
+       "fb": [
+        "Photos cannot take anything. Add be: were taken by.",
+        "'Took' is V2. The V3 of take is taken.",
+        "Correct: the photos received the action, and the student did it: were taken by.",
+        "be + V-ing is active. Use were taken by."
        ],
-       "answer": 2,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-017",
-       "tag": "agent",
-       "level": "B2",
-       "why": "The by-phrase names the doer.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 2,
-       "type": "equiv",
-       "given": "Which is closest to: \"The figures were released by the Irrigation Department\"?",
-       "stem": "Which sentence is closest in meaning?",
-       "options": [
-        "The department released the figures.",
-        "The figures were about the department.",
-        "Someone released the department's figures.",
-        "The department was released."
-       ],
-       "answer": 0
-      },
-      {
-       "id": "U5-SAMPLE-018",
-       "tag": "agent",
-       "level": "B2",
-       "why": "Doer obvious and unimportant: no agent.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 3,
+       "err": "E6",
+       "lesson": 1,
        "type": "cloze",
-       "stem": "The dam gates ____ to protect the city, not the villages.",
+       "stem": "These photos of the flooded hospital ____ a Grade 11 student.",
        "options": [
-        "were opened",
-        "were opened by engineers",
-        "were opened by them",
-        "opened by engineers"
+        "took by",
+        "were took by",
+        "were taken by",
+        "were taking by"
        ],
-       "answer": 0
+       "answer": 2
+      },
+      {
+       "id": "U5-AG-006",
+       "tag": "agent",
+       "level": "B1",
+       "why": "Volunteers do the action and the shelter receives it: is + run. The verb is irregular: run – ran – run.",
+       "hint": "'Run' is irregular. What is its third form?",
+       "fb": [
+        "'Ran' is V2. Run is irregular: run – ran – run.",
+        "Correct: present simple passive: is + run (V3).",
+        "Without 'been' this is active: the shelter ran something. Use is run.",
+        "This makes the shelter the doer. It is run by volunteers."
+       ],
+       "err": "E6",
+       "lesson": 1,
+       "type": "cloze",
+       "stem": "The shelter at our school ____ by volunteers from the parents' club.",
+       "options": [
+        "is ran",
+        "is run",
+        "has run",
+        "is running"
+       ],
+       "answer": 1
       }
      ]
     }
@@ -450,112 +556,148 @@ var U5G = {
     "name": "Level check · Form, tense and the agent",
     "items": [
      {
-      "id": "U5-SAMPLE-171",
+      "id": "U5-FT-010",
       "tag": "form-tense",
       "level": "C1",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #4 (form-tense): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "why": "The warning was sent before another past event, and it received the action, so the past perfect passive fits: had + been + sent.",
+      "hint": "The canal burst in the past. Which happened first?",
+      "fb": [
+       "Without 'been', the warning sent something. A warning is sent: had been sent.",
+       "The canal burst in the past, so the present perfect cannot describe a time 'hours before' it.",
+       "Correct: sent before another past event (the canal burst) = past perfect passive.",
+       "This is active: the warning was sending something. Use had been sent."
       ],
-      "answer": 0
-     },
-     {
-      "id": "U5-SAMPLE-176",
-      "tag": "active-correct",
-      "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
+      "err": "E10",
+      "lesson": 2,
       "type": "cloze",
-      "stem": "SAMPLE cloze #9 (active-correct): The shelters ____ by volunteers every evening.",
+      "stem": "Reports suggest that the warning ____ hours before the canal burst, but few residents saw it.",
       "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
-      ],
-      "answer": 0
-     },
-     {
-      "id": "U5-SAMPLE-172",
-      "tag": "agent",
-      "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #5 (agent): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
-      ],
-      "answer": 0
-     },
-     {
-      "id": "U5-SAMPLE-010",
-      "tag": "form-tense",
-      "level": "B1",
-      "why": "The canals receive the blocking: present passive.",
-      "hint": "Find the time marker, then choose the form of be.",
-      "err": "E1",
-      "lesson": 1,
-      "type": "cloze",
-      "stem": "Many canals ____ with rubbish, officials admitted.",
-      "options": [
-       "block",
-       "are blocking",
-       "are blocked",
-       "have blocking"
+       "had sent",
+       "has been sent",
+       "had been sent",
+       "had been sending"
       ],
       "answer": 2
      },
      {
-      "id": "U5-SAMPLE-179",
+      "id": "U5-AC-001",
       "tag": "active-correct",
-      "level": "C1",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
+      "level": "B2",
+      "why": "A thing can be a doer. The weather did the action and 'the drainage system' is its object, so the active past simple fits.",
+      "hint": "What comes right after the gap? Did the weather do something, or did something happen to it?",
+      "fb": [
+       "Correct: the weather did the action, and the object (the drainage system) follows.",
+       "The sentence needs a finite verb.",
+       "This is not a complete verb form.",
+       "A passive leaves 'Bangkok's drainage system' with no role. The weather did the action."
+      ],
+      "err": "E3",
+      "lesson": 1,
       "type": "cloze",
-      "stem": "SAMPLE cloze #12 (active-correct): The shelters ____ by volunteers every evening.",
+      "stem": "Extreme weather ____ Bangkok's drainage system last weekend.",
       "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+       "overwhelmed",
+       "overwhelming",
+       "be overwhelmed",
+       "was overwhelmed"
       ],
       "answer": 0
      },
      {
-      "id": "U5-SAMPLE-175",
+      "id": "U5-AG-007",
+      "tag": "agent",
+      "level": "B1",
+      "why": "'Was carried' is passive, and the soldiers did the carrying, so 'by' introduces them.",
+      "hint": "Which word after a passive tells us who did it?",
+      "fb": [
+       "'At' shows place or time, not the doer.",
+       "'Of' cannot introduce the doer of a passive.",
+       "Correct: 'by' introduces the people who did the carrying.",
+       "'For' shows purpose or who benefits, not the doer."
+      ],
+      "err": "E12",
+      "lesson": 1,
+      "type": "cloze",
+      "stem": "The elderly man was carried to safety ____ two soldiers.",
+      "options": [
+       "at",
+       "of",
+       "by",
+       "for"
+      ],
+      "answer": 2
+     },
+     {
+      "id": "U5-FT-011",
+      "tag": "form-tense",
+      "level": "B1",
+      "why": "'Yet' goes with the present perfect, the subject 'the cause' is singular, and someone confirms it: hasn't + been + confirmed.",
+      "hint": "'Yet' goes with one tense. What is the real subject: the cause or the fire?",
+      "fb": [
+       "be + V-ing makes 'the cause' the doer. The cause is confirmed by investigators.",
+       "Without 'been', the cause confirmed something. Add been.",
+       "Correct: 'yet' + singular subject + passive: hasn't been confirmed.",
+       "'The cause' is singular, so use hasn't."
+      ],
+      "err": "E7",
+      "lesson": 1,
+      "type": "cloze",
+      "stem": "The cause of the car fire ____ yet.",
+      "options": [
+       "isn't confirming",
+       "hasn't confirmed",
+       "hasn't been confirmed",
+       "haven't been confirmed"
+      ],
+      "answer": 2
+     },
+     {
+      "id": "U5-AC-002",
+      "tag": "active-correct",
+      "level": "B1",
+      "why": "An object (more than 2,000 homes) follows the gap, so the subject is the doer: active present perfect, singular: has damaged.",
+      "hint": "Is there an object after the gap?",
+      "fb": [
+       "The sentence needs a finite verb.",
+       "Correct: the rain did the damage, and the object '2,000 homes' follows.",
+       "'The heavy rain' is singular: has.",
+       "'Damage' has only one object. A passive would leave '2,000 homes' with no role; the rain did the damage."
+      ],
+      "err": "E7",
+      "lesson": 3,
+      "type": "cloze",
+      "stem": "The heavy rain ____ more than 2,000 homes in the province.",
+      "options": [
+       "damaging",
+       "has damaged",
+       "have damaged",
+       "has been damaged"
+      ],
+      "answer": 1
+     },
+     {
+      "id": "U5-AG-008",
       "tag": "agent",
       "level": "C1",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #8 (agent): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "why": "End focus: the most newsworthy information goes last. A family dog is the surprising rescuer, so the 'by' phrase is worth keeping.",
+      "hint": "Which doer would a reader least expect?",
+      "fb": [
+       "Police rescues are expected, not surprising.",
+       "A neighbour helping is kind but not surprising.",
+       "Correct: a dog is a surprising rescuer, and the passive puts it at the end, where readers notice it.",
+       "Rescue teams save people every day; this doer is expected."
       ],
-      "answer": 0
+      "lesson": 2,
+      "type": "equiv",
+      "given": "Which headline tells the most surprising story?",
+      "stem": "Which sentence is closest in meaning?",
+      "options": [
+       "Boy, 6, saved from canal by police",
+       "Boy, 6, saved from canal by neighbour",
+       "Boy, 6, saved from canal by family dog",
+       "Boy, 6, saved from canal by rescue team"
+      ],
+      "answer": 2
      }
     ]
    }
@@ -599,114 +741,150 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-025",
-       "tag": "modal-passive",
-       "level": "B1+",
-       "why": "Modal + be + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 4,
-       "type": "cloze",
-       "stem": "More ____ to mitigate future flooding, critics say.",
-       "options": [
-        "must do",
-        "must be done",
-        "must done",
-        "must be do"
-       ],
-       "answer": 1
-      },
-      {
-       "id": "U5-SAMPLE-026",
+       "id": "U5-MP-006",
        "tag": "modal-passive",
        "level": "B2",
-       "why": "Past judgement: modal + have been + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 4,
-       "type": "cloze",
-       "stem": "Much of the damage ____ if the canals had been cleared.",
-       "options": [
-        "could be prevented",
-        "could prevent",
-        "could have been prevented",
-        "could have prevented"
+       "why": "A possibility in the past that did not happen = could + have been + V3. The damage receives the action.",
+       "hint": "'Last month' is past. Which modal form looks back at the past?",
+       "fb": [
+        "'Last month's damage' is in the past, so use could have been.",
+        "Without 'been', the damage reduced something.",
+        "After a modal, use have, not had.",
+        "Correct: a past possibility: could have been + V3."
        ],
-       "answer": 2
-      },
-      {
-       "id": "U5-SAMPLE-027",
-       "tag": "modal-passive",
-       "level": "B2",
-       "why": "Modal + be + V3; V3 of raise is raised.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 4,
-       "type": "cloze",
-       "stem": "The embankment ____ before next year's rains.",
-       "options": [
-        "should raise",
-        "should be raised",
-        "should been raised",
-        "should be rose"
-       ],
-       "answer": 1
-      },
-      {
-       "id": "U5-SAMPLE-028",
-       "tag": "modal-passive",
-       "level": "B1+",
-       "why": "should have been warned.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 4,
-       "type": "spot",
-       "stem": "Find the mistake.",
-       "words": [
-        "Residents",
-        "should been warned",
-        "earlier",
-        "by the city."
-       ],
-       "answer": 1,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-029",
-       "tag": "modal-passive",
-       "level": "B2",
-       "why": "should have been = criticism of a past omission.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "err": "E10",
        "lesson": 5,
+       "type": "cloze",
+       "stem": "Do you think last month's damage ____ if the city had planned better?",
+       "options": [
+        "could be reduced",
+        "could have reduced",
+        "could had been reduced",
+        "could have been reduced"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-MP-014",
+       "tag": "modal-passive",
+       "level": "B2",
+       "why": "A deduction about the past = must + have + V3. Someone pumped the water away: must have been pumped.",
+       "hint": "Is this a guess about now or about last night?",
+       "fb": [
+        "'During the night' is past, so the guess needs must have been.",
+        "Without 'been', the water pumped something.",
+        "After must, use have, not had.",
+        "Correct: a confident guess about the past: must have been + V3."
+       ],
+       "err": "E10",
+       "lesson": 6,
+       "type": "cloze",
+       "stem": "The road is dry now, so the water must ____ away during the night.",
+       "options": [
+        "be pumped",
+        "have pumped",
+        "had been pumped",
+        "have been pumped"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-TC-B3",
+       "tag": "modal-passive",
+       "level": "B2",
+       "why": "Nothing follows the verb, and the land receives the action: modal passive could + be + damaged.",
+       "hint": "Nothing follows the gap. Who or what does the action?",
+       "fb": [
+        "The land does not damage anything here; nothing follows.",
+        "Correct: could + be + V3: the land receives the damage.",
+        "This makes the land the doer.",
+        "This means the land damaged something."
+       ],
+       "err": "E10",
+       "lesson": 6,
+       "type": "cloze",
+       "passage": "Every rainy season, millions of cubic metres of water ___(1)___ from the Chao Phraya Dam. Engineers ___(2)___ how much water to let out, and they must balance two risks. If too little water is let out, the land behind the dam could ___(3)___. If too much is let out, villages downstream go under water, a practice ___(4)___ in one news report as 'deluge by design'. Some villages are reported ___(5)___ every year since 2021, and their residents say they are paying the price for keeping the capital dry.",
+       "blank": "(1)",
+       "stem": "Gap (3)",
+       "options": [
+        "damage",
+        "be damaged",
+        "be damaging",
+        "have damaged"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "U5-CM-003",
+       "tag": "modal-passive",
+       "level": "B2",
+       "why": "may have + V3 (active) → may have been + V3 (passive). The modal and the time stay the same.",
+       "hint": "Keep the same modal and the same time.",
+       "fb": [
+        "This is about now or the future, not the past.",
+        "Correct: same modal, same time, passive.",
+        "This reverses who did what.",
+        "'Must' is much more certain than 'may'."
+       ],
+       "err": "E14",
+       "lesson": 4,
        "type": "equiv",
-       "given": "Closest to \"The canals should have been cleared\"?",
+       "given": "The rain may have damaged the crops.",
        "stem": "Which sentence is closest in meaning?",
        "options": [
-        "Someone cleared the canals.",
-        "It was a mistake not to clear the canals.",
-        "The canals must be cleared now.",
-        "The canals were cleared too early."
+        "The crops may be damaged by the rain.",
+        "The crops may have been damaged by the rain.",
+        "The rain may have been damaged by the crops.",
+        "The crops must have been damaged by the rain."
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-031",
+       "id": "U5-BKA-12",
        "tag": "modal-passive",
        "level": "B2",
-       "why": "Past possibility: might have been + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "cloze",
-       "stem": "The patients ____ by ambulance before the water rose.",
-       "options": [
-        "might have been moved",
-        "might be moving",
-        "might moved",
-        "might been moved"
+       "why": "Must (necessary) became might (possible).",
+       "hint": "Compare the two sentences. Which single part changes the meaning?",
+       "fb": [
+        "Not this one. Must (necessary) became might (possible).",
+        "Not this one. Must (necessary) became might (possible).",
+        "Close, but not quite. Must (necessary) became might (possible).",
+        "Correct: Must (necessary) became might (possible)."
        ],
-       "answer": 0
+       "lesson": 4,
+       "type": "equiv",
+       "given": "Changed: 'Engineers must repair the pumps.' → The pumps might be repaired.",
+       "stem": "Which sentence is closest in meaning?",
+       "options": [
+        "The pumps",
+        "be",
+        "repaired",
+        "might"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-BKA-24",
+       "tag": "modal-passive",
+       "level": "B2",
+       "why": "could have been + V3 for past possibility.",
+       "hint": "Look at what comes after the gap. Who or what does the action?",
+       "fb": [
+        "Not this one. could have been + V3 for past possibility.",
+        "Not this one. could have been + V3 for past possibility.",
+        "Close, but not quite. could have been + V3 for past possibility.",
+        "Correct: could have been + V3 for past possibility."
+       ],
+       "lesson": 4,
+       "type": "cloze",
+       "stem": "The flood could have ___ with better planning.",
+       "options": [
+        "be prevented",
+        "being prevented",
+        "prevented",
+        "been prevented"
+       ],
+       "answer": 3
       }
      ]
     },
@@ -742,114 +920,145 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-032",
+       "id": "U5-PI-002",
        "tag": "passive-infinitive",
        "level": "B2",
-       "why": "The roads receive the repairing: to be + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Want + object + to-infinitive'. The drains receive the action, so: to be cleaned.",
+       "hint": "Do the drains clean something? What pattern follows 'want + object'?",
+       "fb": [
+        "'Want + object' is followed by a to-infinitive.",
+        "This would mean the drains clean something. The drains are cleaned.",
+        "'Want + object' needs 'to'.",
+        "Correct: want + object + to be + V3."
+       ],
        "lesson": 4,
        "type": "cloze",
-       "stem": "The roads ____ by November.",
+       "stem": "The governor wants the drains ____ before the next storm.",
        "options": [
-        "are expected to repair",
-        "are expected to be repaired",
-        "expect to be repaired",
-        "are expecting to repair"
+        "cleaning",
+        "to clean",
+        "be cleaned",
+        "to be cleaned"
        ],
-       "answer": 1
+       "answer": 3
       },
       {
-       "id": "U5-SAMPLE-033",
+       "id": "U5-PI-006",
        "tag": "passive-infinitive",
        "level": "B2",
-       "why": "Water receives the releasing after allow + object.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Expect' takes a to-infinitive. The farmers receive the payment, so: to be compensated.",
+       "hint": "Will the farmers pay someone, or will someone pay them?",
+       "fb": [
+        "'Expect' is followed by a to-infinitive.",
+        "'Compensate' needs an object; the farmers receive the money.",
+        "'Expect' is followed by a to-infinitive.",
+        "Correct: expect + to be + V3: the farmers receive payment."
+       ],
        "lesson": 4,
        "type": "cloze",
-       "stem": "The plan allows water ____ slowly into the fields.",
+       "stem": "Many farmers expect ____ for the rice they lost.",
        "options": [
-        "to release",
-        "to be released",
-        "being released",
-        "released"
+        "compensating",
+        "to compensate",
+        "being compensated",
+        "to be compensated"
        ],
-       "answer": 1
+       "answer": 3
       },
       {
-       "id": "U5-SAMPLE-034",
-       "tag": "passive-infinitive",
-       "level": "B2+",
-       "why": "The villagers do the returning: active infinitive.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 4,
-       "type": "cloze",
-       "stem": "Villagers hope ____ home this week.",
-       "options": [
-        "to be returned",
-        "to return",
-        "being returned",
-        "returned"
-       ],
-       "answer": 1
-      },
-      {
-       "id": "U5-SAMPLE-035",
+       "id": "U5-PI-010",
        "tag": "passive-infinitive",
        "level": "B2",
-       "why": "to be closed: a passive infinitive needs be.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Allow + object + to-infinitive'. The messages receive the action: to be sent.",
+       "hint": "What pattern follows 'allow + object'? Do messages send?",
+       "fb": [
+        "'Allow + object' needs 'to'.",
+        "'Allow + object' is followed by a to-infinitive.",
+        "Correct: allow + object + to be + V3.",
+        "Messages do not send anything; they are sent: to be sent."
+       ],
        "lesson": 5,
+       "type": "cloze",
+       "stem": "The new plan allows warning messages ____ to every phone in the district.",
+       "options": [
+        "be sent",
+        "being sent",
+        "to be sent",
+        "to have sent"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "U5-NI-001",
+       "tag": "passive-infinitive",
+       "level": "B2",
+       "why": "After 'the first / the last / the next + noun' we often use a passive infinitive: the first building to be used as a shelter.",
+       "hint": "After 'the first building' comes an infinitive. Check each part of the verb.",
+       "fb": [
+        "After be, use V3: to be used.",
+        "Correct: noun + to be + V3: the first building to be used.",
+        "After 'to', use the base form be: to be used.",
+        "After 'to' here, use be, not being."
+       ],
+       "err": "E4",
+       "lesson": 4,
+       "type": "cloze",
+       "stem": "Our school was the first building in the district ____ as a shelter.",
+       "options": [
+        "to be use",
+        "to be used",
+        "to been used",
+        "to being used"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "U5-NI-003",
+       "tag": "passive-infinitive",
+       "level": "B2",
+       "why": "The next + noun + to be + V3: the next road to be repaired (TCAS 69-74 type: the next foundation to be questioned).",
+       "hint": "Check each part of the verb after 'to'.",
+       "fb": [
+        "After be, use V3: repaired.",
+        "Correct: the next road to be repaired.",
+        "After 'to', use the base form be.",
+        "After 'to' here, use be, not being."
+       ],
+       "err": "E4",
+       "lesson": 4,
+       "type": "cloze",
+       "stem": "The next road ____ will be the one behind the market.",
+       "options": [
+        "to be repair",
+        "to be repaired",
+        "to been repaired",
+        "to being repaired"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "U5-BKA-45",
+       "tag": "passive-infinitive",
+       "level": "B2",
+       "why": "Pumps are replaced: need to be replaced.",
+       "hint": "Which part breaks a grammar rule? Check be + V3 and verbs that have no passive.",
+       "fb": [
+        "Not this one. Pumps are replaced: need to be replaced.",
+        "Close, but not quite. Pumps are replaced: need to be replaced.",
+        "Correct: Pumps are replaced: need to be replaced.",
+        "Not this one. Pumps are replaced: need to be replaced."
+       ],
+       "lesson": 4,
        "type": "spot",
-       "stem": "Find the mistake.",
+       "stem": "Error: The broken pumps need to replace before the next storm.",
        "words": [
-        "The shelter",
-        "is due",
-        "to closed",
-        "on Friday."
+        "The broken pumps",
+        "need",
+        "to replace",
+        "the next storm"
        ],
        "answer": 2,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-036",
-       "tag": "passive-infinitive",
-       "level": "B2+",
-       "why": "Noun + passive infinitive: the province was declared.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "cloze",
-       "stem": "Phuket was the first province ____ a disaster area.",
-       "options": [
-        "to declare",
-        "to be declared",
-        "declared",
-        "being declared"
-       ],
-       "answer": 1
-      },
-      {
-       "id": "U5-SAMPLE-037",
-       "tag": "passive-infinitive",
-       "level": "B2",
-       "why": "likely to be + V3 = probably will be.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "equiv",
-       "given": "Closest to \"The bridge is likely to be reopened on Monday\"?",
-       "stem": "Which sentence is closest in meaning?",
-       "options": [
-        "The bridge will probably reopen on Monday.",
-        "The bridge likes to reopen on Monday.",
-        "The bridge must reopen on Monday.",
-        "The bridge reopened on Monday."
-       ],
-       "answer": 0
+       "fix": "Correct: Pumps are replaced: need to be replaced."
       }
      ]
     },
@@ -885,114 +1094,143 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-038",
+       "id": "U5-PG-001",
        "tag": "passive-gerund",
        "level": "B2",
-       "why": "After a preposition, -ing; passive meaning: being + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "After 'like' we can use a gerund. People receive the order, so passive gerund: being + told.",
+       "hint": "Do people give the order, or receive it?",
+       "fb": [
+        "After 'like', use being told.",
+        "This means telling someone else. Here they receive the order.",
+        "After 'like', use -ing (or to-infinitive), not the base form.",
+        "Correct: like + being + V3."
+       ],
        "lesson": 4,
        "type": "cloze",
-       "stem": "Many residents were angry about ____ without power.",
+       "stem": "Nobody likes ____ to leave their home.",
        "options": [
+        "told",
+        "telling",
+        "be told",
+        "being told"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-PG-002",
+       "tag": "passive-gerund",
+       "level": "B2",
+       "why": "After a preposition we use -ing. The car received the action, so passive gerund: after being left.",
+       "hint": "After a preposition like 'after', which form do we use? Did the car leave?",
+       "fb": [
+        "After a preposition, use the -ing form: being left.",
+        "This means the car left. Someone left the car.",
+        "After a preposition, use being, not been.",
+        "Correct: preposition + being + V3: the car was left."
+       ],
+       "lesson": 4,
+       "type": "cloze",
+       "stem": "The car caught fire after ____ in the floodwater.",
+       "options": [
+        "left",
+        "leaving",
+        "been left",
+        "being left"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-PG-003",
+       "tag": "passive-gerund",
+       "level": "B2",
+       "why": "'Avoid' takes a gerund. The water would cut them off, so passive gerund: avoid being cut off.",
+       "hint": "Which form follows 'avoid'?",
+       "fb": [
+        "After 'avoid', use -ing: being cut off.",
+        "This means the residents cut something off.",
+        "Correct: avoid + being + V3.",
+        "'Avoid' is followed by -ing, not a to-infinitive."
+       ],
+       "lesson": 4,
+       "type": "cloze",
+       "stem": "Residents tried hard to avoid ____ off by the rising water.",
+       "options": [
+        "cut",
+        "cutting",
+        "being cut",
+        "to be cut"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "U5-PG-004",
+       "tag": "passive-gerund",
+       "level": "B2",
+       "why": "After the preposition 'about' we use a gerund. The residents received the action: being left.",
+       "hint": "After 'about' you need -ing. Who did the action?",
+       "fb": [
+        "After a preposition, use being left.",
+        "This means the residents left. They were left without power.",
+        "Correct: about + being + V3.",
+        "After a preposition, use -ing, not to."
+       ],
+       "lesson": 4,
+       "type": "cloze",
+       "stem": "Many residents were angry about ____ without power for a week.",
+       "options": [
+        "left",
         "leaving",
         "being left",
-        "to be left",
-        "left"
+        "to be left"
        ],
-       "answer": 1
+       "answer": 2
       },
       {
-       "id": "U5-SAMPLE-039",
+       "id": "U5-PG-005",
        "tag": "passive-gerund",
-       "level": "B2+",
-       "why": "avoid + -ing; the drivers receive the catching.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "level": "C1",
+       "why": "'Deny' takes a gerund. The telling happened earlier and she received it: having been told.",
+       "hint": "Which form follows 'deny'? Who gave the information?",
+       "fb": [
+        "This means she told someone, but nobody called her: she received no warning.",
+        "Correct: deny + having been + V3 (earlier and passive).",
+        "The perfect passive gerund is having been + V3.",
+        "'Deny' is followed by -ing, not a to-infinitive."
+       ],
+       "err": "E10",
        "lesson": 4,
        "type": "cloze",
-       "stem": "Drivers should avoid ____ in deep water.",
+       "stem": "The village head denied ____ about the dam release in advance; she said nobody had called her.",
        "options": [
-        "to be caught",
-        "being caught",
-        "catching",
-        "be caught"
+        "having told",
+        "having been told",
+        "having being told",
+        "to have been told"
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-040",
-       "tag": "passive-gerund",
-       "level": "B2+",
-       "why": "After + passive gerund.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "cloze",
-       "stem": "After ____, the family moved to a shelter.",
-       "options": [
-        "rescuing",
-        "being rescued",
-        "to be rescued",
-        "rescued"
-       ],
-       "answer": 1
-      },
-      {
-       "id": "U5-SAMPLE-041",
-       "tag": "passive-gerund",
-       "level": "C1",
-       "why": "She was told: remembers being told.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "spot",
-       "stem": "Find the mistake.",
-       "words": [
-        "The vendor remembers",
-        "telling",
-        "to close",
-        "for 15 days."
-       ],
-       "answer": 1,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-042",
+       "id": "U5-PG-006",
        "tag": "passive-gerund",
        "level": "B2",
-       "why": "risk + -ing; the shop receives the flooding.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 5,
+       "why": "'Mind' takes a gerund. Someone asks the volunteers, so passive gerund: being asked.",
+       "hint": "What form follows 'mind'? Who does the asking?",
+       "fb": [
+        "This means the volunteers ask someone.",
+        "After 'mind', use -ing.",
+        "Correct: mind + being + V3.",
+        "'Mind' is followed by -ing."
+       ],
+       "lesson": 4,
        "type": "cloze",
-       "stem": "The shop risked ____ if the water rose again.",
+       "stem": "The volunteers don't mind ____ by the manager to work at night.",
        "options": [
-        "being flooded",
-        "to flood",
-        "flooding",
-        "be flooded"
+        "asking",
+        "be asked",
+        "being asked",
+        "to be asked"
        ],
-       "answer": 0
-      },
-      {
-       "id": "U5-SAMPLE-043",
-       "tag": "passive-gerund",
-       "level": "C1",
-       "why": "being made to = someone forced her.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "equiv",
-       "given": "Closest to \"She resented being made to leave\"?",
-       "stem": "Which sentence is closest in meaning?",
-       "options": [
-        "She was angry that they forced her to leave.",
-        "She wanted to leave.",
-        "She made them leave.",
-        "She left angrily."
-       ],
-       "answer": 0
+       "answer": 2
       }
      ]
     }
@@ -1002,112 +1240,146 @@ var U5G = {
     "name": "Level check · Modals, infinitives and gerunds",
     "items": [
      {
-      "id": "U5-SAMPLE-180",
+      "id": "U5-MP-001",
       "tag": "modal-passive",
-      "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #13 (modal-passive): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "level": "B1",
+      "why": "Modal passive = modal + be + V3. The rubbish receives the action: must be removed.",
+      "hint": "What always follows a modal verb? Can rubbish do this action itself?",
+      "fb": [
+       "After be, use V3: removed.",
+       "Correct: modal + be + V3.",
+       "This is active: the rubbish removed something. Use must be removed.",
+       "After a modal, use the base form be, not being."
       ],
-      "answer": 0
+      "err": "E4",
+      "lesson": 4,
+      "type": "cloze",
+      "stem": "Rubbish in the canals must ____ before the next storm.",
+      "options": [
+       "be remove",
+       "be removed",
+       "have removed",
+       "being removed"
+      ],
+      "answer": 1
      },
      {
-      "id": "U5-SAMPLE-184",
+      "id": "U5-PI-001",
       "tag": "passive-infinitive",
-      "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #17 (passive-infinitive): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "level": "B1",
+      "why": "'Be expected' is followed by a to-infinitive. The roads receive the action, so passive infinitive: to be repaired.",
+      "hint": "Can roads do this action themselves?",
+      "fb": [
+       "The roads do not repair anything; they are repaired.",
+       "After 'to', use be + V3: to be repaired.",
+       "'Be expected' takes a to-infinitive.",
+       "Correct: be expected + to be + V3."
       ],
-      "answer": 0
+      "err": "E3",
+      "lesson": 4,
+      "type": "cloze",
+      "stem": "The damaged roads are expected ____ by December.",
+      "options": [
+       "to repair",
+       "to repaired",
+       "being repaired",
+       "to be repaired"
+      ],
+      "answer": 3
      },
      {
-      "id": "U5-SAMPLE-188",
+      "id": "U5-PG-007",
       "tag": "passive-gerund",
       "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #21 (passive-gerund): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "why": "After a preposition we use a gerund. The pumps receive the action: without being maintained.",
+      "hint": "After 'without' we use -ing. Can pumps do this action themselves?",
+      "fb": [
+       "After 'without', use being maintained.",
+       "This means the pumps maintain something.",
+       "After a preposition, use -ing.",
+       "Correct: without + being + V3."
       ],
-      "answer": 0
+      "lesson": 5,
+      "type": "cloze",
+      "stem": "Without ____ regularly, the new pumps will soon stop working.",
+      "options": [
+       "maintained",
+       "maintaining",
+       "be maintained",
+       "being maintained"
+      ],
+      "answer": 3
      },
      {
-      "id": "U5-SAMPLE-183",
+      "id": "U5-MP-002",
       "tag": "modal-passive",
       "level": "C1",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #16 (modal-passive): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "why": "'Had been warned' shows an unreal past, so we need a perfect modal. The deaths receive the action: could + have been + prevented.",
+      "hint": "The if-clause is about the past. Which modal form talks about the past?",
+      "fb": [
+       "'If people had been warned' is about the past, so use could have been.",
+       "Without 'been', the deaths prevented something.",
+       "After been, use V3: prevented.",
+       "Correct: a past possibility that did not happen: could have been + V3."
       ],
-      "answer": 0
+      "err": "E10",
+      "lesson": 4,
+      "type": "cloze",
+      "stem": "Many of the deaths could ____ if people had been warned earlier.",
+      "options": [
+       "be prevented",
+       "have prevented",
+       "have been prevent",
+       "have been prevented"
+      ],
+      "answer": 3
      },
      {
-      "id": "U5-SAMPLE-187",
+      "id": "U5-PI-003",
       "tag": "passive-infinitive",
       "level": "C1",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #20 (passive-infinitive): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "why": "'Appear' + to-infinitive. The action is earlier and the car received it: to have been left.",
+      "hint": "The leaving happened before now. Which infinitive shows an earlier time?",
+      "fb": [
+       "'Appear' is followed by a to-infinitive.",
+       "The car was left before now, so use the perfect infinitive.",
+       "Without 'been', the car left something.",
+       "Correct: earlier action + passive: to have been + V3."
       ],
-      "answer": 0
+      "err": "E10",
+      "lesson": 4,
+      "type": "cloze",
+      "stem": "The burnt car appears ____ in the water for several days.",
+      "options": [
+       "being left",
+       "to be left",
+       "to have left",
+       "to have been left"
+      ],
+      "answer": 3
      },
      {
-      "id": "U5-SAMPLE-191",
+      "id": "U5-PG-008",
       "tag": "passive-gerund",
       "level": "C1",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #24 (passive-gerund): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "why": "After the preposition 'after' we use a gerund. The shop received the action: being forced to close.",
+      "hint": "After 'after', which form? What made the shop close?",
+      "fb": [
+       "After a preposition, use being forced.",
+       "This means the shop forced something.",
+       "Correct: after + being + V3: the floods forced the shop to close.",
+       "After a preposition, use -ing."
       ],
-      "answer": 0
+      "lesson": 4,
+      "type": "cloze",
+      "stem": "After ____ to close for 15 days, Mrs Nok's noodle shop has finally reopened.",
+      "options": [
+       "forced",
+       "forcing",
+       "being forced",
+       "to be forced"
+      ],
+      "answer": 2
      }
     ]
    }
@@ -1151,112 +1423,146 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-044",
+       "id": "U5-RR-001",
        "tag": "reduced-relative",
        "level": "B2",
-       "why": "The clause has its main verb; noun + V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Are staying' is the main verb, so the gap needs a reduced passive clause: displaced (= who were displaced).",
+       "hint": "The sentence already has a main verb. Did the families do the action, or receive it?",
+       "fb": [
+        "Correct: reduced relative = families (who were) displaced.",
+        "-ing is active: the families displacing someone.",
+        "This adds a second main verb ('are staying' is the main verb).",
+        "This means the families displaced someone."
+       ],
+       "err": "E3",
        "lesson": 6,
        "type": "cloze",
-       "stem": "Relief is still being delivered to families ____ by the water.",
+       "stem": "Families ____ by the floods are staying at the temple.",
        "options": [
         "displaced",
-        "were displaced",
         "displacing",
+        "are displaced",
         "who displaced"
        ],
        "answer": 0
       },
       {
-       "id": "U5-SAMPLE-045",
-       "tag": "reduced-relative",
-       "level": "B2+",
-       "why": "Reduced relative: (who was) forced.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 6,
-       "type": "cloze",
-       "stem": "One street vendor, ____ to close for 15 days, has reopened.",
-       "options": [
-        "forcing",
-        "was forced",
-        "forced",
-        "she forced"
-       ],
-       "answer": 2
-      },
-      {
-       "id": "U5-SAMPLE-046",
+       "id": "U5-RR-002",
        "tag": "reduced-relative",
        "level": "B2",
-       "why": "Schools received the affecting: V3.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Shows' is the main verb, so the gap needs a participle. The report was published: published.",
+       "hint": "Count the verbs: does the sentence already have a main verb?",
+       "fb": [
+        "Correct: a report (that was) published yesterday.",
+        "-ing is active: the report publishing something.",
+        "This adds a second main verb.",
+        "This adds a second main verb ('shows')."
+       ],
+       "err": "E3",
        "lesson": 6,
        "type": "cloze",
-       "stem": "Schools ____ by the floods will reopen on Monday.",
+       "stem": "A report ____ yesterday shows that many canals are blocked.",
        "options": [
-        "affected",
-        "affecting",
-        "were affected",
-        "which affected"
+        "published",
+        "publishing",
+        "is published",
+        "was published"
        ],
        "answer": 0
       },
       {
-       "id": "U5-SAMPLE-047",
+       "id": "U5-RR-003",
        "tag": "reduced-relative",
        "level": "C1",
-       "why": "Two finite verbs: displaced by the flood.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 6,
-       "type": "spot",
-       "stem": "Find the mistake.",
-       "words": [
-        "Residents",
-        "were displaced by the flood",
-        "are being housed",
-        "in two schools."
+       "why": "After a complete sentence, a noun + reduced passive participle adds a label: an event known as a flash flood.",
+       "hint": "The sentence is complete before the comma. What can describe the whole event without a new main verb?",
+       "fb": [
+        "'Which' needs a verb: which is known.",
+        "Correct: a noun + reduced passive clause: an event (which is) known as…",
+        "-ing is active: the event knows something.",
+        "This adds a second main verb after a comma."
        ],
-       "answer": 1,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-048",
-       "tag": "reduced-relative",
-       "level": "B2+",
-       "why": "Reduced passive after a noun.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "err": "E3",
        "lesson": 6,
        "type": "cloze",
-       "stem": "A trend ____ as \"flooding by design\" protects the capital.",
+       "stem": "The water rose by a metre in one hour, ____ as a flash flood.",
        "options": [
-        "known",
-        "is known",
-        "knowing",
-        "knows"
+        "which known",
+        "an event known",
+        "an event knowing",
+        "an event is known"
        ],
-       "answer": 0
+       "answer": 1
       },
       {
-       "id": "U5-SAMPLE-049",
+       "id": "U5-RR-005",
        "tag": "reduced-relative",
-       "level": "B2+",
-       "why": "built = which was built.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 7,
-       "type": "equiv",
-       "given": "Closest to \"The road built in 2011 held\"?",
-       "stem": "Which sentence is closest in meaning?",
+       "level": "C1",
+       "why": "Between the commas we need a reduced passive clause: bought (= which was bought) less than a month ago.",
+       "hint": "The main verb is 'was submerged'. What short form adds extra information about the car?",
+       "fb": [
+        "-ing is active: the car buying something.",
+        "Correct: a reduced clause between commas: which was bought.",
+        "'Was submerged' is the main verb, so this adds a second one.",
+        "This means the car bought something."
+       ],
+       "err": "E3",
+       "lesson": 6,
+       "type": "cloze",
+       "stem": "Her car, ____ less than a month ago, was submerged.",
        "options": [
-        "The road that was built in 2011 held.",
-        "The road built a wall in 2011.",
-        "In 2011 the road held.",
-        "The road was built to hold."
+        "buying",
+        "bought",
+        "was bought",
+        "which bought"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "U5-RR-007",
+       "tag": "reduced-relative",
+       "level": "B2",
+       "why": "'Was' is the main verb, so the gap needs a past participle: the damage caused by the storm.",
+       "hint": "Which verb is the main verb? Does the damage do the action, or receive it?",
+       "fb": [
+        "This adds a second main verb.",
+        "Correct: the damage (that was) caused by the storm.",
+        "-ing is active: the damage causing something.",
+        "This adds a second main verb ('was')."
+       ],
+       "err": "E3",
+       "lesson": 6,
+       "type": "cloze",
+       "stem": "Most of the damage ____ by the storm was in the north of the city.",
+       "options": [
+        "causes",
+        "caused",
+        "causing",
+        "was caused"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "U5-RR-008",
+       "tag": "reduced-relative",
+       "level": "B2",
+       "why": "The main verb is 'are checking', so the gap needs a reduced passive clause: located (= that are located) near the river.",
+       "hint": "'Are checking' is the main verb. Which short form describes where the buildings are?",
+       "fb": [
+        "Correct: buildings (that are) located near the river.",
+        "-ing is active: the buildings locating something.",
+        "This adds a second main verb ('are checking').",
+        "This means the buildings located (found) something."
+       ],
+       "err": "E3",
+       "lesson": 6,
+       "type": "cloze",
+       "stem": "Officials are checking all the buildings ____ near the river.",
+       "options": [
+        "located",
+        "locating",
+        "are located",
+        "which located"
        ],
        "answer": 0
       }
@@ -1294,114 +1600,150 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-050",
+       "id": "U5-RP-003",
        "tag": "impersonal-passive",
-       "level": "B2+",
-       "why": "It + is + V3 + that-clause.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "level": "C1",
+       "why": "'Are believed' (now) + an earlier event = to have + V3. The cars received the damage: to have been damaged.",
+       "hint": "The flood was last month. Which infinitive shows an earlier time?",
+       "fb": [
+        "The damage happened last month, so use the perfect infinitive.",
+        "Without 'been', the cars damaged something.",
+        "'Be believed' takes a to-infinitive.",
+        "Correct: earlier event + passive: to have been + V3."
+       ],
+       "err": "E10",
        "lesson": 6,
        "type": "cloze",
-       "stem": "____ that many canals are blocked with rubbish.",
+       "stem": "Hundreds of cars are believed ____ in last month's flood.",
        "options": [
-        "It knows",
-        "It is known",
-        "Known",
-        "It is knowing"
+        "to be damaged",
+        "to have damaged",
+        "having been damaged",
+        "to have been damaged"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-RP-004",
+       "tag": "impersonal-passive",
+       "level": "C1",
+       "why": "'On purpose' shows an outside doer, so passive. 'Be said' + earlier event = to have been + V3.",
+       "hint": "'On purpose' tells you something about who did it.",
+       "fb": [
+        "'Be said' takes a to-infinitive.",
+        "This makes the village the doer.",
+        "'On purpose' means someone did it, so passive: to have been flooded.",
+        "Correct: earlier event + passive: to have been + V3."
+       ],
+       "err": "E2",
+       "lesson": 6,
+       "type": "cloze",
+       "stem": "The village is said ____ on purpose to protect Bangkok.",
+       "options": [
+        "being flooded",
+        "to be flooding",
+        "to have flooded",
+        "to have been flooded"
+       ],
+       "answer": 3
+      },
+      {
+       "id": "U5-RP-006",
+       "tag": "impersonal-passive",
+       "level": "C1",
+       "why": "Academic/news impersonal passive: It + has been + found + that-clause.",
+       "hint": "'It' is empty here. Did 'it' find something?",
+       "fb": [
+        "After been, use V3: found.",
+        "Correct: It + has been + V3 + that.",
+        "This is active continuous. Use has been found.",
+        "'It' is singular: has been found."
+       ],
+       "err": "E7",
+       "lesson": 6,
+       "type": "cloze",
+       "stem": "It ____ that the drainage system could not cope with the rain.",
+       "options": [
+        "has been find",
+        "has been found",
+        "has been finding",
+        "have been found"
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-051",
+       "id": "U5-RP-008",
        "tag": "impersonal-passive",
        "level": "C1",
-       "why": "Subject + are said + to-infinitive.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "There + be thought + to be… The verb agrees with '3,000 people', so: There are thought to be…",
+       "hint": "The real subject comes after 'to be'. Is it singular or plural?",
+       "fb": [
+        "This needs be: are thought.",
+        "The real subject is '3,000 people' (plural): are.",
+        "Use the passive: are thought.",
+        "Correct: There + are thought + to be + plural noun."
+       ],
+       "err": "E7",
        "lesson": 6,
        "type": "cloze",
-       "stem": "Villages upstream ____ the price.",
+       "stem": "There ____ to be over 3,000 people still in shelters in the province.",
        "options": [
-        "are said to be paying",
-        "are said they pay",
-        "is said to pay",
-        "say to be paying"
+        "thought",
+        "is thought",
+        "are thinking",
+        "are thought"
        ],
-       "answer": 0
+       "answer": 3
       },
       {
-       "id": "U5-SAMPLE-052",
+       "id": "U5-RP-010",
        "tag": "impersonal-passive",
        "level": "C1",
-       "why": "The effect came before the finding: perfect infinitive.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "Announce, say, report and believe work in It + passive + that. Inform and tell need a person subject: We were informed/told.",
+       "hint": "Which verb can follow 'It was … that' without a person?",
+       "fb": [
+        "'Tell' needs a person: We were told that…",
+        "'Inform' needs a person: We were informed that…, never It was informed that…",
+        "After was, use V3: announced.",
+        "Correct: 'announce' works in It + passive + that."
+       ],
+       "err": "E4",
        "lesson": 6,
        "type": "cloze",
-       "stem": "About 329,000 households ____ affected.",
+       "stem": "It ____ that all schools in the district would stay closed.",
        "options": [
-        "were found to be",
-        "were found to have been",
-        "found to have been",
-        "were finding to be"
+        "was told",
+        "was informed",
+        "was announce",
+        "was announced"
        ],
-       "answer": 1
+       "answer": 3
       },
       {
-       "id": "U5-SAMPLE-053",
+       "id": "U5-TC-B5",
        "tag": "impersonal-passive",
        "level": "C1",
-       "why": "suggest takes only It is suggested that.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 7,
-       "type": "spot",
-       "stem": "Find the mistake.",
-       "words": [
-        "The leak",
-        "is suggested",
-        "to have started",
-        "on Friday."
+       "why": "'Are reported' + to-infinitive; 'since 2021' needs the perfect; the villages receive the action: to have been flooded.",
+       "hint": "'Since 2021' needs a perfect form. What follows 'are reported'?",
+       "fb": [
+        "'Since 2021' needs the perfect infinitive.",
+        "After been, use V3: flooded.",
+        "'Be reported' takes a to-infinitive.",
+        "Correct: 'since 2021' = earlier and continuing; passive: to have been flooded."
        ],
-       "answer": 1,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-054",
-       "tag": "impersonal-passive",
-       "level": "B2+",
-       "why": "Reporting passive with a perfect infinitive.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 7,
-       "type": "equiv",
-       "given": "Closest to \"The dam is thought to have been opened too late\"?",
-       "stem": "Which sentence is closest in meaning?",
-       "options": [
-        "People think the dam was opened too late.",
-        "The dam thought it was late.",
-        "The dam was opened late.",
-        "It is late to open the dam."
-       ],
-       "answer": 0
-      },
-      {
-       "id": "U5-SAMPLE-055",
-       "tag": "impersonal-passive",
-       "level": "C1",
-       "why": "inform keeps the person as subject.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 7,
+       "err": "E4",
+       "lesson": 6,
        "type": "cloze",
-       "stem": "Residents ____ that the water would rise overnight.",
+       "passage": "Every rainy season, millions of cubic metres of water ___(1)___ from the Chao Phraya Dam. Engineers ___(2)___ how much water to let out, and they must balance two risks. If too little water is let out, the land behind the dam could ___(3)___. If too much is let out, villages downstream go under water, a practice ___(4)___ in one news report as 'deluge by design'. Some villages are reported ___(5)___ every year since 2021, and their residents say they are paying the price for keeping the capital dry.",
+       "blank": "(1)",
+       "stem": "Gap (5)",
        "options": [
-        "were informed",
-        "it was informed",
-        "informed",
-        "were informing"
+        "to be flooded",
+        "to have been flood",
+        "having been flooded",
+        "to have been flooded"
        ],
-       "answer": 0
+       "answer": 3
       }
      ]
     },
@@ -1438,112 +1780,146 @@ var U5G = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-056",
+       "id": "U5-VR-004",
        "tag": "verb-restriction",
        "level": "B2",
-       "why": "subside has no object, so no passive.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
+       "why": "'Melt' can be active or passive. With no outside doer (it melted by itself), use the active: had melted.",
+       "hint": "Did someone melt the ice, or did it melt by itself?",
+       "fb": [
+        "After 'had', use the past participle.",
+        "Correct: the ice melted by itself, so the active is used.",
+        "After 'had', use the past participle: had melted.",
+        "Nobody melted the ice; it changed by itself, so no passive."
+       ],
+       "err": "E2",
        "lesson": 8,
        "type": "cloze",
-       "stem": "Floodwaters slowly ____ in the capital.",
+       "stem": "When the power came back, the ice in the freezer had already ____.",
        "options": [
-        "are subsided",
-        "subside",
-        "were subsided",
-        "subsiding"
+        "melt",
+        "melted",
+        "melting",
+        "been melted"
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-057",
+       "id": "U5-VR-005",
        "tag": "verb-restriction",
        "level": "B2",
-       "why": "happen is active only.",
-       "hint": "Find the time marker, then choose the form of be.",
+       "why": "'Die' has no object, so no passive. If you want a passive, change the verb: were killed. Here the active past perfect: had died.",
+       "hint": "Does 'die' ever take an object? (Compare 'kill'.)",
+       "fb": [
+        "Correct: 'die' has no object, so it is always active.",
+        "This says the people killed someone. 'Kill' needs an object.",
+        "'Die' has no passive.",
+        "'Die' never takes an object, so it has no passive. (Killed can be passive.)"
+       ],
        "err": "E1",
        "lesson": 8,
        "type": "cloze",
-       "stem": "The accident ____ at the dam gates.",
+       "stem": "At least 31 people ____ in the floods by early October.",
        "options": [
-        "was happened",
-        "happened",
-        "is happened",
-        "happening"
+        "had died",
+        "had killed",
+        "were died",
+        "had been died"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "U5-VR-010",
+       "tag": "verb-restriction",
+       "level": "B2",
+       "why": "State verbs like belong, resemble, lack and suit have no passive. The past simple active fits: belonged to.",
+       "hint": "What kind of verb is this: an action or a state?",
+       "fb": [
+        "Correct: 'belong' is a state verb with no passive.",
+        "'Belong' has no passive form.",
+        "'Belong' is a state verb; it is not used in the continuous here.",
+        "'Belong' has no passive."
+       ],
+       "err": "E1",
+       "lesson": 8,
+       "type": "cloze",
+       "stem": "Most of the boats used in the rescue ____ to local fishermen.",
+       "options": [
+        "belonged",
+        "were belonged",
+        "were belonging",
+        "had been belonged"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "U5-VR-011",
+       "tag": "verb-restriction",
+       "level": "B2",
+       "why": "'Occur' has no passive, and the subject is 'problems' (plural), so the present simple active plural: occur.",
+       "hint": "Find the real subject. Can this verb take an object?",
+       "fb": [
+        "Correct: 'occur' has no object, so it is active; plural subject 'problems'.",
+        "The subject is 'problems' (plural), so the verb is 'occur', not 'occurs'.",
+        "'Occur' never takes an object, so it has no passive.",
+        "No passive with 'occur'."
+       ],
+       "err": "E7",
+       "lesson": 8,
+       "type": "cloze",
+       "stem": "Problems with the drains ____ every time it rains heavily.",
+       "options": [
+        "occur",
+        "occurs",
+        "are occurred",
+        "have been occurred"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "U5-VR-012",
+       "tag": "verb-restriction",
+       "level": "B2",
+       "why": "'The river level' is an object, so we need 'raise' (transitive). 'Rise' has no object and no passive.",
+       "hint": "Is there an object after the gap? Which of the two similar verbs needs one?",
+       "fb": [
+        "'Rise' has no object. Here 'the river level' follows, so use 'raise'.",
+        "Correct: 'raise' takes an object (the river).",
+        "'Rise' has no passive.",
+        "This would mean the release is raised, but 'the river level' follows as the object."
+       ],
+       "err": "E1",
+       "lesson": 8,
+       "type": "cloze",
+       "stem": "The dam release is expected to ____ the river level by another 20 cm.",
+       "options": [
+        "rise",
+        "raise",
+        "be risen",
+        "be raised"
        ],
        "answer": 1
       },
       {
-       "id": "U5-SAMPLE-058",
-       "tag": "verb-restriction",
-       "level": "B2+",
-       "why": "rise has no passive: rose.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 8,
-       "type": "spot",
-       "stem": "Find the mistake.",
-       "words": [
-        "The river",
-        "was risen",
-        "two metres",
-        "overnight."
-       ],
-       "answer": 1,
-       "fix": ""
-      },
-      {
-       "id": "U5-SAMPLE-059",
-       "tag": "verb-restriction",
-       "level": "B2",
-       "why": "cause takes an object, so its passive works.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 8,
-       "type": "equiv",
-       "given": "Closest to \"The flooding was caused by heavy rain\"?",
-       "stem": "Which sentence is closest in meaning?",
-       "options": [
-        "Heavy rain made the flooding happen.",
-        "The flooding caused heavy rain.",
-        "The flooding was happened by rain.",
-        "Heavy rain was flooded."
-       ],
-       "answer": 0
-      },
-      {
-       "id": "U5-SAMPLE-060",
+       "id": "U5-TO-002",
        "tag": "two-object",
        "level": "B2",
-       "why": "Two-object verb: the person as subject.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 8,
-       "type": "cloze",
-       "stem": "Families ____ food parcels at the shelter.",
-       "options": [
-        "were given",
-        "were given to",
-        "gave",
-        "was given"
+       "why": "'Show' takes two objects, so 'Volunteers are shown how…' works. 'Explain' cannot: we say 'it is explained to them'.",
+       "hint": "Which verbs can have the person as the subject of a passive?",
+       "fb": [
+        "This means the volunteers show someone: the opposite meaning.",
+        "Correct: 'show' can make the person the passive subject.",
+        "This means the volunteers are showing someone.",
+        "'Explain' cannot take the person as object: something is explained TO someone."
        ],
-       "answer": 0
-      },
-      {
-       "id": "U5-SAMPLE-061",
-       "tag": "two-object",
-       "level": "B2+",
-       "why": "explain needs to before the person.",
-       "hint": "Find the time marker, then choose the form of be.",
-       "err": "E1",
-       "lesson": 8,
+       "err": "E9",
+       "lesson": 3,
        "type": "cloze",
-       "stem": "The plan ____ residents at the meeting.",
+       "stem": "New volunteers ____ how to use the pumps by experienced staff.",
        "options": [
-        "was explained",
-        "was explained to",
-        "explained to",
-        "explained"
+        "show",
+        "are shown",
+        "are showing",
+        "are explained"
        ],
        "answer": 1
       }
@@ -1555,111 +1931,146 @@ var U5G = {
     "name": "Level check · Reduced, reported and restricted",
     "items": [
      {
-      "id": "U5-SAMPLE-192",
+      "id": "U5-RR-004",
       "tag": "reduced-relative",
-      "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #25 (reduced-relative): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "level": "B1",
+      "why": "'Came' is the main verb, so the gap needs a past participle: the rice delivered (= that was delivered) to the shelter.",
+      "hint": "'Came' is the main verb. Did the rice do the action, or receive it?",
+      "fb": [
+       "This adds a second main verb.",
+       "Correct: the rice (that was) delivered.",
+       "-ing is active: the rice delivering something.",
+       "This adds a second main verb ('came')."
       ],
-      "answer": 0
+      "err": "E3",
+      "lesson": 6,
+      "type": "cloze",
+      "stem": "The rice ____ to the shelter came from a temple in Nonthaburi.",
+      "options": [
+       "delivers",
+       "delivered",
+       "delivering",
+       "was delivered"
+      ],
+      "answer": 1
      },
      {
-      "id": "U5-SAMPLE-196",
+      "id": "U5-RP-001",
       "tag": "impersonal-passive",
       "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #29 (impersonal-passive): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "why": "The impersonal passive: It + is + V3 + that-clause. We don't say who expects it, so the forecast sounds official.",
+      "hint": "'It' here has no real meaning. Who expects this?",
+      "fb": [
+       "This needs be: It is expected that…",
+       "Correct: It + be + V3 + that: It is expected that…",
+       "'It' does not expect anything. Use the passive: it is expected.",
+       "'It' did not expect anything. Use the passive: It is expected."
       ],
-      "answer": 0
+      "err": "E5",
+      "lesson": 6,
+      "type": "cloze",
+      "stem": "It ____ that the water will go down by Friday.",
+      "options": [
+       "expected",
+       "is expected",
+       "is expecting",
+       "has expected"
+      ],
+      "answer": 1
      },
      {
-      "id": "U5-SAMPLE-200",
+      "id": "U5-VR-001",
       "tag": "verb-restriction",
-      "level": "B2",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "SAMPLE cloze #33 (verb-restriction): The shelters ____ by volunteers every evening.",
-      "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+      "level": "B1",
+      "why": "'Subside' (go down) never takes an object, so it cannot be passive. 'Last Sunday' needs the past simple: subsided.",
+      "hint": "Can you subside something? If a verb has no object, can it be passive?",
+      "fb": [
+       "'Last Sunday' is past, so use the past simple: subsided.",
+       "Correct: 'subside' has no object, so it is always active.",
+       "'Subside' never takes an object, so it has no passive.",
+       "No passive is possible, and 'last Sunday' needs the past simple."
       ],
-      "answer": 0
+      "err": "E1",
+      "lesson": 1,
+      "type": "cloze",
+      "stem": "The floodwater finally ____ last Sunday.",
+      "options": [
+       "subsides",
+       "subsided",
+       "was subsided",
+       "has been subsided"
+      ],
+      "answer": 1
      },
      {
-      "id": "U5-SAMPLE-062",
+      "id": "U5-TO-001",
       "tag": "two-object",
-      "level": "C1",
-      "why": "The route was explained to residents.",
-      "hint": "Find the time marker, then choose the form of be.",
-      "err": "E1",
-      "lesson": 8,
-      "type": "spot",
-      "stem": "Find the mistake.",
-      "words": [
-       "Residents",
-       "were explained",
-       "the evacuation route",
-       "by officials."
+      "level": "B1",
+      "why": "'Give' has two objects (someone something). The person can be the subject of the passive: Each family was given a relief bag.",
+      "hint": "Did the family give the bag, or receive it?",
+      "fb": [
+       "This means the family gave a bag to someone: the opposite meaning.",
+       "'Gave' is V2. The V3 of give is given.",
+       "Correct: the person is the subject: Each family was given a bag.",
+       "This means the family was giving a bag to someone."
       ],
-      "answer": 1,
-      "fix": ""
+      "err": "E6",
+      "lesson": 2,
+      "type": "cloze",
+      "stem": "Each family at the shelter ____ a relief bag yesterday.",
+      "options": [
+       "gave",
+       "was gave",
+       "was given",
+       "was giving"
+      ],
+      "answer": 2
      },
      {
-      "id": "U5-SAMPLE-063",
+      "id": "U5-ST-001",
       "tag": "stative-lookalike",
-      "level": "B2",
-      "why": "A state: is located.",
-      "hint": "Find the time marker, then choose the form of be.",
-      "err": "E1",
-      "lesson": 8,
-      "type": "cloze",
-      "stem": "The dam ____ 100 km upstream of Bangkok.",
-      "options": [
-       "is located",
-       "is being located",
-       "locates",
-       "was located by"
+      "level": "B1",
+      "why": "'Be located' (= be in a place) is a passive phrase that describes a state: Our school is located next to a canal.",
+      "hint": "Does the school do something, or are we describing where it is?",
+      "fb": [
+       "'Locate' + object means 'find'. For position we say 'is located'.",
+       "The sentence needs be: is located.",
+       "Correct: 'be located' describes where something is.",
+       "This means the school is finding something."
       ],
-      "answer": 0
+      "err": "E3",
+      "lesson": 2,
+      "type": "cloze",
+      "stem": "Our school ____ next to a canal, so it floods easily.",
+      "options": [
+       "locates",
+       "located",
+       "is located",
+       "is locating"
+      ],
+      "answer": 2
      },
      {
-      "id": "U5-SAMPLE-195",
+      "id": "U5-RR-006",
       "tag": "reduced-relative",
-      "level": "C1",
-      "why": "The shelters receive the running: present passive.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 8,
+      "level": "B1",
+      "why": "'Were given' is the main verb, so the gap needs a reduced passive clause: children rescued (= who were rescued).",
+      "hint": "'Were given' is the main verb. Did the children save someone, or were they saved?",
+      "fb": [
+       "Correct: children (who were) rescued.",
+       "-ing is active: the children were rescuing others.",
+       "This means the children rescued someone.",
+       "This adds a second main verb ('were given')."
+      ],
+      "err": "E3",
+      "lesson": 6,
       "type": "cloze",
-      "stem": "SAMPLE cloze #28 (reduced-relative): The shelters ____ by volunteers every evening.",
+      "stem": "Children ____ from the flooded school were given dry clothes.",
       "options": [
-       "are run",
-       "run",
-       "are running",
-       "ran by"
+       "rescued",
+       "rescuing",
+       "who rescued",
+       "were rescued"
       ],
       "answer": 0
      }
@@ -1722,103 +2133,125 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-066",
+       "id": "U5-VO-014",
        "tag": "u5-words-a",
        "level": "B1",
-       "why": "evacuate: remove to safety.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
+       "why": "Subside = go down or become less strong; 'falls' is closest.",
+       "hint": "When is it safe to go home after a flood?",
+       "fb": [
+        "Correct: subside = go down.",
+        "Rises is the opposite.",
+        "Moves does not tell us it goes down.",
+        "Spreads = covers a bigger area."
+       ],
+       "lesson": 4,
        "type": "choose",
-       "stem": "Which is closest in meaning to <em>evacuate</em>?",
+       "stem": "We can go home when the water [subsides]. Closest meaning:",
        "options": [
-        "remove to safety",
-        "flood",
-        "build",
-        "repair"
+        "falls",
+        "rises",
+        "moves",
+        "spreads"
        ],
        "answer": 0,
-       "word": "evacuate",
+       "word": "subsides",
        "kind": "meaning"
       },
       {
-       "id": "U5-SAMPLE-069",
+       "id": "U5-BKA-42",
        "tag": "u5-words-a",
        "level": "B1",
-       "why": "submerged: under water.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
+       "why": "Falling = going down; opposite rising.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Correct: Falling = going down; opposite rising.",
+        "Not this one. Falling = going down; opposite rising.",
+        "Not this one. Falling = going down; opposite rising.",
+        "Close, but not quite. Falling = going down; opposite rising."
+       ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Which is closest in meaning to <em>submerged</em>?",
+       "stem": "Opposite: The water level is [falling] quickly.",
+       "options": [
+        "rising",
+        "spreading",
+        "changing",
+        "dropping"
+       ],
+       "answer": 0,
+       "word": "falling"
+      },
+      {
+       "id": "U5-BKB-10",
+       "tag": "u5-words-a",
+       "level": "B1",
+       "why": "Rising = going up; opposite falling.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Correct: Rising = going up; opposite falling.",
+        "Not this one. Rising = going up; opposite falling.",
+        "Not this one. Rising = going up; opposite falling.",
+        "Close, but not quite. Rising = going up; opposite falling."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: The water level is [rising] fast.",
+       "options": [
+        "falling",
+        "spreading",
+        "changing",
+        "climbing"
+       ],
+       "answer": 0,
+       "word": "rising"
+      },
+      {
+       "id": "U5-BKB-35",
+       "tag": "u5-words-a",
+       "level": "B1",
+       "why": "Blocked = cannot be used; opposite clear.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Close, but not quite. Blocked = cannot be used; opposite clear.",
+        "Correct: Blocked = cannot be used; opposite clear.",
+        "Not this one. Blocked = cannot be used; opposite clear.",
+        "Not this one. Blocked = cannot be used; opposite clear."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: Many roads were still [blocked] on Friday.",
        "options": [
         "closed",
-        "under water",
-        "dry",
-        "broken"
+        "clear",
+        "wet",
+        "busy"
        ],
        "answer": 1,
-       "word": "submerged",
-       "kind": "meaning"
+       "word": "blocked"
       },
       {
-       "id": "U5-SAMPLE-072",
+       "id": "U5-VO-001",
        "tag": "u5-words-a",
-       "level": "B1",
-       "why": "inundate: flood.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
+       "level": "B2",
+       "why": "Evacuate a place = make everyone leave it for safety, so 'empty' is closest.",
+       "hint": "Why would officials act before the water arrived?",
+       "fb": [
+        "Visit = go to see; the opposite of moving people out.",
+        "Close = shut. The patients were moved out, not shut in.",
+        "Flood = fill with water; that is what the officials feared.",
+        "Correct: evacuate a building = empty it of people."
+       ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Which is closest in meaning to <em>inundate</em>?",
+       "stem": "Officials decided to [evacuate] the hospital before the water arrived. Closest meaning:",
        "options": [
-        "warn",
+        "visit",
+        "close",
         "flood",
-        "drain",
-        "count"
+        "empty"
        ],
-       "answer": 1,
-       "word": "inundate",
-       "kind": "meaning"
-      },
-      {
-       "id": "U5-SAMPLE-075",
-       "tag": "u5-words-a",
-       "level": "B1",
-       "why": "displaced: forced from home.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>displaced</em>?",
-       "options": [
-        "located",
-        "relieved",
-        "forced from home",
-        "rescued"
-       ],
-       "answer": 2,
-       "word": "displaced",
-       "kind": "meaning"
-      },
-      {
-       "id": "U5-SAMPLE-078",
-       "tag": "u5-words-a",
-       "level": "B1",
-       "why": "aftermath: the period after an event.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>aftermath</em>?",
-       "options": [
-        "the warning before it",
-        "the centre of it",
-        "the period after an event",
-        "the cause of it"
-       ],
-       "answer": 2,
-       "word": "aftermath",
+       "answer": 3,
+       "word": "evacuate",
        "kind": "meaning"
       }
      ]
@@ -1860,104 +2293,127 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-081",
+       "id": "U5-VO-007",
        "tag": "u5-words-b",
-       "level": "B1",
-       "why": "devastate: destroy.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>devastate</em>?",
-       "options": [
-        "predict",
-        "destroy",
-        "improve",
-        "measure"
+       "level": "B2",
+       "why": "Resilient = strong enough to recover quickly; 'tough' is closest.",
+       "hint": "Look at the second half of the sentence: they rebuild after every flood.",
+       "fb": [
+        "Correct: resilient = able to recover quickly from difficulty.",
+        "Careful = avoiding mistakes or danger.",
+        "Patient = able to wait calmly; resilient is about recovering.",
+        "Unlucky describes their situation, not their strength."
        ],
-       "answer": 1,
-       "word": "devastate",
-       "kind": "meaning"
-      },
-      {
-       "id": "U5-SAMPLE-084",
-       "tag": "u5-words-b",
-       "level": "B1",
-       "why": "resilient: able to recover.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
+       "lesson": 3,
        "type": "choose",
-       "stem": "Which is closest in meaning to <em>resilient</em>?",
+       "stem": "The people of this village are [resilient]; they rebuild after every flood. Closest meaning:",
        "options": [
-        "unknown",
-        "easily damaged",
-        "able to recover",
-        "very slow"
+        "tough",
+        "careful",
+        "patient",
+        "unlucky"
        ],
-       "answer": 2,
+       "answer": 0,
        "word": "resilient",
        "kind": "meaning"
       },
       {
-       "id": "U5-SAMPLE-087",
+       "id": "U5-VO-008",
        "tag": "u5-words-b",
-       "level": "B1",
-       "why": "mitigate: make less serious.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>mitigate</em>?",
-       "options": [
-        "make worse",
-        "make less serious",
-        "report",
-        "ignore"
+       "level": "B2",
+       "why": "Mitigate = make something bad less harmful or serious; 'reduce' is closest.",
+       "hint": "Barriers are built to make the effects…?",
+       "fb": [
+        "Correct: mitigate = make less harmful.",
+        "Predict = say what will happen.",
+        "Increase is the opposite.",
+        "Measure = find the size or amount."
        ],
-       "answer": 1,
+       "lesson": 3,
+       "type": "choose",
+       "stem": "New barriers will help [mitigate] the effects of future floods. Closest meaning:",
+       "options": [
+        "reduce",
+        "predict",
+        "increase",
+        "measure"
+       ],
+       "answer": 0,
        "word": "mitigate",
        "kind": "meaning"
       },
       {
-       "id": "U5-SAMPLE-090",
+       "id": "U5-VO-010",
        "tag": "u5-words-b",
-       "level": "B1",
-       "why": "exacerbate: make worse.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>exacerbate</em>?",
-       "options": [
-        "make worse",
-        "explain",
-        "make better",
-        "delay"
+       "level": "B2",
+       "why": "Prolonged = continuing for a long time; 'long-lasting' is closest. 'Heavy' is about amount, not time.",
+       "hint": "Is the clue about amount or about time?",
+       "fb": [
+        "Heavy = a lot of rain at once; prolonged is about time.",
+        "Sudden = happening quickly, without warning.",
+        "Unusual = not normal.",
+        "Correct: prolonged = lasting a long time."
        ],
-       "answer": 0,
-       "word": "exacerbate",
-       "kind": "meaning"
-      },
-      {
-       "id": "U5-SAMPLE-093",
-       "tag": "u5-words-b",
-       "level": "B1",
-       "why": "prolonged: lasting a long time.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
+       "lesson": 3,
        "type": "choose",
-       "stem": "Which is closest in meaning to <em>prolonged</em>?",
+       "stem": "The [prolonged] rain caused landslides in the north. Closest meaning:",
        "options": [
+        "heavy",
         "sudden",
-        "very short",
-        "expected",
-        "lasting a long time"
+        "unusual",
+        "long-lasting"
        ],
        "answer": 3,
        "word": "prolonged",
        "kind": "meaning"
+      },
+      {
+       "id": "U5-BKA-15",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "Prolonged = long-lasting; opposite brief.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Not this one. Prolonged = long-lasting; opposite brief.",
+        "Close, but not quite. Prolonged = long-lasting; opposite brief.",
+        "Correct: Prolonged = long-lasting; opposite brief.",
+        "Not this one. Prolonged = long-lasting; opposite brief."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: The [prolonged] power cut ruined our food.",
+       "options": [
+        "planned",
+        "long",
+        "brief",
+        "noisy"
+       ],
+       "answer": 2,
+       "word": "prolonged"
+      },
+      {
+       "id": "U5-BKA-23",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "Mitigate = reduce; opposite worsen.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Close, but not quite. Mitigate = reduce; opposite worsen.",
+        "Not this one. Mitigate = reduce; opposite worsen.",
+        "Not this one. Mitigate = reduce; opposite worsen.",
+        "Correct: Mitigate = reduce; opposite worsen."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: Trees help [mitigate] flood damage.",
+       "options": [
+        "reduce",
+        "explain",
+        "measure",
+        "worsen"
+       ],
+       "answer": 3,
+       "word": "mitigate"
       }
      ]
     },
@@ -1998,104 +2454,128 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-096",
+       "id": "U5-VO-011",
        "tag": "u5-words-c",
-       "level": "B1",
-       "why": "unprecedented: never seen before.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>unprecedented</em>?",
-       "options": [
-        "ordinary",
-        "never seen before",
-        "common",
-        "planned"
+       "level": "C1",
+       "why": "Unprecedented = never happened before; a 'record' level is the highest ever.",
+       "hint": "Look at 'reached'. Is this level normal?",
+       "fb": [
+        "Correct: unprecedented levels = never reached before, so record levels.",
+        "Normal is the opposite.",
+        "Expected is close to the opposite.",
+        "It may be dangerous, but unprecedented means it never happened before."
        ],
-       "answer": 1,
+       "lesson": 4,
+       "type": "choose",
+       "stem": "The water reached [unprecedented] levels last month. Closest meaning:",
+       "options": [
+        "record",
+        "normal",
+        "expected",
+        "dangerous"
+       ],
+       "answer": 0,
        "word": "unprecedented",
        "kind": "meaning"
       },
       {
-       "id": "U5-SAMPLE-099",
+       "id": "U5-VO-012",
        "tag": "u5-words-c",
-       "level": "B1",
-       "why": "discharge: release of water.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>discharge</em>?",
-       "options": [
-        "release of water",
-        "a warning",
-        "a road",
-        "a shelter"
+       "level": "B2",
+       "why": "Discharge (v) = let water flow out of a dam or pipe; 'release' is closest.",
+       "hint": "Does the dam keep the water, or let it out?",
+       "fb": [
+        "Test = check the quality.",
+        "Store = keep; the opposite of discharge.",
+        "Clean = remove dirt.",
+        "Correct: discharge water = let it flow out."
        ],
-       "answer": 0,
+       "lesson": 4,
+       "type": "choose",
+       "stem": "The dam will [discharge] more water this week. Closest meaning:",
+       "options": [
+        "test",
+        "store",
+        "clean",
+        "release"
+       ],
+       "answer": 3,
        "word": "discharge",
        "kind": "meaning"
       },
       {
-       "id": "U5-SAMPLE-102",
+       "id": "U5-VO-013",
        "tag": "u5-words-c",
-       "level": "B1",
-       "why": "relief: help for victims.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
+       "level": "B2",
+       "why": "Relief (1) = aid for disaster victims; (2) the good feeling when worry ends. Here: aid.",
+       "hint": "Relief has two meanings. Here it is something delivered to victims.",
+       "fb": [
+        "Correct: relief (1st meaning) = food, water and help for victims.",
+        "Staff = workers.",
+        "Mail = letters and parcels.",
+        "News = information about events."
+       ],
+       "lesson": 6,
        "type": "choose",
-       "stem": "Which is closest in meaning to <em>relief</em>?",
+       "stem": "[Relief] was delivered to the cut-off village by boat. Closest meaning:",
        "options": [
-        "help for victims",
-        "a map",
-        "a storm",
-        "a dam"
+        "aid",
+        "staff",
+        "mail",
+        "news"
        ],
        "answer": 0,
        "word": "relief",
        "kind": "meaning"
       },
       {
-       "id": "U5-SAMPLE-105",
+       "id": "U5-VO-015",
        "tag": "u5-words-c",
-       "level": "B1",
-       "why": "subside: go down.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
-       "type": "choose",
-       "stem": "Which is closest in meaning to <em>subside</em>?",
-       "options": [
-        "spread",
-        "rise",
-        "freeze",
-        "go down"
+       "level": "B2",
+       "why": "Trying times = a difficult, stressful period; 'hard times' is closest.",
+       "hint": "'Trying' here does not mean 'attempting'.",
+       "fb": [
+        "Busy = lots to do; trying = difficult.",
+        "Correct: trying times = a difficult period.",
+        "Early years = the first years of something.",
+        "Happy is close to the opposite."
        ],
-       "answer": 3,
-       "word": "subside",
-       "kind": "meaning"
-      },
-      {
-       "id": "U5-SAMPLE-108",
-       "tag": "u5-words-c",
-       "level": "B1",
-       "why": "trying times: a difficult period.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 1,
+       "lesson": 4,
        "type": "choose",
-       "stem": "Which is closest in meaning to <em>trying times</em>?",
+       "stem": "Our neighbours helped us a lot during those [trying times]. Closest meaning:",
        "options": [
-        "a holiday",
-        "a difficult period",
-        "a test",
-        "a season"
+        "busy days",
+        "hard times",
+        "early years",
+        "happy times"
        ],
        "answer": 1,
        "word": "trying times",
        "kind": "meaning"
+      },
+      {
+       "id": "U5-BKA-05",
+       "tag": "u5-words-c",
+       "level": "C1",
+       "why": "Unprecedented = never seen; opposite usual.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Not this one. Unprecedented = never seen; opposite usual.",
+        "Close, but not quite. Unprecedented = never seen; opposite usual.",
+        "Not this one. Unprecedented = never seen; opposite usual.",
+        "Correct: Unprecedented = never seen; opposite usual."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: The river reached [unprecedented] levels.",
+       "options": [
+        "shallow",
+        "record",
+        "dangerous",
+        "usual"
+       ],
+       "answer": 3,
+       "word": "unprecedented"
       }
      ]
     }
@@ -2105,123 +2585,153 @@ var U5W = {
     "name": "Level check · Meaning",
     "items": [
      {
-      "id": "U5-SAMPLE-067",
+      "id": "U5-VO-002",
       "tag": "u5-words-a",
       "level": "B2",
-      "why": "evacuate: remove to safety.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 3,
-      "type": "choose",
-      "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (evacuate family)",
-      "options": [
-       "evacuate (verb)",
-       "evacuate (noun)",
-       "evacuate (adj.)",
-       "evacuate"
+      "why": "Submerged = under the surface of the water.",
+      "hint": "Think about what floodwater does to a car park.",
+      "fb": [
+       "Empty = with nothing inside.",
+       "Crowded = full of people.",
+       "It may be damaged, but submerged means under water.",
+       "Correct: submerged = completely under water."
       ],
-      "answer": 1,
-      "word": "evacuate",
-      "kind": "family"
-     },
-     {
-      "id": "U5-SAMPLE-082",
-      "tag": "u5-words-b",
-      "level": "B2",
-      "why": "devastate: destroy.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 3,
+      "lesson": 1,
       "type": "choose",
-      "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (devastate family)",
+      "stem": "By noon, the whole car park was [submerged]. Closest meaning:",
       "options": [
-       "devastate (verb)",
-       "devastate",
-       "devastate (noun)",
-       "devastate (adj.)"
-      ],
-      "answer": 2,
-      "word": "devastate",
-      "kind": "family"
-     },
-     {
-      "id": "U5-SAMPLE-097",
-      "tag": "u5-words-c",
-      "level": "B2",
-      "why": "unprecedented: never seen before.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 3,
-      "type": "choose",
-      "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (unprecedented family)",
-      "options": [
-       "unprecedented (adj.)",
-       "unprecedented (verb)",
-       "unprecedented",
-       "unprecedented (noun)"
+       "empty",
+       "crowded",
+       "damaged",
+       "underwater"
       ],
       "answer": 3,
-      "word": "unprecedented",
-      "kind": "family"
+      "word": "submerged",
+      "kind": "meaning"
      },
      {
-      "id": "U5-SAMPLE-068",
-      "tag": "u5-words-a",
-      "level": "C1",
-      "why": "evacuate: remove to safety.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
+      "id": "U5-VG-007",
+      "tag": "u5-words-b",
+      "level": "B2",
+      "why": "Resilient = able to recover quickly from difficulties.",
+      "hint": "She lost her shop twice and stayed positive. What does that show about her?",
+      "fb": [
+       "Correct: resilient = able to recover quickly after difficulty.",
+       "Displaced = forced from home; it does not describe a positive attitude.",
+       "Prolonged describes events, not people.",
+       "Submerged = under water."
+      ],
+      "lesson": 3,
       "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (evacuate)",
+      "stem": "Even after losing her shop twice, Mrs Lek stayed positive. She is very ____.",
       "options": [
-       "prolonged",
        "resilient",
-       "complimentary",
-       "displaced"
-      ],
-      "answer": 3,
-      "word": "evacuate",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-083",
-      "tag": "u5-words-b",
-      "level": "C1",
-      "why": "devastate: destroy.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
-      "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (devastate)",
-      "options": [
-       "complimentary",
        "displaced",
        "prolonged",
-       "resilient"
-      ],
-      "answer": 1,
-      "word": "devastate",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-098",
-      "tag": "u5-words-c",
-      "level": "C1",
-      "why": "unprecedented: never seen before.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
-      "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (unprecedented)",
-      "options": [
-       "displaced",
-       "prolonged",
-       "complimentary",
-       "resilient"
+       "submerged"
       ],
       "answer": 0,
+      "word": "resilient",
+      "kind": "context"
+     },
+     {
+      "id": "U5-VG-011",
+      "tag": "u5-words-c",
+      "level": "C1",
+      "why": "Unprecedented = never having happened before.",
+      "hint": "Nobody had ever seen it before.",
+      "fb": [
+       "Resilient describes people or systems that recover.",
+       "Displaced describes people forced from home.",
+       "Prolonged is about how long, not how new.",
+       "Correct: unprecedented = never happened before."
+      ],
+      "lesson": 4,
+      "type": "choose",
+      "stem": "Nobody in the village had ever seen water this high. It was ____.",
+      "options": [
+       "resilient",
+       "displaced",
+       "prolonged",
+       "unprecedented"
+      ],
+      "answer": 3,
       "word": "unprecedented",
+      "kind": "context"
+     },
+     {
+      "id": "U5-VO-003",
+      "tag": "u5-words-a",
+      "level": "C1",
+      "why": "Inundate (2nd meaning) = give someone more than they can deal with: swamped with calls.",
+      "hint": "Is the hotline about water here, or about the number of calls?",
+      "fb": [
+       "Helped does not fit 'with calls for help'.",
+       "Ignored = not answered; inundated is about the number of calls.",
+       "Blocked = closed; the line was too busy, not closed.",
+       "Correct: inundated with calls = receiving far too many calls."
+      ],
+      "lesson": 6,
+      "type": "choose",
+      "stem": "After the storm, the hotline was [inundated] with calls for help. Closest meaning:",
+      "options": [
+       "helped",
+       "ignored",
+       "blocked",
+       "swamped"
+      ],
+      "answer": 3,
+      "word": "inundated",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-VG-008",
+      "tag": "u5-words-b",
+      "level": "B2",
+      "why": "Mitigate = make something bad less serious; trees reduce the risk of landslides.",
+      "hint": "Do trees make the risk bigger or smaller?",
+      "fb": [
+       "Correct: mitigate a risk = make it smaller.",
+       "Inundate = flood.",
+       "Discharge = let out (water).",
+       "Exacerbate = make worse; trees reduce the risk."
+      ],
+      "lesson": 3,
+      "type": "choose",
+      "stem": "Planting more trees along the river can ____ the risk of landslides.",
+      "options": [
+       "mitigate",
+       "inundate",
+       "discharge",
+       "exacerbate"
+      ],
+      "answer": 0,
+      "word": "mitigate",
+      "kind": "context"
+     },
+     {
+      "id": "U5-VG-012",
+      "tag": "u5-words-c",
+      "level": "B2",
+      "why": "Discharge (n) = the amount of water let out; dam releases are measured in cubic metres per second.",
+      "hint": "What does a dam let out, measured in cubic metres per second?",
+      "fb": [
+       "Relief = aid or a good feeling.",
+       "Correct: discharge (n) = the flow of water let out of a dam.",
+       "Aftermath = the period after a disaster.",
+       "Trying times = a difficult period."
+      ],
+      "lesson": 4,
+      "type": "choose",
+      "stem": "The dam's ____ of water was increased to 2,500 cubic metres per second.",
+      "options": [
+       "relief",
+       "discharge",
+       "aftermath",
+       "trying times"
+      ],
+      "answer": 1,
+      "word": "discharge",
       "kind": "context"
      }
     ]
@@ -2271,124 +2781,148 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-070",
+       "id": "U5-BKA-02",
        "tag": "u5-words-a",
        "level": "B2",
-       "why": "submerged: under water.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (submerged family)",
-       "options": [
-        "submerged (adj.)",
-        "submerged",
-        "submerged (verb)",
-        "submerged (noun)"
+       "why": "Displaced = forced to leave home.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Not this one. Displaced = forced to leave home.",
+        "Close, but not quite. Displaced = forced to leave home.",
+        "Correct: Displaced = forced to leave home.",
+        "Not this one. Displaced = forced to leave home."
        ],
-       "answer": 3,
-       "word": "submerged",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-073",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "inundate: flood.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
+       "lesson": 1,
        "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (inundate family)",
+       "stem": "Same: [Displaced] residents are sleeping in the school hall.",
        "options": [
-        "inundate (adj.)",
-        "inundate (verb)",
-        "inundate",
-        "inundate (noun)"
-       ],
-       "answer": 3,
-       "word": "inundate",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-076",
-       "tag": "u5-words-a",
-       "level": "B2",
-       "why": "displaced: forced from home.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (displaced family)",
-       "options": [
-        "displaced (adj.)",
-        "displaced (verb)",
-        "displaced (noun)",
-        "displaced"
+        "Tired",
+        "Injured",
+        "Homeless",
+        "Elderly"
        ],
        "answer": 2,
-       "word": "displaced",
-       "kind": "family"
+       "word": "displaced"
       },
       {
-       "id": "U5-SAMPLE-079",
+       "id": "U5-BKA-18",
        "tag": "u5-words-a",
        "level": "B2",
-       "why": "aftermath: the period after an event.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
+       "why": "Devastate = destroy; affected is too weak.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Correct: Devastate = destroy; affected is too weak.",
+        "Close, but not quite. Devastate = destroy; affected is too weak.",
+        "Not this one. Devastate = destroy; affected is too weak.",
+        "Not this one. Devastate = destroy; affected is too weak."
+       ],
+       "lesson": 1,
        "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (aftermath family)",
+       "stem": "Same: The flood [devastated] the farmers' rice crop.",
        "options": [
-        "aftermath (noun)",
-        "aftermath",
-        "aftermath (verb)",
-        "aftermath (adj.)"
+        "destroyed",
+        "affected",
+        "watered",
+        "harvested"
        ],
        "answer": 0,
-       "word": "aftermath",
-       "kind": "family"
+       "word": "devastated"
       },
       {
-       "id": "U5-SAMPLE-123",
+       "id": "U5-BKA-41",
        "tag": "u5-words-a",
-       "level": "B2+",
-       "why": "evacuate is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "SAMPLE family item for <em>evacuate</em>: choose the word that fits.",
-       "options": [
-        "predict",
-        "rescue",
-        "evacuate",
-        "report"
+       "level": "B2",
+       "why": "Evacuate a place = clear it of people.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Not this one. Evacuate a place = clear it of people.",
+        "Correct: Evacuate a place = clear it of people.",
+        "Close, but not quite. Evacuate a place = clear it of people.",
+        "Not this one. Evacuate a place = clear it of people."
        ],
-       "answer": 2,
-       "word": "evacuate",
-       "kind": "family"
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Same: Police [evacuated] the market before the water arrived.",
+       "options": [
+        "visited",
+        "cleared",
+        "guarded",
+        "searched"
+       ],
+       "answer": 1,
+       "word": "evacuated"
       },
       {
-       "id": "U5-SAMPLE-126",
+       "id": "U5-BKA-47",
        "tag": "u5-words-a",
-       "level": "B2+",
-       "why": "submerged is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
+       "level": "B2",
+       "why": "Stranded = stuck, unable to leave.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Close, but not quite. Stranded = stuck, unable to leave.",
+        "Not this one. Stranded = stuck, unable to leave.",
+        "Not this one. Stranded = stuck, unable to leave.",
+        "Correct: Stranded = stuck, unable to leave."
+       ],
+       "lesson": 2,
+       "type": "choose",
+       "stem": "Same: Hundreds of tourists were [stranded] at the airport.",
+       "options": [
+        "delayed",
+        "welcomed",
+        "lost",
+        "stuck"
+       ],
+       "answer": 3,
+       "word": "stranded"
+      },
+      {
+       "id": "U5-BKB-04",
+       "tag": "u5-words-a",
+       "level": "B2",
+       "why": "Extensive = large; opposite minor.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Correct: Extensive = large; opposite minor.",
+        "Close, but not quite. Extensive = large; opposite minor.",
+        "Not this one. Extensive = large; opposite minor.",
+        "Not this one. Extensive = large; opposite minor."
+       ],
        "lesson": 3,
        "type": "choose",
-       "stem": "SAMPLE family item for <em>submerged</em>: choose the word that fits.",
+       "stem": "Opposite: The flood damage was [extensive].",
        "options": [
-        "predict",
-        "report",
-        "submerged",
-        "rescue"
+        "minor",
+        "serious",
+        "recent",
+        "costly"
        ],
-       "answer": 2,
-       "word": "submerged",
-       "kind": "family"
+       "answer": 0,
+       "word": "extensive"
+      },
+      {
+       "id": "U5-BKB-09",
+       "tag": "u5-words-a",
+       "level": "B2",
+       "why": "Severe = very bad; opposite mild.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Correct: Severe = very bad; opposite mild.",
+        "Close, but not quite. Severe = very bad; opposite mild.",
+        "Not this one. Severe = very bad; opposite mild.",
+        "Not this one. Severe = very bad; opposite mild."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: Last night's storm was [severe].",
+       "options": [
+        "mild",
+        "heavy",
+        "late",
+        "noisy"
+       ],
+       "answer": 0,
+       "word": "severe"
       }
      ]
     },
@@ -2429,124 +2963,100 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-085",
+       "id": "U5-BKA-34",
        "tag": "u5-words-b",
        "level": "B2",
-       "why": "resilient: able to recover.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (resilient family)",
-       "options": [
-        "resilient",
-        "resilient (noun)",
-        "resilient (adj.)",
-        "resilient (verb)"
+       "why": "Resilient = strong; opposite fragile.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Close, but not quite. Resilient = strong; opposite fragile.",
+        "Not this one. Resilient = strong; opposite fragile.",
+        "Not this one. Resilient = strong; opposite fragile.",
+        "Correct: Resilient = strong; opposite fragile."
        ],
-       "answer": 1,
-       "word": "resilient",
-       "kind": "family"
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: These old wooden houses are surprisingly [resilient].",
+       "options": [
+        "tough",
+        "crowded",
+        "modern",
+        "fragile"
+       ],
+       "answer": 3,
+       "word": "resilient"
       },
       {
-       "id": "U5-SAMPLE-088",
+       "id": "U5-BKB-08",
        "tag": "u5-words-b",
        "level": "B2",
-       "why": "mitigate: make less serious.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (mitigate family)",
-       "options": [
-        "mitigate (verb)",
-        "mitigate (noun)",
-        "mitigate (adj.)",
-        "mitigate"
+       "why": "Mitigate = make less harmful.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Close, but not quite. Mitigate = make less harmful.",
+        "Correct: Mitigate = make less harmful.",
+        "Not this one. Mitigate = make less harmful.",
+        "Not this one. Mitigate = make less harmful."
        ],
-       "answer": 1,
-       "word": "mitigate",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-091",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "exacerbate: make worse.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
        "lesson": 3,
        "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (exacerbate family)",
-       "options": [
-        "exacerbate (verb)",
-        "exacerbate (noun)",
-        "exacerbate (adj.)",
-        "exacerbate"
-       ],
-       "answer": 1,
-       "word": "exacerbate",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-094",
-       "tag": "u5-words-b",
-       "level": "B2",
-       "why": "prolonged: lasting a long time.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (prolonged family)",
-       "options": [
-        "prolonged",
-        "prolonged (adj.)",
-        "prolonged (noun)",
-        "prolonged (verb)"
-       ],
-       "answer": 2,
-       "word": "prolonged",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-138",
-       "tag": "u5-words-b",
-       "level": "B2+",
-       "why": "devastate is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "SAMPLE family item for <em>devastate</em>: choose the word that fits.",
-       "options": [
-        "devastate",
-        "rescue",
-        "report",
-        "predict"
-       ],
-       "answer": 0,
-       "word": "devastate",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-141",
-       "tag": "u5-words-b",
-       "level": "B2+",
-       "why": "resilient is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "SAMPLE family item for <em>resilient</em>: choose the word that fits.",
+       "stem": "Same: Planting trees can [mitigate] landslide risks.",
        "options": [
         "predict",
-        "resilient",
-        "report",
-        "rescue"
+        "reduce",
+        "create",
+        "measure"
        ],
        "answer": 1,
-       "word": "resilient",
-       "kind": "family"
+       "word": "mitigate"
+      },
+      {
+       "id": "U5-BKB-26",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "Prolonged = lasting a long time.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Not this one. Prolonged = lasting a long time.",
+        "Correct: Prolonged = lasting a long time.",
+        "Not this one. Prolonged = lasting a long time.",
+        "Close, but not quite. Prolonged = lasting a long time."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "Same: The [prolonged] rain flooded the rice fields.",
+       "options": [
+        "sudden",
+        "long-lasting",
+        "light",
+        "heavy"
+       ],
+       "answer": 1,
+       "word": "prolonged"
+      },
+      {
+       "id": "U5-BKB-32",
+       "tag": "u5-words-b",
+       "level": "B2",
+       "why": "Resilient = able to recover; tough.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Close, but not quite. Resilient = able to recover; tough.",
+        "Not this one. Resilient = able to recover; tough.",
+        "Not this one. Resilient = able to recover; tough.",
+        "Correct: Resilient = able to recover; tough."
+       ],
+       "lesson": 3,
+       "type": "choose",
+       "stem": "Same: The community proved [resilient] after the floods.",
+       "options": [
+        "patient",
+        "wealthy",
+        "angry",
+        "strong"
+       ],
+       "answer": 3,
+       "word": "resilient"
       }
      ]
     },
@@ -2587,124 +3097,124 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-100",
+       "id": "U5-BKA-14",
        "tag": "u5-words-c",
        "level": "B2",
-       "why": "discharge: release of water.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (discharge family)",
-       "options": [
-        "discharge (noun)",
-        "discharge (verb)",
-        "discharge (adj.)",
-        "discharge"
+       "why": "Trying times = hard times; opposite good times.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Not this one. Trying times = hard times; opposite good times.",
+        "Close, but not quite. Trying times = hard times; opposite good times.",
+        "Not this one. Trying times = hard times; opposite good times.",
+        "Correct: Trying times = hard times; opposite good times."
        ],
-       "answer": 0,
-       "word": "discharge",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-103",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "relief: help for victims.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
+       "lesson": 1,
        "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (relief family)",
+       "stem": "Opposite: Thank you for helping us in these [trying times].",
        "options": [
-        "relief (adj.)",
-        "relief (verb)",
-        "relief",
-        "relief (noun)"
+        "old times",
+        "hard times",
+        "busy times",
+        "good times"
        ],
        "answer": 3,
-       "word": "relief",
-       "kind": "family"
+       "word": "trying times"
       },
       {
-       "id": "U5-SAMPLE-106",
+       "id": "U5-BKA-36",
        "tag": "u5-words-c",
        "level": "B2",
-       "why": "subside: go down.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (subside family)",
-       "options": [
-        "subside",
-        "subside (noun)",
-        "subside (adj.)",
-        "subside (verb)"
+       "why": "Relief ends worry; opposite anxiety.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Correct: Relief ends worry; opposite anxiety.",
+        "Close, but not quite. Relief ends worry; opposite anxiety.",
+        "Not this one. Relief ends worry; opposite anxiety.",
+        "Not this one. Relief ends worry; opposite anxiety."
        ],
-       "answer": 1,
-       "word": "subside",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-109",
-       "tag": "u5-words-c",
-       "level": "B2",
-       "why": "trying times: a difficult period.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 3,
+       "lesson": 1,
        "type": "choose",
-       "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (trying times family)",
+       "stem": "Opposite: We felt huge [relief] when Dad got home safely.",
        "options": [
-        "trying times (noun)",
-        "trying times",
-        "trying times (verb)",
-        "trying times (adj.)"
+        "anxiety",
+        "joy",
+        "pride",
+        "anger"
        ],
        "answer": 0,
-       "word": "trying times",
-       "kind": "family"
+       "word": "relief"
       },
       {
-       "id": "U5-SAMPLE-153",
+       "id": "U5-BKB-19",
        "tag": "u5-words-c",
-       "level": "B2+",
-       "why": "unprecedented is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 3,
-       "type": "choose",
-       "stem": "SAMPLE family item for <em>unprecedented</em>: choose the word that fits.",
-       "options": [
-        "predict",
-        "rescue",
-        "report",
-        "unprecedented"
+       "level": "B2",
+       "why": "Relief = aid for victims.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Close, but not quite. Relief = aid for victims.",
+        "Not this one. Relief = aid for victims.",
+        "Correct: Relief = aid for victims.",
+        "Not this one. Relief = aid for victims."
        ],
-       "answer": 3,
-       "word": "unprecedented",
-       "kind": "family"
-      },
-      {
-       "id": "U5-SAMPLE-156",
-       "tag": "u5-words-c",
-       "level": "B2+",
-       "why": "discharge is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 3,
+       "lesson": 6,
        "type": "choose",
-       "stem": "SAMPLE family item for <em>discharge</em>: choose the word that fits.",
+       "stem": "Same: The army sent [relief] to the cut-off villages.",
        "options": [
-        "rescue",
-        "predict",
-        "discharge",
-        "report"
+        "troops",
+        "reporters",
+        "aid",
+        "tourists"
        ],
        "answer": 2,
-       "word": "discharge",
-       "kind": "family"
+       "word": "relief"
+      },
+      {
+       "id": "U5-BKB-22",
+       "tag": "u5-words-c",
+       "level": "B2",
+       "why": "Trying times = a difficult period.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Close, but not quite. Trying times = a difficult period.",
+        "Not this one. Trying times = a difficult period.",
+        "Correct: Trying times = a difficult period.",
+        "Not this one. Trying times = a difficult period."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "Same: Everyone helped each other in those [trying times].",
+       "options": [
+        "busy days",
+        "happy times",
+        "hard times",
+        "holidays"
+       ],
+       "answer": 2,
+       "word": "trying times"
+      },
+      {
+       "id": "U5-BKB-50",
+       "tag": "u5-words-c",
+       "level": "B2",
+       "why": "Subside = go down; recede.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Not this one. Subside = go down; recede.",
+        "Not this one. Subside = go down; recede.",
+        "Close, but not quite. Subside = go down; recede.",
+        "Correct: Subside = go down; recede."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "Same: The water began to [subside] after midnight.",
+       "options": [
+        "freeze",
+        "rise",
+        "spread",
+        "recede"
+       ],
+       "answer": 3,
+       "word": "subside"
       }
      ]
     }
@@ -2714,123 +3224,153 @@ var U5W = {
     "name": "Level check · Family and collocation",
     "items": [
      {
-      "id": "U5-SAMPLE-071",
+      "id": "U5-VO-004",
       "tag": "u5-words-a",
-      "level": "C1",
-      "why": "submerged: under water.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
-      "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (submerged)",
-      "options": [
-       "complimentary",
-       "resilient",
-       "displaced",
-       "prolonged"
+      "level": "B2",
+      "why": "Displaced = forced to leave your home because of danger; 'homeless' is the closest choice.",
+      "hint": "Why would a family live in a tent at a temple?",
+      "fb": [
+       "Injured = hurt in the body.",
+       "Grateful = thankful.",
+       "Wealthy = rich.",
+       "Correct: displaced = forced to leave home; 'homeless' is the closest option given."
       ],
-      "answer": 2,
-      "word": "submerged",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-086",
-      "tag": "u5-words-b",
-      "level": "C1",
-      "why": "resilient: able to recover.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
+      "lesson": 1,
       "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (resilient)",
+      "stem": "[Displaced] families are living in tents at the temple. Closest meaning:",
       "options": [
-       "complimentary",
-       "prolonged",
-       "displaced",
-       "resilient"
-      ],
-      "answer": 2,
-      "word": "resilient",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-101",
-      "tag": "u5-words-c",
-      "level": "C1",
-      "why": "discharge: release of water.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
-      "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (discharge)",
-      "options": [
-       "prolonged",
-       "complimentary",
-       "displaced",
-       "resilient"
-      ],
-      "answer": 2,
-      "word": "discharge",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-074",
-      "tag": "u5-words-a",
-      "level": "C1",
-      "why": "inundate: flood.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
-      "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (inundate)",
-      "options": [
-       "displaced",
-       "complimentary",
-       "resilient",
-       "prolonged"
-      ],
-      "answer": 0,
-      "word": "inundate",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-089",
-      "tag": "u5-words-b",
-      "level": "C1",
-      "why": "mitigate: make less serious.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
-      "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (mitigate)",
-      "options": [
-       "complimentary",
-       "displaced",
-       "prolonged",
-       "resilient"
-      ],
-      "answer": 1,
-      "word": "mitigate",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-104",
-      "tag": "u5-words-c",
-      "level": "C1",
-      "why": "relief: help for victims.",
-      "hint": "Think of the word's picture, then its grammar.",
-      "err": "E1",
-      "lesson": 5,
-      "type": "choose",
-      "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (relief)",
-      "options": [
-       "complimentary",
-       "prolonged",
-       "resilient",
-       "displaced"
+       "injured",
+       "grateful",
+       "wealthy",
+       "homeless"
       ],
       "answer": 3,
+      "word": "displaced",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-VG-009",
+      "tag": "u5-words-b",
+      "level": "C1",
+      "why": "Exacerbate = make a bad situation worse. Rubbish blocks canals, so the flooding gets worse.",
+      "hint": "'Will only…' suggests a bad result.",
+      "fb": [
+       "Subside has no object.",
+       "Mitigate = make less serious; rubbish does the opposite.",
+       "Evacuate = move people away from danger.",
+       "Correct: exacerbate = make a problem worse."
+      ],
+      "lesson": 3,
+      "type": "choose",
+      "stem": "Throwing rubbish into the canals will only ____ the flooding problem.",
+      "options": [
+       "subside",
+       "mitigate",
+       "evacuate",
+       "exacerbate"
+      ],
+      "answer": 3,
+      "word": "exacerbate",
+      "kind": "context"
+     },
+     {
+      "id": "U5-VG-013",
+      "tag": "u5-words-c",
+      "level": "B1",
+      "why": "Relief (2) = the happy feeling when something bad ends. A 'sense of relief' is a common collocation.",
+      "hint": "What do you feel when a worry ends?",
+      "fb": [
+       "Correct: relief (2nd meaning) = the good feeling when worry ends.",
+       "Discharge is water let out of a dam.",
+       "Aftermath is a period of time, not a feeling.",
+       "Trying times = a difficult period, not a feeling."
+      ],
+      "lesson": 6,
+      "type": "choose",
+      "stem": "When the water finally went down, everyone felt a great sense of ____.",
+      "options": [
+       "relief",
+       "discharge",
+       "aftermath",
+       "trying times"
+      ],
+      "answer": 0,
       "word": "relief",
+      "kind": "context"
+     },
+     {
+      "id": "U5-VO-005",
+      "tag": "u5-words-a",
+      "level": "C1",
+      "why": "In the aftermath of = in the period after (a disaster); 'in the wake of' means the same.",
+      "hint": "After- tells you when.",
+      "fb": [
+       "Correct: in the aftermath of = in the wake of = in the period after.",
+       "Cause = what made it happen.",
+       "Middle = during, not after.",
+       "Beginning = start, not after."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "In the [aftermath] of the floods, many shops stayed closed. Closest meaning:",
+      "options": [
+       "wake",
+       "cause",
+       "middle",
+       "beginning"
+      ],
+      "answer": 0,
+      "word": "aftermath",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-VG-010",
+      "tag": "u5-words-b",
+      "level": "B2",
+      "why": "Prolonged = lasting a long time; after a long period of rain the soil was full.",
+      "hint": "Why could the soil hold no more water?",
+      "fb": [
+       "Resilient = able to recover.",
+       "Displaced is used for people.",
+       "Correct: a prolonged period = a long one.",
+       "A period of time cannot be under water."
+      ],
+      "lesson": 3,
+      "type": "choose",
+      "stem": "After a ____ period of heavy rain, the soil could not hold any more water.",
+      "options": [
+       "resilient",
+       "displaced",
+       "prolonged",
+       "submerged"
+      ],
+      "answer": 2,
+      "word": "prolonged",
+      "kind": "context"
+     },
+     {
+      "id": "U5-VG-014",
+      "tag": "u5-words-c",
+      "level": "B1",
+      "why": "Subside = go down; it has no object, so 'began to subside' is complete.",
+      "hint": "When is it safe to leave the shelter?",
+      "fb": [
+       "Correct: subside = go down.",
+       "Inundate needs an object, and it means flood.",
+       "People evacuate; water does not.",
+       "Devastate needs an object and means destroy."
+      ],
+      "lesson": 4,
+      "type": "choose",
+      "stem": "Residents were told to stay in the shelter until the floodwater began to ____.",
+      "options": [
+       "subside",
+       "inundate",
+       "evacuate",
+       "devastate"
+      ],
+      "answer": 0,
+      "word": "subside",
       "kind": "context"
      }
     ]
@@ -2880,124 +3420,148 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-077",
+       "id": "U5-BKA-06",
        "tag": "u5-words-a",
        "level": "C1",
-       "why": "displaced: forced from home.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "choose",
-       "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (displaced)",
-       "options": [
-        "resilient",
-        "complimentary",
-        "displaced",
-        "prolonged"
+       "why": "Exacerbate = make worse; opposite ease.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Not this one. Exacerbate = make worse; opposite ease.",
+        "Correct: Exacerbate = make worse; opposite ease.",
+        "Not this one. Exacerbate = make worse; opposite ease.",
+        "Close, but not quite. Exacerbate = make worse; opposite ease."
        ],
-       "answer": 2,
-       "word": "displaced",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-080",
-       "tag": "u5-words-a",
-       "level": "C1",
-       "why": "aftermath: the period after an event.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 5,
+       "lesson": 1,
        "type": "choose",
-       "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (aftermath)",
+       "stem": "Opposite: Rubbish in the canals [exacerbated] the flooding.",
        "options": [
-        "resilient",
-        "displaced",
-        "prolonged",
-        "complimentary"
+        "followed",
+        "eased",
+        "caused",
+        "worsened"
        ],
        "answer": 1,
-       "word": "aftermath",
-       "kind": "context"
+       "word": "exacerbated"
       },
       {
-       "id": "U5-SAMPLE-124",
+       "id": "U5-BKA-17",
        "tag": "u5-words-a",
-       "level": "B2+",
-       "why": "evacuate is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 6,
+       "level": "C1",
+       "why": "Inundated with = given too many.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Not this one. Inundated with = given too many.",
+        "Correct: Inundated with = given too many.",
+        "Not this one. Inundated with = given too many.",
+        "Close, but not quite. Inundated with = given too many."
+       ],
+       "lesson": 1,
        "type": "choose",
-       "stem": "SAMPLE context item for <em>evacuate</em>: choose the word that fits.",
+       "stem": "Same: The district office was [inundated] with requests for sandbags.",
        "options": [
-        "rescue",
-        "report",
-        "predict",
-        "evacuate"
+        "pleased",
+        "swamped",
+        "surprised",
+        "blocked"
+       ],
+       "answer": 1,
+       "word": "inundated"
+      },
+      {
+       "id": "U5-BKA-20",
+       "tag": "u5-words-a",
+       "level": "C1",
+       "why": "In the aftermath of = in the wake of.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Close, but not quite. In the aftermath of = in the wake of.",
+        "Not this one. In the aftermath of = in the wake of.",
+        "Not this one. In the aftermath of = in the wake of.",
+        "Correct: In the aftermath of = in the wake of."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Same: In the [aftermath] of the storm, prices went up.",
+       "options": [
+        "path",
+        "middle",
+        "centre",
+        "wake"
        ],
        "answer": 3,
-       "word": "evacuate",
-       "kind": "context"
+       "word": "aftermath"
       },
       {
-       "id": "U5-SAMPLE-125",
+       "id": "U5-BKA-37",
        "tag": "u5-words-a",
        "level": "C1",
-       "why": "evacuate is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 8,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>evacuate</em>: choose the word that fits.",
-       "options": [
-        "rescue",
-        "evacuate",
-        "predict",
-        "report"
+       "why": "Deluge = very heavy rain or flood.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Correct: Deluge = very heavy rain or flood.",
+        "Not this one. Deluge = very heavy rain or flood.",
+        "Close, but not quite. Deluge = very heavy rain or flood.",
+        "Not this one. Deluge = very heavy rain or flood."
        ],
-       "answer": 1,
-       "word": "evacuate",
-       "kind": "context"
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Same: The [deluge] lasted for almost two days.",
+       "options": [
+        "downpour",
+        "blackout",
+        "drizzle",
+        "heatwave"
+       ],
+       "answer": 0,
+       "word": "deluge"
       },
       {
-       "id": "U5-SAMPLE-127",
-       "tag": "u5-words-a",
-       "level": "B2+",
-       "why": "submerged is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 6,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>submerged</em>: choose the word that fits.",
-       "options": [
-        "report",
-        "submerged",
-        "rescue",
-        "predict"
-       ],
-       "answer": 1,
-       "word": "submerged",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-128",
+       "id": "U5-BKA-49",
        "tag": "u5-words-a",
        "level": "C1",
-       "why": "submerged is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 8,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>submerged</em>: choose the word that fits.",
-       "options": [
-        "report",
-        "predict",
-        "submerged",
-        "rescue"
+       "why": "Submerged = under water.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Close, but not quite. Submerged = under water.",
+        "Not this one. Submerged = under water.",
+        "Not this one. Submerged = under water.",
+        "Correct: Submerged = under water."
        ],
-       "answer": 2,
-       "word": "submerged",
-       "kind": "context"
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Same: Many cars were [submerged] in the car park.",
+       "options": [
+        "damaged",
+        "abandoned",
+        "unsafe",
+        "underwater"
+       ],
+       "answer": 3,
+       "word": "submerged"
+      },
+      {
+       "id": "U5-BKB-01",
+       "tag": "u5-words-a",
+       "level": "C1",
+       "why": "Submerged = under water; opposite exposed.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Correct: Submerged = under water; opposite exposed.",
+        "Close, but not quite. Submerged = under water; opposite exposed.",
+        "Not this one. Submerged = under water; opposite exposed.",
+        "Not this one. Submerged = under water; opposite exposed."
+       ],
+       "lesson": 1,
+       "type": "choose",
+       "stem": "Opposite: At high tide, the rocks are [submerged].",
+       "options": [
+        "exposed",
+        "underwater",
+        "broken",
+        "slippery"
+       ],
+       "answer": 0,
+       "word": "submerged"
       }
      ]
     },
@@ -3036,128 +3600,7 @@ var U5W = {
        }
       ]
      },
-     "items": [
-      {
-       "id": "U5-SAMPLE-092",
-       "tag": "u5-words-b",
-       "level": "C1",
-       "why": "exacerbate: make worse.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "choose",
-       "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (exacerbate)",
-       "options": [
-        "complimentary",
-        "displaced",
-        "resilient",
-        "prolonged"
-       ],
-       "answer": 1,
-       "word": "exacerbate",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-095",
-       "tag": "u5-words-b",
-       "level": "C1",
-       "why": "prolonged: lasting a long time.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 5,
-       "type": "choose",
-       "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (prolonged)",
-       "options": [
-        "complimentary",
-        "displaced",
-        "prolonged",
-        "resilient"
-       ],
-       "answer": 1,
-       "word": "prolonged",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-139",
-       "tag": "u5-words-b",
-       "level": "B2+",
-       "why": "devastate is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 6,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>devastate</em>: choose the word that fits.",
-       "options": [
-        "devastate",
-        "predict",
-        "rescue",
-        "report"
-       ],
-       "answer": 0,
-       "word": "devastate",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-140",
-       "tag": "u5-words-b",
-       "level": "C1",
-       "why": "devastate is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 8,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>devastate</em>: choose the word that fits.",
-       "options": [
-        "predict",
-        "devastate",
-        "rescue",
-        "report"
-       ],
-       "answer": 1,
-       "word": "devastate",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-142",
-       "tag": "u5-words-b",
-       "level": "B2+",
-       "why": "resilient is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 6,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>resilient</em>: choose the word that fits.",
-       "options": [
-        "predict",
-        "rescue",
-        "report",
-        "resilient"
-       ],
-       "answer": 3,
-       "word": "resilient",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-143",
-       "tag": "u5-words-b",
-       "level": "C1",
-       "why": "resilient is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 8,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>resilient</em>: choose the word that fits.",
-       "options": [
-        "resilient",
-        "report",
-        "rescue",
-        "predict"
-       ],
-       "answer": 0,
-       "word": "resilient",
-       "kind": "context"
-      }
-     ]
+     "items": []
     },
     {
      "id": "u5w3s3",
@@ -3196,123 +3639,100 @@ var U5W = {
      },
      "items": [
       {
-       "id": "U5-SAMPLE-107",
+       "id": "U5-BKA-11",
        "tag": "u5-words-c",
        "level": "C1",
-       "why": "subside: go down.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 5,
+       "why": "Discharge water = let it out.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Not this one. Discharge water = let it out.",
+        "Close, but not quite. Discharge water = let it out.",
+        "Correct: Discharge water = let it out.",
+        "Not this one. Discharge water = let it out."
+       ],
+       "lesson": 1,
        "type": "choose",
-       "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (subside)",
+       "stem": "Same: The dam will [discharge] more water tonight.",
        "options": [
-        "complimentary",
-        "resilient",
-        "displaced",
-        "prolonged"
+        "measure",
+        "store",
+        "release",
+        "collect"
        ],
        "answer": 2,
-       "word": "subside",
-       "kind": "context"
+       "word": "discharge"
       },
       {
-       "id": "U5-SAMPLE-110",
+       "id": "U5-BKB-17",
        "tag": "u5-words-c",
        "level": "C1",
-       "why": "trying times: a difficult period.",
-       "hint": "Think of the word's picture, then its grammar.",
-       "err": "E1",
-       "lesson": 5,
+       "why": "Unprecedented = never happened before; unheard-of.",
+       "hint": "Which word could replace the word in brackets without changing the meaning?",
+       "fb": [
+        "Not this one. Unprecedented = never happened before; unheard-of.",
+        "Close, but not quite. Unprecedented = never happened before; unheard-of.",
+        "Not this one. Unprecedented = never happened before; unheard-of.",
+        "Correct: Unprecedented = never happened before; unheard-of."
+       ],
+       "lesson": 4,
        "type": "choose",
-       "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (trying times)",
+       "stem": "Same: The river rose to an [unprecedented] height.",
        "options": [
-        "prolonged",
-        "resilient",
-        "displaced",
-        "complimentary"
+        "ordinary",
+        "unexpected",
+        "alarming",
+        "unheard-of"
+       ],
+       "answer": 3,
+       "word": "unprecedented"
+      },
+      {
+       "id": "U5-BKB-34",
+       "tag": "u5-words-c",
+       "level": "C1",
+       "why": "Discharge = let out; retain = keep.",
+       "hint": "Which word means the opposite of the word in brackets?",
+       "fb": [
+        "Not this one. Discharge = let out; retain = keep.",
+        "Not this one. Discharge = let out; retain = keep.",
+        "Close, but not quite. Discharge = let out; retain = keep.",
+        "Correct: Discharge = let out; retain = keep."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "Opposite: The dam will [discharge] water this week.",
+       "options": [
+        "purify",
+        "measure",
+        "release",
+        "retain"
+       ],
+       "answer": 3,
+       "word": "discharge"
+      },
+      {
+       "id": "U5-VG-015",
+       "tag": "u5-words-c",
+       "level": "B2",
+       "why": "Trying times = a difficult, stressful period; 'during these trying times' is a fixed phrase.",
+       "hint": "What kind of period needs people's support?",
+       "fb": [
+        "Early years = the first years of something; they do not need support.",
+        "Happy days do not need people's support.",
+        "Correct: trying times = a difficult period.",
+        "Dry seasons are not a time when a school needs extra support."
+       ],
+       "lesson": 4,
+       "type": "choose",
+       "stem": "Thank you for supporting our school during these ____.",
+       "options": [
+        "early years",
+        "happy days",
+        "trying times",
+        "dry seasons"
        ],
        "answer": 2,
        "word": "trying times",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-154",
-       "tag": "u5-words-c",
-       "level": "B2+",
-       "why": "unprecedented is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 6,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>unprecedented</em>: choose the word that fits.",
-       "options": [
-        "unprecedented",
-        "report",
-        "rescue",
-        "predict"
-       ],
-       "answer": 0,
-       "word": "unprecedented",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-155",
-       "tag": "u5-words-c",
-       "level": "C1",
-       "why": "unprecedented is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 8,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>unprecedented</em>: choose the word that fits.",
-       "options": [
-        "predict",
-        "rescue",
-        "unprecedented",
-        "report"
-       ],
-       "answer": 2,
-       "word": "unprecedented",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-157",
-       "tag": "u5-words-c",
-       "level": "B2+",
-       "why": "discharge is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 6,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>discharge</em>: choose the word that fits.",
-       "options": [
-        "rescue",
-        "report",
-        "discharge",
-        "predict"
-       ],
-       "answer": 2,
-       "word": "discharge",
-       "kind": "context"
-      },
-      {
-       "id": "U5-SAMPLE-158",
-       "tag": "u5-words-c",
-       "level": "C1",
-       "why": "discharge is the word the sentence needs.",
-       "hint": "Decide: does the subject do it or receive it?",
-       "err": "E1",
-       "lesson": 8,
-       "type": "choose",
-       "stem": "SAMPLE context item for <em>discharge</em>: choose the word that fits.",
-       "options": [
-        "rescue",
-        "predict",
-        "discharge",
-        "report"
-       ],
-       "answer": 2,
-       "word": "discharge",
        "kind": "context"
       }
      ]
@@ -3323,123 +3743,103 @@ var U5W = {
     "name": "Level check · Words in context",
     "items": [
      {
-      "id": "U5-SAMPLE-129",
+      "id": "U5-VO-006",
       "tag": "u5-words-a",
-      "level": "B2+",
-      "why": "inundate is the word the sentence needs.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
+      "level": "B2",
+      "why": "Devastate = cause very great damage; 'destroyed' is closest. 'Affected' is too weak.",
+      "hint": "Devastate is a very strong word.",
+      "fb": [
+       "Visited = went to see.",
+       "Affected is much weaker; devastated means terrible damage.",
+       "Surprised is about a feeling.",
+       "Correct: devastate = damage very badly or destroy."
+      ],
       "lesson": 3,
       "type": "choose",
-      "stem": "SAMPLE family item for <em>inundate</em>: choose the word that fits.",
+      "stem": "The storm [devastated] the small fishing village. Closest meaning:",
       "options": [
-       "rescue",
-       "predict",
-       "report",
-       "inundate"
+       "visited",
+       "affected",
+       "surprised",
+       "destroyed"
       ],
       "answer": 3,
-      "word": "inundate",
-      "kind": "family"
+      "word": "devastated",
+      "kind": "meaning"
      },
      {
-      "id": "U5-SAMPLE-144",
-      "tag": "u5-words-b",
-      "level": "B2+",
-      "why": "mitigate is the word the sentence needs.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
+      "id": "U5-VO-009",
+      "tag": "u5-words-a",
+      "level": "C1",
+      "why": "Exacerbate = make a problem worse. The drains did not start the flood; they made it worse.",
+      "hint": "The flooding was already happening. What did blocked drains do to it?",
+      "fb": [
+       "Ended = stopped.",
+       "The rain caused the flood; blocked drains made it worse.",
+       "Reduced is the opposite.",
+       "Correct: exacerbate = make a bad situation worse."
+      ],
       "lesson": 3,
       "type": "choose",
-      "stem": "SAMPLE family item for <em>mitigate</em>: choose the word that fits.",
+      "stem": "Blocked drains [exacerbated] the flooding in our soi. Closest meaning:",
       "options": [
-       "rescue",
+       "ended",
+       "caused",
+       "reduced",
+       "worsened"
+      ],
+      "answer": 3,
+      "word": "exacerbated",
+      "kind": "meaning"
+     },
+     {
+      "id": "U5-VG-001",
+      "tag": "u5-words-a",
+      "level": "B2",
+      "why": "Evacuate + people = move them away from danger to a safe place.",
+      "hint": "What do soldiers do with people before a flood arrives?",
+      "fb": [
+       "Mitigate takes a problem as object, not people.",
+       "Inundate = flood. That is what the river did.",
+       "Correct: evacuate people = move them away from danger.",
+       "Devastate = destroy. Soldiers protect people."
+      ],
+      "lesson": 1,
+      "type": "choose",
+      "stem": "Soldiers helped ____ the elderly residents before the river burst its banks.",
+      "options": [
        "mitigate",
-       "predict",
-       "report"
-      ],
-      "answer": 1,
-      "word": "mitigate",
-      "kind": "family"
-     },
-     {
-      "id": "U5-SAMPLE-159",
-      "tag": "u5-words-c",
-      "level": "B2+",
-      "why": "relief is the word the sentence needs.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 3,
-      "type": "choose",
-      "stem": "SAMPLE family item for <em>relief</em>: choose the word that fits.",
-      "options": [
-       "relief",
-       "report",
-       "rescue",
-       "predict"
-      ],
-      "answer": 0,
-      "word": "relief",
-      "kind": "family"
-     },
-     {
-      "id": "U5-SAMPLE-130",
-      "tag": "u5-words-a",
-      "level": "B2+",
-      "why": "inundate is the word the sentence needs.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 6,
-      "type": "choose",
-      "stem": "SAMPLE context item for <em>inundate</em>: choose the word that fits.",
-      "options": [
-       "predict",
        "inundate",
-       "report",
-       "rescue"
+       "evacuate",
+       "devastate"
       ],
-      "answer": 1,
-      "word": "inundate",
+      "answer": 2,
+      "word": "evacuate",
       "kind": "context"
      },
      {
-      "id": "U5-SAMPLE-145",
-      "tag": "u5-words-b",
-      "level": "B2+",
-      "why": "mitigate is the word the sentence needs.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 6,
+      "id": "U5-VG-002",
+      "tag": "u5-words-a",
+      "level": "B2",
+      "why": "Submerged = completely under water; only the roofs were above the surface.",
+      "hint": "If only the roofs could be seen, where was the rest?",
+      "fb": [
+       "Resilient = able to recover; it describes people or systems.",
+       "Displaced is used for people forced from their homes.",
+       "Prolonged = lasting a long time.",
+       "Correct: submerged = under water."
+      ],
+      "lesson": 1,
       "type": "choose",
-      "stem": "SAMPLE context item for <em>mitigate</em>: choose the word that fits.",
+      "stem": "Only the roofs of the cars were visible; everything else was ____.",
       "options": [
-       "predict",
-       "rescue",
-       "report",
-       "mitigate"
+       "resilient",
+       "displaced",
+       "prolonged",
+       "submerged"
       ],
       "answer": 3,
-      "word": "mitigate",
-      "kind": "context"
-     },
-     {
-      "id": "U5-SAMPLE-160",
-      "tag": "u5-words-c",
-      "level": "B2+",
-      "why": "relief is the word the sentence needs.",
-      "hint": "Decide: does the subject do it or receive it?",
-      "err": "E1",
-      "lesson": 6,
-      "type": "choose",
-      "stem": "SAMPLE context item for <em>relief</em>: choose the word that fits.",
-      "options": [
-       "report",
-       "rescue",
-       "predict",
-       "relief"
-      ],
-      "answer": 3,
-      "word": "relief",
+      "word": "submerged",
       "kind": "context"
      }
     ]

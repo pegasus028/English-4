@@ -4,7 +4,7 @@ What workstreams B/D (item banks) and G (prompt matrices) deliver so the portal 
 
 ## 1 · Unit item bank (workstreams B, D) — `Unit N/UN-item-bank.json`
 
-A JSON array of items (or `{ "items": [...] }`). The handover schema, plus the fields marked **+**:
+A JSON array of items (or `{ "items": [...] }`). The handover schema, plus the fields marked **+**. Extra shapes the builder also accepts: `type: "conversation"` (dialogue in `stem`, gap `____`), TCAS ordering as an MCQ (`passage` holds sentences A–D, options are orders), shared-passage gaps with the stem `Gap (n)`, and a `UN-sets.json` next to the bank whose `exitTickets` / `mondaySpiral` lists fix the exit and spiral items by id.
 
 ```json
 {
@@ -48,7 +48,7 @@ Rules the builder relies on:
 | 8 exit tickets | 5 each | `use: exit` by lesson (may reuse placed items) |
 | 4 spiral sets | 6 each | `use: spiral` by lesson |
 
-Minimum **≈ 170 non-held-out items** fill every slot; the handover's ≈180 + 40 held-out test items is enough. Short slots are reported, never fatal. Module plans for Unit 6 (L10–L14) are in the same file; five exit tickets and three spirals.
+Minimum **≈ 170 non-held-out items** fill every slot; the handover's ≈180 + 40 held-out test items is enough. Short slots are reported, never fatal. Module plans for Unit 6 (L10–L14) are in the same file; four exit tickets (L10–L13; L14 is the unit test) and three spirals (L10, L12, L13). Decided by Chris, 21 Oct 2026.
 
 Deliver the file, then: `node tools/build-content.js "Unit 5/U5-item-bank.json" && node tools/validate.js`, bump `?v=`, push.
 

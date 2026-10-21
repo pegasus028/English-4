@@ -1,0 +1,50 @@
+{
+  "writeId": "U5-W1",
+  "name": "Newsroom Desk — rewriting flood bulletins",
+  "unit": 5,
+  "lesson": 3,
+  "_note": "SAMPLE with four students + a fallback. Workstream G delivers the real 25-prompt matrix in this shape. Import it in the Staff Room (Writing Room tab → Import matrix); it is stored on the class server only, never in the public app. target overrides the band word target; frames appear only for Band 4 prompts.",
+  "wordTargets": { "1": [150, 180], "2": [120, 150], "3": [120, 150], "4": [80, 110] },
+  "prompts": [
+    {
+      "studentId": "51288",
+      "desk": "Breaking News",
+      "angle": "Rewrite the bulletin as a news paragraph in the passive, choosing the tense for each event and keeping only agents that add information.",
+      "source": "The city declared all 50 districts disaster areas on Friday. Officials evacuated 4,900 people to shelters. Engineers increased discharges from the Chao Phraya Dam overnight. Rain inundated the drainage system. Rescue teams delivered relief to Nonthaburi on Saturday.",
+      "quota": ["2 × present perfect passive (news now)", "1 × past continuous passive", "1 × reporting passive (It is reported that… / are said to…)"],
+      "words": ["evacuate", "submerged", "mitigate", "prolonged"]
+    },
+    {
+      "studentId": "53170",
+      "desk": "Timeline",
+      "angle": "Rewrite the bulletin as a dated timeline paragraph in the passive: one sentence per date, past simple for finished events, past perfect for the one that came first.",
+      "source": "26 Sep: the governor declared a disaster. 27 Sep: volunteers moved 4,900 residents to shelters. 30 Sep: a flood damaged an electric car in Lat Phrao. 1 Oct: staff evacuated patients from Prachin Buri hospital.",
+      "quota": ["3 × past simple passive", "1 × past perfect passive", "agent kept once, dropped twice"],
+      "words": ["evacuate", "devastate", "aftermath", "discharge"]
+    },
+    {
+      "studentId": "51076",
+      "desk": "Human Interest",
+      "angle": "Rewrite the bulletin as a human-interest paragraph about one family, in the passive where the family receives the action.",
+      "source": "Water cut off the Srisuk family's street for a week. Neighbours brought them food. The city left the area without power for three days. A charity gave the family a new fridge.",
+      "quota": ["2 × past simple passive", "1 × present perfect passive", "1 × two-object passive (were given…)"],
+      "words": ["displaced", "resilient", "relief", "trying times"]
+    },
+    {
+      "studentId": "53223",
+      "desk": "Recovery",
+      "angle": "Rewrite the bulletin in the passive. Use the frames below for each sentence.",
+      "source": "Workers cleaned the market on Monday. The city reopened two roads. Teams repaired the pumps. Shops sold food again.",
+      "quota": ["3 × past simple passive", "1 × present perfect passive"],
+      "words": ["inundate", "subside", "relief", "evacuate"],
+      "frames": ["The ___ was/were ___ed (by ___) on ___.", "Two roads have been ___ed.", "The pumps ___ ___ed by teams."],
+      "target": [80, 110]
+    }
+  ],
+  "fallback": {
+    "desk": "General",
+    "angle": "Rewrite the bulletin on the board as a news paragraph in the passive, choosing the tense for each event and keeping only agents that add information.",
+    "quota": ["2 × present perfect passive", "1 × past simple passive", "1 × past continuous passive"],
+    "words": ["evacuate", "submerged", "aftermath", "relief"]
+  }
+}

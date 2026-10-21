@@ -1,0 +1,7540 @@
+[
+ {
+  "lesson": 1,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B1",
+  "stem": "All 50 Bangkok districts ____ disaster areas on 26 September.",
+  "options": [
+   {
+    "text": "were declared",
+    "feedback": ""
+   },
+   {
+    "text": "are declaring",
+    "feedback": ""
+   },
+   {
+    "text": "have declared",
+    "feedback": ""
+   },
+   {
+    "text": "declared",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "A dated past event; the districts received the declaring, so past simple passive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-001"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B1",
+  "stem": "Almost 4,900 people ____ to shelters by 27 September.",
+  "options": [
+   {
+    "text": "has been evacuated",
+    "feedback": ""
+   },
+   {
+    "text": "had been evacuated",
+    "feedback": ""
+   },
+   {
+    "text": "were evacuating",
+    "feedback": ""
+   },
+   {
+    "text": "evacuated",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Before a past date: past perfect passive, had been + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-002"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B1+",
+  "stem": "Relief ____ to families in Nonthaburi right now.",
+  "options": [
+   {
+    "text": "is still being delivered",
+    "feedback": ""
+   },
+   {
+    "text": "is still delivered",
+    "feedback": ""
+   },
+   {
+    "text": "still delivers",
+    "feedback": ""
+   },
+   {
+    "text": "has still delivered",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "In progress now: present continuous passive with being.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-003"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B1+",
+  "stem": "Since 2011, embankments ____ to protect the capital.",
+  "options": [
+   {
+    "text": "are expanded",
+    "feedback": ""
+   },
+   {
+    "text": "were expanding",
+    "feedback": ""
+   },
+   {
+    "text": "have been expanded",
+    "feedback": ""
+   },
+   {
+    "text": "had expanded",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "Since + now = present perfect; the embankments received the expanding.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-004"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Upstream, discharges from the dam ____ while the city flooded.",
+  "options": [
+   {
+    "text": "was being increased",
+    "feedback": ""
+   },
+   {
+    "text": "were being increased",
+    "feedback": ""
+   },
+   {
+    "text": "have been increased",
+    "feedback": ""
+   },
+   {
+    "text": "increased",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Past continuous passive, plural subject: were being + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-005"
+ },
+ {
+  "lesson": 1,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B1",
+  "stem": "Floodwater ____ out of the city every rainy season.",
+  "options": [
+   {
+    "text": "pumps",
+    "feedback": ""
+   },
+   {
+    "text": "is pumped",
+    "feedback": ""
+   },
+   {
+    "text": "is pumping",
+    "feedback": ""
+   },
+   {
+    "text": "pumped",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "A general fact about a receiver: present simple passive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-006"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The road ____ by Monday, the governor promised.",
+  "options": [
+   {
+    "text": "will have been reopened",
+    "feedback": ""
+   },
+   {
+    "text": "will reopened",
+    "feedback": ""
+   },
+   {
+    "text": "has been reopening",
+    "feedback": ""
+   },
+   {
+    "text": "is reopened",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Future perfect passive: completed before a future time.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-007"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "form-tense",
+  "type": "errorid",
+  "level": "B1+",
+  "stem": "One part of the sentence is wrong.",
+  "options": [
+   {
+    "text": "Twenty provinces",
+    "feedback": ""
+   },
+   {
+    "text": "have affected",
+    "feedback": ""
+   },
+   {
+    "text": "by the floods",
+    "feedback": ""
+   },
+   {
+    "text": "since last week.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "A passive needs been: have been affected.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-008"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "form-tense",
+  "type": "closest",
+  "level": "B2",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "The shelter opened on Friday.",
+    "feedback": ""
+   },
+   {
+    "text": "Someone opened the shelter on Friday.",
+    "feedback": ""
+   },
+   {
+    "text": "The shelter was open on Friday.",
+    "feedback": ""
+   },
+   {
+    "text": "The shelter opens on Fridays.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "The shelter was opened = someone opened it, one event.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-009"
+ },
+ {
+  "lesson": 1,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B1",
+  "stem": "Many canals ____ with rubbish, officials admitted.",
+  "options": [
+   {
+    "text": "block",
+    "feedback": ""
+   },
+   {
+    "text": "are blocking",
+    "feedback": ""
+   },
+   {
+    "text": "are blocked",
+    "feedback": ""
+   },
+   {
+    "text": "have blocking",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "The canals receive the blocking: present passive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-010"
+ },
+ {
+  "lesson": 3,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "By the time rescuers arrived, the ground floor ____.",
+  "options": [
+   {
+    "text": "was already flooded",
+    "feedback": ""
+   },
+   {
+    "text": "is already flooded",
+    "feedback": ""
+   },
+   {
+    "text": "had already been flooding",
+    "feedback": ""
+   },
+   {
+    "text": "already floods",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "A state in the past: was + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-011"
+ },
+ {
+  "lesson": 3,
+  "grammarTag": "form-tense",
+  "type": "errorid",
+  "level": "B1+",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "The bridge",
+    "feedback": ""
+   },
+   {
+    "text": "was close",
+    "feedback": ""
+   },
+   {
+    "text": "for three days",
+    "feedback": ""
+   },
+   {
+    "text": "after the storm.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "V3 is closed, not the base form.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-012"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "agent",
+  "type": "cloze",
+  "level": "B1+",
+  "stem": "Residents ____ at 6 a.m. (Nobody knows who gave the order.)",
+  "options": [
+   {
+    "text": "were evacuated by someone",
+    "feedback": ""
+   },
+   {
+    "text": "were evacuated",
+    "feedback": ""
+   },
+   {
+    "text": "were evacuated by people",
+    "feedback": ""
+   },
+   {
+    "text": "were evacuated by them",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Unknown doer: drop the agent.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-013"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "agent",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The leak was first reported ____ a street vendor, not by the authorities.",
+  "options": [
+   {
+    "text": "as",
+    "feedback": ""
+   },
+   {
+    "text": "with",
+    "feedback": ""
+   },
+   {
+    "text": "by",
+    "feedback": ""
+   },
+   {
+    "text": "from",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "The doer is the news, so by + agent stays.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-014"
+ },
+ {
+  "lesson": 3,
+  "grammarTag": "agent",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The area is known ____ the capital's floodplain.",
+  "options": [
+   {
+    "text": "by",
+    "feedback": ""
+   },
+   {
+    "text": "as",
+    "feedback": ""
+   },
+   {
+    "text": "for",
+    "feedback": ""
+   },
+   {
+    "text": "like",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "A role noun after known takes as.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-015"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "agent",
+  "type": "errorid",
+  "level": "B1+",
+  "stem": "One part is wrong.",
+  "options": [
+   {
+    "text": "Residents",
+    "feedback": ""
+   },
+   {
+    "text": "were asked",
+    "feedback": ""
+   },
+   {
+    "text": "by people",
+    "feedback": ""
+   },
+   {
+    "text": "to stay indoors.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "A vague agent adds nothing: delete by people.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-016"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "agent",
+  "type": "closest",
+  "level": "B2",
+  "stem": "Which is closest to: \"The figures were released by the Irrigation Department\"?",
+  "options": [
+   {
+    "text": "The department released the figures.",
+    "feedback": ""
+   },
+   {
+    "text": "The figures were about the department.",
+    "feedback": ""
+   },
+   {
+    "text": "Someone released the department's figures.",
+    "feedback": ""
+   },
+   {
+    "text": "The department was released.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The by-phrase names the doer.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-017"
+ },
+ {
+  "lesson": 3,
+  "grammarTag": "agent",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The dam gates ____ to protect the city, not the villages.",
+  "options": [
+   {
+    "text": "were opened",
+    "feedback": ""
+   },
+   {
+    "text": "were opened by engineers",
+    "feedback": ""
+   },
+   {
+    "text": "were opened by them",
+    "feedback": ""
+   },
+   {
+    "text": "opened by engineers",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Doer obvious and unimportant: no agent.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-018"
+ },
+ {
+  "lesson": 1,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B1",
+  "stem": "Extreme weather ____ the drainage system within hours.",
+  "options": [
+   {
+    "text": "was inundated",
+    "feedback": ""
+   },
+   {
+    "text": "inundated",
+    "feedback": ""
+   },
+   {
+    "text": "is inundated",
+    "feedback": ""
+   },
+   {
+    "text": "was inundating by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "The weather did it and an object follows: active.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-019"
+ },
+ {
+  "lesson": 1,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B1+",
+  "stem": "Heavy rain ____ more than 300 mm in 48 hours.",
+  "options": [
+   {
+    "text": "was fallen",
+    "feedback": ""
+   },
+   {
+    "text": "fell",
+    "feedback": ""
+   },
+   {
+    "text": "is fallen",
+    "feedback": ""
+   },
+   {
+    "text": "fallen",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Fall has no object: active only.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-020"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The floods ____ 2.45 million people, the ministry said.",
+  "options": [
+   {
+    "text": "were affected",
+    "feedback": ""
+   },
+   {
+    "text": "affect",
+    "feedback": ""
+   },
+   {
+    "text": "have affected",
+    "feedback": ""
+   },
+   {
+    "text": "has been affected",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "The floods did the affecting; object follows.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-021"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "active-correct",
+  "type": "errorid",
+  "level": "B1+",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "The storm",
+    "feedback": ""
+   },
+   {
+    "text": "was damaged",
+    "feedback": ""
+   },
+   {
+    "text": "hundreds of homes",
+    "feedback": ""
+   },
+   {
+    "text": "in Prachin Buri.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "The storm is the doer with an object: damaged.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-022"
+ },
+ {
+  "lesson": 3,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The new pumps ____ 10,000 litres a minute.",
+  "options": [
+   {
+    "text": "are moved",
+    "feedback": ""
+   },
+   {
+    "text": "move",
+    "feedback": ""
+   },
+   {
+    "text": "are moving by",
+    "feedback": ""
+   },
+   {
+    "text": "moved by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "An inanimate doer with an object: active.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-023"
+ },
+ {
+  "lesson": 3,
+  "grammarTag": "active-correct",
+  "type": "closest",
+  "level": "B1",
+  "stem": "Closest in meaning to \"Rising water forced the hospital to evacuate\"?",
+  "options": [
+   {
+    "text": "The hospital was forced to evacuate by rising water.",
+    "feedback": ""
+   },
+   {
+    "text": "The hospital forced the water to rise.",
+    "feedback": ""
+   },
+   {
+    "text": "Rising water was forced out of the hospital.",
+    "feedback": ""
+   },
+   {
+    "text": "The hospital evacuated the water.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Same event, passive with the agent kept.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-024"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "modal-passive",
+  "type": "cloze",
+  "level": "B1+",
+  "stem": "More ____ to mitigate future flooding, critics say.",
+  "options": [
+   {
+    "text": "must do",
+    "feedback": ""
+   },
+   {
+    "text": "must be done",
+    "feedback": ""
+   },
+   {
+    "text": "must done",
+    "feedback": ""
+   },
+   {
+    "text": "must be do",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Modal + be + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-025"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "modal-passive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Much of the damage ____ if the canals had been cleared.",
+  "options": [
+   {
+    "text": "could be prevented",
+    "feedback": ""
+   },
+   {
+    "text": "could prevent",
+    "feedback": ""
+   },
+   {
+    "text": "could have been prevented",
+    "feedback": ""
+   },
+   {
+    "text": "could have prevented",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "Past judgement: modal + have been + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-026"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "modal-passive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The embankment ____ before next year's rains.",
+  "options": [
+   {
+    "text": "should raise",
+    "feedback": ""
+   },
+   {
+    "text": "should be raised",
+    "feedback": ""
+   },
+   {
+    "text": "should been raised",
+    "feedback": ""
+   },
+   {
+    "text": "should be rose",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Modal + be + V3; V3 of raise is raised.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-027"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "modal-passive",
+  "type": "errorid",
+  "level": "B1+",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "Residents",
+    "feedback": ""
+   },
+   {
+    "text": "should been warned",
+    "feedback": ""
+   },
+   {
+    "text": "earlier",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "should have been warned.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-028"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "modal-passive",
+  "type": "closest",
+  "level": "B2",
+  "stem": "Closest to \"The canals should have been cleared\"?",
+  "options": [
+   {
+    "text": "Someone cleared the canals.",
+    "feedback": ""
+   },
+   {
+    "text": "It was a mistake not to clear the canals.",
+    "feedback": ""
+   },
+   {
+    "text": "The canals must be cleared now.",
+    "feedback": ""
+   },
+   {
+    "text": "The canals were cleared too early.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "should have been = criticism of a past omission.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-029"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "modal-passive",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "Water ____ from the dam slowly over the next week.",
+  "options": [
+   {
+    "text": "can be released",
+    "feedback": ""
+   },
+   {
+    "text": "can release",
+    "feedback": ""
+   },
+   {
+    "text": "can be releasing",
+    "feedback": ""
+   },
+   {
+    "text": "can released",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Modal + be + V3 for a future possibility.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-030"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "modal-passive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The patients ____ by ambulance before the water rose.",
+  "options": [
+   {
+    "text": "might have been moved",
+    "feedback": ""
+   },
+   {
+    "text": "might be moving",
+    "feedback": ""
+   },
+   {
+    "text": "might moved",
+    "feedback": ""
+   },
+   {
+    "text": "might been moved",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Past possibility: might have been + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-031"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "passive-infinitive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The roads ____ by November.",
+  "options": [
+   {
+    "text": "are expected to repair",
+    "feedback": ""
+   },
+   {
+    "text": "are expected to be repaired",
+    "feedback": ""
+   },
+   {
+    "text": "expect to be repaired",
+    "feedback": ""
+   },
+   {
+    "text": "are expecting to repair",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "The roads receive the repairing: to be + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-032"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "passive-infinitive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The plan allows water ____ slowly into the fields.",
+  "options": [
+   {
+    "text": "to release",
+    "feedback": ""
+   },
+   {
+    "text": "to be released",
+    "feedback": ""
+   },
+   {
+    "text": "being released",
+    "feedback": ""
+   },
+   {
+    "text": "released",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Water receives the releasing after allow + object.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-033"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "passive-infinitive",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "Villagers hope ____ home this week.",
+  "options": [
+   {
+    "text": "to be returned",
+    "feedback": ""
+   },
+   {
+    "text": "to return",
+    "feedback": ""
+   },
+   {
+    "text": "being returned",
+    "feedback": ""
+   },
+   {
+    "text": "returned",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "The villagers do the returning: active infinitive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-034"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "passive-infinitive",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "The shelter",
+    "feedback": ""
+   },
+   {
+    "text": "is due",
+    "feedback": ""
+   },
+   {
+    "text": "to closed",
+    "feedback": ""
+   },
+   {
+    "text": "on Friday.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "to be closed: a passive infinitive needs be.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-035"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "passive-infinitive",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "Phuket was the first province ____ a disaster area.",
+  "options": [
+   {
+    "text": "to declare",
+    "feedback": ""
+   },
+   {
+    "text": "to be declared",
+    "feedback": ""
+   },
+   {
+    "text": "declared",
+    "feedback": ""
+   },
+   {
+    "text": "being declared",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Noun + passive infinitive: the province was declared.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-036"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "passive-infinitive",
+  "type": "closest",
+  "level": "B2",
+  "stem": "Closest to \"The bridge is likely to be reopened on Monday\"?",
+  "options": [
+   {
+    "text": "The bridge will probably reopen on Monday.",
+    "feedback": ""
+   },
+   {
+    "text": "The bridge likes to reopen on Monday.",
+    "feedback": ""
+   },
+   {
+    "text": "The bridge must reopen on Monday.",
+    "feedback": ""
+   },
+   {
+    "text": "The bridge reopened on Monday.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "likely to be + V3 = probably will be.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-037"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "passive-gerund",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Many residents were angry about ____ without power.",
+  "options": [
+   {
+    "text": "leaving",
+    "feedback": ""
+   },
+   {
+    "text": "being left",
+    "feedback": ""
+   },
+   {
+    "text": "to be left",
+    "feedback": ""
+   },
+   {
+    "text": "left",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "After a preposition, -ing; passive meaning: being + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-038"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "passive-gerund",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "Drivers should avoid ____ in deep water.",
+  "options": [
+   {
+    "text": "to be caught",
+    "feedback": ""
+   },
+   {
+    "text": "being caught",
+    "feedback": ""
+   },
+   {
+    "text": "catching",
+    "feedback": ""
+   },
+   {
+    "text": "be caught",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "avoid + -ing; the drivers receive the catching.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-039"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "passive-gerund",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "After ____, the family moved to a shelter.",
+  "options": [
+   {
+    "text": "rescuing",
+    "feedback": ""
+   },
+   {
+    "text": "being rescued",
+    "feedback": ""
+   },
+   {
+    "text": "to be rescued",
+    "feedback": ""
+   },
+   {
+    "text": "rescued",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "After + passive gerund.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-040"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "passive-gerund",
+  "type": "errorid",
+  "level": "C1",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "The vendor remembers",
+    "feedback": ""
+   },
+   {
+    "text": "telling",
+    "feedback": ""
+   },
+   {
+    "text": "to close",
+    "feedback": ""
+   },
+   {
+    "text": "for 15 days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "She was told: remembers being told.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-041"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "passive-gerund",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The shop risked ____ if the water rose again.",
+  "options": [
+   {
+    "text": "being flooded",
+    "feedback": ""
+   },
+   {
+    "text": "to flood",
+    "feedback": ""
+   },
+   {
+    "text": "flooding",
+    "feedback": ""
+   },
+   {
+    "text": "be flooded",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "risk + -ing; the shop receives the flooding.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-042"
+ },
+ {
+  "lesson": 5,
+  "grammarTag": "passive-gerund",
+  "type": "closest",
+  "level": "C1",
+  "stem": "Closest to \"She resented being made to leave\"?",
+  "options": [
+   {
+    "text": "She was angry that they forced her to leave.",
+    "feedback": ""
+   },
+   {
+    "text": "She wanted to leave.",
+    "feedback": ""
+   },
+   {
+    "text": "She made them leave.",
+    "feedback": ""
+   },
+   {
+    "text": "She left angrily.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "being made to = someone forced her.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-043"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "reduced-relative",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Relief is still being delivered to families ____ by the water.",
+  "options": [
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "were displaced",
+    "feedback": ""
+   },
+   {
+    "text": "displacing",
+    "feedback": ""
+   },
+   {
+    "text": "who displaced",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The clause has its main verb; noun + V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-044"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "reduced-relative",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "One street vendor, ____ to close for 15 days, has reopened.",
+  "options": [
+   {
+    "text": "forcing",
+    "feedback": ""
+   },
+   {
+    "text": "was forced",
+    "feedback": ""
+   },
+   {
+    "text": "forced",
+    "feedback": ""
+   },
+   {
+    "text": "she forced",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "Reduced relative: (who was) forced.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-045"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "reduced-relative",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Schools ____ by the floods will reopen on Monday.",
+  "options": [
+   {
+    "text": "affected",
+    "feedback": ""
+   },
+   {
+    "text": "affecting",
+    "feedback": ""
+   },
+   {
+    "text": "were affected",
+    "feedback": ""
+   },
+   {
+    "text": "which affected",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Schools received the affecting: V3.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-046"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "reduced-relative",
+  "type": "errorid",
+  "level": "C1",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "Residents",
+    "feedback": ""
+   },
+   {
+    "text": "were displaced by the flood",
+    "feedback": ""
+   },
+   {
+    "text": "are being housed",
+    "feedback": ""
+   },
+   {
+    "text": "in two schools.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "Two finite verbs: displaced by the flood.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-047"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "reduced-relative",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "A trend ____ as \"flooding by design\" protects the capital.",
+  "options": [
+   {
+    "text": "known",
+    "feedback": ""
+   },
+   {
+    "text": "is known",
+    "feedback": ""
+   },
+   {
+    "text": "knowing",
+    "feedback": ""
+   },
+   {
+    "text": "knows",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Reduced passive after a noun.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-048"
+ },
+ {
+  "lesson": 7,
+  "grammarTag": "reduced-relative",
+  "type": "closest",
+  "level": "B2+",
+  "stem": "Closest to \"The road built in 2011 held\"?",
+  "options": [
+   {
+    "text": "The road that was built in 2011 held.",
+    "feedback": ""
+   },
+   {
+    "text": "The road built a wall in 2011.",
+    "feedback": ""
+   },
+   {
+    "text": "In 2011 the road held.",
+    "feedback": ""
+   },
+   {
+    "text": "The road was built to hold.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "built = which was built.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-049"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "impersonal-passive",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "____ that many canals are blocked with rubbish.",
+  "options": [
+   {
+    "text": "It knows",
+    "feedback": ""
+   },
+   {
+    "text": "It is known",
+    "feedback": ""
+   },
+   {
+    "text": "Known",
+    "feedback": ""
+   },
+   {
+    "text": "It is knowing",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "It + is + V3 + that-clause.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-050"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "impersonal-passive",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "Villages upstream ____ the price.",
+  "options": [
+   {
+    "text": "are said to be paying",
+    "feedback": ""
+   },
+   {
+    "text": "are said they pay",
+    "feedback": ""
+   },
+   {
+    "text": "is said to pay",
+    "feedback": ""
+   },
+   {
+    "text": "say to be paying",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Subject + are said + to-infinitive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-051"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "impersonal-passive",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "About 329,000 households ____ affected.",
+  "options": [
+   {
+    "text": "were found to be",
+    "feedback": ""
+   },
+   {
+    "text": "were found to have been",
+    "feedback": ""
+   },
+   {
+    "text": "found to have been",
+    "feedback": ""
+   },
+   {
+    "text": "were finding to be",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "The effect came before the finding: perfect infinitive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-052"
+ },
+ {
+  "lesson": 7,
+  "grammarTag": "impersonal-passive",
+  "type": "errorid",
+  "level": "C1",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "The leak",
+    "feedback": ""
+   },
+   {
+    "text": "is suggested",
+    "feedback": ""
+   },
+   {
+    "text": "to have started",
+    "feedback": ""
+   },
+   {
+    "text": "on Friday.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "suggest takes only It is suggested that.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-053"
+ },
+ {
+  "lesson": 7,
+  "grammarTag": "impersonal-passive",
+  "type": "closest",
+  "level": "B2+",
+  "stem": "Closest to \"The dam is thought to have been opened too late\"?",
+  "options": [
+   {
+    "text": "People think the dam was opened too late.",
+    "feedback": ""
+   },
+   {
+    "text": "The dam thought it was late.",
+    "feedback": ""
+   },
+   {
+    "text": "The dam was opened late.",
+    "feedback": ""
+   },
+   {
+    "text": "It is late to open the dam.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Reporting passive with a perfect infinitive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-054"
+ },
+ {
+  "lesson": 7,
+  "grammarTag": "impersonal-passive",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "Residents ____ that the water would rise overnight.",
+  "options": [
+   {
+    "text": "were informed",
+    "feedback": ""
+   },
+   {
+    "text": "it was informed",
+    "feedback": ""
+   },
+   {
+    "text": "informed",
+    "feedback": ""
+   },
+   {
+    "text": "were informing",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "inform keeps the person as subject.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-055"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Floodwaters slowly ____ in the capital.",
+  "options": [
+   {
+    "text": "are subsided",
+    "feedback": ""
+   },
+   {
+    "text": "subside",
+    "feedback": ""
+   },
+   {
+    "text": "were subsided",
+    "feedback": ""
+   },
+   {
+    "text": "subsiding",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "subside has no object, so no passive.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-056"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The accident ____ at the dam gates.",
+  "options": [
+   {
+    "text": "was happened",
+    "feedback": ""
+   },
+   {
+    "text": "happened",
+    "feedback": ""
+   },
+   {
+    "text": "is happened",
+    "feedback": ""
+   },
+   {
+    "text": "happening",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "happen is active only.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-057"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "errorid",
+  "level": "B2+",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "The river",
+    "feedback": ""
+   },
+   {
+    "text": "was risen",
+    "feedback": ""
+   },
+   {
+    "text": "two metres",
+    "feedback": ""
+   },
+   {
+    "text": "overnight.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "rise has no passive: rose.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-058"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "closest",
+  "level": "B2",
+  "stem": "Closest to \"The flooding was caused by heavy rain\"?",
+  "options": [
+   {
+    "text": "Heavy rain made the flooding happen.",
+    "feedback": ""
+   },
+   {
+    "text": "The flooding caused heavy rain.",
+    "feedback": ""
+   },
+   {
+    "text": "The flooding was happened by rain.",
+    "feedback": ""
+   },
+   {
+    "text": "Heavy rain was flooded.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cause takes an object, so its passive works.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-059"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "two-object",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Families ____ food parcels at the shelter.",
+  "options": [
+   {
+    "text": "were given",
+    "feedback": ""
+   },
+   {
+    "text": "were given to",
+    "feedback": ""
+   },
+   {
+    "text": "gave",
+    "feedback": ""
+   },
+   {
+    "text": "was given",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "Two-object verb: the person as subject.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-060"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "two-object",
+  "type": "cloze",
+  "level": "B2+",
+  "stem": "The plan ____ residents at the meeting.",
+  "options": [
+   {
+    "text": "was explained",
+    "feedback": ""
+   },
+   {
+    "text": "was explained to",
+    "feedback": ""
+   },
+   {
+    "text": "explained to",
+    "feedback": ""
+   },
+   {
+    "text": "explained",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "explain needs to before the person.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-061"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "two-object",
+  "type": "errorid",
+  "level": "C1",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "Residents",
+    "feedback": ""
+   },
+   {
+    "text": "were explained",
+    "feedback": ""
+   },
+   {
+    "text": "the evacuation route",
+    "feedback": ""
+   },
+   {
+    "text": "by officials.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "The route was explained to residents.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-062"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "stative-lookalike",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "The dam ____ 100 km upstream of Bangkok.",
+  "options": [
+   {
+    "text": "is located",
+    "feedback": ""
+   },
+   {
+    "text": "is being located",
+    "feedback": ""
+   },
+   {
+    "text": "locates",
+    "feedback": ""
+   },
+   {
+    "text": "was located by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "A state: is located.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-063"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "stative-lookalike",
+  "type": "closest",
+  "level": "B2+",
+  "stem": "In \"The road was closed all day\", the sentence describes",
+  "options": [
+   {
+    "text": "a state that lasted all day",
+    "feedback": ""
+   },
+   {
+    "text": "an action by police at one moment",
+    "feedback": ""
+   },
+   {
+    "text": "an action by the road",
+    "feedback": ""
+   },
+   {
+    "text": "a plan to close the road",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "With all day it is a state.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-064"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "stative-lookalike",
+  "type": "errorid",
+  "level": "C1",
+  "stem": "Find the mistake.",
+  "options": [
+   {
+    "text": "Residents",
+    "feedback": ""
+   },
+   {
+    "text": "are worrying",
+    "feedback": ""
+   },
+   {
+    "text": "about the next",
+    "feedback": ""
+   },
+   {
+    "text": "release of water.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "A state: are worried.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-065"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "evacuate",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>evacuate</em>?",
+  "options": [
+   {
+    "text": "remove to safety",
+    "feedback": ""
+   },
+   {
+    "text": "flood",
+    "feedback": ""
+   },
+   {
+    "text": "build",
+    "feedback": ""
+   },
+   {
+    "text": "repair",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "evacuate: remove to safety.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-066"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "evacuate",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (evacuate family)",
+  "options": [
+   {
+    "text": "evacuate (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "evacuate (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "evacuate (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "evacuate",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "evacuate: remove to safety.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-067"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "evacuate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (evacuate)",
+  "options": [
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "evacuate: remove to safety.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-068"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "submerged",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>submerged</em>?",
+  "options": [
+   {
+    "text": "closed",
+    "feedback": ""
+   },
+   {
+    "text": "under water",
+    "feedback": ""
+   },
+   {
+    "text": "dry",
+    "feedback": ""
+   },
+   {
+    "text": "broken",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "submerged: under water.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-069"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "submerged",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (submerged family)",
+  "options": [
+   {
+    "text": "submerged (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "submerged",
+    "feedback": ""
+   },
+   {
+    "text": "submerged (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "submerged (noun)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "submerged: under water.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-070"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "submerged",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (submerged)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "submerged: under water.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-071"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "inundate",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>inundate</em>?",
+  "options": [
+   {
+    "text": "warn",
+    "feedback": ""
+   },
+   {
+    "text": "flood",
+    "feedback": ""
+   },
+   {
+    "text": "drain",
+    "feedback": ""
+   },
+   {
+    "text": "count",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "inundate: flood.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-072"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "inundate",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (inundate family)",
+  "options": [
+   {
+    "text": "inundate (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "inundate (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "inundate",
+    "feedback": ""
+   },
+   {
+    "text": "inundate (noun)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "inundate: flood.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-073"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "inundate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (inundate)",
+  "options": [
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "inundate: flood.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-074"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "displaced",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>displaced</em>?",
+  "options": [
+   {
+    "text": "located",
+    "feedback": ""
+   },
+   {
+    "text": "relieved",
+    "feedback": ""
+   },
+   {
+    "text": "forced from home",
+    "feedback": ""
+   },
+   {
+    "text": "rescued",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "displaced: forced from home.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-075"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "displaced",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (displaced family)",
+  "options": [
+   {
+    "text": "displaced (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "displaced (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "displaced (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "displaced: forced from home.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-076"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "displaced",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (displaced)",
+  "options": [
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "displaced: forced from home.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-077"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "aftermath",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>aftermath</em>?",
+  "options": [
+   {
+    "text": "the warning before it",
+    "feedback": ""
+   },
+   {
+    "text": "the centre of it",
+    "feedback": ""
+   },
+   {
+    "text": "the period after an event",
+    "feedback": ""
+   },
+   {
+    "text": "the cause of it",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "aftermath: the period after an event.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-078"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "aftermath",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (aftermath family)",
+  "options": [
+   {
+    "text": "aftermath (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "aftermath",
+    "feedback": ""
+   },
+   {
+    "text": "aftermath (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "aftermath (adj.)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "aftermath: the period after an event.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-079"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "aftermath",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (aftermath)",
+  "options": [
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "complimentary",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "aftermath: the period after an event.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-080"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "devastate",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>devastate</em>?",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "destroy",
+    "feedback": ""
+   },
+   {
+    "text": "improve",
+    "feedback": ""
+   },
+   {
+    "text": "measure",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "devastate: destroy.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-081"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "devastate",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (devastate family)",
+  "options": [
+   {
+    "text": "devastate (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "devastate",
+    "feedback": ""
+   },
+   {
+    "text": "devastate (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "devastate (adj.)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "devastate: destroy.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-082"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "devastate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (devastate)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "devastate: destroy.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-083"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "resilient",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>resilient</em>?",
+  "options": [
+   {
+    "text": "unknown",
+    "feedback": ""
+   },
+   {
+    "text": "easily damaged",
+    "feedback": ""
+   },
+   {
+    "text": "able to recover",
+    "feedback": ""
+   },
+   {
+    "text": "very slow",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "resilient: able to recover.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-084"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "resilient",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (resilient family)",
+  "options": [
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "resilient (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "resilient (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "resilient (verb)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "resilient: able to recover.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-085"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "resilient",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (resilient)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "resilient: able to recover.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-086"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "mitigate",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>mitigate</em>?",
+  "options": [
+   {
+    "text": "make worse",
+    "feedback": ""
+   },
+   {
+    "text": "make less serious",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "ignore",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "mitigate: make less serious.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-087"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "mitigate",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (mitigate family)",
+  "options": [
+   {
+    "text": "mitigate (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "mitigate (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "mitigate (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "mitigate",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "mitigate: make less serious.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-088"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "mitigate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (mitigate)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "mitigate: make less serious.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-089"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "exacerbate",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>exacerbate</em>?",
+  "options": [
+   {
+    "text": "make worse",
+    "feedback": ""
+   },
+   {
+    "text": "explain",
+    "feedback": ""
+   },
+   {
+    "text": "make better",
+    "feedback": ""
+   },
+   {
+    "text": "delay",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "exacerbate: make worse.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-090"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "exacerbate",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (exacerbate family)",
+  "options": [
+   {
+    "text": "exacerbate (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "exacerbate (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "exacerbate (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "exacerbate",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "exacerbate: make worse.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-091"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "exacerbate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (exacerbate)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "exacerbate: make worse.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-092"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "prolonged",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>prolonged</em>?",
+  "options": [
+   {
+    "text": "sudden",
+    "feedback": ""
+   },
+   {
+    "text": "very short",
+    "feedback": ""
+   },
+   {
+    "text": "expected",
+    "feedback": ""
+   },
+   {
+    "text": "lasting a long time",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "prolonged: lasting a long time.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-093"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "prolonged",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (prolonged family)",
+  "options": [
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged (verb)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "prolonged: lasting a long time.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-094"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "prolonged",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (prolonged)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "prolonged: lasting a long time.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-095"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "unprecedented",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>unprecedented</em>?",
+  "options": [
+   {
+    "text": "ordinary",
+    "feedback": ""
+   },
+   {
+    "text": "never seen before",
+    "feedback": ""
+   },
+   {
+    "text": "common",
+    "feedback": ""
+   },
+   {
+    "text": "planned",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "unprecedented: never seen before.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-096"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "unprecedented",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (unprecedented family)",
+  "options": [
+   {
+    "text": "unprecedented (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "unprecedented (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "unprecedented",
+    "feedback": ""
+   },
+   {
+    "text": "unprecedented (noun)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "unprecedented: never seen before.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-097"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "unprecedented",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (unprecedented)",
+  "options": [
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "unprecedented: never seen before.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-098"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "discharge",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>discharge</em>?",
+  "options": [
+   {
+    "text": "release of water",
+    "feedback": ""
+   },
+   {
+    "text": "a warning",
+    "feedback": ""
+   },
+   {
+    "text": "a road",
+    "feedback": ""
+   },
+   {
+    "text": "a shelter",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "discharge: release of water.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-099"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "discharge",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (discharge family)",
+  "options": [
+   {
+    "text": "discharge (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "discharge (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "discharge (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "discharge",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "discharge: release of water.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-100"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "discharge",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (discharge)",
+  "options": [
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "discharge: release of water.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-101"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "relief",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>relief</em>?",
+  "options": [
+   {
+    "text": "help for victims",
+    "feedback": ""
+   },
+   {
+    "text": "a map",
+    "feedback": ""
+   },
+   {
+    "text": "a storm",
+    "feedback": ""
+   },
+   {
+    "text": "a dam",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "relief: help for victims.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-102"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "relief",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (relief family)",
+  "options": [
+   {
+    "text": "relief (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "relief (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "relief",
+    "feedback": ""
+   },
+   {
+    "text": "relief (noun)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "relief: help for victims.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-103"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "relief",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (relief)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "relief: help for victims.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-104"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "subside",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>subside</em>?",
+  "options": [
+   {
+    "text": "spread",
+    "feedback": ""
+   },
+   {
+    "text": "rise",
+    "feedback": ""
+   },
+   {
+    "text": "freeze",
+    "feedback": ""
+   },
+   {
+    "text": "go down",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "subside: go down.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-105"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "subside",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (subside family)",
+  "options": [
+   {
+    "text": "subside",
+    "feedback": ""
+   },
+   {
+    "text": "subside (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "subside (adj.)",
+    "feedback": ""
+   },
+   {
+    "text": "subside (verb)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "subside: go down.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-106"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "subside",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (subside)",
+  "options": [
+   {
+    "text": "complimentary",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "subside: go down.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-107"
+ },
+ {
+  "lesson": 1,
+  "type": "vocab",
+  "word": "trying times",
+  "kind": "meaning",
+  "level": "B1",
+  "stem": "Which is closest in meaning to <em>trying times</em>?",
+  "options": [
+   {
+    "text": "a holiday",
+    "feedback": ""
+   },
+   {
+    "text": "a difficult period",
+    "feedback": ""
+   },
+   {
+    "text": "a test",
+    "feedback": ""
+   },
+   {
+    "text": "a season",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "trying times: a difficult period.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-108"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "trying times",
+  "kind": "family",
+  "level": "B2",
+  "stem": "Choose the correct form: \"The ____ of the floods was felt for months.\" (trying times family)",
+  "options": [
+   {
+    "text": "trying times (noun)",
+    "feedback": ""
+   },
+   {
+    "text": "trying times",
+    "feedback": ""
+   },
+   {
+    "text": "trying times (verb)",
+    "feedback": ""
+   },
+   {
+    "text": "trying times (adj.)",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "trying times: a difficult period.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-109"
+ },
+ {
+  "lesson": 5,
+  "type": "vocab",
+  "word": "trying times",
+  "kind": "context",
+  "level": "C1",
+  "stem": "Choose the best word: \"Thousands of people were ____ after the river burst its banks.\" (trying times)",
+  "options": [
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "complimentary",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "trying times: a difficult period.",
+  "use": [
+   "portal",
+   "exit",
+   "spiral"
+  ],
+  "hint": "Think of the word's picture, then its grammar.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "id": "U5-SAMPLE-110"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L2 #1: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-111"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L2 #2: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-112"
+ },
+ {
+  "lesson": 2,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L2 #3: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-113"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L4 #1: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-114"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L4 #2: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-115"
+ },
+ {
+  "lesson": 4,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L4 #3: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-116"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L6 #1: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-117"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L6 #2: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-118"
+ },
+ {
+  "lesson": 6,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L6 #3: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-119"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L8 #1: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-120"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L8 #2: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-121"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "Spiral L8 #3: The storm ____ the coast overnight.",
+  "options": [
+   {
+    "text": "battered",
+    "feedback": ""
+   },
+   {
+    "text": "was battered",
+    "feedback": ""
+   },
+   {
+    "text": "is battered",
+    "feedback": ""
+   },
+   {
+    "text": "battering",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The storm did the battering.",
+  "use": "spiral",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Find the time marker, then choose the form of be.",
+  "id": "U5-SAMPLE-122"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "evacuate",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>evacuate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "evacuate",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "evacuate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-123"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "evacuate",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>evacuate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "evacuate",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "evacuate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-124"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "evacuate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>evacuate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "evacuate",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "evacuate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-125"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "submerged",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>submerged</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "submerged",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "submerged is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-126"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "submerged",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>submerged</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "submerged",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "submerged is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-127"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "submerged",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>submerged</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "submerged",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "submerged is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-128"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "inundate",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>inundate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "inundate",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "inundate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-129"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "inundate",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>inundate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "inundate",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "inundate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-130"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "inundate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>inundate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "inundate",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "inundate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-131"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "displaced",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>displaced</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "displaced is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-132"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "displaced",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>displaced</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "displaced is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-133"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "displaced",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>displaced</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "displaced",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "displaced is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-134"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "aftermath",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>aftermath</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "aftermath",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "aftermath is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-135"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "aftermath",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>aftermath</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "aftermath",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "aftermath is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-136"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "aftermath",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>aftermath</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "aftermath",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "aftermath is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-137"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "devastate",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>devastate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "devastate",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "devastate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-138"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "devastate",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>devastate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "devastate",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "devastate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-139"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "devastate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>devastate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "devastate",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "devastate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-140"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "resilient",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>resilient</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "resilient is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-141"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "resilient",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>resilient</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "resilient",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "resilient is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-142"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "resilient",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>resilient</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "resilient",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "resilient is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-143"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "mitigate",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>mitigate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "mitigate",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "mitigate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-144"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "mitigate",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>mitigate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "mitigate",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "mitigate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-145"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "mitigate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>mitigate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "mitigate",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "mitigate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-146"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "exacerbate",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>exacerbate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "exacerbate",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "exacerbate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-147"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "exacerbate",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>exacerbate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "exacerbate",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "exacerbate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-148"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "exacerbate",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>exacerbate</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "exacerbate",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "exacerbate is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-149"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "prolonged",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>prolonged</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "prolonged is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-150"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "prolonged",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>prolonged</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "prolonged is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-151"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "prolonged",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>prolonged</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "prolonged",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "why": "prolonged is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-152"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "unprecedented",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>unprecedented</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "unprecedented",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "unprecedented is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-153"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "unprecedented",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>unprecedented</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "unprecedented",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "unprecedented is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-154"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "unprecedented",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>unprecedented</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "unprecedented",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "unprecedented is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-155"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "discharge",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>discharge</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "discharge",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "discharge is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-156"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "discharge",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>discharge</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "discharge",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "discharge is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-157"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "discharge",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>discharge</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "discharge",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "discharge is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-158"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "relief",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>relief</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "relief",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "relief is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-159"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "relief",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>relief</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "relief",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 3,
+  "why": "relief is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-160"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "relief",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>relief</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "relief",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "relief is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-161"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "subside",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>subside</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "subside",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "subside is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-162"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "subside",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>subside</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "subside",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "subside is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-163"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "subside",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>subside</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "subside",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "subside is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-164"
+ },
+ {
+  "lesson": 3,
+  "type": "vocab",
+  "word": "trying times",
+  "kind": "family",
+  "level": "B2+",
+  "stem": "SAMPLE family item for <em>trying times</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "trying times",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "trying times is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-165"
+ },
+ {
+  "lesson": 6,
+  "type": "vocab",
+  "word": "trying times",
+  "kind": "context",
+  "level": "B2+",
+  "stem": "SAMPLE context item for <em>trying times</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "trying times",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 2,
+  "why": "trying times is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-166"
+ },
+ {
+  "lesson": 8,
+  "type": "vocab",
+  "word": "trying times",
+  "kind": "context",
+  "level": "C1",
+  "stem": "SAMPLE context item for <em>trying times</em>: choose the word that fits.",
+  "options": [
+   {
+    "text": "trying times",
+    "feedback": ""
+   },
+   {
+    "text": "report",
+    "feedback": ""
+   },
+   {
+    "text": "predict",
+    "feedback": ""
+   },
+   {
+    "text": "rescue",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "trying times is the word the sentence needs.",
+  "use": [
+   "portal",
+   "exit"
+  ],
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-167"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #1 (form-tense): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-168"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "form-tense",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #2 (form-tense).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-169"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "form-tense",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #3 (form-tense): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-170"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "form-tense",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #4 (form-tense): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-171"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "agent",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #5 (agent): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-172"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "agent",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #6 (agent).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-173"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "agent",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #7 (agent): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-174"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "agent",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #8 (agent): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-175"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #9 (active-correct): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-176"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "active-correct",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #10 (active-correct).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-177"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "active-correct",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #11 (active-correct): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-178"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "active-correct",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #12 (active-correct): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-179"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "modal-passive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #13 (modal-passive): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-180"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "modal-passive",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #14 (modal-passive).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-181"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "modal-passive",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #15 (modal-passive): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-182"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "modal-passive",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #16 (modal-passive): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-183"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-infinitive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #17 (passive-infinitive): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-184"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-infinitive",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #18 (passive-infinitive).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-185"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-infinitive",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #19 (passive-infinitive): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-186"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-infinitive",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #20 (passive-infinitive): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-187"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-gerund",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #21 (passive-gerund): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-188"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-gerund",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #22 (passive-gerund).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-189"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-gerund",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #23 (passive-gerund): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-190"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "passive-gerund",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #24 (passive-gerund): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-191"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "reduced-relative",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #25 (reduced-relative): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-192"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "reduced-relative",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #26 (reduced-relative).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-193"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "reduced-relative",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #27 (reduced-relative): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-194"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "reduced-relative",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #28 (reduced-relative): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-195"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "impersonal-passive",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #29 (impersonal-passive): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-196"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "impersonal-passive",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #30 (impersonal-passive).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-197"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "impersonal-passive",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #31 (impersonal-passive): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-198"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "impersonal-passive",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #32 (impersonal-passive): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-199"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "cloze",
+  "level": "B2",
+  "stem": "SAMPLE cloze #33 (verb-restriction): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-200"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "errorid",
+  "level": "B2",
+  "stem": "SAMPLE error item #34 (verb-restriction).",
+  "options": [
+   {
+    "text": "The pumps",
+    "feedback": ""
+   },
+   {
+    "text": "was installed",
+    "feedback": ""
+   },
+   {
+    "text": "last week",
+    "feedback": ""
+   },
+   {
+    "text": "by the city.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 1,
+  "fix": "were installed",
+  "why": "Plural subject: were installed.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-201"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "closest",
+  "level": "B2+",
+  "given": "SAMPLE #35 (verb-restriction): The village was cut off for two days.",
+  "stem": "Which sentence is closest in meaning?",
+  "options": [
+   {
+    "text": "Nobody could reach the village for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village cut the road for two days.",
+    "feedback": ""
+   },
+   {
+    "text": "The village was two days away.",
+    "feedback": ""
+   },
+   {
+    "text": "The village closed for two days.",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "cut off = isolated.",
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-202"
+ },
+ {
+  "lesson": 8,
+  "grammarTag": "verb-restriction",
+  "type": "cloze",
+  "level": "C1",
+  "stem": "SAMPLE cloze #36 (verb-restriction): The shelters ____ by volunteers every evening.",
+  "options": [
+   {
+    "text": "are run",
+    "feedback": ""
+   },
+   {
+    "text": "run",
+    "feedback": ""
+   },
+   {
+    "text": "are running",
+    "feedback": ""
+   },
+   {
+    "text": "ran by",
+    "feedback": ""
+   }
+  ],
+  "answerIndex": 0,
+  "why": "The shelters receive the running: present passive.",
+  "check": true,
+  "unit": 5,
+  "source": "sample",
+  "heldout": false,
+  "use": "portal",
+  "errorTag": "E1",
+  "hint": "Decide: does the subject do it or receive it?",
+  "id": "U5-SAMPLE-203"
+ }
+]

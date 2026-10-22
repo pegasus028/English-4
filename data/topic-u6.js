@@ -1107,17 +1107,17 @@ var U6G = {
        "id": "U6-CP-015",
        "tag": "causative-person",
        "level": "C1",
-       "why": "Only make takes person + base verb here: made every visitor sign. Force, ask and persuade need to.",
+       "why": "Only make takes person + base verb here: made every passenger put on a life jacket. Force, ask and persuade need to.",
        "hint": "The verb after the person has no 'to'. Which verb allows that?",
        "fb": [
-        "Ask + person needs to: asked every visitor to sign.",
+        "Ask + person needs to: asked every passenger to put on a life jacket.",
         "Correct: make + person + base verb ('sign').",
-        "Force + person needs to: forced every visitor to sign.",
+        "Force + person needs to: forced every passenger to put on a life jacket.",
         "Persuade + person needs to."
        ],
        "lesson": 12,
        "type": "cloze",
-       "stem": "Volunteers at the entrance ____ every visitor sign the guest book before the exhibition.",
+       "stem": "Before the long-tail boat left the pier, the boatwoman ____ every passenger put on a life jacket.",
        "options": [
         "asked",
         "made",

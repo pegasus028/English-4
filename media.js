@@ -20,14 +20,14 @@
 var MEDIA = {
   u5g: { title: 'Unit 5 · The passive in flood news', podcast: 'audio/u5-5a.mp3', duration: '5:55', transcript: 'audio/u5-5a.txt', slides: '', video: '',
          more: [ { title: '5a Passive tenses and the agent', podcast: 'audio/u5-5a.mp3', duration: '5:55', transcript: 'audio/u5-5a.txt', video: '' },
-                 { title: '5b Modal passive, infinitives and gerunds', podcast: 'audio/u5-5b.mp3', duration: '3:16', transcript: 'audio/u5-5b.txt', video: '' },
+                 { title: '5b Modal passive, infinitives and gerunds', podcast: 'audio/u5-5b.mp3', duration: '4:54', transcript: 'audio/u5-5b.txt', video: '' },
                  { title: '5c Reduced relatives and the impersonal passive', podcast: 'audio/u5-5c.mp3', duration: '4:56', transcript: 'audio/u5-5c.txt', video: '' } ] },
   u5w: { title: 'Unit 5 · Fifteen flood words (5v)', podcast: 'audio/u5-5v.mp3', duration: '5:44', transcript: 'audio/u5-5v.txt', slides: '', video: '' },
   u6g: { title: 'Unit 6 · Causatives and verb patterns', podcast: 'audio/u6-6a.mp3', duration: '4:46', transcript: 'audio/u6-6a.txt', slides: '', video: '',
          more: [ { title: '6a Plain passive vs causative', podcast: 'audio/u6-6a.mp3', duration: '4:46', transcript: 'audio/u6-6a.txt', video: '' },
                  { title: '6b have sb do / be made to / need doing', podcast: 'audio/u6-6b.mp3', duration: '6:05', transcript: 'audio/u6-6b.txt', video: '' },
-                 { title: '6c Object verb patterns and tone', podcast: 'audio/u6-6c.mp3', duration: '3:42', transcript: 'audio/u6-6c.txt', video: '' } ] },
+                 { title: '6c Object verb patterns and tone', podcast: 'audio/u6-6c.mp3', duration: '4:15', transcript: 'audio/u6-6c.txt', video: '' } ] },
   u6w: { title: 'Unit 6 · Fifteen hospitality words (6v)', podcast: 'audio/u6-6v.mp3', duration: '4:50', transcript: 'audio/u6-6v.txt', slides: '', video: '' }
 };
 /* Minutes of listening per stage (all its episodes), rounded. */
-var MEDIA_MINUTES = { u5g: 14, u5w: 6, u6g: 15, u6w: 5 };
+var MEDIA_MINUTES = { u5g: 16, u5w: 6, u6g: 15, u6w: 5 };

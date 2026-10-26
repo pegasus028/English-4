@@ -1,0 +1,51 @@
+/* Staff Room · Writing Room tab */
+.wr-tgrid{grid-template-columns:1.2fr 1fr}
+@media (max-width:860px){.wr-tgrid{grid-template-columns:1fr}}
+.wr-rooms{display:flex;flex-direction:column;gap:8px}
+.wr-room{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:1px solid var(--rule-soft);background:var(--surface);border-radius:var(--r-m);padding:10px 12px;cursor:pointer;color:var(--ink);font:inherit}
+.wr-room:hover{border-color:var(--accent-line);background:var(--accent-soft)}
+.wr-room-code{font-family:var(--f-mono);font-size:1.2rem;font-weight:600;letter-spacing:.15em;color:var(--accent);min-width:70px}
+.wr-room-t{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0}
+.wr-room-t span{font-size:.82rem;color:var(--ink-3)}
+.wr-two{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.wr-th{display:flex;flex-direction:column;gap:6px}
+.wr-thr{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.88rem}
+.wr-thr input{width:90px;padding:5px 8px;border:1px solid var(--rule);border-radius:var(--r-s);background:var(--surface);color:var(--ink);font-family:var(--f-mono)}
+#pm-json{width:100%;font-family:var(--f-mono);font-size:.8rem;padding:8px;border:1px solid var(--rule);border-radius:var(--r-m);background:var(--surface);color:var(--ink)}
+.wr-head{padding:16px 18px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.wr-code{font-family:var(--f-mono);font-size:2.4rem;font-weight:600;letter-spacing:.2em;color:var(--accent);background:var(--accent-soft);padding:6px 16px;border-radius:var(--r-m)}
+.wr-head-t{flex:1;min-width:200px}
+.wr-head-t h2{font-size:1.25rem}
+.wr-head-s{display:flex;align-items:center;gap:10px}
+.wr-ctrl{width:100%;display:flex;gap:8px;flex-wrap:wrap}
+.wr-stat5{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-bottom:14px}
+.wr-stat5.small{grid-template-columns:repeat(3,1fr);margin-bottom:10px}
+@media (max-width:700px){.wr-stat5{grid-template-columns:repeat(2,1fr)}}
+.wr-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:9px}
+.wr-card{display:flex;flex-direction:column;gap:3px;text-align:left;border:1px solid var(--rule-soft);border-left-width:5px;background:var(--surface);border-radius:var(--r-m);padding:10px 12px;cursor:pointer;color:var(--ink);font:inherit}
+.wr-card-n{font-weight:700}
+.wr-card-s{font-family:var(--f-mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.wr-card-m{font-size:.8rem;color:var(--ink-2)}
+.wr-card-m b{font-family:var(--f-mono);color:var(--ink)}
+.wr-card.st-writing{border-left-color:var(--ok)}
+.wr-card.st-away,.wr-card.st-split{border-left-color:var(--no);background:var(--no-soft)}
+.wr-card.st-away .wr-card-s,.wr-card.st-split .wr-card-s{color:var(--no)}
+.wr-card.st-idle{border-left-color:var(--gold)}
+.wr-card.st-offline{border-left-color:var(--ink-3);opacity:.7}
+.wr-card.st-submitted{border-left-color:var(--accent)}
+.wr-card.st-joined{border-left-color:var(--rule)}
+.wr-dgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:18px}
+@media (max-width:900px){.wr-dgrid{grid-template-columns:1fr}}
+.wr-flags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.wr-replay{display:flex;flex-direction:column;gap:8px}
+.rp-bar{position:relative;height:18px;background:var(--surface-2);border-radius:99px;overflow:hidden;border:1px solid var(--rule-soft)}
+.rp-bar i{position:absolute;top:0;bottom:0}
+.rp-away{background:var(--no);opacity:.7}
+.rp-split{width:3px;background:var(--gold)}
+.rp-paste{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:9px solid var(--no);top:auto;bottom:0}
+.rp-bulk{width:7px;height:7px;border-radius:50%;background:var(--accent);top:5px}
+.rp-head{width:2px;background:var(--ink)}
+.rp-ctl{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rp-ctl input[type=range]{flex:1;min-width:120px}
+.rp-ctl select{padding:5px 8px;border:1px solid var(--rule);border-radius:var(--r-s);background:var(--surface);color:var(--ink)}
+.rp-text{min-height:160px;max-height:360px;overflow:auto;white-space:pre-wrap;padding:12px;border:1px solid var(--rule-soft);border-radius:var(--r-m);background:var(--surface-2);font-size:.95rem;line-height:1.6}

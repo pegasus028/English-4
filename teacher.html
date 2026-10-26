@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English 4 — Staff Room</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230E4D6B'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23E5AE4A' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23E5AE4A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="theme.css?v=2026-10-22a">
+<link rel="stylesheet" href="write.css?v=2026-10-22a">
+<link rel="stylesheet" href="teacher-write.css?v=2026-10-22a">
+<style>
+/* ======================= TEACHER CONSOLE ============================== */
+.ttabs{display:flex;gap:4px;background:var(--surface-2);padding:4px;border-radius:var(--r-m)}
+.ttab{border:none;background:transparent;padding:7px 14px;border-radius:var(--r-s);font-weight:600;font-size:.9rem;color:var(--ink-2);cursor:pointer}
+.ttab.on{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-s)}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:16px}
+.hidden{display:none!important}
+.tiny{font-size:.78rem;color:var(--ink-3);line-height:1.5}
+
+#gate{min-height:100vh;display:grid;place-items:center;padding:24px 16px}
+.gatecard{width:100%;max-width:390px;padding:28px var(--pad);display:flex;flex-direction:column;gap:14px}
+.gatecard h1{font-size:1.8rem;line-height:1.05}
+
+header.top{border-bottom:1px solid var(--rule);background:var(--surface);position:sticky;top:0;z-index:30}
+.top-in{max-width:1200px;margin:0 auto;padding:13px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.top-in h1{font-size:1.18rem}
+.top-in .sub{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);display:block;margin-top:2px}
+
+main{padding-block:20px 80px}
+.grid{display:grid;grid-template-columns:1fr;gap:16px}
+@media (min-width:1020px){.grid{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr)}}
+
+.panel{padding:16px var(--pad) var(--pad)}
+.panel-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.panel-h h2{font-size:1.08rem}
+
+/* --------------------------------------------------------------- roster */
+.roster-scroll{overflow-x:auto;border:1px solid var(--rule);border-radius:var(--r-m)}
+table.roster{border-collapse:collapse;width:100%;min-width:680px;font-size:.86rem}
+table.roster th{
+  font-family:var(--f-mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);
+  text-align:left;padding:9px 10px;background:var(--surface-2);white-space:nowrap;position:sticky;top:0;
+}
+table.roster td{padding:9px 10px;border-top:1px solid var(--rule-soft);white-space:nowrap}
+table.roster tr.r{cursor:pointer}
+table.roster th.sortable{cursor:pointer;user-select:none}
+table.roster th.sortable:hover{color:var(--ink)}
+table.roster th.sortable.on{color:var(--accent)}
+table.roster tr.r:hover td{background:var(--surface-2)}
+table.roster tr.sel td{background:var(--accent-soft)}
+.who2{display:flex;flex-direction:column;gap:1px}
+.who2 b{font-weight:600}
+.who2 span{font-family:var(--f-mono);font-size:9.5px;color:var(--ink-3)}
+.mini{width:64px;height:6px;background:var(--surface-3);border-radius:99px;overflow:hidden;display:inline-block;vertical-align:middle}
+.mini i{display:block;height:100%;background:var(--accent)}
+.flag{font-family:var(--f-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:99px}
+.flag.stall{background:var(--no-soft);color:var(--no)}
+.flag.new{background:var(--accent-soft);color:var(--accent)}
+.flag.fly{background:var(--ok-soft);color:var(--ok)}
+
+/* ---------------------------------------------------------- disclosure */
+details.disc{border:1px solid var(--rule);border-radius:var(--r-m);margin-bottom:10px;background:var(--surface)}
+details.disc>summary{
+  cursor:pointer;list-style:none;padding:11px 14px;display:flex;align-items:center;gap:10px;
+  font-weight:600;font-size:.92rem;
+}
+details.disc>summary::-webkit-details-marker{display:none}
+details.disc>summary::before{content:"▸";color:var(--ink-3);transition:transform .15s}
+details.disc[open]>summary::before{transform:rotate(90deg)}
+details.disc>summary .count{margin-left:auto;font-family:var(--f-mono);font-size:10px;color:var(--ink-3)}
+.disc-body{padding:0 14px 14px;border-top:1px solid var(--rule-soft)}
+.logtable{width:100%;border-collapse:collapse;font-size:.8rem;font-family:var(--f-mono)}
+.logtable th{text-align:left;padding:7px 8px;color:var(--ink-3);font-size:9px;letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--rule)}
+.logtable td{padding:6px 8px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+.logtable tr.bad td{background:var(--no-soft)}
+.logtable .g{color:var(--ink-3)}
+.logscroll{max-height:340px;overflow:auto;margin-top:8px;border-radius:var(--r-s)}
+
+/* ------------------------------------------------------------- report */
+.rep-block{border-left:3px solid var(--no);padding-left:14px;margin-bottom:18px}
+.rep-block.good{border-left-color:var(--ok)}
+.rep-h{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin-bottom:6px}
+.rep-h h4{font-family:var(--f-display);font-size:1rem;font-weight:700}
+.rep-rate{font-family:var(--f-mono);font-size:10px;color:var(--ink-3)}
+.rep-p{font-size:.9rem;line-height:1.55;color:var(--ink-2);margin-bottom:8px}
+.rep-teach{font-size:.88rem;line-height:1.55;background:var(--surface-2);padding:11px 13px;border-radius:var(--r-m);margin-bottom:8px}
+.rep-teach b{font-family:var(--f-mono);font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);display:block;margin-bottom:5px}
+.rep-acts{list-style:none;padding:0;display:flex;flex-direction:column;gap:7px}
+.rep-acts li{display:flex;gap:9px;font-size:.88rem;line-height:1.5;color:var(--ink-2)}
+.rep-acts li::before{content:"→";color:var(--accent);flex:0 0 auto;font-weight:700}
+
+/* --------------------------------------------------------------- class */
+.heat{display:flex;flex-direction:column;gap:5px}
+.heat-row{display:grid;grid-template-columns:1fr 96px 44px;gap:10px;align-items:center;font-size:.85rem}
+.heat-bar{height:9px;background:var(--surface-3);border-radius:99px;overflow:hidden}
+.heat-bar i{display:block;height:100%;background:var(--no)}
+.heat-n{font-family:var(--f-mono);font-size:10px;color:var(--ink-3);text-align:right}
+
+.sysbars{display:flex;flex-direction:column;gap:6px}
+.sysbar{display:grid;grid-template-columns:1fr 110px 44px;gap:10px;align-items:center;font-size:.85rem}
+.sysbar-b{height:9px;background:var(--surface-3);border-radius:99px;overflow:hidden}
+.sysbar-b i{display:block;height:100%;background:var(--accent)}
+.sysbar-n{font-family:var(--f-mono);font-size:10px;color:var(--ink-3);text-align:right}
+
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+.stat5{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-bottom:14px}
+@media (min-width:640px){.stat5{grid-template-columns:repeat(5,1fr)}}
+.stat{background:var(--surface-2);border-radius:var(--r-m);padding:11px 13px}
+.stat b{display:block;font-family:var(--f-display);font-size:1.5rem;font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{font-family:var(--f-mono);font-size:9px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3)}
+
+.mocktable{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:8px}
+.mocktable th{font-family:var(--f-mono);font-size:9px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);text-align:left;padding:7px 8px;border-bottom:1px solid var(--rule)}
+.mocktable td{padding:7px 8px;border-bottom:1px solid var(--rule-soft)}
+.mocktable td.n{font-family:var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+.mocktable tr.low td{background:var(--no-soft)}
+
+/* --------------------------------------------------------------- print */
+#printable{display:none}
+@media print{
+  body>*{display:none!important}
+  #printable{display:block!important;padding:0;font-family:Georgia,serif;color:#000;background:#fff}
+  #printable .pq{page-break-inside:avoid;margin-bottom:16px}
+  #printable .key{page-break-before:always}
+  #printable h2{font-size:16pt;margin:0 0 4pt}
+  #printable .meta{font-size:9pt;color:#444;margin-bottom:14pt}
+  #printable .pq b{font-size:11pt}
+  #printable .pq ol{margin:4pt 0 0 18pt;font-size:11pt}
+  #printable .pq .ctx{font-size:10pt;font-style:italic;margin:2pt 0}
+  #printable table{border-collapse:collapse;font-size:9.5pt;margin:4pt 0}
+  #printable table td,#printable table th{border:1px solid #999;padding:2pt 6pt}
+}
+.empty{padding:30px 18px;text-align:center;color:var(--ink-3);font-size:.92rem}
+.msg{font-size:.88rem;padding:10px 12px;border-radius:var(--r-m)}
+.msg.bad{background:var(--no-soft);color:var(--no)}
+.modebar{
+  max-width:1200px;margin:10px auto 0;padding:9px 14px;border-radius:var(--r-m);
+  background:var(--gold-soft);color:var(--gold);font-size:.82rem;display:flex;gap:10px;
+  align-items:center;justify-content:space-between;flex-wrap:wrap;
+}
+.modebar b{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase}
+</style>
+</head>
+<body>
+
+<div id="gate">
+  <div class="card gatecard">
+    <p class="kicker">English 4 Mission Control · M5.1</p>
+    <h1>Staff Room</h1>
+    <p style="color:var(--ink-2);font-size:.92rem">Teacher console: class progress and weak tags, and the Writing Room — sessions, the live grid, submissions, replays and flags.</p>
+    <div class="field"><label for="pin">Teacher PIN</label>
+      <input type="password" id="pin" placeholder="••••" autocomplete="current-password"></div>
+    <div class="field"><label for="url">Class server address</label>
+      <input type="text" id="url" placeholder="https://script.google.com/macros/s/…/exec" spellcheck="false"></div>
+    <div id="gate-msg" class="msg bad hidden"></div>
+    <button class="btn primary wide" id="gate-go">Open the deck</button>
+    <p class="tiny">Clear the address to read whatever is stored in this browser instead; the offline PIN is <strong>1234</strong>.</p>
+  </div>
+</div>
+
+<div id="app" class="hidden">
+  <header class="top">
+    <div class="top-in">
+      <div>
+        <h1>Staff Room</h1>
+        <span class="sub" id="top-sub">—</span>
+      </div>
+      <nav class="ttabs"><button class="ttab on" data-tab="progress">Progress</button><button class="ttab" data-tab="write">Writing Room</button></nav>
+      <div class="tools">
+        <button class="btn sm" id="t-refresh">Refresh</button>
+        <button class="btn sm" id="t-csv">Export CSV</button>
+        <button class="btn sm ghost" id="t-out">Close</button>
+      </div>
+    </div>
+  </header>
+  <div id="modebar-slot"></div>
+
+  <main class="wrap" id="tab-progress">
+    <div class="stat5" id="stats"></div>
+    <div class="grid">
+      <div class="card panel">
+        <div class="panel-h"><h2>Class roster</h2><span class="kicker" id="roster-n"></span></div>
+        <input type="text" id="q" placeholder="Filter by name or student ID" spellcheck="false" style="margin-bottom:10px">
+        <div class="roster-scroll"><table class="roster" id="roster"></table></div>
+        <div style="margin-top:18px">
+          <div class="panel-h"><h2 style="font-size:.98rem">Where the class is losing marks</h2></div>
+          <div class="heat" id="heat"></div>
+        </div>
+        <div style="margin-top:18px">
+          <div class="panel-h"><h2 style="font-size:.98rem">The stages, class mean</h2></div>
+          <div class="sysbars" id="sysbars"></div>
+        </div>
+      </div>
+      <div class="card panel" id="detail"><div class="empty">Select a student to see her log, her diagnosis, her paper results, and to set her a paper.</div></div>
+    </div>
+  </main>
+  <main class="wrap hidden" id="tab-write"></main>
+</div>
+
+<div id="printable"></div>
+<div id="toast-slot"></div>
+
+<!-- ===================================================================
+     CLASS SERVER — paste your /exec URL between the quotes.
+     =================================================================== -->
+<script>window.MC_API_URL = 'https://script.google.com/macros/s/AKfycbzRQvyIweJEeZakK176yS_8miebqvC-UkNuVugWk5Rv99SZnl_I9ZDV5ZbaHgEhbmjh/exec';</script>
+<script src="roster.js?v=2026-10-22a"></script>
+<script src="content.js?v=2026-10-22a"></script>
+<script src="data/topic-u5.js?v=2026-10-22a"></script>
+<script src="data/topic-u6.js?v=2026-10-22a"></script>
+<script src="media.js?v=2026-10-22a"></script>
+<script src="data/tests.js?v=2026-10-22a"></script>
+<script src="data/extras.js?v=2026-10-22a"></script>
+<script src="content-export.js?v=2026-10-22a"></script>
+<script src="engine.js?v=2026-10-22a"></script>
+<script src="api.js?v=2026-10-22a"></script>
+<script src="write.js?v=2026-10-22a"></script>
+<script src="teacher.js?v=2026-10-22a"></script>
+<script src="teacher-write.js?v=2026-10-22a"></script>
+</body>
+</html>

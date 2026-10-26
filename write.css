@@ -1,0 +1,71 @@
+/* ===========================================================================
+   ENGLISH 4 MISSION CONTROL — write.css   (Writing Room styles; theme.css is
+   shared with the other Mission Control apps and stays unchanged)
+   =========================================================================== */
+.wr-join{padding:18px 20px;display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+.wr-join label{font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.wr-join-row{display:flex;gap:10px}
+.wr-join-row input{flex:1;min-width:0;font-size:1.5rem;letter-spacing:.3em;text-align:center;padding:10px 12px;border:1px solid var(--rule);border-radius:var(--r-m);background:var(--surface);color:var(--ink);font-family:var(--f-mono)}
+.wr-protocol{padding:14px 20px;margin-bottom:14px}
+.wr-protocol ol{margin:6px 0 0;padding-left:20px;font-size:.92rem;line-height:1.6}
+.wr-pieces{display:flex;flex-direction:column;gap:10px}
+.wr-piece{padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.wr-piece-h{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.wr-piece-s{font-size:.86rem;color:var(--ink-2)}
+.wr-piece-a{display:flex;gap:8px;flex-wrap:wrap}
+.wr-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.wr-top h2,.wr-top h3{font-size:1.35rem;margin-top:2px}
+.wr-counter{display:flex;gap:8px;flex-wrap:wrap;position:sticky;top:calc(var(--ribbon-h) + 112px);z-index:5}
+.wr-c{display:flex;flex-direction:column;align-items:center;min-width:72px;padding:6px 10px;border-radius:var(--r-m);background:var(--surface);border:1px solid var(--rule-soft);font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.wr-c b{font-size:15px;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:0}
+.wr-c.bad{border-color:var(--no);background:var(--no-soft)}
+.wr-c.bad b{color:var(--no)}
+.wr-bc{background:var(--gold-soft);border:1px solid var(--gold);color:var(--gold);padding:9px 13px;border-radius:var(--r-m);margin-bottom:12px;font-weight:600}
+.wr-lobby{padding:26px 22px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center}
+.wr-lobby p{max-width:52ch;color:var(--ink-2);font-size:.95rem}
+.wr-seal{width:58px;height:58px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:1.6rem}
+.wr-seal.ok{background:var(--ok-soft);color:var(--ok)}
+.wr-prompt{padding:16px 18px;display:flex;flex-direction:column;gap:12px;margin-bottom:12px;border-left:4px solid var(--accent)}
+.wr-prompt-h{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.wr-prompt h3{font-size:1.15rem;line-height:1.3;margin-top:4px}
+.wr-clock{font-family:var(--f-mono);font-size:1.3rem;font-weight:600;font-variant-numeric:tabular-nums;color:var(--accent);white-space:nowrap}
+.wr-clock.low{color:var(--no)}
+.wr-source{background:var(--surface-2);border-radius:var(--r-m);padding:10px 13px;font-size:.92rem;line-height:1.55}
+.wr-source ul{margin:4px 0 0;padding-left:18px}
+.wr-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:560px){.wr-grid{grid-template-columns:1fr}}
+.wr-quota{margin:4px 0 0;padding-left:18px;font-size:.92rem;line-height:1.5}
+.wr-words{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.wr-word{padding:3px 9px;border-radius:99px;background:var(--surface-2);font-size:.86rem;border:1px solid var(--rule-soft)}
+.wr-word.ok{background:var(--ok-soft);color:var(--ok);border-color:var(--ok)}
+.wr-target{font-family:var(--f-mono);font-size:1.1rem;margin:2px 0 0}
+.wr-target.ok{color:var(--ok)}
+.wr-frames{display:flex;flex-direction:column;gap:4px}
+.wr-frames code{background:var(--surface-2);padding:4px 8px;border-radius:var(--r-s);font-size:.88rem}
+.wr-writer{padding:12px 14px;display:flex;flex-direction:column;gap:10px}
+.wr-tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.wr-stat{font-size:.85rem;color:var(--ink-2)}
+.wr-stat b{font-family:var(--f-mono);color:var(--ink)}
+#wr-box{width:100%;min-height:42vh;resize:vertical;padding:14px;border:1px solid var(--rule);border-radius:var(--r-m);background:var(--surface);color:var(--ink);font:inherit;font-size:1.05rem;line-height:1.6}
+#wr-box:focus{outline:2px solid var(--accent-line)}
+.wr-preview{font-size:.95rem;line-height:1.6;color:var(--ink-2)}
+.wr-preview:empty{display:none}
+mark.wr-mark{background:#FFD400;color:#141A26;padding:0 2px;border-radius:2px}
+.wr-foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.wr-receipt{padding:20px 22px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.wr-rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%}
+.wr-rgrid div{background:var(--surface-2);border-radius:var(--r-m);padding:10px;display:flex;flex-direction:column;font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.wr-rgrid b{font-size:1.2rem;color:var(--ink);letter-spacing:0}
+.wr-read{padding:16px 18px;font-size:1rem;line-height:1.65;margin-bottom:12px}
+.wr-checklist{padding:16px 18px;display:flex;flex-direction:column;gap:12px}
+.wr-q{display:flex;flex-direction:column;gap:5px;font-weight:600;font-size:.95rem}
+.wr-q .tiny{font-weight:400}
+.wr-q select,.wr-q textarea{font:inherit;font-weight:400;padding:9px 11px;border:1px solid var(--rule);border-radius:var(--r-m);background:var(--surface);color:var(--ink)}
+.wr-pub{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.wr-pub{grid-template-columns:1fr}}
+.wr-pubbox{padding:16px 18px;display:flex;flex-direction:column;gap:10px}
+.wr-pubbox textarea{width:100%;font:inherit;font-size:1rem;line-height:1.6;padding:12px;border:1px solid var(--rule);border-radius:var(--r-m);background:var(--surface);color:var(--ink)}
+.wr-retbar{height:10px;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.wr-retbar span{display:block;height:100%;border-radius:99px;background:var(--no)}
+.wr-retbar span.ok{background:var(--ok)}
+.wr-retbar span.low{background:var(--no)}

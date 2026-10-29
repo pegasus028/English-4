@@ -18,7 +18,7 @@
    (audio/u5-5a.txt) opened under the player. Both optional.
    =========================================================================== */
 var MEDIA = {
-  u5g: { title: 'Unit 5 · The passive in flood news', podcast: 'audio/u5-5a.mp3', duration: '5:55', transcript: 'audio/u5-5a.txt', slides: '', video: '',
+  u5g: { title: 'Unit 5 · The passive in flood news', podcast: 'audio/u5-5a.mp3', duration: '5:55', transcript: 'audio/u5-5a.txt', slides: '', video: 'https://youtu.be/7NGNBmux0eA',
          more: [ { title: '5a Passive tenses and the agent', podcast: 'audio/u5-5a.mp3', duration: '5:55', transcript: 'audio/u5-5a.txt', video: '' },
                  { title: '5b Modal passive, infinitives and gerunds', podcast: 'audio/u5-5b.mp3', duration: '4:54', transcript: 'audio/u5-5b.txt', video: '' },
                  { title: '5c Reduced relatives and the impersonal passive', podcast: 'audio/u5-5c.mp3', duration: '4:56', transcript: 'audio/u5-5c.txt', video: '' } ] },

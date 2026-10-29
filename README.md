@@ -46,6 +46,20 @@ This writes `data/topic-u5.js`, `data/topic-u6.js`, `data/tests.js` (Unit 5 Tria
 
 `samples/U5-item-bank.SAMPLE.json` is the placeholder bank the app currently runs on (203 items written to exercise every module, not to teach).
 
+## Lesson explanations at B1 · B2 · C1, read aloud by Sonia
+
+Every lesson in the Stages tab opens with an explanation the student can read at **B1, B2 or C1** (buttons above the text, or Settings → Reading level). Each level teaches everything that lesson's questions test; only the English changes (B1: short sentences, hard words explained in brackets; C1: the full, precise version). The texts live in `lesson-levels.js` (`{ lessonId: { B1, B2, C1 } }`, each `{ key, body[], examples[{s, g}] }`) and override the theory in `data/topic-*.js`, so rebuilding the item banks never loses them. Written and checked 29 Oct 2026: a blind reader answered all 198 questions correctly from each level's text alone.
+
+**Listen to this lesson** reads the chosen level in Microsoft Sonia (British English): the key sentence, each paragraph and each example, one recorded clip per part, with the part being read highlighted. Tap again to pause, again to resume; the bar at the bottom has previous / next part and stop; **Slower** plays at 85%. Reading stops when the student changes level, goes back, starts the questions or changes view. A part with no recording falls back to the device's own voice.
+
+### Read-aloud recordings
+
+Clips are `audio/lessons/<key>.mp3`; `lesson-audio.js` lists which exist. The key is a hash of the spoken text (`tts-clean.js`), so editing a sentence in `lesson-levels.js` needs a new clip for that sentence only.
+
+- **Automatic:** push the edit to `main`. The GitHub workflow *Record read-aloud audio* (`.github/workflows/record-audio.yml`) records the changed clips, deletes clips that are no longer used and commits them back within a few minutes. You can also run it by hand from the Actions tab.
+- **By hand:** `pip install edge-tts`, then `python tools/make-lesson-audio.py --prune`, commit `audio/lessons/` and `lesson-audio.js`, and bump `?v=` on `lesson-audio.js` and `lesson-levels.js` in `index.html`.
+- Check: `node tools/lesson-tts-list.js --summary`; full browser test: `NODE_PATH=$(npm root -g) node tools/lesson-audio-test.js` (opens all 36 lessons at all three levels, checks every part has a clip, then play, pause, resume, skip, stop, fallback and phone width).
+
 ## Adding podcasts, videos, slides
 
 `media.js` has one entry per stage (`u5g`, `u5w`, `u6g`, `u6w`). Put the MP3 in `audio/` and its path in `podcast` (grammar episodes 5a/5b/5c go in `more`); paste a YouTube link into `video`; a PDF path into `slides`. An empty field means no button. Nothing else needs touching.
@@ -69,6 +83,9 @@ Screenshots land in `tools/shots/`.
 
 | file | what |
 |---|---|
+| `lesson-levels.js` | the B1 / B2 / C1 explanation of every lesson |
+| `reader.js`, `tts-clean.js`, `lessons.css` | the read-aloud player, its speech-text cleaner, and the level / Listen / player-bar styles |
+| `lesson-audio.js`, `audio/lessons/` | the recorded Sonia clips (generated) |
 | `student.js` | the student console (route, stages, modules, papers, fault list, record, settings, exit tickets, spiral) |
 | `write.js`, `write.css` | the Writing Room: join, sealed prompt, writing box with input controls, away counter, Mark-structure toolbar, peer checklist, receipt, publish with retention %; plus the local server used without Apps Script |
 | `teacher.js` | Staff Room · Progress tab (from Fine Tuning) |

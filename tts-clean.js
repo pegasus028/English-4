@@ -11,7 +11,8 @@
   }
   function speechText(raw) {
     var s = String(raw == null ? "" : raw);
-    s = s.replace(/<s>([\s\S]*?)<\/s>/g, " $1, wrong, ")                         // struck-out wrong form
+    s = s.replace(/\b(not|never|no|instead of|rather than)(\s+(?:<[^>]+>\s*)*)<s>([\s\S]*?)<\/s>/gi, "$1$2$3") // "not <s>X</s>": already says it is wrong
+      .replace(/<s>([\s\S]*?)<\/s>/g, " $1, wrong, ")                          // struck-out wrong form
       .replace(/<br\s*\/?>/gi, ". ").replace(/<[^>]+>/g, "");                    // tags
     s = decode(s);
     s = s.replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{200D}\u{2713}\u{2717}\u{2605}]/gu, "")
@@ -29,6 +30,7 @@
       .replace(/\s*[—–]\s*/g, ", ")
       .replace(/[“”"]/g, "").replace(/[‘’]/g, "'")
       .replace(/\(\s*\)/g, "").replace(/\s+/g, " ")
+      .replace(/\(\s+/g, "(").replace(/[,;:\s]+\)/g, ")")
       .replace(/\s+([,.;:!?)])/g, "$1").replace(/([,;:])(?:\s*[,;:])+/g, "$1")
       .replace(/,\s*\./g, ".").replace(/^[\s,;:]+/, "").trim();
     return s;

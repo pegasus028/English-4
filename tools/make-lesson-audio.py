@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+"""Record every lesson read-aloud part in English 4 Mission Control as an MP3 in the Sonia (British English) voice.
+
+  pip install edge-tts
+  python tools/make-lesson-audio.py            # records only new or changed texts
+  python tools/make-lesson-audio.py --prune    # also deletes MP3s whose text no longer exists
+  python tools/make-lesson-audio.py --force    # re-records everything
+
+Needs Node (to read the lesson files) and internet access. Files go to audio/lessons/<key>.mp3 and the
+manifest lesson-audio.js tells reader.js which recordings exist; anything missing falls back to the
+browser voice. Run it after editing lesson-levels.js, then commit audio/lessons/ and lesson-audio.js
+(the GitHub workflow .github/workflows/record-audio.yml does this by itself on every push).
+Voice: Microsoft Sonia (en-GB-SoniaNeural) via the free Edge read-aloud service (edge-tts). A text that
+contains Thai script (the Thai-contrast pattern card) is recorded in runs: Thai in Premwadee (th-TH), English in
+Sonia, joined into one MP3 with ffmpeg (needs ffmpeg on the PATH for those few clips only).
+"""
+import asyncio, json, os, re, shutil, subprocess, sys, tempfile
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, 'audio', 'lessons')
+MANIFEST = os.path.join(ROOT, 'lesson-audio.js')
+VOICE, RATE = 'en-GB-SoniaNeural', '-10%'   # app's browser voice also runs at 0.9 speed
+THAI_VOICE = 'th-TH-PremwadeeNeural'
+THAI_RUN = re.compile(r'([\u0E00-\u0E7F]+(?:[\s,]+[\u0E00-\u0E7F]+)*)')
+
+if os.environ.get('TTS_CA_BUNDLE'):          # only for networks with an intercepting proxy
+    import certifi
+    certifi.where = lambda: os.environ['TTS_CA_BUNDLE']
+import edge_tts
+
+
+def segments(text):
+    """[(voice, text)] runs: Thai script → Premwadee, everything else → Sonia."""
+    out = []
+    for i, part in enumerate(THAI_RUN.split(text)):
+        if i % 2:
+            out.append((THAI_VOICE, part.strip(' ,')))
+        else:
+            part = part.strip().lstrip(':;,').strip()
+            if re.search(r'[A-Za-z0-9]', part):
+                out.append((VOICE, part))
+    return out
+
+
+def min_bytes(text):
+    return max(8000, 150 * len(text))
+
+
+async def say(text, voice, path, floor):
+    tmp = path + '.part'
+    await edge_tts.Communicate(text, voice, rate=RATE).save(tmp)
+    # the service sometimes returns a cut-off clip; Sonia averages ~450 bytes per character
+    if os.path.getsize(tmp) < floor:
+        raise RuntimeError('clip too short (%d bytes)' % os.path.getsize(tmp))
+    os.replace(tmp, path)
+
+
+async def record_mixed(text, path):
+    segs = segments(text)
+    with tempfile.TemporaryDirectory() as d:
+        files = []
+        for n, (voice, seg) in enumerate(segs):
+            f = os.path.join(d, '%03d.mp3' % n)
+            await say(seg, voice, f, 3000 if voice == THAI_VOICE else max(5000, 150 * len(seg)))
+            files.append(f)
+        cmd = ['ffmpeg', '-v', 'error', '-y']
+        for f in files:
+            cmd += ['-i', f]
+        cmd += ['-filter_complex', ''.join('[%d:a]' % i for i in range(len(files))) + 'concat=n=%d:v=0:a=1' % len(files),
+                '-ac', '1', '-ar', '24000', '-c:a', 'libmp3lame', '-b:a', '48k', path + '.part.mp3']
+        subprocess.run(cmd, check=True)
+        os.replace(path + '.part.mp3', path)
+
+
+async def record(item, sem, force):
+    path = os.path.join(OUT, item['key'] + '.mp3')
+    mixed = bool(THAI_RUN.search(item['text']))
+    floor = 8000 if mixed else min_bytes(item['text'])
+    if not force and os.path.exists(path) and os.path.getsize(path) >= floor:
+        return 'kept'
+    if mixed and not shutil.which('ffmpeg'):
+        print('SKIPPED (needs ffmpeg for Thai + English):', item['ref'], file=sys.stderr)
+        return 'failed'
+    async with sem:
+        for attempt in range(4):
+            try:
+                if mixed:
+                    await record_mixed(item['text'], path)
+                else:
+                    await say(item['text'], VOICE, path, floor)
+                return 'made'
+            except Exception as e:  # network hiccup or throttling: back off and retry
+                if attempt == 3:
+                    print('FAILED', item['ref'], e, file=sys.stderr)
+                    return 'failed'
+                await asyncio.sleep(2 * (attempt + 1))
+
+
+async def main():
+    force, prune = '--force' in sys.argv, '--prune' in sys.argv
+    items = json.loads(subprocess.check_output(['node', os.path.join(ROOT, 'tools', 'lesson-tts-list.js')], cwd=ROOT))
+    os.makedirs(OUT, exist_ok=True)
+    sem = asyncio.Semaphore(4)
+    results = await asyncio.gather(*(record(i, sem, force) for i in items))
+    keys = {i['key'] for i in items}
+    if prune:
+        for f in os.listdir(OUT):
+            if f.endswith('.mp3') and f[:-4] not in keys:
+                os.remove(os.path.join(OUT, f))
+    have = sorted(i['key'] for i in items if os.path.exists(os.path.join(OUT, i['key'] + '.mp3')))
+    with open(MANIFEST, 'w', encoding='utf-8') as fh:
+        fh.write('/* Generated by tools/make-lesson-audio.py: recorded lesson read-aloud clips (Sonia, en-GB). Do not edit. */\n')
+        fh.write('window.E4_LESSON_AUDIO = { voice: ' + json.dumps(VOICE) + ', dir: "audio/lessons/", keys: ' + json.dumps(have) + ' };\n')
+    print({k: results.count(k) for k in ('made', 'kept', 'failed')}, '| total', len(items), '| in manifest', len(have))
+
+
+asyncio.run(main())

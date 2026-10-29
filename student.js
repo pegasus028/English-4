@@ -261,6 +261,7 @@
     clearTimeout(S.celebrateTimer);
     $('#modal-slot').innerHTML = '';
     if (v !== 'play') stopBeat();
+    if (window.Reader && v !== 'play') Reader.stop();
     VIEWS.forEach(function (x) { $('#view-' + x).classList.toggle('hidden', x !== v); });
     document.querySelectorAll('.nav button[data-view]').forEach(function (b) {
       b.classList.toggle('on', b.dataset.view === v);
@@ -1519,51 +1520,62 @@
   /* =====================================================================
      THEORY
      ===================================================================== */
+  /* ------------------------------------------------- LEVELLED LESSONS
+     Every lesson can be read at B1, B2 or C1 (lesson-levels.js, as in the
+     IELTS-WT1 app). Each level teaches everything the lesson's questions test;
+     only the English changes. The choice follows the student (profile) and the
+     device (localStorage). The old "simpler English" switch maps to B1.
+     The Listen button reads the chosen level aloud in Sonia's recorded voice
+     (reader.js, audio/lessons/), part by part, with the part highlighted. */
+  var LVLS = ['B1', 'B2', 'C1'];
+  function explainLevel() {
+    var v = S.p && S.p.explainLevel;
+    if (!v) { try { v = localStorage.getItem('e4.explain.lvl'); } catch (e) {} }
+    if (!v && S.simple) v = 'B1';
+    return LVLS.indexOf(v) >= 0 ? v : 'C1';
+  }
+  function setExplainLevel(v) {
+    if (LVLS.indexOf(v) < 0) return;
+    if (S.p) S.p.explainLevel = v;
+    S.simple = v === 'B1';
+    try { localStorage.setItem('e4.explain.lvl', v); } catch (e) {}
+    syncSoon();
+  }
+  function lessonText(s, lvl) {
+    var L = (window.E4_LESSON_LEVELS || {})[s.id], x = L && L[lvl];
+    if (!x) { for (var i = LVLS.length - 1; i >= 0 && !x; i--) x = L && L[LVLS[i]]; }
+    if (x && x.body && x.body.length) return { key: x.key || s.theory.key, body: x.body, examples: x.examples || s.theory.examples || [], lvl: x === (L && L[lvl]) ? lvl : 'C1' };
+    return { key: s.theory.key, body: s.theory.body, examples: s.theory.examples || [], lvl: 'C1' };
+  }
+  function lvlBar(cur) {
+    return '<div class="lvl-bar" role="group" aria-label="Choose the level of this explanation"><span class="lvl-lbl">Read it at my level:</span>' +
+      LVLS.map(function (l) { return '<button type="button" class="lvl-btn' + (l === cur ? ' on' : '') + '" data-xlvl="' + l + '" aria-pressed="' + (l === cur) + '"' + (l === 'C1' ? ' title="The full explanation"' : '') + '>' + l + '</button>'; }).join('') + '</div>';
+  }
+  function lsayBar(subId, lvl) {
+    var sl = window.Reader && Reader.slow();
+    return '<div class="lsay-bar"><button class="lsay" type="button" id="p-say" data-rd="lesson:' + subId + ':' + lvl + '" data-label="Listen to this lesson">' +
+      '<span class="lsay-ico" aria-hidden="true">▶</span><span class="lsay-lbl">Listen to this lesson</span></button>' +
+      '<button class="lsay-opt' + (sl ? ' on' : '') + '" type="button" id="p-say-slow" aria-pressed="' + !!sl + '">Slower</button></div>';
+  }
+  /* What is read aloud, in order: lesson name + key sentence, each paragraph,
+     each example (sentence, then its note). tools/lesson-tts-list.js builds
+     exactly these texts to record them; keep the two in step. */
+  function lessonParts(s, tx, root) {
+    var parts = [{ text: s.name + '. ' + tx.key, el: root && root.querySelector('.key') }];
+    var ps = root ? root.querySelectorAll('.prose p') : [];
+    tx.body.forEach(function (b, i) { parts.push({ text: b, el: ps[i] || null }); });
+    var xs = root ? root.querySelectorAll('.exlist > div') : [];
+    tx.examples.forEach(function (x, i) { parts.push({ text: x.s + '. ' + x.g, el: xs[i] || null }); });
+    return parts;
+  }
+
   function openSub(subId) {
+    if (window.Reader) Reader.stop();
     var s = E.Bank.sub(subId);
     var t = E.Bank.topic(s.topicId);
     var lv = E.Bank.level(s.levelId);
-    /* A lesson is a set of lenses on one idea. Every student gets the full
-       explanation; the other tabs (lenses.js) are for whoever that explanation
-       missed. A module with no lens entry simply shows fewer tabs. */
-    var th = {}, k0;
-    for (k0 in s.theory) th[k0] = s.theory[k0];
-    var lens = (typeof LENSES !== 'undefined' && LENSES[subId]) || {};
-    for (k0 in lens) if (!th[k0]) th[k0] = lens[k0];
-    var tabs = [['explain', 'Explain']];
-    if (th.simple) tabs.push(['simple', 'Simple English']);
-    if (th.thai) tabs.push(['thai', 'ภาษาไทย']);
-    if (th.map) tabs.push(['map', 'Mind map']);
-    if (th.story) tabs.push(['story', 'Story']);
-    if (th.chant) tabs.push(['chant', 'Chant']);
-    if (th.moves) tabs.push(['moves', 'Moves']);
-    var cur = S.lessonTab && tabs.some(function (x) { return x[0] === S.lessonTab; }) ? S.lessonTab : (S.simple && th.simple ? 'simple' : 'explain');
-    function pane(k) {
-      if (k === 'explain' || k === 'simple') {
-        var paras = k === 'simple' ? th.simple : th.body;
-        var h = '<div class="prose">' + paras.map(function (x) { return '<p>' + x + '</p>'; }).join('') + '</div>';
-        if (th.analogy) h += '<div class="lens analogy"><div class="lens-k">Think of it like this · ' + esc(th.analogy.title || '') + '</div><p>' + th.analogy.text + '</p></div>';
-        if (th.examples) h += '<div class="exlist">' + th.examples.map(function (x) {
-          return '<div><div class="s">' + x.s + '</div><div class="g">' + esc(x.g) + '</div></div>'; }).join('') + '</div>';
-        if (th.trap) h += '<div class="lens trap"><div class="lens-k">⚠ The trap</div><p>' + th.trap + '</p></div>';
-        return h;
-      }
-      if (k === 'thai') return '<div class="lens thai"><div class="lens-k">สรุปภาษาไทย</div><p>' + esc(th.thai) + '</p></div>' +
-        (th.trap ? '<div class="lens trap"><div class="lens-k">⚠ The trap</div><p>' + th.trap + '</p></div>' : '');
-      if (k === 'map') return '<div class="mm-wrap">' + E.mindMapSvg(th.map) + '</div>' +
-        '<div class="mm-list">' + th.map.branches.map(function (b) { return '<div><b>' + esc(b.label) + '</b> — ' + b.leaves.map(esc).join(' · ') + '</div>'; }).join('') + '</div>';
-      if (k === 'story') return '<div class="story"><div class="lens-k">' + esc(th.story.title || 'Story') + '</div>' +
-        th.story.panels.map(function (pn, i) {
-          return '<div class="panel p' + (i % 4) + '"><span class="pn">' + (i + 1) + '</span><b>' + esc(pn.who) + '</b><p>' + pn.text + '</p></div>'; }).join('') +
-        (th.story.moral ? '<div class="moral">★ ' + th.story.moral + '</div>' : '') + '</div>';
-      if (k === 'chant') return '<div class="chant"><div class="lens-k">' + esc(th.chant.title || 'Chant') + '</div>' +
-        (th.chant.beat ? '<div class="beat">Beat: ' + esc(th.chant.beat) + '</div>' : '') +
-        '<div class="lyrics">' + th.chant.lines.map(function (l) { return '<div>' + l + '</div>'; }).join('') + '</div>' +
-        '<button class="btn sm" id="p-beat">' + (beatTimer ? '■ Stop the beat' : '▶ Play the beat') + '</button></div>';
-      if (k === 'moves') return '<div class="moves"><div class="lens-k">Stand up and do it</div>' + th.moves.map(function (m, i) {
-        return '<div class="move"><span class="mn">' + (i + 1) + '</span><div><b>' + esc(m.move) + '</b><p>“' + m.says + '”</p></div></div>'; }).join('') + '</div>';
-      return '';
-    }
+    var lvl = explainLevel(), tx = lessonText(s, lvl);
+    var th = s.theory;
     var html = '<div class="play">' +
       '<div class="play-top"><button class="btn ghost sm" id="p-back">← Stages</button>' +
       '<span style="flex:1"></span><span class="qcount">' + esc(t.code) + ' · Level ' + lv.n + '</span></div>' +
@@ -1571,26 +1583,42 @@
       E.artBand(t.art) +
       '<p class="kicker">' + esc(s.cefr) + ' · Module</p>' +
       '<h3>' + esc(s.name) + '</h3>' +
-      '<p class="key">' + th.key + '</p>' +
-      '<div class="lesson-tabs" role="tablist">' + tabs.map(function (x) {
-        return '<button class="ltab' + (x[0] === cur ? ' on' : '') + '" role="tab" aria-selected="' + (x[0] === cur) + '" data-tab="' + x[0] + '">' + x[1] + '</button>'; }).join('') + '</div>' +
-      '<div class="lesson-pane">' + pane(cur) + '</div>' +
+      lvlBar(tx.lvl) + lsayBar(subId, tx.lvl) +
+      '<p class="key">' + tx.key + '</p>' +
+      '<div class="lesson-pane"><div class="prose" data-explain-level="' + tx.lvl + '">' + tx.body.map(function (x) { return '<p>' + x + '</p>'; }).join('') + '</div>' +
+      (th.analogy ? '<div class="lens analogy"><div class="lens-k">Think of it like this · ' + esc(th.analogy.title || '') + '</div><p>' + th.analogy.text + '</p></div>' : '') +
+      (tx.examples.length ? '<div class="exlist">' + tx.examples.map(function (x) {
+        return '<div><div class="s">' + x.s + '</div><div class="g">' + x.g + '</div></div>'; }).join('') + '</div>' : '') +
+      (th.trap ? '<div class="lens trap"><div class="lens-k">⚠ The trap</div><p>' + th.trap + '</p></div>' : '') +
+      '</div>' +
       '<button class="btn primary wide" id="p-start">Start the ' + s.items.length + ' questions →</button>' +
       '</div></div>';
     $('#view-play').innerHTML = html;
     show('play');
-    $('#p-back').addEventListener('click', function () { stopBeat(); show(S.planReturn ? 'plan' : 'map'); });
-    Array.prototype.forEach.call(document.querySelectorAll('.ltab'), function (b) {
+    var card = $('#view-play .theory');
+    $('#p-back').addEventListener('click', function () { if (window.Reader) Reader.stop(); show(S.planReturn ? 'plan' : 'map'); });
+    Array.prototype.forEach.call(document.querySelectorAll('#view-play [data-xlvl]'), function (b) {
       b.addEventListener('click', function () {
-        S.lessonTab = b.getAttribute('data-tab');
-        if (S.lessonTab !== 'chant') stopBeat();
-        var y = window.scrollY; openSub(subId); window.scrollTo(0, y);
+        var y = window.scrollY; setExplainLevel(b.getAttribute('data-xlvl')); openSub(subId);
+        try { window.scrollTo(0, y); } catch (e) {}
+        var nb = $('#view-play [data-xlvl="' + b.getAttribute('data-xlvl') + '"]'); if (nb) nb.focus();
       });
     });
-    var beat = $('#p-beat');
-    if (beat) beat.addEventListener('click', function () { playBeat(beat); });
+    var sayBtn = $('#p-say');
+    if (sayBtn && window.Reader) {
+      sayBtn.addEventListener('click', function () {
+        Reader.toggle(sayBtn.getAttribute('data-rd'), function () {
+          Reader.read(lessonParts(s, tx, card), { owner: sayBtn.getAttribute('data-rd'), label: s.name + ' · ' + tx.lvl });
+        });
+      });
+      $('#p-say-slow').addEventListener('click', function () {
+        var on = !Reader.slow(); Reader.setSlow(on);
+        this.classList.toggle('on', on); this.setAttribute('aria-pressed', on);
+      });
+      Reader.paint();
+    }
     $('#p-start').addEventListener('click', function () {
-      stopBeat();
+      if (window.Reader) Reader.stop();
       startRun('module', s.items, { subId: subId, title: s.name });
     });
   }
@@ -2304,9 +2332,8 @@
       '<div class="card settings">' +
         '<div class="field"><label>Signed in as</label>' +
         '<p style="font-weight:600">' + esc(S.p.displayName) + ' <span style="color:var(--ink-3);font-weight:400">(' + esc(S.p.studentId) + ')</span></p></div>' +
-        '<div class="field"><label>Reading level</label>' +
-        '<button class="btn sm" id="s-simple" style="align-self:flex-start">' +
-        (S.simple ? 'Explanations are in simple English — switch back' : 'Use simpler English in the explanations') + '</button></div>' +
+        '<div class="field"><label>Reading level of the lesson explanations</label>' + lvlBar(explainLevel()) +
+        '<p style="font-size:.85rem;color:var(--ink-3)">B1 uses short sentences and explains the hard words; C1 is the full explanation. Every level teaches what the questions test. You can also change it on any lesson.</p></div>' +
         '<div class="field"><label>Saving</label>' +
         '<p style="font-size:.9rem;color:var(--ink-2)">' +
         (!pending ? 'Everything you have answered has been sent to your teacher.'
@@ -2316,7 +2343,9 @@
         '<div class="field"><label>Account</label>' +
         '<button class="btn sm" id="s-out" style="align-self:flex-start">Log out</button></div>' +
       '</div>';
-    $('#s-simple').addEventListener('click', function () { S.simple = !S.simple; paintSettings(); });
+    Array.prototype.forEach.call(document.querySelectorAll('#view-settings [data-xlvl]'), function (b) {
+      b.addEventListener('click', function () { setExplainLevel(b.getAttribute('data-xlvl')); paintSettings(); });
+    });
     $('#s-out').addEventListener('click', logout);
   }
 

@@ -1,0 +1,47 @@
+/* English 4 Mission Control — lessons.css
+   The level picker (B1 · B2 · C1), the Listen button and the read-aloud player
+   bar on the lesson pages (student.js openSub, reader.js). */
+.lvl-bar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:2px 0 0}
+.lvl-lbl{font:600 .8rem var(--f-ui);color:var(--ink-3);margin-right:2px}
+.lvl-btn{min-width:46px;min-height:36px;padding:5px 12px;border-radius:99px;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink-2);font:700 .85rem var(--f-ui);cursor:pointer;letter-spacing:.02em}
+.lvl-btn:hover{border-color:var(--accent-line);color:var(--ink)}
+.lvl-btn.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.lvl-btn:focus-visible,.lsay:focus-visible,.lsay-opt:focus-visible,.rd-btn:focus-visible{outline:3px solid var(--accent-line);outline-offset:2px}
+
+.lsay-bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.lsay{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:7px 16px 7px 12px;border-radius:99px;border:2px solid var(--accent);background:var(--surface);color:var(--accent);font:700 .9rem var(--f-ui);cursor:pointer}
+.lsay:hover{background:var(--accent-soft)}
+.lsay-ico{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:.7rem;letter-spacing:-.05em}
+.lsay.playing{background:var(--accent);color:var(--accent-ink)}
+.lsay.playing .lsay-ico{background:var(--accent-ink);color:var(--accent);animation:lsay-pulse 1.4s ease-in-out infinite}
+.lsay.paused{border-color:var(--gold);color:var(--gold);background:var(--gold-soft)}
+.lsay.paused .lsay-ico{background:var(--gold)}
+@keyframes lsay-pulse{50%{transform:scale(.86)}}
+.lsay-opt{min-height:34px;padding:4px 12px;border-radius:99px;border:1px solid var(--rule);background:transparent;color:var(--ink-2);font:600 .82rem var(--f-ui);cursor:pointer}
+.lsay-opt.on{border-color:var(--gold);background:var(--gold-soft);color:var(--ink)}
+.lsay-opt.on::before{content:'\2713\00a0'}
+
+/* the part being read */
+.theory .reading{background:var(--gold-soft);box-shadow:-4px 0 0 var(--gold);border-radius:6px;transition:background .25s}
+.theory .prose p.reading,.theory .key.reading{padding:2px 8px;margin-left:-8px;margin-right:-8px}
+.theory .exlist > div.reading{padding-left:10px}
+
+/* player bar */
+.reader-bar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:120;width:min(560px,calc(100% - 24px))}
+.reader-bar[hidden]{display:none}
+.rd-in{display:flex;align-items:center;gap:8px;padding:8px 10px 8px 14px;border-radius:16px;background:var(--surface);border:1px solid var(--accent-line);box-shadow:var(--shadow-l)}
+.rd-wave{display:flex;align-items:flex-end;gap:2px;height:20px;width:22px;flex:none}
+.rd-wave i{display:block;width:4px;height:5px;border-radius:2px;background:var(--accent)}
+.rd-wave.on i{animation:rd-wave 1s ease-in-out infinite}
+.rd-wave.on i:nth-child(2){animation-delay:.15s}.rd-wave.on i:nth-child(3){animation-delay:.3s}.rd-wave.on i:nth-child(4){animation-delay:.45s}
+@keyframes rd-wave{0%,100%{height:5px}50%{height:18px}}
+.rd-txt{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.2}
+.rd-txt b{font:700 .85rem var(--f-ui);color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rd-txt span{font:500 .76rem var(--f-ui);color:var(--ink-3)}
+.rd-btn{flex:none;width:38px;height:38px;border-radius:50%;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);font:700 .85rem var(--f-ui);cursor:pointer;display:grid;place-items:center}
+.rd-btn.main{width:44px;height:44px;background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.rd-btn:disabled{opacity:.35;cursor:default}
+body.reader-on main{padding-bottom:96px}
+body.reader-on #toast-slot .toast{bottom:100px}
+@media (prefers-reduced-motion:reduce){.rd-wave.on i,.lsay.playing .lsay-ico{animation:none}}
+@media print{.reader-bar,.lsay-bar,.lvl-bar{display:none !important}}

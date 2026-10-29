@@ -3006,17 +3006,17 @@ var U6W = {
        "id": "U6-BKB-40",
        "tag": "u6-words-b",
        "level": "B2",
-       "why": "Skepticism is the noun for the feeling of doubt (skeptical is the adjective), so viewing the rumour with skepticism means doubting it.",
-       "hint": "Skepticism is a noun from the same family as one of this unit's adjectives. What feeling does that family describe?",
+       "why": "Skeptical means not easily convinced that something is true, so Ploy doubts the rumour.",
+       "hint": "Think about how a skeptical person reacts when she hears a claim.",
        "fb": [
-        "Correct: skepticism is the noun for doubt, so viewing the rumour with skepticism means doubting it.",
+        "Correct: skeptical means doubting that something is true.",
         "Convinced is the opposite of skeptical: it means sure that something is true.",
         "Nothing in the sentence says who started the rumour.",
         "Nothing says she has stopped talking about it; the sentence is about how she feels about it."
        ],
        "lesson": 13,
        "type": "equiv",
-       "given": "Ploy views the rumour about a longer school holiday with skepticism.",
+       "given": "Ploy is skeptical about the rumour of a longer school holiday.",
        "stem": "Which sentence is closest in meaning?",
        "options": [
         "Ploy doubts the rumour.",
@@ -3495,17 +3495,17 @@ var U6W = {
        "id": "U6-VG-002",
        "tag": "u6-words-a",
        "level": "B1",
-       "why": "Complimentary = given free by a hotel or business.",
+       "why": "Here complimentary means given free by a hotel or business, as part of what you already pay. (It can also mean praising, as in a complimentary remark.)",
        "hint": "Read the part after the colon. What does it tell you about the breakfast?",
        "fb": [
         "Sarcastic describes a mocking way of speaking.",
         "Bespoke means made for one customer, not free.",
         "Courteous describes polite people.",
-        "Correct: complimentary = free."
+        "Correct: here complimentary means free, with no extra charge."
        ],
        "lesson": 12,
        "type": "choose",
-       "stem": "The hotel's breakfast is ____: it is included in the room price, so guests never get a bill for it.",
+       "stem": "Breakfast at the hotel is ____: it comes with every room, so there is no separate bill for it.",
        "options": [
         "sarcastic",
         "bespoke",

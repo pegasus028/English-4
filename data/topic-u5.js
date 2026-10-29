@@ -842,7 +842,7 @@ var U5G = {
        "id": "U5-BKA-12",
        "tag": "modal-passive",
        "level": "B2",
-       "why": "Keep the same modal and the same time: must + be + V3. Might changes necessity to possibility; have been and must have been move the sentence into the past.",
+       "why": "Keep the same modal and the same time: must + be + V3. Might changes necessity to possibility; have been and must have been describe the job as already done.",
        "hint": "Is clearing the drains necessary or only possible? Is it still to be done, or already done?",
        "fb": [
         "Might means only possible; must means necessary.",

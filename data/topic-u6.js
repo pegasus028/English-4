@@ -318,22 +318,22 @@ var U6G = {
        "id": "U6-CH-014",
        "tag": "causative-have",
        "level": "B2",
-       "why": "The work is happening now and another company does it: present continuous causative, are having it cleaned.",
+       "why": "The work is happening now and an outside company does it: present continuous causative, are having it cleaned.",
        "hint": "Is the job finished? Who is doing it?",
        "fb": [
         "This says the staff are cleaning it, but a company is.",
-        "Finished, and done by the staff, but the pool is still closed.",
-        "After have + object, use V3: cleaned.",
+        "This says the staff finished the job themselves, but the pool is still closed and a company is doing it.",
+        "Keep the object in the middle: having + it + V3, not having + V3 + it.",
         "Correct: an arrangement in progress: are having + it + V3."
        ],
-       "err": "E13",
+       "err": "order",
        "lesson": 10,
        "type": "cloze",
        "stem": "Sorry, the pool is closed this week. We ____ by a company from Pattaya.",
        "options": [
         "are cleaning it",
         "have cleaned it",
-        "are having it clean",
+        "are having cleaned it",
         "are having it cleaned"
        ],
        "answer": 3
@@ -1111,9 +1111,9 @@ var U6G = {
        "hint": "The verb after the person has no 'to'. Which verb allows that?",
        "fb": [
         "Ask + person needs to: asked every passenger to put on a life jacket.",
-        "Correct: make + person + base verb ('sign').",
+        "Correct: make + person + base verb: made every passenger put on a life jacket.",
         "Force + person needs to: forced every passenger to put on a life jacket.",
-        "Persuade + person needs to."
+        "Persuade + person needs to: persuaded every passenger to put on a life jacket."
        ],
        "lesson": 12,
        "type": "cloze",
@@ -1131,12 +1131,12 @@ var U6G = {
        "tag": "causative-person",
        "level": "C1",
        "why": "Have + person + -ing means you cause people to be doing something: had the audience laughing.",
-       "hint": "The comedian caused the audience to be doing something. Which form shows an action in progress?",
+       "hint": "Can anyone 'laugh' a person? If not, which of the remaining forms can follow have + person?",
        "fb": [
         "After have + person, use -ing or the base verb.",
-        "'Laughed' would mean someone laughed at the audience.",
+        "Have + person + V3 would mean something was done to the audience. Nobody can 'laugh' a person; here the audience is doing the laughing.",
         "Correct: have + person + -ing = cause people to be doing something.",
-        "Have + person never takes to."
+        "In the causative, have + person does not take to: had them laughing, not had them to laugh."
        ],
        "lesson": 13,
        "type": "cloze",
@@ -1606,20 +1606,20 @@ var U6G = {
        "id": "U6-OP-014",
        "tag": "object-pattern",
        "level": "C1",
-       "why": "Stop + to-infinitive gives the purpose of stopping: stopped to buy coconuts. 'Stopped buying' means they gave it up.",
-       "hint": "Did they stop in order to do something, or give something up?",
+       "why": "Stop + to-infinitive gives the purpose of stopping: we stopped at the stall to buy fresh coconuts.",
+       "hint": "What did you want to do at the stall? Which form shows the purpose of an action?",
        "fb": [
-        "After stop, use to-infinitive (purpose) or -ing.",
-        "'Stopped buying' means they gave up buying coconuts.",
-        "Correct: stop + to-infinitive = stop in order to do something.",
-        "Stop + from needs a person: stop someone from buying."
+        "A bare verb cannot follow here. To give the reason for stopping, use to + verb.",
+        "Bought would be a second past verb with no 'and'. The gap needs the purpose of stopping.",
+        "Correct: stop + to-infinitive gives the purpose: we stopped in order to buy coconuts.",
+        "Stop + object + from means prevent: stop someone from buying. Nobody is being prevented here; the gap gives the purpose of stopping."
        ],
        "lesson": 13,
        "type": "cloze",
        "stem": "On the way to Ayutthaya, we stopped at a roadside stall ____ fresh coconuts.",
        "options": [
         "buy",
-        "buying",
+        "bought",
         "to buy",
         "from buying"
        ],
@@ -2215,16 +2215,16 @@ var U6W = {
        "tag": "u6-words-a",
        "level": "B2",
        "why": "Sarcastic = mocking by saying the opposite of what you mean.",
-       "hint": "Did he really enjoy the delay?",
+       "hint": "Did she really enjoy cleaning the house?",
        "fb": [
-        "He did not mean his words literally.",
-        "He was not thankful for a three-hour delay.",
-        "Nothing shows he was nervous.",
+        "She did not mean her words literally.",
+        "She was not thankful for a day of cleaning.",
+        "Nothing shows she was nervous.",
         "Correct: sarcastic = saying the opposite of what you mean in order to mock."
        ],
        "lesson": 10,
        "type": "choose",
-       "stem": "When I asked whether the three-hour delay had been fun, my brother gave a [sarcastic] reply: \"Best day of my life.\" Closest meaning:",
+       "stem": "When I asked whether she had enjoyed cleaning the whole house, my older sister gave a [sarcastic] reply: \"Oh yes, best day of my life.\" Closest meaning:",
        "options": [
         "honest",
         "grateful",
@@ -3006,23 +3006,23 @@ var U6W = {
        "id": "U6-BKB-40",
        "tag": "u6-words-b",
        "level": "B2",
-       "why": "Doubts became is convinced.",
-       "hint": "Compare the two sentences. Which single part changes the meaning?",
+       "why": "Skepticism is the noun for the feeling of doubt (skeptical is the adjective), so viewing the rumour with skepticism means doubting it.",
+       "hint": "Skepticism is a noun from the same family as one of this unit's adjectives. What feeling does that family describe?",
        "fb": [
-        "Correct: Doubts became is convinced.",
-        "Not this one. Doubts became is convinced.",
-        "Close, but not quite. Doubts became is convinced.",
-        "Not this one. Doubts became is convinced."
+        "Correct: skepticism is the noun for doubt, so viewing the rumour with skepticism means doubting it.",
+        "Convinced is the opposite of skeptical: it means sure that something is true.",
+        "Nothing in the sentence says who started the rumour.",
+        "Nothing says she has stopped talking about it; the sentence is about how she feels about it."
        ],
        "lesson": 13,
        "type": "equiv",
-       "given": "Changed: 'Ann is skeptical about the claims.' → Ann is convinced by the claims.",
+       "given": "Ploy views the rumour about a longer school holiday with skepticism.",
        "stem": "Which sentence is closest in meaning?",
        "options": [
-        "is convinced",
-        "Ann",
-        "the claims",
-        "by"
+        "Ploy doubts the rumour.",
+        "Ploy is convinced by the rumour.",
+        "Ploy started the rumour.",
+        "Ploy has stopped talking about the rumour."
        ],
        "answer": 0
       },
@@ -3496,7 +3496,7 @@ var U6W = {
        "tag": "u6-words-a",
        "level": "B1",
        "why": "Complimentary = given free by a hotel or business.",
-       "hint": "'You pay nothing extra' is the clue.",
+       "hint": "Read the part after the colon. What does it tell you about the breakfast?",
        "fb": [
         "Sarcastic describes a mocking way of speaking.",
         "Bespoke means made for one customer, not free.",
@@ -3505,7 +3505,7 @@ var U6W = {
        ],
        "lesson": 12,
        "type": "choose",
-       "stem": "Breakfast is ____ for guests who book directly on our website, so you pay nothing extra.",
+       "stem": "The hotel's breakfast is ____: it is included in the room price, so guests never get a bill for it.",
        "options": [
         "sarcastic",
         "bespoke",
@@ -3684,12 +3684,12 @@ var U6W = {
        "tag": "u6-words-b",
        "level": "B2",
        "why": "Bespoke = made specially for one customer, so every ring is different.",
-       "hint": "'No two are ever the same' is the clue.",
+       "hint": "How could a jeweller make sure that no two rings ever match?",
        "fb": [
         "Correct: made for each customer.",
-        "Rings are not 'nostalgic' because they are all different.",
-        "Courteous describes people.",
-        "Complimentary means free."
+        "Nostalgic describes a feeling about the past; it does not explain why no two rings are the same.",
+        "Skeptical describes people who doubt something; a ring cannot doubt anything.",
+        "Complimentary means free; being free does not make every ring different."
        ],
        "lesson": 12,
        "type": "choose",
@@ -3697,7 +3697,7 @@ var U6W = {
        "options": [
         "bespoke",
         "nostalgic",
-        "courteous",
+        "skeptical",
         "complimentary"
        ],
        "answer": 0,
@@ -3772,16 +3772,16 @@ var U6W = {
        "tag": "u6-words-c",
        "level": "C1",
        "why": "Two opposite feelings at once = ambivalent.",
-       "hint": "'Welcome… but hate' shows how many feelings?",
+       "hint": "Are Mint's feelings all positive, all negative, or something else?",
        "fb": [
-        "Skeptical means doubting a claim; here they have two opposite feelings.",
+        "Skeptical means doubting a claim; here Mint has two opposite feelings.",
         "Nothing here is about the past.",
         "Courteous describes behaviour, not feelings.",
-        "Correct: they have mixed feelings."
+        "Correct: she has mixed feelings."
        ],
        "lesson": 13,
        "type": "choose",
-       "stem": "Local residents are ____ about the new tourists: they welcome the money but hate the traffic.",
+       "stem": "Mint is ____ about her new part-time job at the café: she loves the tips but hates the early starts.",
        "options": [
         "skeptical",
         "nostalgic",

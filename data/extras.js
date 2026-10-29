@@ -1399,12 +1399,12 @@ window.EXTRAS = {
      "tag": "u6-words-b",
      "level": "B2",
      "why": "Bespoke = made specially for one customer, so every ring is different.",
-     "hint": "'No two are ever the same' is the clue.",
+     "hint": "How could a jeweller make sure that no two rings ever match?",
      "fb": [
       "Correct: made for each customer.",
-      "Rings are not 'nostalgic' because they are all different.",
-      "Courteous describes people.",
-      "Complimentary means free."
+      "Nostalgic describes a feeling about the past; it does not explain why no two rings are the same.",
+      "Skeptical describes people who doubt something; a ring cannot doubt anything.",
+      "Complimentary means free; being free does not make every ring different."
      ],
      "lesson": 12,
      "type": "choose",
@@ -1412,7 +1412,7 @@ window.EXTRAS = {
      "options": [
       "bespoke",
       "nostalgic",
-      "courteous",
+      "skeptical",
       "complimentary"
      ],
      "answer": 0,
@@ -1431,20 +1431,20 @@ window.EXTRAS = {
      "id": "U6-OP-014",
      "tag": "object-pattern",
      "level": "C1",
-     "why": "Stop + to-infinitive gives the purpose of stopping: stopped to buy coconuts. 'Stopped buying' means they gave it up.",
-     "hint": "Did they stop in order to do something, or give something up?",
+     "why": "Stop + to-infinitive gives the purpose of stopping: we stopped at the stall to buy fresh coconuts.",
+     "hint": "What did you want to do at the stall? Which form shows the purpose of an action?",
      "fb": [
-      "After stop, use to-infinitive (purpose) or -ing.",
-      "'Stopped buying' means they gave up buying coconuts.",
-      "Correct: stop + to-infinitive = stop in order to do something.",
-      "Stop + from needs a person: stop someone from buying."
+      "A bare verb cannot follow here. To give the reason for stopping, use to + verb.",
+      "Bought would be a second past verb with no 'and'. The gap needs the purpose of stopping.",
+      "Correct: stop + to-infinitive gives the purpose: we stopped in order to buy coconuts.",
+      "Stop + object + from means prevent: stop someone from buying. Nobody is being prevented here; the gap gives the purpose of stopping."
      ],
      "lesson": 13,
      "type": "cloze",
      "stem": "On the way to Ayutthaya, we stopped at a roadside stall ____ fresh coconuts.",
      "options": [
       "buy",
-      "buying",
+      "bought",
       "to buy",
       "from buying"
      ],

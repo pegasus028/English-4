@@ -412,7 +412,7 @@ var U5G = {
        "fb": [
         "'At' shows a place or time, not the doer.",
         "'Of' does not introduce the doer after a passive.",
-        "Correct: 'by' introduces what did the action: submerged by floodwater.",
+        "Correct: 'by' introduces what did the action: swept away by the floodwater.",
         "'For' shows purpose, not what did the action."
        ],
        "err": "E12",
@@ -455,24 +455,23 @@ var U5G = {
        "id": "U5-AG-003",
        "tag": "agent",
        "level": "B1",
-       "why": "Most passives drop the agent. 'By someone' or 'by people' adds nothing, so the natural choice is: The road was repaired yesterday.",
-       "hint": "Does the 'by' phrase tell the reader anything new?",
+       "why": "Passives often drop an obvious doer. Roads are normally repaired by workers, so 'The road was repaired yesterday' keeps the meaning; the others change the verb, the time or the doer.",
+       "hint": "Compare each option with the original. Is the action the same? Is the time the same? Is anyone new doing it?",
        "fb": [
-        "Correct: the repairers are obvious, so the 'by' phrase is dropped.",
-        "This needs 'was', and 'by people' adds nothing.",
-        "'Was' should not be here: Someone repaired the road.",
-        "'By someone' adds no information. Drop it."
+        "Correct: the doer is obvious (roads are repaired by workers), so the passive can drop it without changing the meaning.",
+        "Damaged is a different verb: the workers fixed the road, they did not damage it.",
+        "The time has changed: the original happened yesterday.",
+        "This adds a new doer: volunteers are not the workers in the original."
        ],
-       "err": "E11",
        "lesson": 1,
        "type": "equiv",
-       "given": "Which sentence is the most natural in a news report?",
+       "given": "Workers repaired the road yesterday.",
        "stem": "Which sentence is closest in meaning?",
        "options": [
         "The road was repaired yesterday.",
-        "The road repaired yesterday by people.",
-        "Someone was repaired the road yesterday.",
-        "The road was repaired by someone yesterday."
+        "The road was damaged by workers yesterday.",
+        "The road will be repaired by workers tomorrow.",
+        "The road was repaired by volunteers yesterday."
        ],
        "answer": 0
       },
@@ -480,25 +479,25 @@ var U5G = {
        "id": "U5-AG-004",
        "tag": "agent",
        "level": "B2",
-       "why": "Keep 'by' only when the doer is new or important information. Two school students designing a pump is surprising; the others are obvious.",
-       "hint": "Which doer would surprise a reader?",
+       "why": "Here the doer is new, important information, so the closest passive keeps it: designed by two SW students. 'For' names who the pump is for, not who designed it.",
+       "hint": "Is the doer in the original sentence obvious, or is it important news?",
        "fb": [
-        "Only the police arrest people, so 'by the police' adds nothing.",
-        "Correct: the designers are surprising, new information, so 'by' is worth keeping.",
-        "Of course the postman delivered them. The 'by' phrase adds nothing.",
-        "At a hospital, medical staff treat the injured; the 'by' phrase is obvious."
+        "This drops who designed the pump. That doer is not obvious, so leaving it out loses information.",
+        "This says the students received the pump, not that they designed it.",
+        "Correct: the passive keeps the doer with by, so no information is lost.",
+        "For shows who the pump is for, not who designed it."
        ],
        "lesson": 2,
        "type": "equiv",
-       "given": "In which sentence is the 'by' phrase most useful?",
+       "given": "Two SW students designed the new pump.",
        "stem": "Which sentence is closest in meaning?",
        "options": [
-        "The thief was arrested by the police last night.",
+        "The new pump was designed.",
+        "Two SW students were given the new pump.",
         "The new pump was designed by two SW students.",
-        "The letters were delivered by the postman this morning.",
-        "The injured were treated by medical staff at the hospital."
+        "The new pump was designed for two SW students."
        ],
-       "answer": 1
+       "answer": 2
       },
       {
        "id": "U5-AG-005",
@@ -843,23 +842,23 @@ var U5G = {
        "id": "U5-BKA-12",
        "tag": "modal-passive",
        "level": "B2",
-       "why": "Must (necessary) became might (possible).",
-       "hint": "Compare the two sentences. Which single part changes the meaning?",
+       "why": "Keep the same modal and the same time: must + be + V3. Might changes necessity to possibility; have been and must have been move the sentence into the past.",
+       "hint": "Is clearing the drains necessary or only possible? Is it still to be done, or already done?",
        "fb": [
-        "Not this one. Must (necessary) became might (possible).",
-        "Not this one. Must (necessary) became might (possible).",
-        "Close, but not quite. Must (necessary) became might (possible).",
-        "Correct: Must (necessary) became might (possible)."
+        "Might means only possible; must means necessary.",
+        "This says the job is already done; the original says it is necessary.",
+        "Must have been + V3 is a confident guess about the past, not a necessity.",
+        "Correct: same modal, same time; must + be + V3 keeps the meaning 'it is necessary'."
        ],
        "lesson": 4,
        "type": "equiv",
-       "given": "Changed: 'Engineers must repair the pumps.' → The pumps might be repaired.",
+       "given": "The council must clear the drains.",
        "stem": "Which sentence is closest in meaning?",
        "options": [
-        "The pumps",
-        "be",
-        "repaired",
-        "might"
+        "The drains might be cleared.",
+        "The drains have been cleared.",
+        "The drains must have been cleared.",
+        "The drains must be cleared."
        ],
        "answer": 3
       },
@@ -867,22 +866,22 @@ var U5G = {
        "id": "U5-BKA-24",
        "tag": "modal-passive",
        "level": "B2",
-       "why": "could have been + V3 for past possibility.",
-       "hint": "Look at what comes after the gap. Who or what does the action?",
+       "why": "The cracks receive the action, and it is a past duty that was not done: should have been + V3.",
+       "hint": "Did the cracks do something, or did something happen to them? Then check which form follows 'should have'.",
        "fb": [
-        "Not this one. could have been + V3 for past possibility.",
-        "Not this one. could have been + V3 for past possibility.",
-        "Close, but not quite. could have been + V3 for past possibility.",
-        "Correct: could have been + V3 for past possibility."
+        "After 'should have' you need a past participle; be is not one.",
+        "'Being' cannot follow 'should have'.",
+        "Should have reported is active, but the cracks did not report anything; someone should have reported them.",
+        "Correct: should have been + V3 is the passive for something that was the right thing to do but did not happen."
        ],
        "lesson": 4,
        "type": "cloze",
-       "stem": "The flood could have ___ with better planning.",
+       "stem": "The cracks in the old embankment should have ____ to the council months ago.",
        "options": [
-        "be prevented",
-        "being prevented",
-        "prevented",
-        "been prevented"
+        "be reported",
+        "being reported",
+        "reported",
+        "been reported"
        ],
        "answer": 3
       }
@@ -1040,13 +1039,13 @@ var U5G = {
        "id": "U5-BKA-45",
        "tag": "passive-infinitive",
        "level": "B2",
-       "why": "Pumps are replaced: need to be replaced.",
-       "hint": "Which part breaks a grammar rule? Check be + V3 and verbs that have no passive.",
+       "why": "The pumps receive the action, so the infinitive after need must be passive: need to be replaced.",
+       "hint": "Do the pumps do the replacing, or does someone replace them?",
        "fb": [
-        "Not this one. Pumps are replaced: need to be replaced.",
-        "Close, but not quite. Pumps are replaced: need to be replaced.",
-        "Correct: Pumps are replaced: need to be replaced.",
-        "Not this one. Pumps are replaced: need to be replaced."
+        "This subject is correct. Ask what happens to the pumps.",
+        "Need is correct here. Look at the form that follows it.",
+        "Correct: the pumps do not replace anything; they are replaced, so use the passive infinitive: need to be replaced.",
+        "This part is correct."
        ],
        "lesson": 4,
        "type": "spot",
@@ -1058,7 +1057,7 @@ var U5G = {
         "the next storm"
        ],
        "answer": 2,
-       "fix": "Correct: Pumps are replaced: need to be replaced."
+       "fix": "to be replaced"
       }
      ]
     },
@@ -1783,23 +1782,23 @@ var U5G = {
        "id": "U5-VR-004",
        "tag": "verb-restriction",
        "level": "B2",
-       "why": "'Melt' can be active or passive. With no outside doer (it melted by itself), use the active: had melted.",
-       "hint": "Did someone melt the ice, or did it melt by itself?",
+       "why": "Disappear never takes an object, so it has no passive. After 'had already' use the past participle: had disappeared.",
+       "hint": "Can anybody 'disappear' something? Then check which form follows 'had'.",
        "fb": [
-        "After 'had', use the past participle.",
-        "Correct: the ice melted by itself, so the active is used.",
-        "After 'had', use the past participle: had melted.",
-        "Nobody melted the ice; it changed by itself, so no passive."
+        "After 'had', use the past participle, not the base form.",
+        "Correct: disappear never takes an object, so it is active only: had disappeared.",
+        "After 'had', use the past participle, not -ing.",
+        "Disappear has no object, so it has no passive: never 'been disappeared'."
        ],
-       "err": "E2",
+       "err": "E1",
        "lesson": 8,
        "type": "cloze",
-       "stem": "When the power came back, the ice in the freezer had already ____.",
+       "stem": "By the time Ploy came back with a ladder, the kitten on the roof had already ____.",
        "options": [
-        "melt",
-        "melted",
-        "melting",
-        "been melted"
+        "disappear",
+        "disappeared",
+        "disappearing",
+        "been disappeared"
        ],
        "answer": 1
       },
@@ -2162,7 +2161,7 @@ var U5W = {
        "tag": "u5-words-a",
        "level": "B1",
        "why": "Aftermath = the period after a bad event, when people deal with its effects.",
-       "hint": "Did they lose their jobs before, during or after the flood?",
+       "hint": "The clue is 'lost their jobs'. Was that part of the flood itself, or something the flood caused?",
        "fb": [
         "The middle = during, not after.",
         "The beginning = the start.",
@@ -2171,7 +2170,7 @@ var U5W = {
        ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Many families lost their jobs in the [aftermath] of the flood. Closest meaning:",
+       "stem": "Many parents lost their jobs in the [aftermath] of the flood. Closest meaning:",
        "options": [
         "the middle",
         "the beginning",
@@ -2187,19 +2186,19 @@ var U5W = {
        "tag": "u5-words-a",
        "level": "B2",
        "why": "Evacuate a place = make everyone leave it for safety, so 'empty' is closest.",
-       "hint": "Why would officials act before the water arrived?",
+       "hint": "Why would teachers act as the river was rising?",
        "fb": [
-        "Visit = go to see; the opposite of moving people out.",
-        "Close = shut. The patients were moved out, not shut in.",
-        "Flood = fill with water; that is what the officials feared.",
-        "Correct: evacuate a building = empty it of people."
+        "Lock means close with a key; the people inside would still be there.",
+        "Check means look at something to see that it is safe; nobody has to leave.",
+        "Flood means fill with water; that is what the teachers feared.",
+        "Correct: evacuate a classroom means empty it of people."
        ],
        "lesson": 1,
        "type": "choose",
-       "stem": "Officials decided to [evacuate] the hospital before the water arrived. Closest meaning:",
+       "stem": "As the river rose, teachers began to [evacuate] the ground-floor classrooms. Closest meaning:",
        "options": [
-        "visit",
-        "close",
+        "lock",
+        "check",
         "flood",
         "empty"
        ],
@@ -3168,7 +3167,7 @@ var U5W = {
        "tag": "u5-words-c",
        "level": "C1",
        "why": "'There is no precedent for X' = X has never happened before, which is what 'unprecedented' means.",
-       "hint": "Take 'un-' and '-ed' off the headword. What noun is left?",
+       "hint": "After 'no' the gap needs a noun. Which noun fits a sentence about the village's history?",
        "fb": [
         "A president is a leader; it looks similar but has a different meaning.",
         "Correct: a precedent = an earlier example; 'no precedent' = it never happened before.",
